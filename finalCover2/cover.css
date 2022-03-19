@@ -1,12 +1,18 @@
 .brands-section{
     margin: 1rem 2rem;
-    background:#ffff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 0 rgb(0, 0, 0, 0.1);
+    /* background:#ffff; */
+    /* border-radius: 10px; */
+    /* box-shadow: 2px 2px 2px 0 rgb(0, 0, 0, 0.1); */
+    /* max-width: 1400px; */
+
+
     min-height: 50px;
     padding: 2rem;
-    max-width: 1400px;
     margin: auto;
+    background: url(../images/Vector90.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 20% bottom 0%;
 }
 
 .brands-section__col{
@@ -26,7 +32,8 @@
 }
 
 .brands-section__use img{
-    height: 450px;
+    height: 487px;
+    width: 673px;
 }
 
 .brands-section-info{
@@ -41,14 +48,16 @@
 .brands-section-email{
     display: flex;
     margin-top: 3.5rem;
+    flex-wrap: wrap;
 }
 
 .brands-section-email input{
-    height: 4rem;
-    width: 20rem;
-    border: 1px solid #FF852C;
+    /* height: 3.5rem; */
+    width: 14rem;
+    border: 0.5px solid #A6CAFF;
     border-radius: 5px;
     padding: 1rem;
+    /* margin-top: 1rem; */
 }
 .brands-section-email input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #FCA96D;
@@ -57,12 +66,15 @@
 
 .brands-section-email button{
     background: #FFE700;
-    height: 4rem;
-    width: 11rem;
+    /* height: 3.5rem; */
+    width: 14rem;
     color: #03488B;
     border: none;
     border-radius: 5px;
     box-shadow: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
 }
 .brands-section__pitch{
     border: 1px solid #03488B;
@@ -206,20 +218,33 @@
     background: none;
 }
 
+@media (max-width:1050px) {
+
+    .brands-section-email input{
+        width: 12rem;
+    }
+
+    .brands-section-email button{
+        width: 12rem;
+    }
+
+}
+
 
 @media (max-width:1000px) {
+
+   
 
     .brands-section__nothing img{
         width: 350px;
     }
     .brands-section-email input{
-        height: 3rem;
-        width: 12rem;
+        width: 100%;
+        margin: 0 0 1rem 0 !important;
     }
 
     .brands-section-email button{
-        height: 3rem;
-        width: 7rem;
+        width: 100%;
     }
 
     .brands-section__pitch{
@@ -254,10 +279,6 @@
         padding: 0 !important;
     }
 
-    .brands-section{
-        max-width: 500px;
-    }
-
     .brands-illustration__image1 img{
         height: 10rem;
     }
@@ -283,6 +304,11 @@
 }
 
 @media (max-width:575px) {
+
+    .brands-section{
+        background: url(../images/Vector3.svg) center/cover no-repeat border-box;
+        background-position: left 0% bottom 0%;
+    }
     
     .flex-col-reverse{
         flex-direction: column-reverse;

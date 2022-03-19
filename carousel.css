@@ -1,0 +1,37 @@
+/* external css: flickity.css */
+
+  
+  .gallery {
+    /* background: #EEE; */
+  }
+  
+  .gallery-cell {
+    width: auto;
+    height: 800px;
+    margin-right: 50px;
+    /* background: #8C8; */
+    counter-increment: gallery-cell;
+  }
+  
+
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 800px;
+    font-size: 80px;
+    /* color: white; */
+  }
+
+  .flickity-button,
+  .flickity-button:hover,
+  .flickity-button:active{
+    background: transparent !important;
+    color: #03488B !important;
+  }
+
+  .flickity-prev-next-button{
+      top: 40% !important;
+  }
