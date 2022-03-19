@@ -131,6 +131,7 @@
     border-top-right-radius: 15px !important;
     font-family: 'Roboto', sans-serif;
     color: #03488B;
+    margin-top: -10px;
 }
 
 .rounded-accordian{
