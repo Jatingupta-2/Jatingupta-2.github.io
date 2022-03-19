@@ -7,7 +7,7 @@
   
   .gallery-cell {
     width: auto;
-    height: 800px;
+    height: 600px;
     margin-right: 50px;
     /* background: #8C8; */
     counter-increment: gallery-cell;
@@ -27,11 +27,43 @@
 
   .flickity-button,
   .flickity-button:hover,
-  .flickity-button:active{
-    background: transparent !important;
-    color: #03488B !important;
+  .flickity-button:active,
+  .flickity-button:focus{
+    /* background: transparent !important; */
+    color: transparent !important;
+    outline: none !important;
   }
 
   .flickity-prev-next-button{
       top: 40% !important;
+  }
+
+  .flickity-button:focus{
+    box-shadow: none !important;
+  }
+
+  .raving-cards{
+    margin: 50px !important;
+  }
+  .flickity-prev-next-button.previous{
+    left: -50px !important;
+  }
+  .flickity-prev-next-button.next{
+    right: -50px !important;
+  }
+
+  @media (max-width:768px) {
+    .raving-cards{
+      margin: 0px !important;
+    }
+    .flickity-prev-next-button.previous{
+      left: 0px !important;
+    }
+    .flickity-prev-next-button.next{
+      right: 0px !important;
+    }
+  }
+
+  .flickity-page-dots{
+    display: none !important;
   }

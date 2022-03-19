@@ -46,6 +46,12 @@
   .footer{
   }
 
+  @media (min-width:993px) {
+    .hide-desktop{
+      display: none;
+    }
+  }
+
   @media (max-width:992px) {
     .hide-tablet{
       display: none;
@@ -86,7 +92,13 @@
    color: #00D1FF; 
   }
 
+
+
   .display-flex-helper1{
     display: flex;
     justify-content: center;
+  }
+
+  .display-flex-helper2{
+    display: flex;
   }

@@ -47,7 +47,7 @@
 }
 .brands-section-email{
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
     flex-wrap: wrap;
 }
 
@@ -108,13 +108,142 @@
     font-weight: 900;
     line-height: 3.6rem;
     margin-top: 5rem;
-
+    margin-bottom: 4rem;
 }
 
-.brands-illustration__row{
+.brands-illustration__container{
+    background: url('../images/how-it-works-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
     display: flex;
-    align-items: baseline;
-    margin: 0 !important;
+    align-items: center;
+}
+
+.brands-illustration__container_mobile{
+    /* width: 80%;
+    display: flex; */
+}
+.accordion-item{
+    /* width: 80%; */
+    border: none !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    font-family: 'Roboto', sans-serif;
+    color: #03488B;
+}
+
+.rounded-accordian{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.brands-illustration__accordian{
+    display: flex;
+    padding: 10rem;
+}
+
+.brands-illustration__accordian--heading{
+    border: none;
+    height: 600px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2.2rem;
+    align-items: center;
+    color: #03488B;
+}
+
+.brands-illustration__accordian--heading:active,
+.brands-illustration__accordian--heading:focus,
+.brands-illustration__accordian--heading:hover{
+    border: none !important;
+    outline: none !important;
+}
+
+.accordian-button-mobile{
+    width: 100%;
+    background: no-repeat;
+    border: none;
+    outline: none;
+    height: 85px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 0.87rem;
+    font-weight: 600;
+    color: #03488B;
+}
+
+.item1__image_mobile img{
+    height: 330px;
+}
+
+.accordian_mob_carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordian_1{
+    background: #CFFEFB;
+}
+.accordian_2{
+    background: #FFF;
+}
+.accordian_3{
+    background: #FFECA8;
+}
+.accordian_4{
+    background: #EAAEFF;
+}
+
+.bi_button_number{
+    
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    font-weight: 600;
+}
+
+.bi_button_text{
+    transform: rotateZ(270deg);
+    margin-top: 8rem;
+    width: 12rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    text-align: right;
+}
+
+.item1__info--heading{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.item1__info--para{
+    width: 270px;
+    font-size: 1rem;
+    line-height: 1.12rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.item1__info__mob--para{
+    width: 330px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.max-width-accordian{
+    max-width: 700px;
 }
 
 .rounded-number{
@@ -133,25 +262,11 @@
     background: #E4D3FF;
 }
 
-.brands-illustration__image1 img{
-    height: 24.3rem;
-}
-.brands-illustration__details--heading{
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 2.1rem;
-}
-.brands-illustration__details--info{
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1.6rem;
-}
-
 .raving{
     background: #ffff;
     margin-top: 4rem;
     padding: 1rem;
-    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
+    /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
 
 .raving-heading{
@@ -201,17 +316,30 @@
 
 .faq{
     background: #ffff;
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding: 1rem;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 
 .faq-heading{
-    padding-top: 4rem;
     font-size: 3.1rem;
     line-height: 3.6rem;
     font-weight: 900;
     text-align: center;
+}
+.raving-button{
+    text-align: center;
+}
+.raving-button button{
+    background: #FFE700;
+    border: 0;
+    border-radius: 100px;
+    padding: 20px;
+    width: 270px;
+    font-size: 1.62rem;
+    line-height: 1.88rem;
+    font-weight: 500;
+    color: #03488B;
 }
 
 .gallery{
@@ -255,52 +383,34 @@
     .brands-illustration__how{
         font-size: 2.2rem;
         line-height: 2.4rem;
+        margin-bottom: 3rem;
+    }
+    .raving-heading{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+    .faq-heading{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+    }
+    .raving-button{
+        margin-top: 20px;
     }
 
-    .brands-illustration__image1 img{
-        height: 18rem;
-    }
-
-    .brands-illustration__details--heading{
-        font-size: 1.1rem;
-        line-height: 1.3rem;
-    }
-    .brands-illustration__details--info{
-        font-size: 1rem;
-        line-height: 1.2rem;
-    }
 
 }
 
 @media (max-width:768px) {
 
+    .raving-card{
+        width: 21rem;
+    }
+
     .brands-section__col2{
         margin-top: 2rem !important;
         padding: 0 !important;
     }
-
-    .brands-illustration__image1 img{
-        height: 10rem;
-    }
-
-    .brands-illustration__how{
-        font-size: 1.7rem;
-        line-height: 2rem;
-    }
-    
-    .brands-illustration__row{
-        margin: 30px auto 30px!important;
-        align-items: center;
-    }
-
-    .brands-illustration__row > div {
-        margin-bottom: 20px;
-    }
-    .brands-illustration__image1{
-        display: flex;
-        justify-content: center;
-    }
-      
 }
 
 @media (max-width:575px) {
@@ -314,4 +424,48 @@
         flex-direction: column-reverse;
     }
     
+}
+
+
+
+.carouselItem {
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s  height 0s ease;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    white-space: normal;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    width: 0px;
+    height: 100%;
+    max-height: 100%;
+    flex-wrap: nowrap;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px;
+}
+.carouselItem.in {
+    width: 700px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flickity-prev-next-button.next{
+    background: url(../images/right.svg) !important;
+    color: transparent !important;
+    background-size: cover !important;
+}
+
+.flickity-prev-next-button.previous{
+    background: url(../images/left.svg) !important;
+    color: transparent !important;
+    background-size: cover !important;
 }
