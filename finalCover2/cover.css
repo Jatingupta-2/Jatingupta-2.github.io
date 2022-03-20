@@ -142,6 +142,7 @@
 .brands-illustration__accordian{
     display: flex;
     padding: 10rem;
+    margin: 0 auto;
 }
 
 .brands-illustration__accordian--heading{
@@ -448,7 +449,7 @@
     max-height: 100%;
     flex-wrap: nowrap;
     margin-left: -20px;
-    margin-right: -20px;
+    /* margin-right: -20px; */
     border-radius: 10px;
 }
 .carouselItem.in {
