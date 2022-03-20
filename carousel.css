@@ -42,9 +42,11 @@
     box-shadow: none !important;
   }
 
-  .raving-cards{
+  .raving-cards,
+  .faq-cards{
     margin: 50px !important;
   }
+  
   .flickity-prev-next-button.previous{
     left: -50px !important;
   }
@@ -55,6 +57,9 @@
   @media (max-width:768px) {
     .raving-cards{
       margin: 0px !important;
+    }
+    .faq-cards{
+      margin: 50px 0 !important;
     }
     .flickity-prev-next-button.previous{
       left: 0px !important;

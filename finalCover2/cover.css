@@ -75,6 +75,7 @@
     padding: 1rem;
     font-size: 1rem;
     font-weight: 700;
+    margin-left: 15px;
 }
 .brands-section__pitch{
     border: 1px solid #03488B;
@@ -102,6 +103,25 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.bi-carousel-col1{
+   display: flex;
+   justify-content: center;
+}
+.bi-carousel-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: auto;
+    text-align: center;
+    /* padding-right: 0; */
+    margin-left: 10px;
+
+}
+
+.bi-image{
+padding: 20px;
+max-width: 250px;
+}
+
 .brands-illustration__how{
     text-align: center;
     font-size: 3.1rem;
@@ -318,9 +338,9 @@
 
 .faq{
     background: #ffff;
-    margin-top: 2rem;
+    margin-top: 5rem;
     padding: 1rem;
-    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
+    /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
 
 .faq-heading{
@@ -329,6 +349,75 @@
     font-weight: 900;
     text-align: center;
 }
+.faq-card{
+    width: 25rem;
+}
+.faq__info{
+    border-radius: 20px;
+    height: 30rem;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.faq__info--title{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.faq__info--desc{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+}
+.faq__info-color1{
+    background: #DBF6FF;
+}
+.faq__info-color2{
+    background: #A1FFB6;
+}
+.faq__info-color3{
+    background: #FFF6A1;
+}
+
+
+.whyAV{
+    background: #ffff;
+    margin-top: 5rem;
+    padding: 1rem;
+    /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
+}
+.whyAV-heading{
+    font-size: 3.1rem;
+    line-height: 3.6rem;
+    font-weight: 900;
+    text-align: center;
+}
+.whyAv-table{
+    padding: 2rem;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 1.8rem;
+}
+.whyAv-table .col-3{
+    padding: 60px;
+    text-align: center;
+}
+.whyAv-table--bbb{
+    border-bottom: 0.5px solid #A2D2F0;
+}
+.whyAv-table--bl{
+    border-left: 0.5px solid #A2D2F0;
+}
+.whyAv-table--blueCol{
+    background: #F3FFFD;
+}
+
+.whyAv-table img{
+    max-width: 120px;
+}
+
 .raving-button{
     text-align: center;
 }
@@ -348,6 +437,66 @@
     background: none;
 }
 
+.quality{
+    background: #ffff;
+    margin-top: 2rem;
+    padding: 1rem;
+    /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
+}
+
+.quality-heading{
+    font-size: 3.1rem;
+    line-height: 3.6rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.quality-sub-heading{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.quality-video{
+    width: 100%;
+    max-width: 740px;
+    margin: 8rem auto 0;
+}
+
+.marketplace{
+    background: #FFE1DB;
+    margin-top: 8rem;
+}
+
+.bi-container{
+    padding: 2rem;
+}
+.marketplace-container{
+   padding: 5rem;
+}
+
+.marketplace-image{
+   border-radius: 10px;
+}
+.container{
+    max-width: 100% !important;
+}
+
+.marketplace-explore{
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.marketplace-explore img{
+    margin-left: 80px;
+}
+
 @media (max-width:1050px) {
 
     .brands-section-email input{
@@ -356,6 +505,7 @@
 
     .brands-section-email button{
         width: 12rem;
+        margin-left: 0;
     }
 
 }
@@ -375,6 +525,7 @@
 
     .brands-section-email button{
         width: 100%;
+        margin-left: 0;
     }
 
     .brands-section__pitch{
@@ -396,8 +547,24 @@
         font-size: 2.1rem;
         line-height: 2.4rem;
     }
+    .whyAV-heading{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+    }
+    .quality-heading{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+    }
     .raving-button{
         margin-top: 20px;
+    }
+    .marketplace-explore img{
+        margin-left: 50px;
+    }
+
+    .bi-carousel-title{
+        width: auto;
+        text-align: center;
     }
 
 
@@ -408,10 +575,55 @@
     .raving-card{
         width: 21rem;
     }
+    .faq-card{
+        width: 21rem;
+    }
 
     .brands-section__col2{
         margin-top: 2rem !important;
         padding: 0 !important;
+    }
+
+    .quality-sub-heading{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .quality-video{
+        margin: 4rem auto 0;
+    }
+    .marketplace{
+        margin-top: 5rem;
+    }
+    .bi-container{
+        padding: 1rem;
+    }
+    .marketplace-container{
+        padding: 3rem;
+     }
+
+     .marketplace-explore{
+         font-size: 1.6rem;
+     }
+     .marketplace-explore img{
+        height: 1.6rem;
+        margin-left: 20px;
+    }
+    .faq__info--title{
+        font-size: 1.8rem;
+    }
+    .faq__info--desc{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .whyAv-table{
+        font-size: 1rem;
+    }
+    .whyAv-table .col-3{
+        padding: 20px;
+    }
+    
+    .whyAv-table img{
+        max-width: 50px;
     }
 }
 
