@@ -1,0 +1,85 @@
+/* external css: flickity.css */
+
+  
+.gallery {
+    /* background: #EEE; */
+  }
+  
+  .gallery-cell {
+    width: auto;
+    height: 100px;
+    margin-right: 50px;
+    /* background: #8C8; */
+    counter-increment: gallery-cell;
+  }
+
+  .gallery-cell button{
+    border: none;
+    background: #fff;
+    box-shadow: 1px 1px 1px 0.5px rgb(0,0,0,0.1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #88AEC4;
+  }
+  
+  .faq .gallery-cell {
+    height: 500px;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 800px;
+    font-size: 80px;
+    /* color: white; */
+  }
+
+  .flickity-button,
+  .flickity-button:hover,
+  .flickity-button:active,
+  .flickity-button:focus{
+    /* background: transparent !important; */
+    color: transparent !important;
+    outline: none !important;
+  }
+
+  .flickity-prev-next-button{
+      top: 20% !important;
+  }
+
+  .flickity-button:focus{
+    box-shadow: none !important;
+  }
+
+  .raving-cards,
+  .faq-cards{
+    margin: 50px !important;
+  }
+  
+  .flickity-prev-next-button.previous{
+    left: -50px !important;
+  }
+  .flickity-prev-next-button.next{
+    right: -50px !important;
+  }
+
+  @media (max-width:768px) {
+    .raving-cards{
+      margin: 0px !important;
+    }
+    .faq-cards{
+      margin: 50px 0 0!important;
+    }
+    .flickity-prev-next-button.previous{
+      left: 0px !important;
+    }
+    .flickity-prev-next-button.next{
+      right: 0px !important;
+    }
+  }
+
+  .flickity-page-dots{
+    display: none !important;
+  }

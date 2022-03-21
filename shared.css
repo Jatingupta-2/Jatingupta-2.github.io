@@ -9,8 +9,23 @@
     color: #03488B;
   }
 
+  .indexmain{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .indexmain a{
+    display: flex;
+    justify-content: center ;
+  }
+
   .header{
     background:#D8F1FF;
+  }
+
+  .header-pink{
+    background: #FFF9F9;
   }
 
   .main-header{
@@ -170,7 +185,9 @@
   }
 
 
-
+  .text-center{
+    text-align: center;
+  }
   .display-flex-helper1{
     display: flex;
     justify-content: center;

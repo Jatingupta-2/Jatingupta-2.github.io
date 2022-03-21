@@ -1,0 +1,155 @@
+
+.body-pink,
+.main{
+    background: #FFF9F9 !important;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 1.87rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.factories-carousel{
+    margin: 20px 50px 40px 2rem;
+}
+.sub-title{
+    margin-left: 2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.filter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.filter-sort{
+    margin-right: 50px;
+}
+
+.marketplace{
+    margin: 2rem 1.5rem;
+}
+
+.product-top img{
+    max-width: 22.2rem;
+}
+.product-price button{
+    width: 4.1rem;
+    background: #fff;
+    color: #004E93;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    height: 2.25rem;
+    border: none;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+.product-bottom{
+    background: #F2FDFF;
+    max-width: 22rem;
+    height: 5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: -5px auto 0;
+}
+
+.order-button{
+    width: 9.1rem;
+    background: #fff;
+    color: #004E93;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    height: 2.9rem;
+    border: none;
+}
+
+.product-top-margin{
+    margin: 20px 0;
+}
+
+@media (max-width:1200px) {
+    .product-top img{
+        max-width: 20rem;
+    }
+    .product-bottom{
+        max-width: 19.8rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .product-top img{
+        max-width: 18rem;
+    }
+    .product-bottom{
+        max-width: 17.8rem;
+    }
+}
+
+@media (max-width:992px) {
+    .product-top img{
+        max-width: 14rem;
+    }
+    .product-bottom{
+        max-width: 13.8rem;
+    }
+}
+
+@media (max-width:768px) {
+    .factories-carousel{
+        margin: 20px 10px 40px 2rem;
+    }
+
+    .product-top img{
+        max-width: 18rem;
+    }
+    .product-bottom{
+        max-width: 17.8rem;
+    }
+}
+
+@media (max-width:610px) {
+    .product-top img{
+        max-width: 9.4rem;
+    }
+    .product-bottom{
+        max-width: 9.4rem;
+    }
+    .order-button{
+        width: 5.1rem;
+        height: 1.9rem;
+    }
+    .product-price button{
+        width: 2.1rem;
+        height: 1.25rem;
+        top: -10px;
+    }
+}
+
+@media (max-width:575px) {
+    .main-title{
+        text-align: left;
+        margin-left: 2rem;
+    }
+}
+
+.flickity-prev-next-button.next{
+    background: url(../images/right.svg) !important;
+    color: transparent !important;
+    background-size: cover !important;
+}
+
+.flickity-prev-next-button.previous{
+    /* background: url(../images/left.svg) !important; */
+    color: transparent !important;
+    background-size: cover !important;
+}
