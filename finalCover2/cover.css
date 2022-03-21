@@ -395,7 +395,7 @@ max-width: 250px;
     text-align: center;
 }
 .whyAv-table{
-    padding: 2rem;
+    padding: 5rem 2rem 2rem;
     max-width: 1100px;
     margin: auto;
     font-size: 1.8rem;
@@ -412,10 +412,84 @@ max-width: 250px;
 }
 .whyAv-table--blueCol{
     background: #F3FFFD;
+    box-shadow:  3px 3px 2px rgb(0 0 0 / 10%);
 }
 
 .whyAv-table img{
     max-width: 120px;
+}
+.whyAv-orange{
+    color: #FF6D3A;
+}
+.unlock{
+    background: url('../images/unlock-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 20% bottom 0%;
+    margin-top: 7rem;
+    padding: 1rem;
+}
+.unlock-cards{
+    margin-top: 5rem;
+}
+.unlock-card{
+    padding: 40px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.unlock-card1--bg{
+    background: #DCFEFC;
+}
+.unlock-card2--bg{
+    background: #F5D7FF;
+}
+.unlock-card3--bg{
+    background: #FFF9BF;
+}
+.unlock-card__image{
+    text-align: center;
+}
+.unlock-card__text{
+    padding: 0.9rem;
+}
+.unlock-card__title{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.unlock-card__info{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.unlock__title{
+    font-size: 3.1rem;
+    line-height: 3.6rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.unlock-button{
+    text-align: center;
+    margin-top: 3rem;
+}
+.unlock-button button{
+    background: #FFE700;
+    border: 0;
+    border-radius: 100px;
+    padding: 20px;
+    width: 270px;
+    font-size: 1.62rem;
+    line-height: 1.88rem;
+    font-weight: 500;
+    color: #03488B;
+}
+.unlock-change{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .raving-button{
@@ -497,6 +571,14 @@ max-width: 250px;
     margin-left: 80px;
 }
 
+@media (max-width:1100px) {
+    .unlock-card{
+        margin: 30px;
+        display: flex;
+        align-items: center;
+    }
+}
+
 @media (max-width:1050px) {
 
     .brands-section-email input{
@@ -507,6 +589,7 @@ max-width: 250px;
         width: 12rem;
         margin-left: 0;
     }
+  
 
 }
 
@@ -555,6 +638,13 @@ max-width: 250px;
         font-size: 2.1rem;
         line-height: 2.4rem;
     }
+    .unlock__title{
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+    }
+    .unlock-button{
+        margin-top: 70px;
+    }
     .raving-button{
         margin-top: 20px;
     }
@@ -566,7 +656,9 @@ max-width: 250px;
         width: auto;
         text-align: center;
     }
-
+    .whyAv-table {
+        font-size: 1.3rem;
+    }
 
 }
 
@@ -619,11 +711,31 @@ max-width: 250px;
         font-size: 1rem;
     }
     .whyAv-table .col-3{
-        padding: 20px;
+        padding: 40px 20px;
     }
     
     .whyAv-table img{
         max-width: 50px;
+    }
+
+    .whyAv-reduceImg .col-3 img{
+        max-width: 25px;
+    }
+
+    .reduce-cross.col-3 img{
+        max-width: 12px;
+    }
+    .unlock-card{
+        margin: 20px;
+    }
+    .unlock{
+        background: url('../images/unlock-bg-mob.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left 20% bottom 0%; 
+    }
+    .unlock-card__image img{
+        height: 150px;
     }
 }
 
@@ -636,6 +748,19 @@ max-width: 250px;
     
     .flex-col-reverse{
         flex-direction: column-reverse;
+    }
+
+    .whyAV{
+        margin-top: 2rem;
+    }
+
+    .whyAv-table{
+        font-size: 0.75rem;
+        padding: 2rem 0.5rem 0.5rem;
+    }
+
+    .whyAv-table .col-3{
+        padding: 30px 10px;
     }
     
 }

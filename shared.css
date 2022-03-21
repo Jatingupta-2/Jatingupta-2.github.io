@@ -41,9 +41,63 @@
   }
 
   .main{
+    overflow: hidden;
+    margin-bottom: 3.75rem;
   }
 
   .footer{
+    background: #03488B;
+    color: #fff;
+    padding: 6.25rem 5rem;
+  }
+
+  .footer-border-right{ 
+    border-right: 1px solid #fff;
+    margin: 0 50px;
+  }
+  
+
+  .footer-col-heading{
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #31FFEA;
+  }
+  .footer-col-text{
+    font-size: 0.75rem;
+    line-height: 0.87rem;
+    margin-top: 0.75rem;
+  }
+
+  .footer-col-button button{
+    margin-top: 0.85rem;
+    border-radius: 100px;
+    width: 87px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 0.75rem;
+    line-height: 0.87rem;
+    color: #fff;
+   
+  }
+  .footer-hr{
+    margin-top: 50px;
+    border: 1px solid #fff;
+  }
+  .footer-bottom-av{
+    margin: 50px 50px 20px;
+  }
+  .footer-bottom-contact{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-bottom-contact span{
+    margin: 20px 50px;
+  }
+  .footer-bottom-insta{
+    margin: 40px 50px;
   }
 
   @media (min-width:993px) {
@@ -58,9 +112,32 @@
     }
   }
 
+  @media (max-width:790px) {
+    .footer-border-right{ 
+      border-right: 1px solid #fff;
+      margin: 0 10px;
+    }
+  }
+
   @media (max-width:678px) {
     .hide-mobile{
       display: none;
+    }
+    .footer-bottom-av,
+    .footer-bottom-insta,
+    .footer-bottom-contact span{
+      text-align: center;
+    }
+    .footer-bottom-contact{
+      justify-content: center;
+    }
+    .footer-border-right{
+      border: none;
+      margin: 50px 75px;
+    }
+    .footer-hr{
+      margin-top: 10px;
+      border: 1px solid #fff;
     }
   }
 
