@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="body">
+<body class="body" onload="bodyOnLoad()">
     <header class="header">
         <div class="main-header">
             <div class="main-header__logo">
@@ -286,49 +286,51 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header rounded-accordian accordian_2" id="headingTwo">
-                            <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
+                            <button id="collapseTwoButton" class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <span>Choose from 1K+ essentials</span> <span>02</span>
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse accordian_2"
-                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+
+                        
+                        <div id="collapseTwoCarousel" class="bi-carousel tablet2">
+
+                            <div class="gallery js-flickity"
+                             data-flickity='{"fullscreen": true,"autoPlay" : 1500,"freeScroll": true,"wrapAround": true}'>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-1.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-2.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-3.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-4.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-5.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-6.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-7.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-8.png">
+                             </div>
+                             <div class="gallery-cell">
+                                 <img src="../images/hiw-9.png">
+                             </div>
+
+                             </div> 
+                         </div> 
+
+                        <div id="collapseTwo" class="accordion-collapse collapse accordian_2">
                             <div class="accordion-body">
                                 <div class="accordian_mob_carousel accordian_2 in">
-                                   
-                                   <div class="bi-carousel tablet2">
-                                        <div class="gallery js-flickity"
-                                        data-flickity='{"freeScroll": true,"autoPlay" : 1500, "wrapAround": true}'>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-1.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-2.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-3.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-4.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-5.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-6.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-7.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-8.png">
-                                        </div>
-                                        <div class="gallery-cell">
-                                            <img src="../images/hiw-9.png">
-                                        </div>
-    
-                                        </div>
-                                    </div> 
                                    
                                     <div class="item1__info">
                                         <p class="item1__info__mob--para">
@@ -915,6 +917,24 @@
                 }]
             });
         });
+    </script>
+
+    <script>
+
+        function bodyOnLoad(){
+            $('#collapseTwoCarousel').addClass('hide')
+        }
+
+         $("#collapseTwoButton").click(function () {
+            console.log('Here')
+            if ($("#collapseTwoButton").hasClass('collapsed')) {
+                $('#collapseTwoCarousel').addClass('hide')
+          }
+          else{
+            $('#collapseTwoCarousel').removeClass('hide');
+          }
+         })
+        
     </script>
 
 
