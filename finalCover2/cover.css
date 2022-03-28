@@ -202,6 +202,11 @@ max-width: 250px;
     color: #03488B;
 }
 
+.item1__image img{
+    max-height: 475px;
+    max-width: 400px;
+}
+
 .item1__image_mobile img{
     height: 330px;
 }
@@ -234,8 +239,8 @@ max-width: 250px;
 
 .bi_button_text{
     transform: rotateZ(270deg);
-    margin-top: 8rem;
-    width: 12rem;
+    margin-top: 9rem;
+    width: 15rem;
     font-size: 1.1rem;
     line-height: 1.4rem;
     font-weight: 500;
@@ -266,6 +271,54 @@ max-width: 250px;
 
 .max-width-accordian{
     max-width: 700px;
+}
+
+
+
+.bi-carousel{
+    width: 20rem;
+    max-height: 29.6rem;
+}
+
+.bi-carousel .gallery-cell {
+    width: auto;
+    height: 31rem;
+    margin-right: 50px;
+    /* background: #8C8; */
+    counter-increment: gallery-cell;
+  }
+.bi-carousel .gallery-cell img{
+    max-width: 23.4rem;
+    max-height: 29.6rem;
+}
+
+.bi-carousel.tablet2{
+    width: 19rem;
+    max-height: 22.6rem;
+}
+
+.bi-carousel.tablet2 .gallery-cell {
+    width: auto;
+    height: 23rem;
+    margin-right: 0px;
+    /* background: #8C8; */
+    counter-increment: gallery-cell;
+    z-index: 9;
+  }
+
+.bi-carousel.tablet2 .gallery-cell img{
+    max-width: 17rem;
+    max-height: 22.6rem;
+}
+
+.bi-carousel .flickity-prev-next-button.next{
+    position: inherit;
+    left: 140px !important;
+}
+
+.bi-carousel .flickity-prev-next-button.previous{
+    position: inherit;
+    left: 100px !important;
 }
 
 .rounded-number{
@@ -307,6 +360,7 @@ max-width: 250px;
 .raving-card__image img{
     border: 5px solid white;
     border-radius: 50%;
+    max-width: 12.5rem;
 }
 .raving-card__info{
     
@@ -736,6 +790,7 @@ max-width: 250px;
     }
     .unlock-card__image img{
         height: 150px;
+        max-width: 9.5rem;
     }
 }
 

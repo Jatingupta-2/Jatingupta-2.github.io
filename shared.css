@@ -42,6 +42,21 @@
   .main-header__item{
       margin: 0 0.8rem;
   }
+  .main-header__item.item1{
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+
+  .main-header__item.item2 button{
+    border: none;
+    border-radius: 6px;
+    background: #31FFEA;
+    color: #03488B;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 8.6rem;
+  }
 
   .main-header__item.item1 img{
       height: 2.7rem;
@@ -49,7 +64,7 @@
 
   .main-header__item.item2 img{
     height: 1.8rem;
-}
+  }
 
   .main-header__logo img{
     width: 10rem;
@@ -196,3 +211,10 @@
   .display-flex-helper2{
     display: flex;
   }
+
+  .display-flex-helper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
