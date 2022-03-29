@@ -30,7 +30,7 @@
 
   .main-header{
     display: flex;
-    padding: 1.5rem;
+    padding: 2.3rem;
     justify-content: space-between;
   }
 
@@ -119,6 +119,8 @@
     margin: 50px 50px 20px;
   }
   .footer-bottom-contact{
+    font-size: 0.75rem;
+    line-height: 0.87rem;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;

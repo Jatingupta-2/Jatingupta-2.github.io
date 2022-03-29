@@ -32,18 +32,20 @@
 }
 
 .brands-section__use img{
-    height: 487px;
-    width: 673px;
+    /* height: 487px; */
+    width: 715px;
 }
 
 .brands-section-info{
-    max-width: 390px;
+    max-width: 410px;
     margin-top: 1.5rem;
 }
 
 .brands-section-info p{
     padding-bottom: 0.4rem;
     margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
 }
 .brands-section-email{
     display: flex;
@@ -90,7 +92,7 @@
 
 .brands-section__col1{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .brands-illustration{
@@ -111,9 +113,9 @@
     font-size: 1.3rem;
     font-weight: 600;
     width: auto;
-    text-align: center;
-    /* padding-right: 0; */
-    margin-left: 10px;
+    min-width: 120px;
+    display: flex;
+    margin: auto 0 auto 50px;
 
 }
 
@@ -127,8 +129,8 @@ max-width: 250px;
     font-size: 3.1rem;
     font-weight: 900;
     line-height: 3.6rem;
-    margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-top: 9rem;
+    margin-bottom: 6.6rem;
 }
 
 .brands-illustration__container{
@@ -161,13 +163,13 @@ max-width: 250px;
 
 .brands-illustration__accordian{
     display: flex;
-    padding: 10rem;
+    padding: 2rem;
     margin: 0 auto;
 }
 
 .brands-illustration__accordian--heading{
     border: none;
-    height: 600px;
+    height: 700px;
     width: 120px;
     border-radius: 10px;
     display: flex;
@@ -340,15 +342,15 @@ max-width: 250px;
 
 .raving{
     background: #ffff;
-    margin-top: 4rem;
+    margin-top: 9rem;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
 
 .raving-heading{
     padding-top: 4rem;
-    font-size: 3.1rem;
-    line-height: 3.6rem;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
     font-weight: 900;
     text-align: center;
 }
@@ -359,9 +361,10 @@ max-width: 250px;
     text-align: center;
 }
 .raving-card__image img{
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 50%;
     max-width: 12.5rem;
+    max-height: 11.6rem;
 }
 .raving-card__info{
     
@@ -393,7 +396,7 @@ max-width: 250px;
 
 .faq{
     background: #ffff;
-    margin-top: 5rem;
+    margin-top: 12.5rem;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
@@ -439,7 +442,7 @@ max-width: 250px;
 
 .whyAV{
     background: #ffff;
-    margin-top: 5rem;
+    margin-top: 10rem;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
@@ -481,7 +484,7 @@ max-width: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 20% bottom 0%;
-    margin-top: 7rem;
+    margin-top: 10.5rem;
     padding: 1rem;
 }
 .unlock-cards{
@@ -503,6 +506,10 @@ max-width: 250px;
 }
 .unlock-card__image{
     text-align: center;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .unlock-card__text{
     padding: 0.9rem;
@@ -522,11 +529,12 @@ max-width: 250px;
     line-height: 3.6rem;
     font-weight: 900;
     text-align: center;
+    margin-top: 10.4rem;
 }
 
 .unlock-button{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 12rem;
 }
 .unlock-button button{
     background: #FFE700;
@@ -543,8 +551,12 @@ max-width: 250px;
     font-size: 1.5rem;
     line-height: 1.75rem;
     font-weight: 900;
-    margin-top: 4rem;
+    margin-top: 11.5rem;
     text-align: center;
+}
+
+.footer-margin{
+    margin-top: 20rem;
 }
 
 .raving-button{
@@ -560,6 +572,7 @@ max-width: 250px;
     line-height: 1.88rem;
     font-weight: 500;
     color: #03488B;
+    margin-top: 50px;
 }
 
 .gallery{
@@ -568,7 +581,7 @@ max-width: 250px;
 
 .quality{
     background: #ffff;
-    margin-top: 2rem;
+    margin-top: 10rem;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
@@ -586,13 +599,18 @@ max-width: 250px;
     font-weight: 500;
     text-decoration: underline;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 7.1rem;
 }
 
 .quality-video{
     width: 100%;
     max-width: 740px;
     margin: 8rem auto 0;
+    border: 50px solid #FFEEEB;
+}
+
+.wistia_responsive_padding{
+    border: 3px solid #fff;
 }
 
 .marketplace{
@@ -600,11 +618,48 @@ max-width: 250px;
     margin-top: 8rem;
 }
 
+.product{
+    max-width: 24rem;
+}
+.product-bottom{
+    background: #F2FDFF;
+    margin-top: -18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.product-price{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.product-price button{
+    width: 4.1rem;
+    background: #fff;
+    color: #004E93;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    height: 2.25rem;
+    border: none;
+}
+
+.order-button{
+    width: 9.1rem;
+    background: #fff;
+    color: #004E93;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    height: 2.9rem;
+    border: none;
+    margin: 20px 0;
+}
+
 .bi-container{
     padding: 2rem;
 }
 .marketplace-container{
-   padding: 5rem;
+   padding: 5rem 5rem 3rem 5rem;
 }
 
 .marketplace-image{
@@ -616,14 +671,36 @@ max-width: 250px;
 
 .marketplace-explore{
     text-align: right;
-    margin-top: 80px;
+    margin-top: 2.4rem;
     margin-right: 30px;
     font-size: 2rem;
     font-weight: 600;
 }
 
 .marketplace-explore img{
-    margin-left: 80px;
+    /* margin-left: 80px; */
+    vertical-align: middle;
+    margin-top: 13px;
+}
+
+.carouselItem.in {
+    width: 1000px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:1450px){
+    .carouselItem.in{
+        width: 800px;
+    }
+}
+
+@media (max-width:1240px){
+    .carouselItem.in{
+        width: 650px;
+    }
 }
 
 @media (max-width:1100px) {
@@ -644,15 +721,20 @@ max-width: 250px;
         width: 12rem;
         margin-left: 0;
     }
-  
+    
+    .carouselItem.in{
+        width: 550px;
+    }
 
 }
 
 
 @media (max-width:1000px) {
 
-   
-
+    .brands-section__col1{
+        display: flex;
+        justify-content: center;
+    }
     .brands-section__nothing img{
         width: 350px;
     }
@@ -672,13 +754,14 @@ max-width: 250px;
     }
 
     .brands-illustration__how{
-        font-size: 2.2rem;
-        line-height: 2.4rem;
+        font-size: 1.37rem;
+        line-height: 1.56rem;
+        margin-top: 5rem;
         margin-bottom: 3rem;
     }
     .raving-heading{
-        font-size: 2.1rem;
-        line-height: 2.4rem;
+        font-size: 1.375rem;
+        line-height: 1.6rem;
         margin-bottom: 2rem;
     }
     .faq-heading{
@@ -689,16 +772,33 @@ max-width: 250px;
         font-size: 2.1rem;
         line-height: 2.4rem;
     }
+    .quality{
+        margin-top: 6rem;
+    }
     .quality-heading{
-        font-size: 2.1rem;
-        line-height: 2.4rem;
+        font-size: 1.87rem;
+        line-height: 2.1rem;
     }
     .unlock__title{
         font-size: 2.1rem;
         line-height: 2.4rem;
+        margin-top: 3.1rem;
+    }
+    .unlock-cards{
+        margin-top: 2.2rem;
     }
     .unlock-button{
-        margin-top: 70px;
+        margin-top: 6.6rem;
+    }
+    .unlock-button button{
+        padding: 14px;
+    }
+    .unlock-change{
+        margin-top: 4.3rem;
+    }
+
+    .footer-margin{
+        margin-top: 0rem;
     }
     .raving-button{
         margin-top: 20px;
@@ -709,7 +809,18 @@ max-width: 250px;
 
     .bi-carousel-title{
         width: auto;
-        text-align: center;
+        /* text-align: center; */
+        font-size: 0.75rem;
+        line-height: 0.87rem;
+        min-width: 85px;
+        margin-left: 80px;
+    }
+    .bi-carousel-col2{
+        padding-left: 15px !important;
+    }
+    .bi-image{
+        padding: 20px 0px;
+        max-width: 250px;
     }
     .whyAv-table {
         font-size: 1.3rem;
@@ -719,8 +830,17 @@ max-width: 250px;
 
 @media (max-width:768px) {
 
+    .brands-section-info p{
+
+        font-size: 0.94rem;
+        line-height: 1.09rem;
+    }
+
     .raving-card{
         width: 21rem;
+    }
+    .faq{
+        margin-top: 5rem;
     }
     .faq-card{
         width: 21rem;
@@ -734,9 +854,11 @@ max-width: 250px;
     .quality-sub-heading{
         font-size: 1rem;
         margin-top: 2rem;
+        margin-top: 1.8rem;
     }
     .quality-video{
         margin: 4rem auto 0;
+        border: none;
     }
     .marketplace{
         margin-top: 5rem;
@@ -753,7 +875,7 @@ max-width: 250px;
      }
      .marketplace-explore img{
         height: 1.6rem;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .faq__info--title{
         font-size: 1.8rem;
@@ -781,18 +903,40 @@ max-width: 250px;
         max-width: 12px;
     }
     .unlock-card{
+        padding: 0;
         margin: 20px;
     }
     .unlock{
         background: url('../images/unlock-bg-mob.svg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: left 20% bottom 0%; 
+        background-position: left 20% bottom 0%;
+        margin-top: 5.5rem; 
+    }
+    .unlock-card__image{
+        height: 160px;
+        width: 85px;
     }
     .unlock-card__image img{
-        height: 150px;
-        max-width: 9.5rem;
+        height: 75px;
+        max-width: 85px;
+        /* max-width: 9.5rem; */
     }
+
+    .unlock-card__title{
+        font-size: 1rem;
+        line-height: 1.16rem;
+    }
+
+    .unlock-card__info{
+        font-size: 0.875rem;
+        line-height: 1.05rem;
+    }
+
+    .raving{
+        margin-top: 1rem;
+    }
+    
 }
 
 @media (max-width:575px) {
@@ -807,7 +951,7 @@ max-width: 250px;
     }
 
     .whyAV{
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     .whyAv-table{
@@ -818,7 +962,9 @@ max-width: 250px;
     .whyAv-table .col-3{
         padding: 30px 10px;
     }
-    
+    .product-price{
+        margin-right: 15px;
+    }
 }
 
 
@@ -845,22 +991,18 @@ max-width: 250px;
     /* margin-right: -20px; */
     border-radius: 10px;
 }
-.carouselItem.in {
-    width: 700px;
-    margin-right: -20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .flickity-prev-next-button.next{
-    background: url(../images/right.svg) !important;
+    background: url(../images/right.png) !important;
     color: transparent !important;
     background-size: cover !important;
+    top: 50% !important;
 }
 
 .flickity-prev-next-button.previous{
-    background: url(../images/left.svg) !important;
+    background: url(../images/left.png) !important;
     color: transparent !important;
     background-size: cover !important;
+    top: 50% !important;
 }
