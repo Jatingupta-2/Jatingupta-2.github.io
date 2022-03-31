@@ -613,7 +613,7 @@ max-width: 250px;
     border: 0;
     border-radius: 100px;
     /* padding: 20px; */
-    height: 70px;
+    height: 60px;
     width: 270px;
     font-size: 1.3rem;
     line-height: 1.88rem;
@@ -763,6 +763,7 @@ max-width: 250px;
     vertical-align: middle;
     margin-top: -5px;
     margin-left: 20px;
+    max-height: 22px;
 }
 
 .carouselItem.in {
@@ -888,7 +889,7 @@ max-width: 250px;
         font-size: 1.37rem;
         line-height: 1.56rem;
         margin-top: 5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 6rem;
     }
     .raving-heading{
         font-size: 1.5rem;
@@ -904,7 +905,7 @@ max-width: 250px;
         line-height: 2.4rem;
     }
     .quality{
-        margin-top: 6rem;
+        margin-top: 4.5rem;
     }
     .quality-heading{
         font-size: 2rem;
@@ -1032,6 +1033,7 @@ max-width: 250px;
         margin-left: 12px;
         margin-top: -3px;
         width: 15px;
+        max-height: 15px;
     }
     .faq__info--title{
        font-size: 27px;
@@ -1103,9 +1105,18 @@ max-width: 250px;
     }
 
     .unlock-button button{
-        font-size: 15px;
-        /* height: 40px; */
+        /* font-size: 15px; */
+        height: 55px;
         width: 260px;
+        font-size: 1.1rem;
+    }
+
+    .accordion-body {
+        padding: 1rem 1.25rem 4rem !important;
+    }
+
+    .raving-button button{
+        height: 60px;
     }
     
 }
@@ -1127,7 +1138,7 @@ max-width: 250px;
 
     .whyAv-table{
         font-size: 0.75rem;
-        padding: 5rem 0.5rem 0.5rem;
+        padding: 1rem 0.5rem 0.5rem;
     }
 
     .whyAv-table .col-3{
@@ -1169,14 +1180,14 @@ max-width: 250px;
 
 
 .flickity-prev-next-button.next{
-    background: url(../images/right.jpg) !important;
+    background: url(../images/right.png) !important;
     color: transparent !important;
     background-size: cover !important;
     top: 50% !important;
 }
 
 .flickity-prev-next-button.previous{
-    background: url(../images/left.jpg) !important;
+    background: url(../images/left.png) !important;
     color: transparent !important;
     background-size: cover !important;
     top: 50% !important;
