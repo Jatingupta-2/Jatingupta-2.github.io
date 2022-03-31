@@ -30,7 +30,7 @@
 
   .main-header{
     display: flex;
-    padding: 1.3rem 2.3rem;
+    padding: 3.1rem 3.1rem 1.3rem;
     justify-content: space-between;
   }
 
@@ -177,11 +177,11 @@
   @media (max-width:40rem) {
 
     .main-header{
-        padding: 0.7rem;
+      padding: 2rem 1.4rem;
       }
 
     .main-header__logo img{
-        width: 7rem;
+        width: 5rem;
       }
 
       .main-header__item{

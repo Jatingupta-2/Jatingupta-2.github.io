@@ -7,7 +7,7 @@
 
 
     min-height: 50px;
-    padding: 1rem 2rem;
+    padding: 5rem 2rem 1rem;
     margin: auto;
     background: url(../images/Vector90.svg);
     background-repeat: no-repeat;
@@ -100,18 +100,26 @@
     align-items: center;
 }
 
+.brands-section-margin-left{
+    margin-left: 15px;
+}
+
 .brands-section-1{
-    border-radius: 45px;
-    width: 400px;
+    border-radius: 20px;
+    /* width: 400px; */
+    height: 484px;
+    z-index: 1;
 }
 
 .brands-section-2{
-    width: 600px;
+    /* width: 450px; */
+    height: 405px;
+    margin-left: -10px;
 }
 
 .brands-illustration{
     background: #ffff;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 .brand-illustration__brands{
@@ -138,12 +146,16 @@ padding: 20px;
 max-width: 250px;
 }
 
+.supreme-padding{
+    padding: 15px;
+}
+
 .brands-illustration__how{
     text-align: center;
     font-size: 3.1rem;
     font-weight: 900;
     line-height: 3.6rem;
-    margin-top: 9rem;
+    margin-top: 8rem;
     margin-bottom: 6.6rem;
 }
 
@@ -707,7 +719,7 @@ max-width: 250px;
     width: 1100px;
     margin-right: -20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -723,7 +735,7 @@ max-width: 250px;
     }
     
     .brands-section-2{
-        width: 400px;
+        width: 350px;
     }
 
     .brands-illustration{
@@ -753,7 +765,7 @@ max-width: 250px;
     }
     
     .brands-section-2{
-        width: 320px;
+        width: 280px;
     }
 }
 
