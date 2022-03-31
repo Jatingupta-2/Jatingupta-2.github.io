@@ -613,9 +613,9 @@ max-width: 250px;
     border: 0;
     border-radius: 100px;
     /* padding: 20px; */
-    height: 55px;
+    height: 70px;
     width: 270px;
-    font-size: 1.62rem;
+    font-size: 1.3rem;
     line-height: 1.88rem;
     font-weight: 500;
     color: #03488B;
@@ -641,8 +641,8 @@ max-width: 250px;
     border-radius: 100px;
     /* padding: 20px; */
     width: 240px;
-    height: 55px;
-    font-size: 1.62rem;
+    height: 70px;
+    font-size: 1.3rem;
     line-height: 1.88rem;
     font-weight: 500;
     color: #03488B;
@@ -891,9 +891,9 @@ max-width: 250px;
         margin-bottom: 3rem;
     }
     .raving-heading{
-        font-size: 1.375rem;
+        font-size: 1.5rem;
         line-height: 1.6rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3.2rem;
     }
     .faq-heading{
         font-size: 2.1rem;
@@ -907,8 +907,8 @@ max-width: 250px;
         margin-top: 6rem;
     }
     .quality-heading{
-        font-size: 1.87rem;
-        line-height: 2.1rem;
+        font-size: 2rem;
+        line-height: 2.3rem;
     }
     .unlock__title{
         font-size: 2.1rem;
@@ -928,7 +928,7 @@ max-width: 250px;
     }
 
     .footer-margin{
-        margin-top: 0rem;
+        margin-top: 6.6rem;
     }
     .raving-button{
         margin-top: 20px;
@@ -943,7 +943,7 @@ max-width: 250px;
         font-size: 0.75rem;
         line-height: 0.87rem;
         min-width: 85px;
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .bi-carousel-col2{
         padding-left: 15px !important;
@@ -965,12 +965,25 @@ max-width: 250px;
     }
     .brands-section-info{
         max-width: 325px;
+        margin-top: 0.5rem;
     }
 
     .brands-section-info p{
         letter-spacing: 0.4px;
         font-size: 0.94rem;
         line-height: 1.09rem;
+    }
+
+    .brands-section-email{
+        margin-top: 0.5rem;
+    }
+
+    .brands-section-margin-left{
+        margin-left: -5px;
+    }
+
+    .brands-illustration{
+        margin-top: 1.5rem;
     }
 
     .raving-card{
@@ -1041,14 +1054,14 @@ max-width: 250px;
         max-width: 39px;
     }
     .whyAv-table .stars img{
-        max-width: 50px;
+        max-width: 65px;
     }
     .whyAv-table img{
         max-width: 15px;
     }
 
     .whyAv-reduceImg .col-3 img{
-        max-width: 15px;
+        max-width: 18px;
     }
 
     .reduce-cross.col-3 img{
@@ -1091,7 +1104,7 @@ max-width: 250px;
 
     .unlock-button button{
         font-size: 15px;
-        height: 40px;
+        /* height: 40px; */
         width: 260px;
     }
     
@@ -1114,7 +1127,7 @@ max-width: 250px;
 
     .whyAv-table{
         font-size: 0.75rem;
-        padding: 2rem 0.5rem 0.5rem;
+        padding: 5rem 0.5rem 0.5rem;
     }
 
     .whyAv-table .col-3{
@@ -1125,7 +1138,7 @@ max-width: 250px;
     }
 
     .unlock__title img{
-        width: 18rem;
+        width: 21rem;
     }
 }
 
