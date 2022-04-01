@@ -44,7 +44,10 @@
     box-shadow: none !important;
   }
 
-  .raving-cards,
+  .raving-cards{
+    margin:80px 50px 50px!important;
+  }
+
   .faq-cards{
     margin: 50px !important;
   }

@@ -45,6 +45,7 @@
   .main-header__item.item1{
     font-size: 1.05rem;
     font-weight: 700;
+    cursor: pointer;
   }
 
   .main-header__item.item2 button{

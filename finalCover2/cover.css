@@ -305,7 +305,7 @@ max-width: 250px;
 .item1__header__mob--para{
     font-size: 22px;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 .item1__info__mob--para{
     width: 300px;
@@ -872,7 +872,7 @@ max-width: 250px;
     }
     .brands-section-email input{
         width: 100%;
-        margin: 0 0 1rem 0 !important;
+        margin: 0 0 0.5rem 0 !important;
     }
 
     .brands-section-email button{
@@ -886,7 +886,7 @@ max-width: 250px;
     }
 
     .brands-illustration__how{
-        font-size: 1.37rem;
+        font-size: 2.1rem;
         line-height: 1.56rem;
         margin-top: 5rem;
         margin-bottom: 6rem;
@@ -1007,7 +1007,7 @@ max-width: 250px;
     }
 
     .quality-sub-heading{
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 2rem;
         margin-top: 1.8rem;
     }
@@ -1106,9 +1106,9 @@ max-width: 250px;
 
     .unlock-button button{
         /* font-size: 15px; */
-        height: 55px;
+        height: 48px;
         width: 260px;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     .accordion-body {
@@ -1116,7 +1116,9 @@ max-width: 250px;
     }
 
     .raving-button button{
-        height: 60px;
+        height: 45px;
+        width: 210px;
+        font-size: 0.85rem;
     }
     
 }
@@ -1138,7 +1140,7 @@ max-width: 250px;
 
     .whyAv-table{
         font-size: 0.75rem;
-        padding: 1rem 0.5rem 0.5rem;
+        padding: 3rem 0.5rem 0.5rem;
     }
 
     .whyAv-table .col-3{
