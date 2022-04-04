@@ -72,6 +72,9 @@
     .flickity-prev-next-button.next{
       right: 0px !important;
     }
+    .faq .gallery-cell {
+      height: 300px;
+    }
   }
 
   .flickity-page-dots{
