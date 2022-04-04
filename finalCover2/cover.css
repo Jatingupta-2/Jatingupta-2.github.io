@@ -78,6 +78,10 @@
     font-weight: 500;
     margin-left: 15px;
 }
+.brands-section-email input:focus-visible{
+    /* border: none; */
+    outline: initial;
+}
 .brands-section__pitch{
     border: 1px solid #03488B;
     border-radius: 10px;
@@ -391,6 +395,19 @@ max-width: 250px;
     background: #E4D3FF;
 }
 
+.why-us{
+    margin-top: 186px;
+}
+
+.why-us-title{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
 .raving{
     background: #ffff;
     margin-top: 11rem;
@@ -461,6 +478,19 @@ max-width: 250px;
 .faq-card{
     width: 29.1rem;
 }
+.why-us-card{
+    width: 423px;
+    border: 1px solid #03488B;
+}
+.why-us__info{
+    border-radius: 20px;
+    height: 356px;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+}
 .faq__info{
     border-radius: 20px;
     height: 30rem;
@@ -479,6 +509,16 @@ max-width: 250px;
     line-height:18.75px;
     font-weight: 400;
     margin-top: 1.2rem;
+}
+.why-us__info--title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.why-us__info--desc{
+    font-size: 16px;
+    line-height:18.75px;
+    font-weight: 400;
+    margin-top: 7px;
 }
 .faq__info-color1{
     background: #DBF6FF;
@@ -613,7 +653,7 @@ max-width: 250px;
 
 .unlock-button{
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 270px;
 }
 .unlock-button button{
     background: #FFE700;
@@ -631,7 +671,7 @@ max-width: 250px;
     font-size: 3.75rem;
     line-height: 70px;
     font-weight: 900;
-    margin-top: 11.5rem;
+    margin-top: 189px;
     text-align: center;
 }
 
@@ -796,7 +836,7 @@ max-width: 250px;
 
 
 .join-com{
-    margin-top: 400px;
+    margin-top: 300px;
     text-align: center;
     font-family: Roboto;
     font-size: 50px;
@@ -837,8 +877,8 @@ max-width: 250px;
     width: 61%;
     margin: auto;
     border-bottom: 1px solid #03488B !important;
-    padding-top: 45px !important;
-    padding-bottom: 45px !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
 }
 
 .lastcard{
@@ -1027,10 +1067,10 @@ max-width: 250px;
         margin-top: 2.2rem;
     }
     .unlock-button{
-        margin-top: 6.6rem;
+        margin-top: 86px;
     }
     .unlock-change{
-        margin-top: 4.3rem;
+        margin-top: 85px;
         font-size: 25px;
         line-height: 29px;
     }
@@ -1091,7 +1131,7 @@ max-width: 250px;
     }
 
     .brands-illustration{
-        margin-top: 1.5rem;
+        margin-top: 0.7rem;
     }
 
     .raving-card{
@@ -1103,8 +1143,32 @@ max-width: 250px;
     .faq__info{
         height: 18.6rem;
     }
+
+    .why-us{
+        padding: 1rem 3rem;
+        margin-top: 56px;
+    }
+    .why-us-title{
+        font-size: 22px;
+    }
+    .why-us__info{
+
+    }
+
+    .why-us__info--title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .why-us__info--desc{
+        font-size: 14px;
+        line-height:16.4px;
+
+    }
     .faq-card{
         width: 17.75rem;
+    }
+    .why-us-card{
+        width: 272px;
     }
 
     .brands-section__col2{
@@ -1253,8 +1317,8 @@ max-width: 250px;
 }
 .card2{
     width: 90%;
-    padding-top: 36px !important;
-    padding-bottom: 36px !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
 }
 .card-header-join button{
     font-size: 14px;
@@ -1266,6 +1330,10 @@ max-width: 250px;
 
 .card-body-2{
     font-size: 14px;
+}
+
+.see-more-faqs{
+    font-size: 16px;
 }
     
 }
@@ -1325,6 +1393,20 @@ max-width: 250px;
     margin-left: -20px;
     /* margin-right: -20px; */
     border-radius: 10px;
+}
+
+.why-us .flickity-prev-next-button.next{
+    background: url(../images/why-us-right.png) !important;
+    color: transparent !important;
+    background-size: cover !important;
+    top: 50% !important;
+}
+
+.why-us .flickity-prev-next-button.previous{
+    background: url(../images/left-why-us.png) !important;
+    color: transparent !important;
+    background-size: cover !important;
+    top: 50% !important;
 }
 
 

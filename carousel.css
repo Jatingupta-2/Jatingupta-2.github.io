@@ -16,6 +16,10 @@
   .faq .gallery-cell {
     height: 500px;
   }
+
+  .why-us-cards .gallery-cell {
+    height: 365px;
+  }
   
   /* cell number */
   .gallery-cell:before {
@@ -51,6 +55,10 @@
   .faq-cards{
     margin: 50px !important;
   }
+
+  .why-us-cards{
+    margin: 50px !important;
+  }
   
   .flickity-prev-next-button.previous{
     left: -50px !important;
@@ -66,6 +74,15 @@
     .faq-cards{
       margin: 50px 0 0!important;
     }
+    .why-us-cards{
+      margin: 50px 0 0!important;
+    }
+    .why-us .flickity-prev-next-button.previous{
+      left: -32px !important;
+    }
+    .why-us .flickity-prev-next-button.next{
+      right: -32px !important;
+    }
     .flickity-prev-next-button.previous{
       left: 0px !important;
     }
@@ -75,6 +92,9 @@
     .faq .gallery-cell {
       height: 300px;
     }
+    /* .why-us .gallery-cell {
+      margin-right: 10px !important;
+    } */
   }
 
   .flickity-page-dots{
