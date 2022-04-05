@@ -666,6 +666,7 @@ max-width: 250px;
     line-height: 1.88rem;
     font-weight: 500;
     color: #03488B;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 .unlock-change{
     font-size: 3.75rem;
@@ -694,6 +695,7 @@ max-width: 250px;
     font-weight: 500;
     color: #03488B;
     margin-top: 50px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 
 .gallery{
@@ -862,7 +864,7 @@ max-width: 250px;
     text-align: center;
 }
 .see-more-faqs{
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 500;
@@ -1168,7 +1170,7 @@ max-width: 250px;
         width: 17.75rem;
     }
     .why-us-card{
-        width: 272px;
+        width: 274px;
     }
 
     .brands-section__col2{
@@ -1280,7 +1282,7 @@ max-width: 250px;
 
     .unlock-button button{
         /* font-size: 15px; */
-        height: 48px;
+        height: 60px;
         width: 260px;
         font-size: 0.9rem;
     }
@@ -1290,7 +1292,7 @@ max-width: 250px;
     }
 
     .raving-button button{
-        height: 45px;
+        height: 60px;
         width: 210px;
         font-size: 0.85rem;
     }
@@ -1333,7 +1335,7 @@ max-width: 250px;
 }
 
 .see-more-faqs{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .why-us .flickity-prev-next-button.next{
