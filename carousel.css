@@ -95,6 +95,10 @@
     /* .why-us .gallery-cell {
       margin-right: 10px !important;
     } */
+    
+  .why-us-cards .gallery-cell {
+    height: 295px;
+  }
   }
 
   .flickity-page-dots{
