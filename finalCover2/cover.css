@@ -167,7 +167,7 @@ max-width: 250px;
 }
 
 .brands-illustration__container{
-    background: url('../images/how-it-works-bg.jpg');
+    background: url('../images/how-it-works-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
