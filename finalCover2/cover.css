@@ -1349,12 +1349,12 @@ max-width: 250px;
 
 .why-us .flickity-prev-next-button.next{
     height: 23px;
-    width: 23px;
+    width: 20px;
 }
 
 .why-us .flickity-prev-next-button.previous{
     height: 23px;
-    width: 23px;
+    width: 20px;
 }
 
 .flickity-prev-next-button .flickity-button-icon{
