@@ -1348,13 +1348,13 @@ max-width: 250px;
 }
 
 .why-us .flickity-prev-next-button.next{
-    height: 19px;
-    width: 19px;
+    height: 30px;
+    width: 30px;
 }
 
 .why-us .flickity-prev-next-button.previous{
-    height: 19px;
-    width: 19px;
+    height: 30px;
+    width: 30px;
 }
 
 .flickity-prev-next-button .flickity-button-icon{
