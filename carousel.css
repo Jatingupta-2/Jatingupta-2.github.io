@@ -78,10 +78,10 @@
       margin: 50px 0 0!important;
     }
     .why-us .flickity-prev-next-button.previous{
-      left: -27px !important;
+      left: -45px !important;
     }
     .why-us .flickity-prev-next-button.next{
-      right: -27px !important;
+      right: -45px !important;
     }
     .flickity-prev-next-button.previous{
       left: 0px !important;
@@ -97,7 +97,7 @@
     } */
     
   .why-us-cards .gallery-cell {
-    height: 280px;
+    height: 278px;
   }
   }
 

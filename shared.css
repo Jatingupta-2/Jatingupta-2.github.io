@@ -223,7 +223,7 @@
 
 
   .hide{
-    display: none;
+    display: none !important;
   }
 
   .text-left{

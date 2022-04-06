@@ -838,10 +838,10 @@ max-width: 250px;
 
 
 .join-com{
-    margin-top: 240px;
+    margin-top: 170px;
     text-align: center;
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 59px;
     letter-spacing: 0em;
@@ -849,7 +849,7 @@ max-width: 250px;
 }
 
 .learn-more{
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -860,7 +860,7 @@ max-width: 250px;
 }
 
 .join-us-ques{
-    margin-top: 66px;
+    margin-top: 56px;
     text-align: center;
 }
 .see-more-faqs{
@@ -887,6 +887,10 @@ max-width: 250px;
     border-bottom:none !important;
 }
 
+.join-us-ques .card-header{
+    padding: 0.5rem 0;
+}
+
 .card-header-join{
     background: #fff !important;
     /* padding-bottom: 30px !important; */
@@ -906,7 +910,8 @@ max-width: 250px;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    color: #03488B !important;    
+    color: #03488B !important; 
+    padding: 0;   
 }
 
 .card-header-join button:hover,
@@ -914,6 +919,10 @@ max-width: 250px;
     color: #03488B;   
     outline: none !important;
     box-shadow: none;
+}
+
+.mr-collapse-join-us{
+    margin-right: 27px;
 }
 
 .card-body-2{
@@ -1344,7 +1353,7 @@ max-width: 250px;
 }
 
 .why-us .flickity-prev-next-button.previous{
-    height: 25px;
+    height: 28px;
     width: 25px;
 }
 
