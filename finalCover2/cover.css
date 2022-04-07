@@ -30,6 +30,9 @@
 .brands-section__nothing img{
     width: 410px;
 }
+.custom-body .brands-section__nothing img{
+    width: 450px;
+}
 
 .brands-section__use{
     display: flex;
@@ -1040,6 +1043,7 @@ max-width: 250px;
     .brands-section__nothing img{
         width: 350px;
     }
+
     .brands-section-email input{
         width: 100%;
         margin: 0 0 0.5rem 0 !important;
@@ -1133,6 +1137,9 @@ max-width: 250px;
 
     .brands-section__nothing img{
         width: 330px;
+    }
+    .custom-body .brands-section__nothing img{
+        width: 365px;
     }
     .brands-section-info{
         max-width: 325px;
