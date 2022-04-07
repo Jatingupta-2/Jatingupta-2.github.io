@@ -14,6 +14,13 @@
     background-position: left 20% bottom 0%;
 }
 
+.custom-body .brands-section{
+    background: url(../images/Vector\ 90Pink.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 20% bottom 0%;
+}
+
 .brands-section__col{
     display: flex;
     justify-content: center;
@@ -745,6 +752,10 @@ max-width: 250px;
 .product{
     max-width: 24rem;
 }
+
+.custom-body .product-top img{
+    border-radius: 10px;
+}
 .product-bottom{
     background: #F2FDFF;
     margin-top: -18px;
@@ -926,7 +937,8 @@ max-width: 250px;
 }
 
 .card-body-2{
-    padding: 15px 28px 16px !important;
+    /* padding: 15px 28px 16px !important; */
+    margin-left: 31px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -1341,6 +1353,7 @@ max-width: 250px;
 
 .card-body-2{
     font-size: 14px;
+    margin-left: 25px;
 }
 
 .see-more-faqs{
@@ -1372,6 +1385,11 @@ max-width: 250px;
 
     .brands-section{
         background: url(../images/Vector3.svg) center/cover no-repeat border-box;
+        background-position: left 0% bottom 0%;
+    }
+
+    .custom-body .brands-section{
+        background: url(../images/Vector3_pink.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
     }
     
