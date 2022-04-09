@@ -30,9 +30,9 @@
 .brands-section__nothing img{
     width: 410px;
 }
-.custom-body .brands-section__nothing img{
+/* .custom-body .brands-section__nothing img{
     width: 450px;
-}
+} */
 
 .brands-section__use{
     display: flex;
@@ -1144,7 +1144,7 @@ max-width: 250px;
         width: 330px;
     }
     .custom-body .brands-section__nothing img{
-        width: 365px;
+        width: 320px;
     }
     .brands-section-info{
         max-width: 325px;

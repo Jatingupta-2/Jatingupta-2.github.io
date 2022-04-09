@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -54,26 +54,44 @@
             style=“display:none;visibility:hidden”></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <div class="backdrop"></div>
+
+    <nav class="mobile-nav">
+        <div class="mob-nav">
+            <div class="main-header__item item1 margin-bottom close-modal">
+                <a href="#faq-section">FAQ</a>
+            </div>
+            <div class="main-header__item item1 margin-bottom close-modal">
+                <a href="#testimonial-section">Testimonials</a>
+            </div>
+            <div class="main-header__item item2 ">
+                <button type="button" class="close-modal">
+                    Contact us
+                </button>
+            </div>
+    </nav>
+
     <header class="header header-pink">
         <div class="main-header">
             <div class="main-header__logo">
                 <img src="../images/Avendors1 1.svg">
             </div>
             <div class="main-header__items hide-tablet">
-                <div class="main-header__item item1" onclick="location.href='https://avendors.com/login'">
-                    Login
+                <div class="main-header__item item1">
+                    <a href="#faq-section">FAQ</a>
+                </div>
+                <div class="main-header__item item1">
+                    <a href="#testimonial-section">Testimonials</a>
                 </div>
                 <div class="main-header__item item2">
-                    <button onclick="location.href='https://avendors.com/buyer-register-step2'" type="button">
-
-                        Sign up
-
+                    <button type="button">
+                        Contact us
                     </button>
                 </div>
             </div>
             <div class="main-header__items hide-desktop">
                 <div class="main-header__item item2">
-                    <img src="../images/Group 91.svg">
+                    <img id="toggle-mobile-nav" src="../images/Group 91.svg">
                 </div>
             </div>
         </div>
@@ -91,17 +109,19 @@
                         </div>
                         <div class="brands-section-info">
                             <p>
-                                Get full package manufacturing. Develop and produce ethically in the U.S. We pride ourselves on being the best in quality & fairly priced. MoQ start with 100 unit .
+                                AVendors provide brands high-quality, full <br>
+                                package, apparel manufacturing made in <br>
+                                the U.S.A. Let us know what you need or <br>
+                                scroll down to learn more.
                             </p>
                         </div>
                         <div class="brands-section-email">
                             <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email">
                             <!-- onclick="location.href='https://avendors.com/customer/form'" -->
-                            <button 
-                            onclick="return validateForm()"
-                            >
-                            Contact us
+                            <button onclick="return validateForm()">
+                                Contact us
                             </button>
+                            <a id="email-pop-up" href = "mailto: mike@avendorz.com"></a>
                         </div>
 
                     </div>
@@ -134,7 +154,7 @@
                         <section class="bi-slick-carousel slider">
                             <div class="slide">
                                 <div class="factory-logo splendid-padding">
-                                    <img class="bi-image" src="../images/factory-logo1.png" alt="First slide">
+                                    <img class="bi-image" src="../images/factory-logo1.webp" alt="First slide">
                                 </div>
                             </div>
                             <div class="slide">
@@ -206,7 +226,9 @@
                                     Submit design
                                 </div>
                                 <p class="item1__info--para">
-                                    Submit a sketch or an image you would like us to follow, If you need help fine tunning your idea, we have a network of great designers we can put you in contact with.
+                                    Submit a sketch or an image you would like us to follow, If you need help fine
+                                    tunning your idea, we have a network of great designers we can put you in contact
+                                    with.
                                 </p>
                             </div>
                         </div>
@@ -264,7 +286,8 @@
                                     Quote
                                 </div>
                                 <p class="item1__info--para">
-                                    Once we revise your final concept, we will give you a full pacakge quote. By full pacakge, we mean all inclusive. No surprises.
+                                    Once we revise your final concept, we will give you a full pacakge quote. By full
+                                    pacakge, we mean all inclusive. No surprises.
                                 </p>
                             </div>
                         </div>
@@ -289,7 +312,8 @@
                                     Place an order
                                 </div>
                                 <p class="item1__info--para">
-                                    If you choose to go forward, we will send you an invoice for a down payment to begin with a prototype.
+                                    If you choose to go forward, we will send you an invoice for a down payment to begin
+                                    with a prototype.
                                 </p>
                             </div>
                         </div>
@@ -302,7 +326,7 @@
                                 04
                             </div>
                             <div class="bi_button_text">
-                                Begin production  
+                                Begin production
                             </div>
                         </button>
                         <div id="item4" class="carouselItem accordian_4">
@@ -345,7 +369,9 @@
                                             Submit design
                                         </p>
                                         <p class="item1__info__mob--para">
-                                            Submit a sketch or an image you would like us to follow, If you need help fine tunning your idea, we have a network of great designers we can put you in contact with.
+                                            Submit a sketch or an image you would like us to follow, If you need help
+                                            fine tunning your idea, we have a network of great designers we can put you
+                                            in contact with.
                                         </p>
                                     </div>
                                 </div>
@@ -409,7 +435,8 @@
                                             Quote
                                         </p>
                                         <p class="item1__info__mob--para">
-                                            Once we revise your final concept, we will give you a full pacakge quote. By full pacakge, we mean all inclusive. No surprises.
+                                            Once we revise your final concept, we will give you a full pacakge quote. By
+                                            full pacakge, we mean all inclusive. No surprises.
                                         </p>
                                     </div>
                                 </div>
@@ -435,7 +462,8 @@
                                             Place an order
                                         </p>
                                         <p class="item1__info__mob--para">
-                                            If you choose to go forward, we will send you an invoice for a down payment to begin with a prototype.
+                                            If you choose to go forward, we will send you an invoice for a down payment
+                                            to begin with a prototype.
                                         </p>
                                     </div>
                                 </div>
@@ -478,7 +506,7 @@
                 Why us?
             </div>
             <div class="why-us-cards">
-               <div class="gallery js-flickity "
+                <div class="gallery js-flickity "
                     data-flickity='{"draggable": true, "freeScroll": true, "contain": true,  "pageDots": false}'>
                     <div class="gallery-cell">
                         <div class="why-us-card">
@@ -487,7 +515,8 @@
                                     Quality
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We strive to make sure any apparel produced by us or has our name associated is considered the industry's best. 
+                                    We strive to make sure any apparel produced by us or has our name associated is
+                                    considered the industry's best.
                                 </div>
 
                             </div>
@@ -501,7 +530,8 @@
                                     Cost
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We think in the long-term and see our customers as an investment. Meaning we are flexible, will lower our margin, and help in every way possible.
+                                    We think in the long-term and see our customers as an investment. Meaning we are
+                                    flexible, will lower our margin, and help in every way possible.
                                 </div>
 
                             </div>
@@ -515,7 +545,8 @@
                                     Startups
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We get the hardship that comes with building a clothing brand. That's why we give emerging brands extra TLC, after all, we were once you.
+                                    We get the hardship that comes with building a clothing brand. That's why we give
+                                    emerging brands extra TLC, after all, we were once you.
                                 </div>
 
                             </div>
@@ -529,7 +560,8 @@
                                     Honesty
                                 </div>
                                 <div class="why-us__info--desc">
-                                    It’s simple. “Don't do unto others what you don't want done unto you.” If we can’t do it for whatever reason, we’ll tell you. 
+                                    It’s simple. “Don't do unto others what you don't want done unto you.” If we can’t
+                                    do it for whatever reason, we’ll tell you.
                                 </div>
                             </div>
                         </div>
@@ -541,7 +573,8 @@
                                     No Agency
                                 </div>
                                 <div class="why-us__info--desc">
-                                    No excessive markups. No consulting fees. No sourcing fee or any other fee. We go above and beyond to make sure our customers win. 
+                                    No excessive markups. No consulting fees. No sourcing fee or any other fee. We go
+                                    above and beyond to make sure our customers win.
                                 </div>
                             </div>
                         </div>
@@ -553,7 +586,8 @@
                                     Reward
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We're the only one in the industry to offer customers a $0 development fee. It's our way of saying we're in it with you.
+                                    We're the only one in the industry to offer customers a $0 development fee. It's our
+                                    way of saying we're in it with you.
                                 </div>
                             </div>
                         </div>
@@ -565,7 +599,8 @@
                                     Experience
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We're co-founders with a combined apparel manufacturing experience of 150+ yrs. Which means we can make the impossible possible.
+                                    We're co-founders with a combined apparel manufacturing experience of 150+ yrs.
+                                    Which means we can make the impossible possible.
                                 </div>
                             </div>
                         </div>
@@ -577,7 +612,8 @@
                                     Communication
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We have formed a process that gives our customers clarity and takes care of all your needs in any way possible. We'll walk you through it in our introduction meeting.
+                                    We have formed a process that gives our customers clarity and takes care of all your
+                                    needs in any way possible. We'll walk you through it in our introduction meeting.
                                 </div>
                             </div>
                         </div>
@@ -589,7 +625,8 @@
                                     Values
                                 </div>
                                 <div class="why-us__info--desc">
-                                    We make sure ethical and eco-friendly garment manufacturing practices are exercised throughout our supply chain.
+                                    We make sure ethical and eco-friendly garment manufacturing practices are exercised
+                                    throughout our supply chain.
                                 </div>
                             </div>
                         </div>
@@ -600,7 +637,7 @@
             </div>
         </section>
 
-        <section class="raving">
+        <section id="testimonial-section" class="raving">
             <div class="raving-heading">
                 Why brands are<br>
                 raving about AVendors
@@ -612,43 +649,7 @@
                 <div class="gallery js-flickity"
                     data-flickity='{ "freeScroll": true, "contain": true,  "pageDots": false}'>
 
-
-
-                    <div class="gallery-cell">
-                        <div class="raving-card">
-                            <div class="raving-card__image">
-                                <img src="../images/testimonials/Rob G.webp">
-                            </div>
-                            <div class="raving-card__info raving-card__info-color1">
-                                <div class="raving-card__info--desc">
-                                    AVendors instantly improved our business overnight. Hard to believe something that
-                                    seems so easy can alleviate such a complex problem. It's surreal. Looking back at
-                                    the amount of time, money, and energy we spent on development and manufacturing
-                                    basics makes me nauseous.
-                                </div>
-                                <div class="raving-card__info--name">
-                                    Rob G.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery-cell">
-                        <div class="raving-card">
-                            <div class="raving-card__image">
-                                <img src="../images/testimonials/Julie R.webp">
-                            </div>
-                            <div class="raving-card__info raving-card__info-color2">
-                                <div class="raving-card__info--desc">
-                                    AV is now our favorite go-to place. We draw so much inspiration and save so much
-                                    time and money in manufacturing. J'adore!!! AV is our go-to platform for all of our
-                                    basic staples.
-                                </div>
-                                <div class="raving-card__info--name">
-                                    Julie R.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="gallery-cell">
                         <div class="raving-card">
                             <div class="raving-card__image">
@@ -666,7 +667,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="gallery-cell">
                         <div class="raving-card">
                             <div class="raving-card__image">
@@ -718,22 +719,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gallery-cell">
-                        <div class="raving-card">
-                            <div class="raving-card__image">
-                                <img src="../images/testimonials/Melissa C.webp">
-                            </div>
-                            <div class="raving-card__info raving-card__info-color1">
-                                <div class="raving-card__info--desc">
-                                    With AVendors, we can basically create a new product as often as we like without
-                                    stress. It's remarkable how efficient they made our process.
-                                </div>
-                                <div class="raving-card__info--name">
-                                    Melissa C.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="gallery-cell">
                         <div class="raving-card">
                             <div class="raving-card__image">
@@ -775,7 +761,21 @@
 
             <div class="quality-video">
 
-                <script src="https://fast.wistia.com/embed/medias/1rmv8v6efv.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1rmv8v6efv videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/1rmv8v6efv/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+                <script src="https://fast.wistia.com/embed/medias/1rmv8v6efv.jsonp" async></script>
+                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                    <div class="wistia_responsive_wrapper"
+                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                        <div class="wistia_embed wistia_async_1rmv8v6efv videoFoam=true"
+                            style="height:100%;position:relative;width:100%">
+                            <div class="wistia_swatch"
+                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
+                                <img src="https://fast.wistia.com/embed/medias/1rmv8v6efv/swatch"
+                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt=""
+                                    aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -842,7 +842,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
 
 
                 </section>
@@ -1090,7 +1090,7 @@
                     </div>
                 </div>
             </div>
-            <div class="join-com">
+            <div id="faq-section" class="join-com">
                 Join our<br>
                 community
             </div>
@@ -1105,18 +1105,20 @@
         </section>
         <section class="join-us">
             <div class="learn-more">
-                Learn more!  
-               
+                Learn more!
+
             </div>
             <div class="join-us-ques">
                 <div id="accordion2">
                     <div class="card2">
                         <div class="card-header card-header-join" id="collapsegoneHead">
-                            <h5 class="mb-0">   
+                            <h5 class="mb-0">
                                 <button id="collapsegone-button" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone" aria-expanded="true" aria-controls="collapsegone">
-                                    <i id="collapsegone-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     Who is AVendors for?
                                 </button>
                             </h5>
@@ -1125,14 +1127,16 @@
                         <div id="collapsegone" class="collapse" aria-labelledby="collapsegoneHead"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                AVendors is best for brands looking for a quality clothing manufacturer in the USA. If you have been doing your own,
+                                AVendors is best for brands looking for a quality clothing manufacturer in the USA. If
+                                you have been doing your own,
                                 <ol type="1" style="margin-bottom: 0;">
                                     <li> Apparel manufacturing </li>
                                     <li>Use third-party apparel factories </li>
                                     <li>Using Merch blanks to get by or </li>
                                     <li>Serious about building a brand</li>
                                 </ol>
-                                then you've come to the right apparel manufacturer. We eliminate the friction and the headache that comes with garment manufacturing. 
+                                then you've come to the right apparel manufacturer. We eliminate the friction and the
+                                headache that comes with garment manufacturing.
 
                             </div>
                         </div>
@@ -1142,8 +1146,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button2" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone2" aria-expanded="true" aria-controls="collapsegone2">
-                                    <i id="collapsegone2-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone2-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone2-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone2-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     What do I need to get started?
                                 </button>
                             </h5>
@@ -1152,14 +1158,16 @@
                         <div id="collapsegone2" class="collapse" aria-labelledby="collapsegoneHead2"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                There are two ways you can get started. 
+                                There are two ways you can get started.
                                 <ol type="1" style="margin-bottom: 0;">
-                                <li>
-                                    If you are very new and have no idea what to expect then we will guide you through the process before you begin.
-                                </li>    
-                                <li>
-                                    If you have your project ready, then email us what it is that you have and we will get back to you with a quote or the best way to proceed.
-                                </li>
+                                    <li>
+                                        If you are very new and have no idea what to expect then we will guide you
+                                        through the process before you begin.
+                                    </li>
+                                    <li>
+                                        If you have your project ready, then email us what it is that you have and we
+                                        will get back to you with a quote or the best way to proceed.
+                                    </li>
                                 </ol>
                             </div>
                         </div>
@@ -1169,8 +1177,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button3" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone3" aria-expanded="true" aria-controls="collapsegone3">
-                                    <i id="collapsegone3-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone3-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone3-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone3-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     What services do you offer?
                                 </button>
                             </h5>
@@ -1179,7 +1189,10 @@
                         <div id="collapsegone3" class="collapse" aria-labelledby="collapsegoneHead3"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                We offer full package garment manufacturing. But if you already have part of your garment manufacturing done elsewhere, we can pick up where you left off. Also if you just want us to help with a certain part of the apparel manufacturing process, such as...
+                                We offer full package garment manufacturing. But if you already have part of your
+                                garment manufacturing done elsewhere, we can pick up where you left off. Also if you
+                                just want us to help with a certain part of the apparel manufacturing process, such
+                                as...
                                 <ul>
                                     <li>Grading</li>
                                     <li>Marking</li>
@@ -1197,8 +1210,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button4" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone4" aria-expanded="true" aria-controls="collapsegone4">
-                                    <i id="collapsegone4-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone4-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone4-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone4-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     What is full package manufacturing?
                                 </button>
                             </h5>
@@ -1207,7 +1222,9 @@
                         <div id="collapsegone4" class="collapse" aria-labelledby="collapsegoneHead4"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                Full package garment manufacturing means taking a concept from an idea all the way to mass production. It also means the apparel manufacturer is capable of making the following,
+                                Full package garment manufacturing means taking a concept from an idea all the way to
+                                mass production. It also means the apparel manufacturer is capable of making the
+                                following,
                                 <ul>
                                     <li>Fabric</li>
                                     <li>Dying</li>
@@ -1215,13 +1232,21 @@
                                     <li>Finishing</li>
                                     <li>Decoration</li>
                                 </ul>
-                                In full package garment manufacturing the brand gets transparent pricing without having any surprises. Based on our 150+ yrs of collective experience, we have heard it all. Brands that don't use full package apparel manufacturers assume the price was X and in the end, it turned out to be 2-3X. So, when an apparel factory tells you, the following use it as a signal to look for someone else.
+                                In full package garment manufacturing the brand gets transparent pricing without having
+                                any surprises. Based on our 150+ yrs of collective experience, we have heard it all.
+                                Brands that don't use full package apparel manufacturers assume the price was X and in
+                                the end, it turned out to be 2-3X. So, when an apparel factory tells you, the following
+                                use it as a signal to look for someone else.
                                 <ol type="1" style="margin-bottom: 0;">
-                                <li>We can help you source your fabric but it will cost you $X per hour.</li>
-                                <li>We won't know until your sample is made.</li>
-                                <li>We charge for consultation in order to let you know. haha smh. We heard it all.</li>
+                                    <li>We can help you source your fabric but it will cost you $X per hour.</li>
+                                    <li>We won't know until your sample is made.</li>
+                                    <li>We charge for consultation in order to let you know. haha smh. We heard it all.
+                                    </li>
                                 </ol>
-                                As far as we're concerned, as long as you have an image or sketch and have an idea of the material, we will provide you with a very close quote. If you don't know how to begin or need more info prior, call us, and we will walk you through the process free of charge.
+                                As far as we're concerned, as long as you have an image or sketch and have an idea of
+                                the material, we will provide you with a very close quote. If you don't know how to
+                                begin or need more info prior, call us, and we will walk you through the process free of
+                                charge.
                             </div>
                         </div>
                     </div>
@@ -1230,8 +1255,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button5" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone5" aria-expanded="true" aria-controls="collapsegone5">
-                                    <i id="collapsegone5-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone5-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone5-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone5-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     What type of garment do you specialize in?
                                 </button>
                             </h5>
@@ -1240,12 +1267,15 @@
                         <div id="collapsegone5" class="collapse" aria-labelledby="collapsegoneHead5"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                Great question. Not all apparel manufacturers are equipped to produce all types of garments. As far as AVendors goes, we specialize in loungewear, casual wear, athletic wear, and contemporary dresses. To give you a little more clarity, let's list an example of brands for each category.
+                                Great question. Not all apparel manufacturers are equipped to produce all types of
+                                garments. As far as AVendors goes, we specialize in loungewear, casual wear, athletic
+                                wear, and contemporary dresses. To give you a little more clarity, let's list an example
+                                of brands for each category.
                                 <ol type="1" style="margin-bottom: 0;">
-                                <li><b>Loungewear brands</b>: Aviator nation, Sundry, Lunya</li>   
-                                <li><b>Casual wear brands</b>: Everlane, Madewell</li> 
-                                <li><b>Athletic wear brands</b>: Lululemon, Alo yoga</li>
-                                <li><b>Contemporary brands</b>: Reformation, Revolve</li>
+                                    <li><b>Loungewear brands</b>: Aviator nation, Sundry, Lunya</li>
+                                    <li><b>Casual wear brands</b>: Everlane, Madewell</li>
+                                    <li><b>Athletic wear brands</b>: Lululemon, Alo yoga</li>
+                                    <li><b>Contemporary brands</b>: Reformation, Revolve</li>
                                 </ol>
                             </div>
                         </div>
@@ -1255,8 +1285,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button6" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone6" aria-expanded="true" aria-controls="collapsegone6">
-                                    <i id="collapsegone6-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone6-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone6-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone6-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     How does sampling work?
                                 </button>
                             </h5>
@@ -1265,7 +1297,10 @@
                         <div id="collapsegone6" class="collapse" aria-labelledby="collapsegoneHead6"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                Once you submit your project, we will do a sample for you to approve. If a revision is needed, we'll do another sample before starting the apparel production process. Unlike other factories, we credit emerging brands up to 90% of their sample fee towards their production.
+                                Once you submit your project, we will do a sample for you to approve. If a revision is
+                                needed, we'll do another sample before starting the apparel production process. Unlike
+                                other factories, we credit emerging brands up to 90% of their sample fee towards their
+                                production.
                             </div>
                         </div>
                     </div>
@@ -1274,8 +1309,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button7" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone7" aria-expanded="true" aria-controls="collapsegone7">
-                                    <i id="collapsegone7-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone7-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone7-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone7-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     What's included in my development cost?
                                 </button>
                             </h5>
@@ -1284,7 +1321,8 @@
                         <div id="collapsegone7" class="collapse" aria-labelledby="collapsegoneHead7"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                Pattern, fabric, dye, cut, sew, and any other requirements you have such as graphic printing, embroidery, etc.
+                                Pattern, fabric, dye, cut, sew, and any other requirements you have such as graphic
+                                printing, embroidery, etc.
                             </div>
                         </div>
                     </div>
@@ -1293,8 +1331,10 @@
                             <h5 class="mb-0">
                                 <button id="collapsegone-button8" class="btn" data-toggle="collapse"
                                     data-target="#collapsegone8" aria-expanded="true" aria-controls="collapsegone8">
-                                    <i id="collapsegone8-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                    <i id="collapsegone8-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                    <i id="collapsegone8-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                        aria-hidden="true"></i>
+                                    <i id="collapsegone8-button-up" class="fa fa-angle-down mr-collapse-join-us hide"
+                                        aria-hidden="true"></i>
                                     How much does appeal production cost?
                                 </button>
                             </h5>
@@ -1303,7 +1343,11 @@
                         <div id="collapsegone8" class="collapse" aria-labelledby="collapsegoneHead8"
                             data-parent="#accordion2">
                             <div class="card-body card-body-2">
-                                It varies by style and the material weight/content will also make a difference. It's like asking how much a car costs. It's impossible to answer unless you specify all the things you need. Once you've submitted your concept, we will give you a full-package quote. If you have a target price you need to be within, we will also provide you with a plan and the best approach to achieving those objectives.
+                                It varies by style and the material weight/content will also make a difference. It's
+                                like asking how much a car costs. It's impossible to answer unless you specify all the
+                                things you need. Once you've submitted your concept, we will give you a full-package
+                                quote. If you have a target price you need to be within, we will also provide you with a
+                                plan and the best approach to achieving those objectives.
                             </div>
                         </div>
                     </div>
@@ -1317,8 +1361,10 @@
                                 <h5 class="mb-0">
                                     <button id="collapsegone-button9" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone9" aria-expanded="true" aria-controls="collapsegone9">
-                                        <i id="collapsegone9-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone9-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone9-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone9-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         What are your payment terms?
                                     </button>
                                 </h5>
@@ -1327,7 +1373,8 @@
                             <div id="collapsegone9" class="collapse" aria-labelledby="collapsegoneHead9"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    We require a 50% down payment to start and the remaining 50% before shipment or pick up.
+                                    We require a 50% down payment to start and the remaining 50% before shipment or pick
+                                    up.
                                 </div>
                             </div>
                         </div>
@@ -1337,8 +1384,10 @@
                                     <button id="collapsegone-button10" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone10" aria-expanded="true"
                                         aria-controls="collapsegone10">
-                                        <i id="collapsegone10-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone10-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone10-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone10-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         What is your turnaround time?
                                     </button>
                                 </h5>
@@ -1347,7 +1396,10 @@
                             <div id="collapsegone10" class="collapse" aria-labelledby="collapsegoneHead10"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    On average, our apparel production turnaround time is around 4-6 weeks. Not to toot our own horn, but we're the fastest in the industry. But if you're just getting started, you may need more time to figure things out, therefore those R&D times prior do not get included in the lead time.
+                                    On average, our apparel production turnaround time is around 4-6 weeks. Not to toot
+                                    our own horn, but we're the fastest in the industry. But if you're just getting
+                                    started, you may need more time to figure things out, therefore those R&D times
+                                    prior do not get included in the lead time.
                                 </div>
                             </div>
                         </div>
@@ -1357,8 +1409,10 @@
                                     <button id="collapsegone-button11" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone11" aria-expanded="true"
                                         aria-controls="collapsegone11">
-                                        <i id="collapsegone11-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone11-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone11-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone11-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         How does AVendors compare?
                                     </button>
                                 </h5>
@@ -1367,7 +1421,10 @@
                             <div id="collapsegone11" class="collapse" aria-labelledby="collapsegoneHead11"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    We're pro entrepreneurs. Our company mission is to inspire and empower entrepreneurs. Therefore everything we do is with our mission in mind. As for competitors, we don't think about them much, we're too busy making sure our customers get the highest apparel production quality and customer service.
+                                    We're pro entrepreneurs. Our company mission is to inspire and empower
+                                    entrepreneurs. Therefore everything we do is with our mission in mind. As for
+                                    competitors, we don't think about them much, we're too busy making sure our
+                                    customers get the highest apparel production quality and customer service.
                                 </div>
                             </div>
                         </div>
@@ -1377,8 +1434,10 @@
                                     <button id="collapsegone-button12" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone12" aria-expanded="true"
                                         aria-controls="collapsegone12">
-                                        <i id="collapsegone12-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone12-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone12-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone12-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         How does AVendors measure quality?
                                     </button>
                                 </h5>
@@ -1387,7 +1446,11 @@
                             <div id="collapsegone12" class="collapse" aria-labelledby="collapsegoneHead12"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    We look at the entire garment manufacturing supply chain starting from the quality of the raw material to construction quality, dye quality, and finishing quality. We're the only apparel factory that uses these metrics to validate quality. We do this simply because our customers are designer brands and we make sure their customers end up with the best quality clothes.
+                                    We look at the entire garment manufacturing supply chain starting from the quality
+                                    of the raw material to construction quality, dye quality, and finishing quality.
+                                    We're the only apparel factory that uses these metrics to validate quality. We do
+                                    this simply because our customers are designer brands and we make sure their
+                                    customers end up with the best quality clothes.
                                 </div>
                             </div>
                         </div>
@@ -1397,8 +1460,10 @@
                                     <button id="collapsegone-button13" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone13" aria-expanded="true"
                                         aria-controls="collapsegone13">
-                                        <i id="collapsegone13-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone13-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone13-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone13-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         What are AVendors manufacturing values?
                                     </button>
                                 </h5>
@@ -1407,7 +1472,11 @@
                             <div id="collapsegone13" class="collapse" aria-labelledby="collapsegoneHead13"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    We simply like to see ethical and sustainable practices being used throughout the apparel manufacturing supply chain. Unlike other tasks, this is not something you can set and forget. Taking care of your employees, customers and the planet is a never-ending process but we LOVEEEEE it. Therefore as a team, we're constantly learning and monitoring all areas we can improve on. 
+                                    We simply like to see ethical and sustainable practices being used throughout the
+                                    apparel manufacturing supply chain. Unlike other tasks, this is not something you
+                                    can set and forget. Taking care of your employees, customers and the planet is a
+                                    never-ending process but we LOVEEEEE it. Therefore as a team, we're constantly
+                                    learning and monitoring all areas we can improve on.
                                 </div>
                             </div>
                         </div>
@@ -1418,8 +1487,10 @@
                                     <button id="collapsegone-button14" class="btn" data-toggle="collapse"
                                         data-target="#collapsegone14" aria-expanded="true"
                                         aria-controls="collapsegone14">
-                                        <i id="collapsegone14-button-down" class="fa fa-angle-right mr-collapse-join-us" aria-hidden="true"></i> 
-                                        <i id="collapsegone14-button-up" class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>  
+                                        <i id="collapsegone14-button-down" class="fa fa-angle-right mr-collapse-join-us"
+                                            aria-hidden="true"></i>
+                                        <i id="collapsegone14-button-up"
+                                            class="fa fa-angle-down mr-collapse-join-us hide" aria-hidden="true"></i>
                                         Do you work with international brands?
                                     </button>
                                 </h5>
@@ -1428,11 +1499,12 @@
                             <div id="collapsegone14" class="collapse" aria-labelledby="collapsegoneHead14"
                                 data-parent="#accordion2">
                                 <div class="card-body card-body-2">
-                                    Yes, we have customers in Paris, Tokyo, London, Dubai, and many more countries. If needed we can also fly our design team when needed.
+                                    Yes, we have customers in Paris, Tokyo, London, Dubai, and many more countries. If
+                                    needed we can also fly our design team when needed.
                                 </div>
                             </div>
                         </div>
-                       
+
 
                     </div>
 
@@ -1531,6 +1603,8 @@
     <!-- Importing Carousel -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- Importing Carousel -->
+
+    <script src="../shared.js"></script>
 
     <!-- Horizontal Carousel -->
     <script>
@@ -1675,37 +1749,37 @@
 
         $('#collapsegone-button').click(function () {
             $('#collapsegone').collapse('toggle')
-            if ($('#collapsegone-button-up').hasClass('hide')){
+            if ($('#collapsegone-button-up').hasClass('hide')) {
                 $('#collapsegone-button-up').removeClass('hide')
                 $('#collapsegone-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone-button-up').addClass('hide')
                 $('#collapsegone-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button1').click(function () {
             $('#collapsegone1').collapse('toggle')
-           
+
         });
         $('#collapsegone-button2').click(function () {
             $('#collapsegone2').collapse('toggle')
-            if ($('#collapsegone2-button-up').hasClass('hide')){
+            if ($('#collapsegone2-button-up').hasClass('hide')) {
                 $('#collapsegone2-button-up').removeClass('hide')
                 $('#collapsegone2-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone2-button-up').addClass('hide')
                 $('#collapsegone2-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button3').click(function () {
             $('#collapsegone3').collapse('toggle');
-            if ($('#collapsegone3-button-up').hasClass('hide')){
+            if ($('#collapsegone3-button-up').hasClass('hide')) {
                 $('#collapsegone3-button-up').removeClass('hide')
                 $('#collapsegone3-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone3-button-up').addClass('hide')
                 $('#collapsegone3-button-down').removeClass('hide')
             }
@@ -1713,132 +1787,132 @@
 
         $('#collapsegone-button4').click(function () {
             $('#collapsegone4').collapse('toggle')
-            if ($('#collapsegone4-button-up').hasClass('hide')){
+            if ($('#collapsegone4-button-up').hasClass('hide')) {
                 $('#collapsegone4-button-up').removeClass('hide')
                 $('#collapsegone4-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone4-button-up').addClass('hide')
                 $('#collapsegone4-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button5').click(function () {
             $('#collapsegone5').collapse('toggle')
-            if ($('#collapsegone5-button-up').hasClass('hide')){
+            if ($('#collapsegone5-button-up').hasClass('hide')) {
                 $('#collapsegone5-button-up').removeClass('hide')
                 $('#collapsegone5-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone5-button-up').addClass('hide')
                 $('#collapsegone5-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button6').click(function () {
             $('#collapsegone6').collapse('toggle')
-            if ($('#collapsegone6-button-up').hasClass('hide')){
+            if ($('#collapsegone6-button-up').hasClass('hide')) {
                 $('#collapsegone6-button-up').removeClass('hide')
                 $('#collapsegone6-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone6-button-up').addClass('hide')
                 $('#collapsegone6-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button7').click(function () {
             $('#collapsegone7').collapse('toggle')
-            if ($('#collapsegone7-button-up').hasClass('hide')){
+            if ($('#collapsegone7-button-up').hasClass('hide')) {
                 $('#collapsegone7-button-up').removeClass('hide')
                 $('#collapsegone7-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone7-button-up').addClass('hide')
                 $('#collapsegone7-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button8').click(function () {
             $('#collapsegone8').collapse('toggle')
-            if ($('#collapsegone8-button-up').hasClass('hide')){
+            if ($('#collapsegone8-button-up').hasClass('hide')) {
                 $('#collapsegone8-button-up').removeClass('hide')
                 $('#collapsegone8-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone8-button-up').addClass('hide')
                 $('#collapsegone8-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button9').click(function () {
             $('#collapsegone9').collapse('toggle')
-            if ($('#collapsegone9-button-up').hasClass('hide')){
+            if ($('#collapsegone9-button-up').hasClass('hide')) {
                 $('#collapsegone9-button-up').removeClass('hide')
                 $('#collapsegone9-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone9-button-up').addClass('hide')
                 $('#collapsegone9-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button10').click(function () {
             $('#collapsegone10').collapse('toggle')
-            if ($('#collapsegone10-button-up').hasClass('hide')){
+            if ($('#collapsegone10-button-up').hasClass('hide')) {
                 $('#collapsegone10-button-up').removeClass('hide')
                 $('#collapsegone10-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone10-button-up').addClass('hide')
                 $('#collapsegone10-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button11').click(function () {
             $('#collapsegone11').collapse('toggle')
-            if ($('#collapsegone11-button-up').hasClass('hide')){
+            if ($('#collapsegone11-button-up').hasClass('hide')) {
                 $('#collapsegone11-button-up').removeClass('hide')
                 $('#collapsegone11-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone11-button-up').addClass('hide')
                 $('#collapsegone11-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button12').click(function () {
             $('#collapsegone12').collapse('toggle')
-            if ($('#collapsegone12-button-up').hasClass('hide')){
+            if ($('#collapsegone12-button-up').hasClass('hide')) {
                 $('#collapsegone12-button-up').removeClass('hide')
                 $('#collapsegone12-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone12-button-up').addClass('hide')
                 $('#collapsegone12-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button13').click(function () {
             $('#collapsegone13').collapse('toggle')
-            if ($('#collapsegone13-button-up').hasClass('hide')){
+            if ($('#collapsegone13-button-up').hasClass('hide')) {
                 $('#collapsegone13-button-up').removeClass('hide')
                 $('#collapsegone13-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone13-button-up').addClass('hide')
                 $('#collapsegone13-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button14').click(function () {
             $('#collapsegone14').collapse('toggle')
-            if ($('#collapsegone14-button-up').hasClass('hide')){
+            if ($('#collapsegone14-button-up').hasClass('hide')) {
                 $('#collapsegone14-button-up').removeClass('hide')
                 $('#collapsegone14-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone14-button-up').addClass('hide')
                 $('#collapsegone14-button-down').removeClass('hide')
             }
         });
         $('#collapsegone-button15').click(function () {
             $('#collapsegone15').collapse('toggle')
-            if ($('#collapsegone15-button-up').hasClass('hide')){
+            if ($('#collapsegone15-button-up').hasClass('hide')) {
                 $('#collapsegone15-button-up').removeClass('hide')
                 $('#collapsegone15-button-down').addClass('hide')
             }
-            else{
+            else {
                 $('#collapsegone15-button-up').addClass('hide')
                 $('#collapsegone15-button-down').removeClass('hide')
             }
@@ -1875,60 +1949,57 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-<script>
-    const validateEmail = (email) => {
-  return email.match(
-    /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  );
-};
+    <script>
+        const validateEmail = (email) => {
+            return email.match(
+                /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            );
+        };
 
-    async function validateForm() {
-      let email = document.getElementById('enter-email').value;
-      if (email == "") {
-        alert("Email must be filled out");
-        return false;
-      }
-      else if (validateEmail(email)){
-        var obj={
-        html:` You have a Client form.<br><br> 
-        <h3>Details are</h3>
-        <ul style="list-style-type:none;">
-        <li>Email: ${email}<br></li>
-        </ul>`,
-        subject:'Client form (Only email)'
-      }
-      console.log('Here')
+        async function validateForm() {
+            let email = document.getElementById('enter-email').value;
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            else if (validateEmail(email)) {
+                
+                var obj = {
+                    html: ` You have a Custom Client form.<br><br> 
+                            <h3>Details are</h3>
+                            <ul style="list-style-type:none;">
+                            <li>Email: ${email}<br></li>
+                            </ul>`,
+                    subject: 'Custom Client form (Only email)'
+                }
 
-    //   let res = await axios.post('http://httpbin.org/post', payload);
+                axios({
+                    method: 'post',
+                    url: 'https://app.avendors.com/api/user/addHubSpotStep1Custom',
+                    data: {
+                        email: email,
+                        url:window.location.href
+                    }
+                })
+                    .then(function (response) {
+                        axios({
+                            method: 'post',
+                            url: 'https://app.avendors.com/api/user/contactusmailCustomBody',
+                            data: obj
+                        })
+                            .then(function (response) {
+                                $('#email-pop-up')[0].click();
+                            });
 
-    //   console.log(res);
+                    });
 
-    axios({
-        method: 'post',
-        url: 'https://app.avendors.com/api/user/addHubSpotStep1',
-        data: {
-            email:email
+
+
+            }
+            else {
+                alert("Email must be valid");
+            }
         }
-        })
-        .then(function (response) {
-            axios({
-        method: 'post',
-        url: 'https://app.avendors.com/api/user/contactusmailCustomBody',
-        data: obj
-        })
-        .then(function (response) {
-            window.location.href = "https://avendors.com/customer/form";
-        });
-
-        });
-
-     
-       
-      }
-      else{
-        alert("Email must be valid");
-      }
-    }
     </script>
 
 

@@ -48,11 +48,27 @@
 </head>
 
 <body class="body" onload="bodyOnLoad()">
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-KR873TD” height=“0" width=“0”
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-KR873TD” height=“0" width=“0”
             style=“display:none;visibility:hidden”></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+    <div class="backdrop"></div>
+
+    <nav class="mobile-nav">
+        <div class="mob-nav">
+        <div class="main-header__item item1 margin-bottom" onclick="location.href='https://avendors.com/login'">
+            Login
+        </div>
+        <div class="main-header__item item2">
+            <button onclick="location.href='https://avendors.com/buyer-register-step2'" type="button">
+
+                Sign up
+
+            </button>
+        </div>
+    </nav>
 
     <header class="header">
         <div class="main-header">
@@ -73,7 +89,7 @@
             </div>
             <div class="main-header__items hide-desktop">
                 <div class="main-header__item item2">
-                    <img src="images/Group 91.svg">
+                    <img id="toggle-mobile-nav" src="images/Group 91.svg">
                 </div>
             </div>
         </div>
@@ -184,7 +200,7 @@
                 How it works?
             </div> -->
 
-            <div class="brands-illustration__container hide-tablet">
+            <div id="company" class="brands-illustration__container hide-tablet">
                 <div class="brands-illustration__accordian">
                     <div class="item1 display-flex-helper2">
                         <button id="button_accordian_1" type="button"
@@ -813,7 +829,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gallery-cell">
+                    <!-- <div class="gallery-cell">
                         <div class="raving-card">
                             <div class="raving-card__image">
                                 <img src="images/testimonials/Melissa C.webp">
@@ -828,7 +844,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="gallery-cell">
                         <div class="raving-card">
                             <div class="raving-card__image">
@@ -1704,6 +1720,8 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- Importing Carousel -->
 
+    <script src="shared.js"></script>
+
     <!-- Horizontal Carousel -->
     <script>
         // $("[data-toggle='toggle']").click(function () {
@@ -2079,7 +2097,8 @@
         method: 'post',
         url: 'https://app.avendors.com/api/user/addHubSpotStep1',
         data: {
-            email:email
+            email:email,
+            url:window.location.href
         }
         })
         .then(function (response) {
