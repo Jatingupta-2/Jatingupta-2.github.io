@@ -105,7 +105,7 @@
                 <div class="col-lg-6 col-md-12 brands-section__col1">
                     <div class="brands-section__col brands-section-margin-left">
                         <div class="brands-section__nothing">
-                            <img src="../images/Group 255.svg">
+                            <img src="../images/Group 120.svg">
                         </div>
                         <div class="brands-section-info">
                             <p>
@@ -121,7 +121,7 @@
                             <button onclick="return validateForm()">
                                 Contact us
                             </button>
-                            <a id="email-pop-up" href = "mailto: mike@avendorz.com"></a>
+                            <a id="email-pop-up" href = "mailto: mike@avendorz.com?subject=How Can we help you?"></a>
                         </div>
 
                     </div>
@@ -1957,6 +1957,7 @@
         };
 
         async function validateForm() {
+
             let email = document.getElementById('enter-email').value;
             if (email == "") {
                 alert("Email must be filled out");
