@@ -64,8 +64,13 @@
             <div class="main-header__item item1 margin-bottom close-modal">
                 <a href="#testimonial-section">Testimonials</a>
             </div>
-            <div class="main-header__item item2 ">
-                <button type="button" class="close-modal">
+            <div class="main-header__item item2">
+                <button type="button" class="close-modal" onclick="location.href='https://app.avendors.com/customer/meeting'">
+                    Book a meeting
+                </button>
+            </div>
+            <div class="main-header__item item2 contact-us">
+                <button type="button" class="close-modal" onclick="location.href='https://app.avendors.com/customer/form/custom'">
                     Contact us
                 </button>
             </div>
@@ -84,7 +89,12 @@
                     <a href="#testimonial-section">Testimonials</a>
                 </div>
                 <div class="main-header__item item2">
-                    <button type="button">
+                    <button type="button" onclick="location.href='https://app.avendors.com/customer/meeting'">
+                        Book a meeting
+                    </button>
+                </div>
+                <div class="main-header__item item2 contact-us">
+                    <button type="button" onclick="location.href='https://app.avendors.com/customer/form/custom'">
                         Contact us
                     </button>
                 </div>
@@ -116,11 +126,17 @@
                             </p>
                         </div>
                         <div class="brands-section-email">
-                            <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email">
-                            <!-- onclick="location.href='https://avendors.com/customer/form'" -->
-                            <button onclick="return validateForm()">
+                            <button class="mr-2 contact-us" onclick="location.href='https://app.avendors.com/customer/form/custom'">
                                 Contact us
                             </button>
+                            <button class="bam"  onclick="location.href='https://app.avendors.com/customer/meeting'">
+                                Book a meeting
+                            </button>
+                            <!-- <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email"> -->
+                            <!-- onclick="location.href='https://app.avendors.com/customer/form'" -->
+                            <!-- <button onclick="return validateForm()">
+                                Contact us
+                            </button> -->
                             <a id="email-pop-up" href = "mailto: mike@avendorz.com?subject=How Can we help you?"></a>
                         </div>
 
@@ -207,17 +223,75 @@
             <div class="brands-illustration__container hide-tablet">
                 <div class="brands-illustration__accordian">
                     <div class="item1 display-flex-helper2">
-                        <button id="button_accordian_1" type="button"
-                            class="brands-illustration__accordian--heading border-left accordian_1" data-toggle="toggle"
-                            data-target="#item1">
+                        <button id="button_accordian_0" type="button"
+                            class="brands-illustration__accordian--heading border-left accordian_0" data-toggle="toggle"
+                            data-target="#item0">
                             <div class="bi_button_number">
                                 01
+                            </div>
+                            <div class="bi_button_text">
+                                Our customers 
+                            </div>
+                        </button>
+                        <div id="item0" class="carouselItem accordian_0 in ">
+                            <div class="item0__image">
+                                <img src="../images/mp4.webp">
+                            </div>
+                            <div class="item1__info">
+                                <div class="item1__info--heading">
+                                    Pricing
+                                </div>
+                                <p class="item1__info--para item0">
+                                    The quality we offer is not for everyone. See below if our price point is right for your brand. We’re using a standard t-shirt as an example to guide you.
+                                    <div class="options">
+                                        <img src="../images/carousel-right.svg">
+                                        <div class="options-content">
+                                            <span class="option-content-heading">Designer</span><br>
+                                            Ex; brand sell a standard t shirt <br>
+                                                between $40-60
+                                        </div>
+                                    </div>
+                                    <div class="options">
+                                        <img src="../images/carousel-right.svg">
+                                        <div class="options-content">
+                                            <span class="option-content-heading">Contemporary</span><br>
+                                            Ex; brand sell a standard t shirt <br>
+                                            between $30-40
+                                        </div>
+                                    </div>
+                                    <div class="options">
+                                        <img src="../images/carousel-cross.svg">
+                                        <div class="options-content">
+                                            <span class="option-content-heading">Budget or mass market</span><br>
+                                            Ex; brand sell a standard t shirt <br>
+                                            between $15-25
+                                        </div>
+                                    </div>
+
+                                     <div class="options">
+                                        <img src="../images/carousel-cross.svg">
+                                        <div class="options-content">
+                                            <span class="option-content-heading">Discount</span><br>
+                                            Ex; brand sell a standard t shirt <br>
+                                            between $5-10
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item1 display-flex-helper2">
+                        <button id="button_accordian_1" type="button"
+                            class="brands-illustration__accordian--heading accordian_1" data-toggle="toggle"
+                            data-target="#item1">
+                            <div class="bi_button_number">
+                                02
                             </div>
                             <div class="bi_button_text">
                                 How we work?
                             </div>
                         </button>
-                        <div id="item1" class="carouselItem accordian_1 in ">
+                        <div id="item1" class="carouselItem accordian_1 ">
                             <div class="item1__image">
                                 <img src="../images/biacc-1-custom.webp">
                             </div>
@@ -238,7 +312,7 @@
                             class="brands-illustration__accordian--heading accordian_2" data-toggle="toggle"
                             data-target="#item2">
                             <div class="bi_button_number">
-                                02
+                                03
                             </div>
                             <div class="bi_button_text">
                                 Get a quote
@@ -297,7 +371,7 @@
                             class="brands-illustration__accordian--heading accordian_3" data-toggle="toggle"
                             data-target="#item3">
                             <div class="bi_button_number">
-                                03
+                                04
                             </div>
                             <div class="bi_button_text">
                                 Place an order
@@ -323,7 +397,7 @@
                             class="brands-illustration__accordian--heading border-right accordian_4"
                             data-toggle="toggle" data-target="#item4">
                             <div class="bi_button_number">
-                                04
+                                05
                             </div>
                             <div class="bi_button_text">
                                 Begin production
@@ -351,13 +425,72 @@
             <div class="brands-illustration__container_mobile hide-desktop ">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header accordian_1 rounded-accordian" id="headingOne">
+                        <h2 class="accordion-header accordian_0 rounded-accordian" id="headingOne">
                             <button class="accordian-button-mobile" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <span>How we work?</span> <span>01</span>
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show accordian_1"
+                        <div id="collapseOne" class="accordion-collapse collapse show accordian_0"
+                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="accordian_mob_carousel accordian_0 in">
+                                    <div class="item1__image_mobile">
+                                        <img src="../images/mp4.webp">
+                                    </div>
+                                    <div class="item1__info item-mob">
+                                        <p class="item1__header__mob--para">
+                                            Pricing
+                                        </p>
+                                        <p class="item1__info__mob--para">
+                                            The quality we offer is not for everyone. See below if our price point is right for your brand. We’re using a standard t-shirt as an example to guide you.
+                                            <div class="options">
+                                                <img src="../images/carousel-right.svg">
+                                                <div class="options-content">
+                                                    <span class="option-content-heading">Designer</span><br>
+                                                    Ex; brand sell a standard t shirt <br>
+                                                        between $40-60
+                                                </div>
+                                            </div>
+                                            <div class="options">
+                                                <img src="../images/carousel-right.svg">
+                                                <div class="options-content">
+                                                    <span class="option-content-heading">Contemporary</span><br>
+                                                    Ex; brand sell a standard t shirt <br>
+                                                    between $30-40
+                                                </div>
+                                            </div>
+                                            <div class="options">
+                                                <img src="../images/carousel-cross.svg">
+                                                <div class="options-content">
+                                                    <span class="option-content-heading">Budget or mass market</span><br>
+                                                    Ex; brand sell a standard t shirt <br>
+                                                    between $15-25
+                                                </div>
+                                            </div>
+                                
+                                             <div class="options">
+                                                <img src="../images/carousel-cross.svg">
+                                                <div class="options-content">
+                                                    <span class="option-content-heading">Discount</span><br>
+                                                    Ex; brand sell a standard t shirt <br>
+                                                    between $5-10
+                                                </div>
+                                            </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header accordian_1 rounded-accordian" id="headingOne">
+                            <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <span>How we work?</span> <span>02</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse accordian_1"
                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="accordian_mob_carousel accordian_1 in">
@@ -383,7 +516,7 @@
                             <button id="collapseTwoButton" class="accordian-button-mobile collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                 aria-controls="collapseTwo">
-                                <span>Get a quote</span> <span>02</span>
+                                <span>Get a quote</span> <span>03</span>
                             </button>
                         </h2>
 
@@ -447,7 +580,7 @@
                         <h2 class="accordion-header rounded-accordian accordian_3" id="headingThree">
                             <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span>Place an order</span> <span>03</span>
+                                <span>Place an order</span> <span>04</span>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse accordian_3"
@@ -474,7 +607,7 @@
                         <h2 class="accordion-header rounded-accordian accordian_4" id="headingFour">
                             <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <span>Wow your customers</span> <span>04</span>
+                                <span>Wow your customers</span> <span>05</span>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse accordian_4"
@@ -744,7 +877,8 @@
             </div>
 
             <div class="raving-button">
-                <button class="get-started">Contact us</button>
+                <button class="get-started" onclick="location.href='https://app.avendors.com/customer/form/custom'">Contact us</button>
+                <button class="get-started bam" onclick="location.href='https://app.avendors.com/customer/meeting'">Book a meeting</button>
             </div>
         </section>
 
@@ -1519,8 +1653,13 @@
             </div>
 
             <div class="unlock-button">
-                <button class="get-started">Contact us</button>
+                <!-- <button class="get-started">Contact us</button> -->
+                <div class="raving-button">
+                    <button class="get-started" onclick="location.href='https://app.avendors.com/customer/form/custom'">Contact us</button>
+                    <button class="get-started bam" onclick="location.href='https://app.avendors.com/customer/meeting'">Book a meeting</button>
+                </div>
             </div>
+            
             <div class="unlock-change">
                 We’re changing the <br>
                 game, just like you.
@@ -1614,9 +1753,21 @@
         //     $(selector).toggleClass('in');
         // });
 
+        $("#button_accordian_0").click(function () {
+            if ($("#item0").hasClass('in')) { }
+            else {
+                $("#item1").removeClass('in')
+                $("#item2").removeClass('in')
+                $("#item3").removeClass('in')
+                $("#item4").removeClass('in')
+                $("#item0").addClass('in')
+            }
+        });
+
         $("#button_accordian_1").click(function () {
             if ($("#item1").hasClass('in')) { }
             else {
+                $("#item0").removeClass('in')
                 $("#item2").removeClass('in')
                 $("#item3").removeClass('in')
                 $("#item4").removeClass('in')
@@ -1627,6 +1778,7 @@
         $("#button_accordian_2").click(function () {
             if ($("#item2").hasClass('in')) { }
             else {
+                $("#item0").removeClass('in')
                 $("#item1").removeClass('in')
                 $("#item3").removeClass('in')
                 $("#item4").removeClass('in')
@@ -1637,6 +1789,7 @@
         $("#button_accordian_3").click(function () {
             if ($("#item3").hasClass('in')) { }
             else {
+                $("#item0").removeClass('in')
                 $("#item1").removeClass('in')
                 $("#item2").removeClass('in')
                 $("#item4").removeClass('in')
@@ -1647,6 +1800,7 @@
         $("#button_accordian_4").click(function () {
             if ($("#item4").hasClass('in')) { }
             else {
+                $("#item0").removeClass('in')
                 $("#item1").removeClass('in')
                 $("#item2").removeClass('in')
                 $("#item3").removeClass('in')
@@ -1920,14 +2074,14 @@
 
     </script>
 
-    <script>
+    <!-- <script>
         $('.get-started').click(function () {
             $('body,html').animate({
                 scrollTop: 0
             }, 10);
             return false;
         });
-    </script>
+    </script> -->
 
     <script>
 

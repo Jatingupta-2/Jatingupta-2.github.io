@@ -58,9 +58,14 @@
     border-radius: 6px;
     background: #31FFEA;
     color: #03488B;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     height: 3rem;
+    width: 10.6rem;
+  }
+
+  .main-header__item.item2.contact-us button{
+    background: #FFE700;
     width: 8.6rem;
   }
 
@@ -238,13 +243,16 @@
         height: 2.1rem;
     }
 
-    .main-header__item.item1{
+    .main-header__item.item1,
+    .main-header__item.item2{
      
       margin-bottom: 30px;
     }
+
   
     .main-header__item.item2 img{
       height: 1.4rem;
+      
   }
   }
 
