@@ -719,7 +719,7 @@ max-width: 250px;
 .raving-button button{
     background: #FFE700;
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     /* padding: 20px; */
     /* width: 240px; */
     width: 270px;
@@ -1002,6 +1002,7 @@ max-width: 250px;
     padding-left: 25px;
     line-height: 18px;
     font-size: 12px;
+    text-align: left;
 }
 
 @media (max-width:1550px){
@@ -1229,11 +1230,11 @@ max-width: 250px;
     }
 
     .brands-section{
-        padding: 0rem 2rem 1rem;
+        padding: 2.8rem 2rem 1rem;
     }
 
     .brands-section-email{
-        margin-top: 3.5rem;
+        margin-top: 1rem;
     }
 
     .brands-section-margin-left{
