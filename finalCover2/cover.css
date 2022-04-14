@@ -86,10 +86,11 @@
     padding: 1rem;
     font-size: 1rem;
     font-weight: 500;
-    margin-left: 15px;
+   
 }
 .brands-section-email button.bam{
     background: #31FFEA;
+    margin-left: 15px;
 }
 .brands-section-email input:focus-visible{
     /* border: none; */
@@ -1088,6 +1089,9 @@ max-width: 250px;
         width: 12rem;
         margin-left: 0;
     }
+    .brands-section-email button.bam{
+        margin-left: 0;
+    }
     
     .carouselItem.in{
         width: 550px;
@@ -1199,7 +1203,8 @@ max-width: 250px;
     }
 
     .options{
-        justify-content: center;
+        /* justify-content: center; */
+        margin-left: 12px;
     }
 
 }
@@ -1223,8 +1228,12 @@ max-width: 250px;
         line-height: 1.09rem;
     }
 
+    .brands-section{
+        padding: 0rem 2rem 1rem;
+    }
+
     .brands-section-email{
-        margin-top: 0.5rem;
+        margin-top: 3.5rem;
     }
 
     .brands-section-margin-left{
