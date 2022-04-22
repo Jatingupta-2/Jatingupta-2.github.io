@@ -55,6 +55,9 @@
     font-size: 1.25rem;
     line-height: 1.43rem;
 }
+.custom-body .brands-section-info p{
+    font-size: 1.15rem;
+}
 .brands-section-email{
     display: flex;
     margin-top: 1.5rem;
@@ -69,6 +72,7 @@
     border-radius: 5px;
     padding: 1rem;
     /* margin-top: 1rem; */
+    margin-right: 10px;
 }
 .brands-section-email input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #FCA96D;
@@ -157,6 +161,10 @@
     display: flex;
     margin: auto 0 auto 120px;
 
+}
+
+.custom-body .bi-carousel-title{
+    font-size: 1rem;
 }
 
 .bi-image{
@@ -732,16 +740,20 @@ max-width: 250px;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
 }
 
-.raving-button button.bam{
-    background: #31FFEA;
+.custom-body .raving-button button{
     margin-top: 25px;
 }
+
+.raving-button button.bam{
+    background: #31FFEA;
+    margin-top: 50px;
+}
 .unlock-button .raving-button button{
-    margin-top: 0;
+    margin-top: 25px;
 }
 
 .unlock-button .raving-button button.bam{
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .gallery{
@@ -1192,6 +1204,9 @@ max-width: 250px;
         min-width: 85px;
         margin-left: 90px;
     }
+    .custom-body .bi-carousel-title{
+        font-size: 0.75rem;
+    }
     .bi-carousel-col2{
         padding-left: 15px !important;
     }
@@ -1227,6 +1242,9 @@ max-width: 250px;
         letter-spacing: 0.4px;
         font-size: 0.94rem;
         line-height: 1.09rem;
+    }
+    .custom-body .brands-section-info p{
+        font-size: 0.85rem;
     }
 
     .brands-section{

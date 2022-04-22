@@ -46,6 +46,9 @@
   .main-header__item{
       margin: 0 0.8rem;
   }
+  .custom-body .main-header__item{
+    margin: 0 0.4rem;
+}
   .main-header__item.item1{
     font-size: 1.05rem;
     font-weight: 700;
@@ -61,12 +64,14 @@
     font-size: 1rem;
     font-weight: 700;
     height: 3rem;
-    width: 10.6rem;
+    /* width: 10.6rem; */
+    width: 150px;
   }
 
   .main-header__item.item2.contact-us button{
     background: #FFE700;
-    width: 8.6rem;
+    /* width: 8.6rem; */
+    width: 150px;
   }
 
   .main-header__item.item1 img{
@@ -84,6 +89,7 @@
   .main{
     overflow: hidden;
     margin-bottom: 3.75rem;
+    margin-top: -2px;
   }
 
   .footer{
