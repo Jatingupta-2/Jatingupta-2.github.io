@@ -844,6 +844,9 @@ max-width: 250px;
 .bi-container{
     padding: 1rem;
 }
+.custom-body .bi-container{
+    padding: 0 1rem 1rem;
+}
 .factory-logo{
     display: flex;
     justify-content: center;
@@ -1206,6 +1209,7 @@ max-width: 250px;
     }
     .custom-body .bi-carousel-title{
         font-size: 0.75rem;
+        height: 30px;
     }
     .bi-carousel-col2{
         padding-left: 15px !important;
