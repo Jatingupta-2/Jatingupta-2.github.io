@@ -2074,6 +2074,13 @@
 };
 
     async function validateForm() {
+
+        var url = window.location.href
+        var split_1_Url = url.split('&utm_campaign')[0]
+        var split_2_Url = split_1_Url.split('?')[1]
+
+              console.log(split_2_Url)
+
       let email = document.getElementById('enter-email').value;
       if (email == "") {
         alert("Email must be filled out");
@@ -2109,9 +2116,6 @@
         data: obj
         })
         .then(function (response) {
-            var url = window.location.href
-              var split_1_Url = url.split('&utm_campaign')[0]
-              var split_2_Url = split_1_Url.split('?')[1]
             window.location.href = `https://app.avendors.com/customer/form?${split_2_Url}`;
         });
 
