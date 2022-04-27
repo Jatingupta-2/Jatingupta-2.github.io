@@ -70,7 +70,7 @@
                 </button>
             </div>
             <div class="main-header__item item2 contact-us">
-                <button type="button" class="close-modal" onclick="location.href='https://app.avendors.com/customer/form/custom'">
+                <button type="button" class="close-modal redirect-customer-form">
                     Get Started
                 </button>
             </div>
@@ -94,7 +94,7 @@
                     </button>
                 </div>
                 <div class="main-header__item item2 contact-us">
-                    <button type="button" onclick="location.href='https://app.avendors.com/customer/form/custom'">
+                    <button type="button" class="redirect-customer-form">
                         Get Started
                     </button>
                 </div>
@@ -892,7 +892,7 @@
 
             <div class="raving-button">
                 <button class="get-started bam" onclick="location.href='https://app.avendors.com/customer/meeting'">Let’s Talk</button>
-                <button class="get-started" onclick="location.href='https://app.avendors.com/customer/form/custom'">Get Started</button>
+                <button class="get-started redirect-customer-form">Get Started</button>
                
             </div>
         </section>
@@ -1671,7 +1671,7 @@
                 <!-- <button class="get-started">Contact us</button> -->
                 <div class="raving-button">
                     <button class="get-started bam" onclick="location.href='https://app.avendors.com/customer/meeting'">Let’s Talk</button>
-                    <button class="get-started" onclick="location.href='https://app.avendors.com/customer/form/custom'">Get Started</button>
+                    <button class="get-started redirect-customer-form">Get Started</button>
                 </div>
             </div>
             
@@ -2172,6 +2172,17 @@
                 alert("Email must be valid");
             }
         }
+    </script>
+
+    <script>
+          $('.redirect-customer-form').click(function () {
+              var url = window.location.href
+              var split_1_Url = url.split('&utm_campaign')[0]
+              var split_2_Url = split_1_Url.split('?')[1]
+            //   console.log(split_2_Url)
+            window.location.href = `https://app.avendors.com/customer/form/custom?${split_2_Url}`;
+          })
+        
     </script>
 
 
