@@ -285,6 +285,9 @@
     align-items: center;
   }
 
+  .w-700{
+    font-weight: 700;
+  }
 
   .hide{
     display: none !important;

@@ -164,7 +164,12 @@
 }
 
 .custom-body .bi-carousel-title{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.custom-body .bi-carousel-col2{
+    margin-left: 20px;
+    width: 89%;
 }
 
 .bi-image{
@@ -429,6 +434,11 @@ max-width: 250px;
 
 .purple-round{
     background: #E4D3FF;
+}
+
+.purple-bold{
+    color: #6F3CFF;
+    font-weight: 700;
 }
 
 .why-us{
@@ -1072,6 +1082,10 @@ max-width: 250px;
     .bi-carousel-title{
         margin-left: 140px;
     }
+    .custom-body .bi-carousel-col2{
+        margin-left: 0;
+        width: 82%;
+    }
 }
 
 @media (max-width:1100px) {
@@ -1203,6 +1217,7 @@ max-width: 250px;
         width: auto;
         /* text-align: center; */
         font-size: 0.75rem;
+        font-weight: 600;
         line-height: 0.87rem;
         min-width: 85px;
         margin-left: 90px;
@@ -1214,6 +1229,7 @@ max-width: 250px;
     .bi-carousel-col2{
         padding-left: 15px !important;
     }
+   
     .bi-image{
         padding: 20px 0px;
         max-width: 250px;
