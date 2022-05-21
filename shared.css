@@ -301,3 +301,7 @@
   .margin-bottom{
     margin-bottom: 30px;
   }
+  .purple-bold{
+    color: #6F3CFF;
+    font-weight: 700;
+}
