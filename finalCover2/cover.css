@@ -15,7 +15,7 @@
 }
 
 .custom-body .brands-section{
-    background: url(../images/Vector\ 90Pink.svg);
+    background: url(../images/Vector90.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 20% bottom 0%;
@@ -1510,7 +1510,7 @@ max-width: 250px;
     }
 
     .custom-body .brands-section{
-        background: url(../images/Vector3_pink.svg) center/cover no-repeat border-box;
+        background: url(../images/Vector3.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
     }
     
