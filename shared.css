@@ -305,3 +305,7 @@
     color: #6F3CFF;
     font-weight: 700;
 }
+.bold_ul{
+  font-weight: 700;
+  text-decoration: underline;
+}
