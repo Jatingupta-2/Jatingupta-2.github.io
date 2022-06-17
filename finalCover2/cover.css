@@ -30,6 +30,9 @@
 .brands-section__nothing img{
     width: 410px;
 }
+.brands-section__nothing.ml{
+    margin-left: -13px;
+}
 /* .custom-body .brands-section__nothing img{
     width: 450px;
 } */

@@ -58,13 +58,13 @@
 
     <nav class="mobile-nav">
         <div class="mob-nav">
-        <div class="main-header__item item1 margin-bottom" onclick="location.href='https://app.avendors.com/login'">
+        <!-- <div class="main-header__item item1 margin-bottom" onclick="location.href='https://app.avendors.com/login'">
             Login
-        </div>
+        </div> -->
         <div class="main-header__item item2">
-            <button onclick="location.href='https://app.avendors.com/buyer-register-step2'" type="button">
+            <button onclick="location.href='https://app.avendors.com/login'" type="button">
 
-                Sign up
+                Login
 
             </button>
         </div>
@@ -76,13 +76,13 @@
                 <img src="images/Avendors1 1.svg">
             </div>
             <div class="main-header__items hide-tablet">
-                <div class="main-header__item item1" onclick="location.href='https://app.avendors.com/login'">
+                <!-- <div class="main-header__item item1" onclick="location.href='https://app.avendors.com/login'">
                     Login
-                </div>
+                </div> -->
                 <div class="main-header__item item2">
-                    <button onclick="location.href='https://app.avendors.com/buyer-register-step2'" type="button">
+                    <button onclick="location.href='https://app.avendors.com/login'" type="button">
 
-                        Sign up
+                        Login
 
                     </button>
                 </div>
@@ -102,7 +102,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 brands-section__col1">
                     <div class="brands-section__col brands-section-margin-left">
-                        <div class="brands-section__nothing">
+                        <div class="brands-section__nothing ml">
                             <!-- <img src="images/Group 120.svg"> -->
                             <img src="images/av-maintext.svg" />
                         </div>
@@ -2095,7 +2095,7 @@
         </ul>`,
         subject:'Client form (Only email)'
       }
-      console.log('Here')
+
 
     //   let res = await axios.post('http://httpbin.org/post', payload);
 
@@ -2103,7 +2103,7 @@
 
     axios({
         method: 'post',
-        url: 'https://app.avendors.com/api/user/addHubSpotStep1',
+        url: 'https://backend.avendors.com/api/v1/products/addHubSpotMainMarketingPage',
         data: {
             email:email,
             url:window.location.href
@@ -2112,11 +2112,11 @@
         .then(function (response) {
             axios({
         method: 'post',
-        url: 'https://app.avendors.com/api/user/contactusmailCustomBody',
+        url: 'https://backend.avendors.com/api/v1/products/rfq',
         data: obj
         })
         .then(function (response) {
-            window.location.href = `https://app.avendors.com/customer/form?${split_2_Url}`;
+            window.location.href = `https://app.avendors.com`;
         });
 
         });
