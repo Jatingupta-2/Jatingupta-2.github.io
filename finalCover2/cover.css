@@ -462,6 +462,9 @@ max-width: 250px;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
 }
+.raving.margintopraving{
+    margin-top: 3rem;
+}
 
 .raving-heading{
     padding-top: 4rem;
@@ -709,7 +712,7 @@ max-width: 250px;
     border-radius: 100px;
     /* padding: 20px; */
     height: 60px;
-    width: 270px;
+    width: 400px;
     font-size: 1.3rem;
     line-height: 1.88rem;
     font-weight: 500;
@@ -750,6 +753,13 @@ max-width: 250px;
     color: #03488B;
     margin-top: 50px;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
+}
+
+.raving-button.margintopraving button{
+    margin-top: 100px;
+}
+.raving-button.margintopfaq button{
+    margin-top: 160px;
 }
 
 .custom-body .raving-button button{
@@ -1460,6 +1470,16 @@ max-width: 250px;
     .raving{
         margin-top: 1rem;
     }
+    .raving.margintopraving{
+        margin-top: 0rem;
+    }
+    .raving-button.margintopraving button{
+        margin-top: 80px;
+    }
+    .raving-button.margintopfaq button{
+        margin-top: 80px;
+    }
+    
 
     .unlock-button button{
         /* font-size: 15px; */

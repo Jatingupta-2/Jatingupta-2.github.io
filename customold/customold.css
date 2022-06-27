@@ -1,0 +1,45 @@
+.avmade-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(11, 78, 144, 0.2);
+    color: #004E93;
+}
+
+.custom-thank-you.avmade-body {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-thank-you .lottie-main {
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #004E93;
+    line-height: 23px;
+    margin-top: 25px;
+}
+
+.custom-thank-you .lottie-subtext {
+    font-size: 18px;
+    text-align: center;
+    color: #769EC1;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 786px) {
+
+    .custom-thank-you .lottie-main {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .custom-thank-you .lottie-subtext {
+        font-size: 12px;
+    }
+
+}
