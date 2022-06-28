@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Av Made</title>
-    <link rel="shortcut icon" href="../../../images/a2.png">
+    <link rel="shortcut icon" href="../../../images/a2.png" />
 
     <!-- Importing Styles -->
-    <link rel="stylesheet" href="./customold.css">
-</head>
-<body>
-    <div className='avmade-header'>
-       
-        <img src="../../../images/plus_new_logo.svg" />
+    <link rel="stylesheet" href="./customold.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- NEW Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WPB63FG");
+    </script>
+    <!-- NEW End Google Tag Manager -->
+  </head>
+  <body>
+    <!--NEW Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WPB63FG"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!--NEW End Google Tag Manager (noscript) -->
+    <div class="avmade-header">
+      <img src="../../../images/plus_new_logo.svg" />
     </div>
-    <div className='avmade-body custom-thank-you'>
-  
-        <div className='lottie-main'>
+    <div class="avmade-body custom-thank-you">
+      <div class="lottie hide-tablet">
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json"
+          background="transparent"
+          speed="1"
+          style="width: 200px; height: 200px; margin: auto"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="lottie hide-desktop">
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px; margin: auto"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="lottie-main">
         Thanks for choosing <br />
         AVendors.
-        </div>
-        <div className='lottie-subtext'>
+      </div>
+      <div class="lottie-subtext">
         We can’t wait to see you. If this is urgent <br />
         email us at mike@avendros.com or call <br />
         us at 1 (510) 751-3039
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
