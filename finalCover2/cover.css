@@ -310,7 +310,7 @@ max-width: 250px;
 }
 
 .accordian_0{
-    background: #CFFEFB;
+    background: #FFECA8;
 }
 .accordian_1{
     background: #FFEBEB;
@@ -319,7 +319,7 @@ max-width: 250px;
     background: #FFF;
 }
 .accordian_3{
-    background: #FFECA8;
+    background: #CFFEFB;
 }
 .accordian_4{
     background: #EAAEFF;
@@ -819,6 +819,11 @@ max-width: 250px;
 
 .marketplace{
     background: #FFE1DB;
+    margin-top: 8rem;
+}
+
+.marketplace2{
+    background: #DBFBFF;
     margin-top: 8rem;
 }
 
@@ -1382,7 +1387,7 @@ max-width: 250px;
         margin: 4rem auto 0;
         border: 20px solid #ffeeeb;
     }
-    .marketplace{
+    .marketplace,.marketplace2{
         margin-top: 5rem;
     }
     .bi-container{

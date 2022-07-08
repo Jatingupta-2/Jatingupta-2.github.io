@@ -90,7 +90,7 @@
     display: flex;
   }
   .custom-body .main-header__logo img{
-    width: 4rem;
+    width: 3rem;
   }
 
   .main{
@@ -248,7 +248,7 @@
         width: 6.5rem;
       }
       .custom-body .main-header__logo img{
-        width: 3rem;
+        width: 2.2rem;
       }
 
       .main-header__item{
