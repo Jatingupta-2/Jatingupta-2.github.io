@@ -24,6 +24,13 @@
     background:#D8F1FF;
   }
 
+  .fixed-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+
   .header.header-pink{
     background: #FFEBEB;
   }
@@ -97,6 +104,10 @@
     overflow: hidden;
     margin-bottom: 3.75rem;
     margin-top: -2px;
+  }
+
+  .margin-top-fixed{
+    margin-top: 90px;
   }
 
   .footer{
