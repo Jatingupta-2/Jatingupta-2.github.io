@@ -160,9 +160,11 @@
     justify-content: flex-start;
     flex-wrap: wrap;
   }
-  .footer-bottom-contact span{
+  .footer-bottom-contact span,
+  .footer-bottom-contact a{
     margin: 20px 50px;
   }
+  
   .footer-bottom-insta{
     margin: 40px 50px;
   }
@@ -207,6 +209,16 @@
   color: inherit;
 }
 
+.footer-bottom-contact a{
+  margin: auto 0 auto 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom-contact a:hover{
+  color: rgb(228, 225, 225);
+}
+
   @media (min-width:993px) {
     .hide-desktop{
       display: none;
@@ -223,6 +235,11 @@
     .footer-border-right{ 
       border-right: 1px solid #fff;
       margin: 0 10px;
+    }
+    .footer-bottom-contact a{
+      width: 100%;
+      text-align: center;
+    margin: 20px 0;
     }
   }
 
