@@ -1,44 +1,52 @@
-.header-white{
+.header-white {
     background: #fff;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 200px 80px 0;
+    margin: 200px 4vw 0;
 }
-.contact-us{
+
+.contact-us {
     text-align: center;
     font-size: 80px;
     font-weight: 900;
     letter-spacing: -2px;
 }
-.cards{
+
+.cards {
     display: flex;
     margin-top: 120px;
     justify-content: space-between;
     padding-right: 10px;
 }
-.card{
+
+.card {
     border: 1px solid rgba(1, 71, 134, 0.5);
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     box-shadow: 5px 6px 1px #63FFEF;
 }
-.card .card-body{
+
+.card .card-body {
     padding: 40px 30px 80px;
 }
-.card-body .title1{
+
+.card-body .title1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 55px;
 }
-.card-body .title2{
+
+.card-body .title2 {
     font-size: 22px;
     line-height: 34px;
     margin-top: 20px;
 }
-.card-body button{
+
+.card-body button {
     background: #001426;
     color: #fff;
     border-radius: 20px;
@@ -48,23 +56,93 @@
     font-size: 32px;
     font-weight: 600;
 }
-.pos-rel{
+
+.pos-rel {
     position: relative;
 }
-.card-blue{
+
+.card-blue {
     background: #63FFEF;
 }
-.card1{
 
-}
-.card1 img{
+.card1 {}
+
+.card1 img {
     /* height: 420px;
     width: 650px; */
     width: 45vw;
 }
 
-.card2 img{
+.card2 img {
     /* height: 420px;
     width: 650px; */
     width: 35vw;
+}
+
+.card2 .title1 {
+    margin-top: 10px;
+}
+
+.inquiry {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.inquiry-subtext {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+
+    .contact-us {
+        font-size: 50px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card2 {
+        margin-top: 30px;
+    }
+
+    .card .card-body {
+        padding: 40px 10px 80px;
+    }
+
+    .card-body .title1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .card1 img,
+    .card2 img {
+        width: 90vw;
+    }
+
+    .card-body .title2 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .card-body button {
+        border-radius: 10px;
+        width: 100%;
+        height: 61px;
+        font-size: 26px;
+
+    }
+    .inquiry{
+        font-size: 36px;
+    }
+    .inquiry-subtext{
+        font-size: 18px;
+    }
+
+
 }

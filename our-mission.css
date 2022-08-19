@@ -1,0 +1,297 @@
+.header-white {
+    background: #fff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px 4vw 0;
+}
+
+.yellow {
+    background: #FCC70A;
+    padding: 25vh 10vw 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 88px;
+    width: 100%;
+}
+
+.title2 {
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 69px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.title3 {
+    width: 100%;
+    margin-top: 80px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.white-container{
+    background: #fff;
+    box-shadow: 5px 6px 1px #63FFEF;
+    width: 40vw;
+    
+    padding: 22px 30px;
+}
+.container img{
+    width: 30vw;
+}
+.container2 img{
+    width: 20vw;
+}
+.container3 img{
+    width: 25vw;
+}
+
+.light-blue{
+    background: #D5EEFF;
+    padding: 15vh 0 10vh;
+}
+.lb-container1{
+    display: flex;
+    justify-content: space-between;
+}
+.lb-img1{
+    width: 45vw;
+}
+.lb-img2{
+    width: 40vw;
+    position: relative;
+    top: -75px;
+}
+.lb-title{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 65px;
+    margin: 10vh 0;
+    
+}
+.lb-title span{
+    text-align: left;
+    display: inline-block;
+}
+.lb-img3{
+    width: 100vw;
+}
+
+.purple{
+    background: #5759FB;
+    padding: 15vh 7vw 15vh;
+}
+.purple .title1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 65px;
+}
+
+.purple .title2{
+    color: #FD867A;
+    font-size: 80px;
+    margin-top: 10vh;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.card {
+    border: 1px solid rgba(1, 71, 134, 0.5);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 5px 6px 1px #63FFEF;
+}
+
+.card .card-body {
+    padding: 40px 30px 80px;
+}
+
+.card-body .title1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.card-body .title2 {
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+.card-body button {
+    background: #001426;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.card-blue {
+    background: #63FFEF;
+}
+
+.card1 {}
+
+.card1 img {
+    /* height: 420px;
+    width: 650px; */
+    width: 45vw;
+}
+
+.card2 img {
+    /* height: 420px;
+    width: 650px; */
+    width: 35vw;
+}
+
+.card2 .title1 {
+    margin-top: 10px;
+}
+
+.inquiry {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.inquiry-subtext {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media (max-width:768px) {
+
+    .contact-us {
+        font-size: 50px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card2 {
+        margin-top: 30px;
+    }
+
+    .card .card-body {
+        padding: 40px 10px 80px;
+    }
+
+    .card-body .title1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .card1 img,
+    .card2 img {
+        width: 90vw;
+    }
+
+    .card-body .title2 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .card-body button {
+        border-radius: 10px;
+        width: 100%;
+        height: 61px;
+        font-size: 26px;
+
+    }
+
+    .inquiry {
+        font-size: 36px;
+    }
+
+    .inquiry-subtext {
+        font-size: 18px;
+    }
+
+
+
+    .title1 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .title2 {
+        font-size: 19px;
+        line-height: 22px;
+        margin-top: 100px;
+    }
+    .container {
+       flex-wrap: wrap-reverse;
+       margin-top: 50px
+    }
+    .container.container2{
+        flex-wrap: wrap;
+    }
+    .om-image{
+        width: 100%;
+    margin: auto;
+    text-align: center;
+    }
+    .white-container{
+        background: #fff;
+        box-shadow: 5px 6px 1px #63FFEF;
+        width: 70vw;
+        margin-top: 30px;
+        padding: 22px 30px;
+    }
+    .lb-title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .purple .title1 {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .purple .title2{
+        font-size: 30px;
+    }
+}

@@ -35,6 +35,10 @@
     margin-left: -13px;
 }
 
+.ml-4-av-made{
+    margin-left: -4px;
+}
+
 /* .custom-body .brands-section__nothing img{
     width: 450px;
 } */
@@ -1174,12 +1178,12 @@
     text-align: center;
 }
 .partners .title-1{
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 51px;
 }
 .partners .title-2{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 60px;
 }
 .partners .images{
