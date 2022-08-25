@@ -1291,6 +1291,9 @@
     color: #000;
     padding: 1rem;
 }
+.how-av ul{
+    margin-bottom: 0;
+}
 .custom-section-lm {
     font-size: 22px;
     line-height: 25px;
@@ -2061,6 +2064,13 @@
         /* margin: -35px 20px 0; */
         z-index: 10;
         
+    }
+    .how-av-works-1{
+       
+        margin-top: 25px;
+    }
+    .choices ul{
+        padding-left: 4rem;
     }
 
 }
