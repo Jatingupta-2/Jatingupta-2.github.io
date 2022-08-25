@@ -11,7 +11,7 @@
 
 .yellow {
     background: #FCC70A;
-    padding: 25vh 10vw 15vh;
+    padding: 45vh 10vw 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +19,13 @@
 
 .title1 {
     font-size: 80px;
-    font-weight: 900;
+    font-weight: 1000;
     line-height: 88px;
     width: 100%;
 }
 
 .title2 {
-    font-size: 62px;
+    font-size: 50px;
     font-weight: 900;
     line-height: 69px;
     width: 100%;
@@ -35,7 +35,7 @@
 .title3 {
     width: 100%;
     margin-top: 80px;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
 }
 
@@ -65,6 +65,7 @@
 .light-blue{
     background: #D5EEFF;
     padding: 15vh 0 10vh;
+    overflow: hidden;
 }
 .lb-container1{
     display: flex;
@@ -203,6 +204,11 @@
 
 @media (max-width:768px) {
 
+    
+.yellow {
+    
+    padding: 50vh 10vw 15vh;}
+
     .contact-us {
         font-size: 50px;
     }
@@ -253,8 +259,8 @@
 
 
     .title1 {
-        font-size: 26px;
-        line-height: 28px;
+        font-size: 42px;
+        line-height: 48px;
     }
 
     .title2 {
@@ -263,6 +269,7 @@
         margin-top: 100px;
     }
     .title3 {
+        margin-top: 30px;
     font-size: 16px;
     }
     .container {
@@ -282,7 +289,8 @@
         box-shadow: 5px 6px 1px #63FFEF;
         width: 70vw;
         margin-top: 30px;
-        padding: 22px 30px;
+        padding: 22px 15px;
+        font-size: 14px;
     }
     .lb-title{
         font-size: 30px;
@@ -290,11 +298,23 @@
     }
 
     .purple .title1 {
-        font-size: 17px;
-        line-height: 21px;
+        font-size: 27px;
+        line-height: 40px;
     }
 
     .purple .title2{
         font-size: 30px;
     }
+
+    .lb-img1{
+        width: 65vw;
+    }
+    .lb-img2{
+        width: 60vw;
+        left: -55px;
+    }
+    .lb-img3 {
+        width: 150vw    ;
+    }
+    
 }
