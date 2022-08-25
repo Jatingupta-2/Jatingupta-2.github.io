@@ -1377,16 +1377,22 @@
     /* margin-top: -25px; */
     margin: -25px 20px 0;
     z-index: 10;
-    
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #ebe9e9;
+}
+.choices .slick-dots li.slick-active{
+    color: #03488B;
 }
 .choices .slick-dots li::marker{
-    color: #ebe9e9;
+    /* color: #ebe9e9;
     font-size: 30px;
     padding: 0;
-    line-height: 0;
+    line-height: 0; */
 }
 .choices .slick-dots li.slick-active::marker{
-    color: #03488B;
+    /* color: #03488B; */
 }
 
 
@@ -2044,10 +2050,17 @@
     }
     .single-item img{
         max-width: 93vw;
-        max-height: 90vw;
+        max-height: 100vw;
         margin: auto;
     }
 
+    .choices .slick-dots li{
+        /* margin-right: 40px; */
+        /* margin-top: -25px; */
+        margin: -35px 20px 0;
+        z-index: 10;
+        
+    }
 
 }
 
