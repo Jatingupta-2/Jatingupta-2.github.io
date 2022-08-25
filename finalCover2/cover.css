@@ -1375,12 +1375,13 @@
 .choices .slick-dots li{
     /* margin-right: 40px; */
     /* margin-top: -25px; */
-    margin: -25px 20px 0;
-    z-index: 10;
+    /* margin: -25px 20px 0; */
+    z-index: 99999;
     height: 20px;
     width: 20px;
     border-radius: 50%;
     color: #ebe9e9;
+    position: relative;
 }
 .choices .slick-dots li.slick-active{
     color: #03488B;
@@ -2057,7 +2058,7 @@
     .choices .slick-dots li{
         /* margin-right: 40px; */
         /* margin-top: -25px; */
-        margin: -35px 20px 0;
+        /* margin: -35px 20px 0; */
         z-index: 10;
         
     }
