@@ -110,8 +110,7 @@
                         </div>
                         <div class="brands-section-info">
                             <p>
-                                Get the highest quality basics from factories for luxury brands. No wholesalers. No merch. No Stock. It’s all made to order w/ low MoQs & customizations. Visit our style gallery. 
-                                <!-- Get the highest quality basics for your brand from the same factories as high-end brands. Pay less for the same exact quality. No label. Low MoQ. Custom color. Truly your own. -->
+                                Get the highest quality blanks from factories for luxury brands. No wholesalers. No merch. No Stock. It’s custom made to order with low MoQs. Visit our style gallery. 
                             </p>
                         </div>
                         <div class="brands-section-email">
@@ -469,15 +468,17 @@
             <button class="get-started">Access marketplace</button>
         </div> -->
 
+        
         <div class="custom-section">
-            Get custom made luxury basics for <br />
+            Get custom made luxury blanks for <br />
             your brand. Choose any color, fabric, <br />
             wash and much more.
         </div>
+        <div id="collection-choices"></div>
         <div class="custom-section-lm">
             <a href="./how-av-works.html">Learn more</a>
         </div>
-
+       
         <div class="choices">
             <div class="single-item-conatiner">
                 <div class="single-item">
@@ -2436,6 +2437,7 @@
 
     //   console.log(res);
 
+
     axios({
         method: 'post',
         url: 'https://backend.avendors.com/api/v1/products/addHubSpotMainMarketingPage',
@@ -2451,7 +2453,10 @@
         data: obj
         })
         .then(function (response) {
-            window.location.href = `https://app.avendors.com/onboarding/step-one`;
+            // window.location.href = `https://app.avendors.com/onboarding/step-one`;
+            document.getElementById('collection-choices').scrollIntoView({
+                behavior: 'smooth'
+            });
         });
 
         });

@@ -89,7 +89,8 @@
     height: 1.8rem;
   }
 
-  .main-header__logo img{
+  .main-header__logo img,
+  .custom-body2 .main-header__logo img {
     width: 8rem;
   }
 
@@ -263,6 +264,10 @@
       margin-top: 10px;
       border: 1px solid #fff;
     }
+    .footer-col-button button{
+      font-size: 11px;
+      width: 105px;
+    }
   }
 
 
@@ -272,7 +277,8 @@
       padding: 2rem 1.4rem;
       }
 
-    .main-header__logo img{
+    .main-header__logo img,
+    .custom-body2 .main-header__logo img{
         width: 6.5rem;
       }
       .custom-body .main-header__logo img{
