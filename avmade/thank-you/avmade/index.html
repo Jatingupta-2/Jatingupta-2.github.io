@@ -119,5 +119,39 @@
         us at 1 (510) 751-3039
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+
+        
+        let decodedText = decodeURIComponent(window.location.href)
+
+        let nameArr = decodedText.match("invitee_full_name=(.*)&invitee_email");
+        let name = nameArr ? nameArr[1] : 'Not found'
+        let emailArr = decodedText.match("invitee_email=(.*)&text_reminder_number");
+        let email = emailArr ? emailArr[1] : 'Not found'
+        let phoneArr = decodedText.match("text_reminder_number=(.*)&answer_1");
+        let phone = phoneArr ? phoneArr[1] : 'Not found'
+
+
+        axios({
+        method: 'post',
+        // url: 'http://localhost:5000/api/v1/products/addHubSpotCalendlyData',
+        url: 'https://backend.avendors.com/api/v1/products/addHubSpotCalendlyData',
+        data: {
+            email:email,
+            url:window.location.href,
+            name:name,
+            phone:phone
+        }
+        })
+        .then(function (response) {
+            // window.location.href = `https://app.avendors.com`;
+        });
+
+        });
+
+    </script>
   </body>
 </html>
