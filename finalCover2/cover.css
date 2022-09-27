@@ -32,7 +32,7 @@
 }
 
 .brands-section__nothing.ml {
-    /* margin-left: -13px; */
+    margin-left: -13px;
 }
 
 .ml-4-av-made {
@@ -56,6 +56,9 @@
 .brands-section-info {
     max-width: 410px;
     margin-top: 1.5rem;
+}
+.brands-section-info.new {
+    max-width: 408px;
 }
 
 .brands-section-info p {
