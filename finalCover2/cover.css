@@ -1670,6 +1670,11 @@
         font-size: 0.94rem;
         line-height: 1.09rem;
     }
+    .brands-section-info.big p  {
+        letter-spacing: 0.4px;
+        font-size: 19px;
+        line-height: 1.09rem;
+    }
 
     .custom-body .brands-section-info p {
         font-size: 0.85rem;
