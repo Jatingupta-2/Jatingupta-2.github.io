@@ -2532,10 +2532,14 @@
 
     <script>
         async function changeURL(type){
-            var url = window.location.href
+
+            var url = new window.URL(document.location); // fx. http://host.com/endpoint?abc=123
             url.searchParams.set('category', type);
+
+            // var url = window.location.href
+            // url.searchParams.set('category', type);
             // var newUrl = `${url}?category=${type}`
-            window.history.pushState({}, null, newUrl);
+            // window.history.pushState({}, null, newUrl);
         }
     </script>
 
