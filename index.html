@@ -2539,6 +2539,9 @@
             // var url = window.location.href
             // url.searchParams.set('category', type);
             // var newUrl = `${url}?category=${type}`
+            $('body,html').animate({
+                scrollTop: 0
+            }, 10);
             window.history.pushState({}, null, url);
         }
     </script>
