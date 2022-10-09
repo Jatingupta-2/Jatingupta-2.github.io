@@ -201,6 +201,9 @@
     font-weight: 400;
     margin-top: 20px;
 }
+.custom-body .our-misson-logo img{
+    width: 8rem;
+  }
 
 @media (max-width:768px) {
 
@@ -316,5 +319,11 @@
     .lb-img3 {
         width: 150vw    ;
     }
+    .custom-body .our-misson-logo img{
+        width: 6.5rem;
+      }
+      .main-header__item.item2.our-misson img{
+        height: 1.8rem;
+      }
     
 }
