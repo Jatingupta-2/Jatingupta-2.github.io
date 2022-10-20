@@ -335,6 +335,10 @@
     justify-content: center;
     align-items: center;
   }
+  .display-flex-helper4{
+    display: flex;
+    align-items: center;
+  }
 
   .w-700{
     font-weight: 700;
