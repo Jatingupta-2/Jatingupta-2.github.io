@@ -126,10 +126,10 @@
             </div>
             <div class="custom-desc">
                 AVendors gives you access to thousands <br />
-                of prodcuts that has been developed to <br />
+                of products that has been developed to <br />
                 perfection by the elite factories.
             </div>
-            <button class="custom-button">View Prodcuts</button>
+            <button class="custom-button scroll-to-top">View Products</button>
         </div>
     </section>
     <section class="custom row custom-reverse">
@@ -141,11 +141,11 @@
             </div>
             <div class="custom-desc">
                 Access our pantone color library and apply <br />
-                it to any prodcut. Tell your brand story and <br />
+                it to any product. Tell your brand story and <br />
                 show your brands true identity. No longer <br />
                 do you need to compromise.
             </div>
-            <button class="custom-button">View Prodcuts</button>
+            <button class="custom-button scroll-to-top">View Products</button>
         </div>
         <div class="col-12 col-md-5 display-flex-helper4 custom2-img">
             <img class="custom-img" src="images/specific/custom2.png" />
@@ -166,7 +166,7 @@
                 woven tabs, hangtag, packaging, treatments <br />
                 and so much are now at your fingure tips.
             </div>
-            <button class="custom-button">View Prodcuts</button>
+            <button class="custom-button scroll-to-top">View Products</button>
         </div>
     </section>
     <section>
@@ -1023,7 +1023,7 @@ to make sure your brand is optimized for better performace.
              })
              .then(function (response) {
                
-                //  
+                var url = window.location.toString(); 
                 if(url.includes('tees')){
                     window.location.href = `https://app.avendors.com/products/collections/tshirt`;
                 }
@@ -1049,6 +1049,16 @@ to make sure your brand is optimized for better performace.
            }
          }
          </script>
+
+         
+    <script>
+        $('.scroll-to-top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 10);
+            return false;
+        });
+    </script>
 
 
     <!-- Slick Carousel Import -->
