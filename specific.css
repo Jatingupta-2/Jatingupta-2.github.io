@@ -27,9 +27,13 @@
 }
 .main-title-description{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 29px;
     font-weight: 300;
-    width: 350px;
+    width: 395px;
+    line-height: 45px;
+    /* font-size: 25px;
+    font-weight: 300;
+    width: 350px; */
     /* padding: 0 85px 0 0; */
     /* max-width: 485px; */
     /* padding: 0 20px 0 0; */
@@ -71,6 +75,7 @@
     width: 10rem;
     color: #03488B;
     margin-top: 30px;
+    font-weight: 600;
 }
 .custom-info{
     margin: auto;
@@ -90,7 +95,7 @@
     font-size: 22px;
     font-weight: 300;
     text-align: center;
-    padding: 0 20%;
+    padding: 0 24%;
     margin-top: 20px;
 }
 .ceo-quote{
@@ -128,6 +133,17 @@
     max-width: 400px;
 }
 
+.header-scroll{
+    -webkit-transition: all ease-out 1s;
+    -moz-transition: all ease-out 1s;
+    -o-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+}
+.header-scroll.active {
+    background-color: #fff;
+  }
+
+
 
 @media (max-width:768px) {
     .main-title {
@@ -141,8 +157,11 @@
         line-height: 50px;
     }
     .main-title-description{
-        font-size: 20px;
-        padding: 0 30px 0 0;
+        font-size: 23px;
+        line-height: 30px;
+        padding: 0 79px 0 0;
+        margin-top: 30px;
+        margin-bottom: 45px;
     }
     .hero-image img{
         margin-top: 70px;
@@ -155,13 +174,13 @@
         font-size: 30px;
     }
     .custom-desc {
-        font-size: 19px;
+        font-size: 18px;
     }
     .custom-reverse{
         padding: 0;
     }
     .custom-info{
-        padding: 100px 32px !important;
+        padding: 50px 32px !important;
     }
     .see-improve{
         font-size: 27px;
@@ -169,21 +188,26 @@
         text-align: left;
     }
     .see-improve-desc{
-        font-size: 19px;
-        padding: 0 22px;
+        font-size: 17px;
+        padding: 0 10px 0 22px;
         text-align: left;
     }
     .raving-card{
         margin: 0 22px;
     }
     .ceo-quote{
-        font-size: 24px;
-        padding: 0 10px 0 22px;
+        font-size: 28px;
+        padding: 0 45px 0 22px;
         margin-top: 50px;
     }
-    .ceo,.help-title{
+    .ceo{
         font-size: 19px;
         padding: 0 22px;
+    }
+    .help-title{
+        font-size: 19px;
+        padding: 0 22px;
+        margin-top: 100px;
     }
     .brands-section-email input{
         padding: 1rem;
@@ -196,5 +220,21 @@
     .custom2-img {
         justify-content: center;
     }
-    
+    .mh2{
+        padding: 2rem 1.4rem 0rem;
+    }
+    .row_1{
+        margin-top: 30px !important;
+    }
+    .custom-button{
+        height: 42px;
+        font-size: 14px;
+
+    }
+    .raving-card__info{
+        height: 25rem;
+    }
+    .gallery-cell{
+        height: 500px;
+    }
 }

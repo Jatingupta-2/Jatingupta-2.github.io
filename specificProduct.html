@@ -61,8 +61,8 @@
         </div>
     </nav>
 
-    <header class="header fixed-header">
-        <div class="main-header">
+    <header class="header fixed-header header-scroll">
+        <div class="main-header mh2">
             <div class="main-header__logo">
                 <img src="images/Avendors1 1.svg">
             </div>
@@ -117,7 +117,7 @@
             <img src="images/specific/Landing_Page_hero 1.png" />
         </div>
     </section>
-    <section class="custom row">
+    <section class="custom row row_1">
         <div class="col-12 col-md-5 display-flex-helper3">
             <img class="custom-img" src="images/specific/custom1.png" />
         </div>
@@ -129,8 +129,8 @@
             </div>
             <div class="custom-desc">
                 Get access to thousands of products <br />
-                developed to perfection by elite <br />
-                factories. Ready to be customized.
+                developed to perfection by elite factories. <br />
+                Ready to be customized.
             </div>
             <button class="custom-button scroll-to-top">View Products</button>
         </div>
@@ -143,13 +143,12 @@
                 custom colors
             </div>
             <div class="custom-desc">
-                First, select a product, then apply <br />
-                your inspirational color. Tell your <br />
-                brand story and collection as you <br />
-                envision it.
+                First, select a product, then apply your <br />
+                 inspirational color. Tell your brand story <br />
+                and collection as you envision it.
 
             </div>
-            <button class="custom-button scroll-to-top">View Products</button>
+            <button class="custom-button scroll-to-top">Custom Color</button>
         </div>
         <div class="col-12 col-md-5 display-flex-helper4 custom2-img">
             <img class="custom-img" src="images/specific/custom2.png" />
@@ -165,12 +164,12 @@
                 customizations...
             </div>
             <div class="custom-desc">
-                Start by choosing any size breaks, <br />
-                then woven labels, woven tabs, <br />
-                hangtags, packaging, treatments, <br />
+                Start by choosing any size breaks, then<br />
+                 woven labels, woven tabs, hangtags,<br />
+                 packaging, treatments, 
                 and more.
             </div>
-            <button class="custom-button scroll-to-top">View Products</button>
+            <button class="custom-button scroll-to-top">Add-Ons</button>
         </div>
     </section>
     <section>
@@ -1349,6 +1348,18 @@
         document.getElementById("category-selection").innerHTML = "Sweats";
         document.getElementById("main-desc").innerHTML = "AVendors is for brands looking to customize designer Sweats  like Aviator Nation, Alo Yoga, Marine Layers, Lululemon, etc.";
     }
+</script>
+<script>
+    $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 550) {
+            $(".header-scroll").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header-scroll").removeClass("active");
+        }
+    });
+});
 </script>
 </body>
 </html>
