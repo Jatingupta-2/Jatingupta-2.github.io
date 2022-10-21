@@ -90,10 +90,13 @@
                 BRAND CREATORS
             </div>
             <div class="create-high">
-                Create high <br />
-                quality <span id="category-selection">tees.</span>
+                Customizable <br />
+                Luxury <span id="category-selection">Tshirt</span>
+
+                <!-- Create high <br />
+                quality <span id="category-selection">tees.</span> -->
             </div>
-            <div class="main-title-description">
+            <div id="main-desc" class="main-title-description">
                 AVendors is for brands looking 
                 to create designer tshirt. Find 
                 styles same as Aviator Nation, 
@@ -125,9 +128,9 @@
                 products.
             </div>
             <div class="custom-desc">
-                AVendors gives you access to thousands <br />
-                of products that has been developed to <br />
-                perfection by the elite factories.
+                Get access to thousands of products <br />
+                developed to perfection by elite <br />
+                factories. Ready to be customized.
             </div>
             <button class="custom-button scroll-to-top">View Products</button>
         </div>
@@ -136,14 +139,15 @@
        
         <div class="col-12 col-md-6 custom-info">
             <div class="custom-title">
-                Start with custom <br />
-                color. 2K+ colors.
+                Start with 2K+  <br />
+                custom colors
             </div>
             <div class="custom-desc">
-                Access our pantone color library and apply <br />
-                it to any product. Tell your brand story and <br />
-                show your brands true identity. No longer <br />
-                do you need to compromise.
+                First, select a product, then apply <br />
+                your inspirational color. Tell your <br />
+                brand story and collection as you <br />
+                envision it.
+
             </div>
             <button class="custom-button scroll-to-top">View Products</button>
         </div>
@@ -161,25 +165,28 @@
                 customizations...
             </div>
             <div class="custom-desc">
-                Starting with the ability to choose any size <br />
-                breakdown you need plus woven label, <br />
-                woven tabs, hangtag, packaging, treatments <br />
-                and so much are now at your fingure tips.
+                Start by choosing any size breaks, <br />
+                then woven labels, woven tabs, <br />
+                hangtags, packaging, treatments, <br />
+                and more.
             </div>
             <button class="custom-button scroll-to-top">View Products</button>
         </div>
     </section>
     <section>
-        <div class="see-improve hide-tablet">
-            See how we improve our <br />
-            brand partners
+        <div class="see-improve ">
+            See how we improve <br />
+            brands
+
+            <!-- See how we improve our <br />
+            brand partners -->
         </div>
-        <div class="see-improve hide-desktop">
+        <!-- <div class="see-improve hide-desktop">
             See how we improve  
             our brand partners
-        </div>
+        </div> -->
         <div class="see-improve-desc">
-            Our mission is to help founders build quality brand ethically, sustainably and simply. We are not for everyone but for those who we the right fit for, we will go above and beyond to make sure they succeeed.
+            Our mission is to help founders build quality products ethically and simply. We are not for everyone, but for our brand partners, we're revolutionizing their way of manufacturing high-quality essentials. 
         </div>
     </section>
 
@@ -442,7 +449,7 @@
 
     <section>
         <div class="ceo-quote">
-            “Our process saves brand thousands in developemt cost, months of time and risk of quality issue. From there, we are able to offer better quality, no middleman markup plus insight on what on trend and how to get a head of competition.
+            “Our process saves our partners thousands in development costs and excess inventory. We offer better quality, easy customization, faster turnaround, factory direct, and insight into what's on trend to stay competitive.“
         </div>
         <div class="ceo">
             Ceo of AVendors, Mike Chernet
@@ -455,8 +462,7 @@
             We’re here to help
         </div>
         <div class="help-info">
-            Whether you’re new to building a brand or an existing brand looking to streamline your manufacturing process, our team is here 
-to make sure your brand is optimized for better performace.
+            Whether you’re a new or an existing brand looking to streamline your manufacturing process, our team is here to make sure your brand is optimized for better performance.
         </div>
     </section>
 
@@ -1332,13 +1338,16 @@ to make sure your brand is optimized for better performace.
 <script>
     var url = window.location.toString();
     if(url.includes('tees')){
-        document.getElementById("category-selection").innerHTML = "tees.";
+        document.getElementById("category-selection").innerHTML = "Tshirt";
+        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking to customize designer T-shirts like James Perse, Buck Mason, Everlane, Madewell, etc.";
     }
     if(url.includes('hoodies')){
-        document.getElementById("category-selection").innerHTML = "hoodie.";
+        document.getElementById("category-selection").innerHTML = "Hoodie";
+        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking to customize designer Hoodies  like Aviator Nation, Alo Yoga, Marine Layers, Lululemon, etc.";
     }
     if(url.includes('sweats')){
-        document.getElementById("category-selection").innerHTML = "sweats.";
+        document.getElementById("category-selection").innerHTML = "Sweats";
+        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking to customize designer Sweats  like Aviator Nation, Alo Yoga, Marine Layers, Lululemon, etc.";
     }
 </script>
 </body>

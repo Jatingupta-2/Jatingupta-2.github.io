@@ -29,6 +29,9 @@
     margin-top: 20px;
     font-size: 25px;
     font-weight: 300;
+    width: 350px;
+    /* padding: 0 85px 0 0; */
+    /* max-width: 485px; */
     /* padding: 0 20px 0 0; */
 }
 .hero-image{
@@ -134,11 +137,12 @@
         font-size: 16px;
     }
     .create-high {
-        font-size: 42px;
+        font-size: 39px;
         line-height: 50px;
     }
     .main-title-description{
         font-size: 20px;
+        padding: 0 30px 0 0;
     }
     .hero-image img{
         margin-top: 70px;
@@ -173,8 +177,8 @@
         margin: 0 22px;
     }
     .ceo-quote{
-        font-size: 30px;
-        padding: 0 55px 0 22px;
+        font-size: 24px;
+        padding: 0 10px 0 22px;
         margin-top: 50px;
     }
     .ceo,.help-title{
