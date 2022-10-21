@@ -1,5 +1,5 @@
 .header {
-    background: #D0DEF3;
+    background: #c5dbf2;
 }
 
 .margin-top-fixed2 {
@@ -7,8 +7,8 @@
 }
 
 .main-title {
-    background: #D0DEF3;
-    padding: 200px 180px;
+    background: #c5dbf2;
+    padding: 130px 140px;
 }
 
 .brand-creators {
@@ -30,7 +30,7 @@
     font-size: 29px;
     font-weight: 300;
     width: 395px;
-    line-height: 45px;
+    line-height: 40px;
     /* font-size: 25px;
     font-weight: 300;
     width: 350px; */
@@ -44,19 +44,20 @@
     align-items: center;
 }
 .hero-image img{
-    max-width: 80%;
+    max-width: 98%;
 }
 .brands-section-email input{
     padding: 0.6rem;
-    width: 12rem;
+    width: 13.2rem;
 }
 .brands-section-email button{
     width: 10rem;
     border-radius: 100px;
     box-shadow: 0px 4px 4px 0px #004E9340;
+    background: #ffe01b;
 }
 .custom-img{
-    width: 50%;
+    width: 70%;
 }
 .custom-title{
     font-size: 40px;
@@ -77,9 +78,13 @@
     margin-top: 30px;
     font-weight: 600;
 }
+
 .custom-info{
     margin: auto;
     padding: 100px 0;
+}
+.custom-info1{
+    padding-top: 180px;
 }
 .custom-reverse{
     padding-left: 8vw;
@@ -101,13 +106,13 @@
 .ceo-quote{
     font-size: 40px;
     font-family: Lemon;
-    padding: 0 20%;
+    padding: 0 14%;
     margin-top: 100px;
 }
 .ceo{
     font-size: 20px;
     font-weight: 300;
-    padding: 0 20%;
+    padding: 0 14%;
     margin-top: 20px;
 }
 .help-title{
@@ -118,9 +123,9 @@
     text-align: center;
 }
 .help-info{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
-    padding: 0 33% 8vh 33%;
+    padding: 0 31% 8vh 31%;
     margin: 20px auto;
     text-align: center;
     max-width: 1500px;
@@ -142,7 +147,9 @@
 .header-scroll.active {
     background-color: #fff;
   }
-
+  .rv-margin{
+    margin-top: 100px !important;
+  }
 
 
 @media (max-width:768px) {
@@ -150,7 +157,8 @@
         padding: 60px 20px;
     }
     .brand-creators {
-        font-size: 16px;
+        font-size: 12px;
+        
     }
     .create-high {
         font-size: 39px;
@@ -164,6 +172,7 @@
         margin-bottom: 45px;
     }
     .hero-image img{
+        width: 80%;
         margin-top: 70px;
     }
     .brands-section-email button{
@@ -182,6 +191,9 @@
     .custom-info{
         padding: 50px 32px !important;
     }
+    .custom-info1{
+        padding-top: 50px;
+    }
     .see-improve{
         font-size: 27px;
         padding: 0 22px;
@@ -196,16 +208,17 @@
         margin: 0 22px;
     }
     .ceo-quote{
-        font-size: 28px;
+        font-size: 22px;
         padding: 0 45px 0 22px;
         margin-top: 50px;
     }
     .ceo{
-        font-size: 19px;
+        font-size: 17px;
         padding: 0 22px;
+        margin-top: 10px;
     }
     .help-title{
-        font-size: 19px;
+        font-size: 24px;
         padding: 0 22px;
         margin-top: 100px;
     }
@@ -236,5 +249,14 @@
     }
     .gallery-cell{
         height: 500px;
+    }
+    .custom-img{
+        width: 50%;
+    }
+    .custom-img2{
+        margin-top: 40px;
+    }
+    .rv-margin{
+        margin-top: 70px !important;
     }
 }
