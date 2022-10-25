@@ -71,7 +71,7 @@
         </div>
     </nav>
 
-    <header class="header fixed-header">
+    <header class="header fixed-header header-scroll-mp">
         <div class="main-header">
             <div class="main-header__logo">
                 <img src="images/Avendors1 1.svg">
@@ -2554,6 +2554,19 @@
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/14411064/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript> -->
 <!-- End of LiveChat code -->
+
+<script>
+    $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 550) {
+            $(".header-scroll-mp").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header-scroll-mp").removeClass("active");
+        }
+    });
+});
+</script>
 
 </body>
 

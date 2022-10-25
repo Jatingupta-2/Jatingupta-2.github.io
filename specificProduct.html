@@ -151,12 +151,17 @@
             <button class="custom-button scroll-to-top">Custom Color</button>
         </div>
         <div class="col-12 col-md-5 display-flex-helper4 custom2-img">
-            <img class="custom-img custom-img2" src="images/specific/custom2.png" />
+            <img class="custom-img custom-img2" src="images/specific/custom2.jpg" />
         </div>
     </section>
     <section class="custom row">
         <div class="col-12 col-md-5 display-flex-helper3">
-            <img class="custom-img custom-img2" src="images/specific/custom3.png" />
+            <video class="custom-img custom-img2" id="custom3-video" aria-controls="hide" preload="true" muted loop>
+                <source src="images/specific/custom3.mp4" type="video/mp4">
+                <!-- <source src="movie.ogg" type="video/ogg"> -->
+              Your browser does not support the video tag.
+              </video>
+            <!-- <img class="custom-img custom-img2" src="images/specific/custom3.mp4" /> -->
         </div>
         <div class="col-12 col-md-6 custom-info">
             <div class="custom-title">
@@ -470,7 +475,7 @@
             We’re here to help
         </div>
         <div class="help-info">
-            Whether you’re a new or an existing brand looking to streamline your manufacturing process, our team is here to make sure your brand is optimized for better performance.
+            Whether you’re a new or an existing brand looking to build a highend brand, our team is here to make sure your quality and assortments are on par with industries best.
         </div>
     </section>
 
@@ -1369,6 +1374,18 @@
         }
     });
 });
+</script>
+<script>
+    
+    var video = document.getElementById("custom3-video");
+// video.addEventListener("canplay", function() {
+  setTimeout(async function() {
+    await video.play();
+
+      video.setAttribute('autoplay', true);
+    
+  }, 30* 1000);
+// });
 </script>
 </body>
 </html>

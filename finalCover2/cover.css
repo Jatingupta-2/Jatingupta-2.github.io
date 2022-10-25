@@ -1405,6 +1405,17 @@
     /* color: #03488B; */
 }
 
+.header-scroll-mp{
+    -webkit-transition: all ease-out 1s;
+    -moz-transition: all ease-out 1s;
+    -o-transition: all ease-out 1s;
+    transition: all ease-out 1s;
+}
+
+.header-scroll-mp.active {
+    background-color: #fff;
+  }
+
 
 @media (max-width:1550px) {
     .unlock-card {
