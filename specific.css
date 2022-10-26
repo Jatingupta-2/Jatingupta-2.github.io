@@ -1,6 +1,9 @@
 .header {
     background: #c5dbf2;
 }
+.main-header__logo{
+    cursor: pointer;
+}
 
 .margin-top-fixed2 {
     margin-top: 80px;
@@ -238,7 +241,22 @@
         justify-content: center;
     }
     .mh2{
-        padding: 2rem 1.4rem 0rem;
+        padding: 2rem 1.4rem 1rem;
+        align-items: center;
+    }
+    .main-header__item.item1, .main-header__item.item2{
+        margin-bottom: 0px;
+    }
+    .main-header__item.item2 button{
+        border: none;
+    border-radius: 6px;
+    background: #31FFEA;
+    color: #03488B;
+    font-size: 0.9rem;
+    font-weight: 700;
+    height: 2.5rem;
+    /* width: 10.6rem; */
+    width: 110px;
     }
     .row_1{
         margin-top: 30px !important;
