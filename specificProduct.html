@@ -68,7 +68,7 @@
             </div>
             <div class="main-header__items">
                 <div class="main-header__item item2">
-                    <button onclick="location.href='https://app.avendors.com/onboarding/step-one'" type="button">
+                    <button class="animated-button" onclick="location.href='https://app.avendors.com/onboarding/step-one'" type="button">
 
                         Sign up
 
@@ -108,6 +108,7 @@
                 <!-- onclick="location.href='https://avendors.com/customer/form'" -->
                 <button 
                 onclick="return validateForm()"
+                class="animated-button"
                 >
                 Step Inside
                 </button>
@@ -132,7 +133,7 @@
                 developed to perfection by elite factories. <br />
                 Ready to be customized.
             </div>
-            <button class="custom-button scroll-to-top">View Products</button>
+            <button class="custom-button scroll-to-top animated-button">View Products</button>
         </div>
     </section>
     <section class="custom row custom-reverse">
@@ -148,7 +149,7 @@
                 and collection as you envision it.
 
             </div>
-            <button class="custom-button scroll-to-top">Custom Color</button>
+            <button class="custom-button scroll-to-top animated-button">Custom Color</button>
         </div>
         <div class="col-12 col-md-5 display-flex-helper4 custom2-img">
             <img class="custom-img custom-img2" src="images/specific/custom2.jpg" />
@@ -174,7 +175,7 @@
                  packaging, treatments, 
                 and more.
             </div>
-            <button class="custom-button scroll-to-top">Add-Ons</button>
+            <button class="custom-button scroll-to-top animated-button">Add-Ons</button>
         </div>
     </section>
     <section>
@@ -198,26 +199,10 @@
         <div class="raving-cards rv-margin">
 
             <div class="gallery js-flickity"
-                data-flickity='{ "freeScroll": true, "contain": true,  "pageDots": false}'>
+                data-flickity='{ "wrapAround": true, "contain": true,  "pageDots": false}'>
 
 
-                <div class="gallery-cell">
-                    <div class="raving-card">
-                        <div class="raving-card__image">
-                            <img src="images/testimonials/Rachel B.webp">
-                        </div>
-                        <div class="raving-card__info raving-card__info-color3">
-                            <div class="raving-card__info--desc">
-                                AVendors make our work exciting. The products look like out of Saks 5th catalog, and
-                                the quality matches the aesthetics. We now rely on AV for all our essentials. Where
-                                have you been all my life? Lol, Cheers guys.
-                            </div>
-                            <div class="raving-card__info--name">
-                                Rachel B.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
 
                 <div class="gallery-cell">
                     <div class="raving-card">
@@ -440,6 +425,23 @@
                             </div>
                             <div class="raving-card__info--name">
                                 Trevor M.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="raving-card">
+                        <div class="raving-card__image">
+                            <img src="images/testimonials/Rachel B.webp">
+                        </div>
+                        <div class="raving-card__info raving-card__info-color3">
+                            <div class="raving-card__info--desc">
+                                AVendors make our work exciting. The products look like out of Saks 5th catalog, and
+                                the quality matches the aesthetics. We now rely on AV for all our essentials. Where
+                                have you been all my life? Lol, Cheers guys.
+                            </div>
+                            <div class="raving-card__info--name">
+                                Rachel B.
                             </div>
                         </div>
                     </div>

@@ -223,6 +223,28 @@
 .footer-bottom-contact a:hover{
   color: rgb(228, 225, 225);
 }
+.animated-button{
+  -webkit-transition: all ease-out 0.7s;
+  -moz-transition: all ease-out 0.7s;
+  -o-transition: all ease-out 0.7s;
+  transition: all ease-out 0.7s;
+}
+.animated-button:hover{
+  transform: translateY(calc(-1*var(--animation-depth, .375em)));
+  -webkit-transition: all ease-out 0.4s;
+  -moz-transition: all ease-out 0.4s;
+  -o-transition: all ease-out 0.4s;
+  transition: all ease-out 0.4s;
+  box-shadow: 5px 12px 3px -1px #4242424d;
+}
+.animated-button:active{
+  transform: translateY(calc(-1*var(--animation-depth, .1em)));
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  box-shadow: 2px 2px 1px 0px #4242424d;
+}
 
   @media (min-width:993px) {
     .hide-desktop{

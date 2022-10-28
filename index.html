@@ -81,7 +81,9 @@
                     Login
                 </div> -->
                 <div class="main-header__item item2 item3">
-                    <button onclick="location.href='https://app.avendors.com/login'" type="button">
+                    <button 
+                    class="animated-button"
+                    onclick="location.href='https://app.avendors.com/login'" type="button">
 
                         Sign up
 
@@ -121,6 +123,7 @@
                             <!-- onclick="location.href='https://avendors.com/customer/form'" -->
                             <button 
                             onclick="return validateForm()"
+                            class="animated-button"
                             >
                             Step Inside
                             </button>
@@ -996,26 +999,10 @@
             <div class="raving-cards">
 
                 <div class="gallery js-flickity"
-                    data-flickity='{ "freeScroll": true, "contain": true,  "pageDots": false}'>
+                data-flickity='{ "wrapAround": true, "contain": true,  "pageDots": false}'>
 
 
-                    <div class="gallery-cell">
-                        <div class="raving-card">
-                            <div class="raving-card__image">
-                                <img src="images/testimonials/Rachel B.webp">
-                            </div>
-                            <div class="raving-card__info raving-card__info-color3">
-                                <div class="raving-card__info--desc">
-                                    AVendors make our work exciting. The products look like out of Saks 5th catalog, and
-                                    the quality matches the aesthetics. We now rely on AV for all our essentials. Where
-                                    have you been all my life? Lol, Cheers guys.
-                                </div>
-                                <div class="raving-card__info--name">
-                                    Rachel B.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
 
                     <div class="gallery-cell">
                         <div class="raving-card">
@@ -1238,6 +1225,23 @@
                                 </div>
                                 <div class="raving-card__info--name">
                                     Trevor M.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="raving-card">
+                            <div class="raving-card__image">
+                                <img src="images/testimonials/Rachel B.webp">
+                            </div>
+                            <div class="raving-card__info raving-card__info-color3">
+                                <div class="raving-card__info--desc">
+                                    AVendors make our work exciting. The products look like out of Saks 5th catalog, and
+                                    the quality matches the aesthetics. We now rely on AV for all our essentials. Where
+                                    have you been all my life? Lol, Cheers guys.
+                                </div>
+                                <div class="raving-card__info--name">
+                                    Rachel B.
                                 </div>
                             </div>
                         </div>
