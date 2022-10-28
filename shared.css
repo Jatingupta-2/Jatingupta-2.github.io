@@ -70,9 +70,9 @@
     color: #03488B;
     font-size: 1rem;
     font-weight: 700;
-    height: 3rem;
+    height: 2.5rem;
     /* width: 10.6rem; */
-    width: 150px;
+    width: 120px;
   }
 
   .main-header__item.item2.contact-us button{
@@ -93,7 +93,7 @@
   }
   .main-header__logo img,
   .custom-body2 .main-header__logo img {
-    width: 8rem;
+    width: 6rem;
   }
 
   .custom-body .main-header__logo{
@@ -284,7 +284,7 @@
   font-weight: 700;
   height: 2.5rem;
   /* width: 10.6rem; */
-  width: 110px;
+  width: 95px;
   }
   }
 
@@ -323,7 +323,7 @@
 
     .main-header__logo img,
     .custom-body2 .main-header__logo img{
-        width: 6.5rem;
+        width: 5rem;
       }
       .custom-body .main-header__logo img{
         width: 2.2rem;

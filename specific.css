@@ -156,6 +156,21 @@
     margin-top: 100px !important;
   }
 
+  /* .main-title,.header {
+    background: linear-gradient(to right, #1e57997a 0%, #2ce0bf7a 19%, #76dd2c7a 40%, #dba62b7a 60%, #e02cbf7a 83%, #1e57997a 100%);
+    background-size: 10000px 100%;
+    animation: bg 15s linear infinite;
+  }
+  
+  @keyframes bg {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 10000px;
+    }
+  } */
+
 
 @media (max-width:768px) {
     .main-title {
@@ -256,7 +271,7 @@
     font-weight: 700;
     height: 2.5rem;
     /* width: 10.6rem; */
-    width: 110px;
+    width: 95px;
     }
     .row_1{
         margin-top: 30px !important;
