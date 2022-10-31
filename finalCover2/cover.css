@@ -64,8 +64,8 @@
 .brands-section-info p {
     padding-bottom: 0.4rem;
     margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.43rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
 }
 
 .custom-body .brands-section-info p {
@@ -501,6 +501,10 @@
     margin-top: 11rem;
     padding: 1rem;
     /* box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%); */
+}
+
+.raving-clients{
+    margin-top: 5rem;
 }
 
 .raving.margintopraving,
@@ -1225,7 +1229,7 @@
 
 .watch-process button {
     border: none;
-    background: #FE5555;
+    background: #FF1F3D;
     color: #fff;
     border-radius: 100px;
     height: 50px;
@@ -1416,6 +1420,9 @@
     background-color: #fff;
   }
 
+  .watch-process img{
+    height: 80%;
+  }
 
 @media (max-width:1550px) {
     .unlock-card {
