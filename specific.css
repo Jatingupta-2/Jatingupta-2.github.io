@@ -15,7 +15,7 @@
 }
 
 .brand-creators {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 600;
 }
 
@@ -26,13 +26,13 @@
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .main-title-description{
     margin-top: 20px;
     font-size: 29px;
     font-weight: 300;
-    width: 395px;
+    width: 411px;
     line-height: 40px;
     /* font-size: 25px;
     font-weight: 300;
@@ -170,14 +170,17 @@
       background-position-x: 10000px;
     }
   } */
-
+  .main-header__item.item2 button{
+    height: 3.1rem;
+    width: 140px;
+  }
 
 @media (max-width:768px) {
     .main-title {
         padding: 60px 20px;
     }
     .brand-creators {
-        font-size: 12px;
+        font-size: 14px;
         
     }
     .create-high {
@@ -269,9 +272,9 @@
     color: #03488B;
     font-size: 0.9rem;
     font-weight: 700;
-    height: 2.5rem;
+    height: 2.8rem;
     /* width: 10.6rem; */
-    width: 95px;
+    width: 105px;
     }
     .row_1{
         margin-top: 30px !important;

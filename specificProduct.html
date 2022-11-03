@@ -86,9 +86,9 @@
     <div class="margin-top-fixed2"></div>
     <section class="main-title row">
         <div class="col-12 col-md-6">
-            <div class="brand-creators">
+            <!-- <div class="brand-creators">
                 BRAND CREATORS
-            </div>
+            </div> -->
             <div class="create-high">
                 Custom made <br />
                 Luxury <span id="category-selection">Tshirt</span>
@@ -1040,18 +1040,20 @@
              .then(function (response) {
                
                 var url = window.location.toString(); 
-                // if(url.includes('tshirts')){
-                //     window.location.href = `https://app.avendors.com/misc/user-details?email=${email}`;
-                // }
-                // if(url.includes('hoodies')){
-                //     window.location.href = `https://app.avendors.com/products/collections/hoodies`;
-                // }
-                // if(url.includes('sweats')){
-                //     window.location.href = `https://app.avendors.com/products/collections/sweats`;
-                // }
-                // else{
-                    window.location.href = `https://app.avendors.com/misc/user-details?email=${email}`;
-                // }
+                if(url.includes('tshirts')){
+                    window.location.href = `https://app.avendors.com/misc/user-details?email=${email}&category=tshirts`;
+                }
+                if(url.includes('hoodies')){
+                    window.location.href = `https://app.avendors.com/misc/user-details?email=${email}&category=hoodies`;
+                    // window.location.href = `https://app.avendors.com/products/collections?email=${email}&category=hoodies`;
+                }
+                if(url.includes('sweats')){
+                    window.location.href = `https://app.avendors.com/misc/user-details?email=${email}&category=sweats`;
+                    // window.location.href = `https://app.avendors.com/products/collections/sweats`;
+                }
+                else{
+                    window.location.href = `https://app.avendors.com/misc/user-details?email=${email}&category=tshirts`;
+                }
                
              });
      
