@@ -89,9 +89,9 @@
             <!-- <div class="brand-creators">
                 BRAND CREATORS
             </div> -->
-            <div class="create-high">
-                Custom made <br />
-                Luxury <span id="category-selection">Tshirt</span>
+            <div  class="create-high">
+                <span id="custom-made-title-1">Custom made </span><br />
+                <span id="custom-made-title-2">Luxury </span> <span id="category-selection">Tshirt</span>
 
                 <!-- Create high <br />
                 quality <span id="category-selection">tees.</span> -->
@@ -1356,6 +1356,14 @@
     if(url.includes('sweats')){
         document.getElementById("category-selection").innerHTML = "Sweats";
         document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Sweats like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from the factory.";
+    }
+    if(url.includes('clothing/basics')){
+        document.getElementById("custom-made-title-1").innerHTML = "Customizable ";
+        document.getElementById("custom-made-title-2").innerHTML = "Luxury ";
+        document.getElementById("category-selection").innerHTML = "basics";
+        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Sweats like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from the factory.";
+        
+        
     }
 </script>
 <script>
