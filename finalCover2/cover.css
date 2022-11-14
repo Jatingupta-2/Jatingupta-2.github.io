@@ -14,6 +14,10 @@
     background-position: left 20% bottom 0%;
 }
 
+.mb-bs{
+    margin-bottom: 50px;
+}
+
 .custom-body .brands-section {
     background: url(../images/Vector90.svg);
     background-repeat: no-repeat;
@@ -1673,7 +1677,9 @@
     .brands-section__nothing img {
         width: 330px;
     }
-
+    .mb-bs{
+        margin-bottom: 10px;
+    }
     .custom-body .brands-section__nothing img {
         width: 320px;
     }
