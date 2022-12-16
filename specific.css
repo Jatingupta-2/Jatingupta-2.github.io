@@ -62,6 +62,9 @@
 .custom-img{
     width: 70%;
 }
+.custom-img.custom-img-wistia{
+    width: 0;
+}
 .custom-title{
     font-size: 40px;
     font-family: Lemon;
