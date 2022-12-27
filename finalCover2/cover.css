@@ -1680,12 +1680,12 @@
     }
 
 }
-
+.header.header-yellow{
+    background: #FFF8E4;
+}
 @media (max-width:768px) {
 
-    .header.header-yellow{
-        background: #FFF8E4;
-    }
+   
     .brands-section__nothing img {
         width: 330px;
     }
@@ -2124,7 +2124,16 @@
     .choices ul{
         padding-left: 4rem;
     }
+    .main-header.mh3-mob{
+        padding-left: 1.8rem;
+    }
 
+}
+
+.brands-section.yellow-bg{
+    background: url(../images/yellow-blue-desktop.svg) center/cover no-repeat border-box;
+    background-position: left 0% bottom 0%;
+    
 }
 
 @media (max-width:575px) {
@@ -2136,6 +2145,7 @@
     .brands-section.yellow-bg{
         background: url(../images/blue-yellow-bg.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
+        padding-top:60px;
     }
 
     .custom-body .brands-section {
