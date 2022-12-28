@@ -2132,7 +2132,7 @@
 
 .brands-section.yellow-bg{
     background: url(../images/yellow-blue-desktop.svg) center/cover no-repeat border-box;
-    background-position: left 0% bottom 0%;
+    background-position: left 0% top 0%;
     padding: 4rem 2rem 1rem;
 }
 

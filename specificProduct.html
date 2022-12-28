@@ -69,7 +69,7 @@
         </div>
     </nav>
 
-    <header class="header fixed-header header-scroll">
+    <header class="header fixed-header header-scroll header-yellow">
         <div class="main-header mh2">
             <div onclick="location.href='https://app.avendors.com'" class="main-header__logo">
                 <img src="images/Avendors1 1.svg">
@@ -92,20 +92,24 @@
     </header>
     <main class="main margin-top-fixed22">
     <div class="margin-top-fixed2"></div>
-    <section class="main-title row">
+    <section class="main-title row yellow-title">
         <div class="col-12 col-md-6">
             <!-- <div class="brand-creators">
                 BRAND CREATORS
             </div> -->
             <div  class="create-high">
                 <span id="custom-made-title-1">Custom made </span><br />
-                <span id="custom-made-title-2">Luxury </span> <span id="category-selection">Tshirt</span>
+                <span id="custom-made-title-2">Luxury </span> <span id="category-selection">tshirt</span>
 
                 <!-- Create high <br />
                 quality <span id="category-selection">tees.</span> -->
             </div>
             <div id="main-desc" class="main-title-description">
-                AVendors is for brands looking for designer T-shirts like James Perse, Essentials, Helmut Lang, John Elliott, Everlane, etc direct from U.S. factories.
+                Find pre-developed luxury <span id="main-desc-cat">tshirts</span> same <br />
+                quality as Lululemon, James Perse, Y-3, <br />
+                Balenciaga, & many more to customize <br />
+                for your brands. We are an end-to-end <br />
+                manufacturers for high-end brands.
             </div>
             <div class="brands-section-email email2">
                 <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email">
@@ -1362,23 +1366,32 @@
 </script>
 <script>
     var url = window.location.toString();
+    console.log(window.location.toString())
     if(url.includes('tshirts')){
-        document.getElementById("category-selection").innerHTML = "Tshirt";
-        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer T-shirts like James Perse, Essentials, Helmut Lang, John Elliott, Everlane, etc direct from U.S. factories.";
+        document.getElementById("category-selection").innerHTML = "tshirt";
+        document.getElementById("main-desc-cat").innerHTML = "tshirts";
+        // document.getElementById("main-desc").innerHTML = `Find pre-developed luxury tshirts same ${<br />}
+        //         quality as Lululemon, James Perse, Y-3, ${<br />}
+        //         Balenciaga, & many more to customize ${<br />}
+        //         for your brands. We are an end-to-end ${<br />}
+        //         manufacturers for high-end brands.`;
     }
     if(url.includes('hoodies')){
-        document.getElementById("category-selection").innerHTML = "Hoodie";
-        document.getElementById("main-desc").innerHTML = `AVendors is for brands looking for designer Hoodies like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.`;
+        document.getElementById("category-selection").innerHTML = "hoodie";
+        document.getElementById("main-desc-cat").innerHTML = "hoodies";
+        // document.getElementById("main-desc").innerHTML = `AVendors is for brands looking for designer Hoodies like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.`;
     }
     if(url.includes('sweats')){
-        document.getElementById("category-selection").innerHTML = "Sweats";
-        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Sweats like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
+        document.getElementById("category-selection").innerHTML = "sweats";
+        document.getElementById("main-desc-cat").innerHTML = "sweats";
+        // document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Sweats like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
     }
     if(url.includes('clothing-basics')){
         document.getElementById("custom-made-title-1").innerHTML = "Customizable ";
         document.getElementById("custom-made-title-2").innerHTML = "Luxury ";
         document.getElementById("category-selection").innerHTML = "basics";
-        document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Basics like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
+        document.getElementById("main-desc-cat").innerHTML = "basics";
+        // document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Basics like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
         
         
     }

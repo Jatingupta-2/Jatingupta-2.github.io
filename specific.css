@@ -13,6 +13,10 @@
     background: #c5dbf2;
     padding: 130px 140px;
 }
+.main-title.yellow-title{
+    background: url(./images/blue-yellow-bg-desktop-specific.svg) center/cover no-repeat border-box;
+    background-position: left 0% top 0%;
+}
 
 .brand-creators {
     font-size: 21px;
@@ -20,9 +24,9 @@
 }
 
 .create-high {
-    font-family: Lemon;
+    /* font-family: Lemon; */
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
@@ -30,10 +34,10 @@
 }
 .main-title-description{
     margin-top: 20px;
-    font-size: 29px;
-    font-weight: 300;
+    font-size: 22px;
+    font-weight: 400;
     width: 411px;
-    line-height: 40px;
+    line-height: 26px;
     /* font-size: 25px;
     font-weight: 300;
     width: 350px; */
@@ -55,7 +59,7 @@
 }
 .brands-section-email button{
     width: 10rem;
-    border-radius: 100px;
+    border-radius: 5px;
     box-shadow: 0px 4px 4px 0px #004E9340;
     background: #ffe01b;
 }
@@ -182,6 +186,10 @@
     .main-title {
         padding: 60px 20px;
     }
+    .main-title.yellow-title{
+        background: url(./images/blue-yellow-bg-mob-specific.svg) center/cover no-repeat border-box;
+        background-position: left 0% bottom 0%;
+    }
     .brand-creators {
         font-size: 14px;
         
@@ -191,11 +199,12 @@
         line-height: 50px;
     }
     .main-title-description{
-        font-size: 23px;
-        line-height: 30px;
+        font-size: 19px;
+        line-height: 22px;
         padding: 0 79px 0 0;
         margin-top: 30px;
         margin-bottom: 45px;
+        font-weight: 400;
     }
     .hero-image img{
         width: 80%;
