@@ -25,9 +25,9 @@
 
 .create-high {
     /* font-family: Lemon; */
-    font-size: 50px;
+    font-size: 57px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 65px;
     letter-spacing: 0em;
     text-align: left;
     margin-top: 35px;
@@ -37,7 +37,7 @@
     font-size: 22px;
     font-weight: 400;
     width: 411px;
-    line-height: 26px;
+    line-height: 28px;
     /* font-size: 25px;
     font-weight: 300;
     width: 350px; */
@@ -52,6 +52,9 @@
 }
 .hero-image img{
     max-width: 98%;
+}
+.brands-section-email.email2{
+    margin-top: 2rem;
 }
 .brands-section-email input{
     padding: 0.6rem;
@@ -195,15 +198,15 @@
         
     }
     .create-high {
-        font-size: 39px;
-        line-height: 50px;
+        font-size: 53px;
+        line-height: 60px;
     }
     .main-title-description{
-        font-size: 19px;
-        line-height: 22px;
-        padding: 0 79px 0 0;
-        margin-top: 30px;
-        margin-bottom: 45px;
+        font-size: 21px;
+        line-height: 25px;
+        padding: 0 22px 0 0;
+        margin-top: 20px;
+        margin-bottom: 30px;
         font-weight: 400;
     }
     .hero-image img{
