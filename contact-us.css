@@ -47,7 +47,7 @@
 }
 
 .card-body button {
-    background: #001426;
+    background: #03488B;
     color: #fff;
     border-radius: 20px;
     margin-top: 50px;
@@ -166,7 +166,7 @@
 
     .card1 img,
     .card2 img {
-        width: 90vw;
+        width: 89vw;
     }
 
     .card-body .title2 {
