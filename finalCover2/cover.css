@@ -19,6 +19,7 @@
 }
 
 .custom-body .brands-section {
+    
     background: url(../images/Vector90.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,6 +220,8 @@
 .bi-image {
     padding: 20px;
     max-width: 250px;
+    border: 1px solid #EEF9FF;
+    border-radius: 5px;
 }
 
 .splendid-padding {
@@ -351,7 +354,7 @@
 }
 
 .accordian_0 {
-    background: #FFECA8;
+    background: #FCF296;
 }
 
 .accordian_1 {
@@ -1215,9 +1218,15 @@
     margin-top: 80px;
 }
 
+.partners .images.img-part4{
+    margin-top: 30px;
+}
 .partners .images img {
     max-height: 70px;
     margin-right: 30px;
+}
+.partners .images.img-part4 img{
+    max-height: 110px;
 }
 
 .partners .images .image1 {
@@ -1238,11 +1247,11 @@
 
 .watch-process button {
     border: none;
-    background: #FF1F3D;
+    background: #FF0000;
     color: #fff;
     border-radius: 100px;
     height: 50px;
-    width: 200px;
+    width: 50px;
 }
 
 .custom-section {
@@ -1659,9 +1668,12 @@
     .bi-carousel-col2 {
         padding-left: 15px !important;
     }
+    .slick-slide{
+        margin: 0px 10px !important;
 
+    }
     .bi-image {
-        padding: 20px 0px;
+        padding: 20px 10px;
         max-width: 250px;
     }
 
@@ -2051,10 +2063,16 @@
     .partners .images {
         margin-top: 40px;
     }
+    .partners .images.img-part4{
+        margin-top: 10px;
+    }
 
     .partners .images img {
         max-height: 30px;
         margin-right: 10px;
+    }
+    .partners .images.img-part4 img{
+        max-height: 55px;
     }
 
     .partners .images .image1 {
@@ -2130,14 +2148,14 @@
 
 }
 
-.brands-section.yellow-bg{
+.brands-section.yellow-bg,.custom-body .brands-section{
     background: url(../images/yellow-blue-desktop.svg) center/cover no-repeat border-box;
     background-position: left 0% bottom 0%;
     padding: 4rem 2rem 1rem;
 }
 
 @media (min-width:1500px) {
-    .brands-section.yellow-bg{
+    .brands-section.yellow-bg,.custom-body .brands-section{
         background: url(../images/yellow-blue-desktop-wide.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
     }
@@ -2156,7 +2174,8 @@
     }
 
     .custom-body .brands-section {
-        background: url(../images/Vector3.svg) center/cover no-repeat border-box;
+        /* background: url(../images/Vector3.svg) center/cover no-repeat border-box; */
+        background: url(../images/blue-yellow-bg.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
     }
 
