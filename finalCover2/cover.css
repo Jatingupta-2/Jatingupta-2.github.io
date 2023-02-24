@@ -1252,6 +1252,9 @@
     border-radius: 100px;
     height: 50px;
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .custom-section {
@@ -2144,6 +2147,10 @@
     }
     .main-header.mh3-mob{
         padding-left: 1.8rem;
+    }
+
+    .mt-trim{
+        margin-top: -3px;
     }
 
 }
