@@ -30,6 +30,16 @@
     width: 100%;
     z-index: 99;
   }
+  .sticky-header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  #our-services{
+    position: relative;
+    top: -85px;
+  }
 
   .header.header-pink{
     background: #FFEBEB;
