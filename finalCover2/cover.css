@@ -1449,6 +1449,10 @@
    font-size: 1.4rem;
 }
 
+.max-w500{
+    max-width: 500px;
+}
+
 @media (max-width:1550px) {
     .unlock-card {
         padding: 20px;
