@@ -148,7 +148,7 @@
                     <div class="col-lg-6 col-md-12 brands-section__col2 hide-tablet">
                         <div class="brands-section__use">
                             <div class="brands-section__col">
-                                <img class="brands-section-1" src="images/avnew/top1.webp">
+                                <img id='topimage' class="brands-section-1" src="images/avnew/top1.webp">
                                 <img class="brands-section-2 max-w500" src="images/avnew/top2.webp">
 
                             </div>
@@ -174,19 +174,21 @@
 
                         <section class="bi-slick-carousel slider">
                             <div class="slide">
-                                <div class="factory-logo splendid-padding">
-                                    <img class="bi-image" src="images/avnew/Brand Names/Fear of God.webp" alt="First slide">
+                                <div class="factory-logo">
+                                    <img class="bi-image" src="images/avnew/Brand Names/Fear of God.webp"
+                                        alt="First slide">
                                 </div>
                             </div>
                             <div class="slide">
-                                <div class="factory-logo supreme-padding">
+                                <div class="factory-logo">
                                     <img class="bi-image" src="images/avnew/Brand Names/Vuori.webp" alt="First slide">
                                 </div>
 
                             </div>
                             <div class="slide">
                                 <div class="factory-logo">
-                                    <img class="bi-image" src="images/avnew/Brand Names/Reformation.webp" alt="First slide">
+                                    <img class="bi-image" src="images/avnew/Brand Names/Reformation.webp"
+                                        alt="First slide">
                                 </div>
                             </div>
                             <div class="slide">
@@ -195,17 +197,18 @@
                                 </div>
                             </div>
                             <div class="slide">
-                                <div class="factory-logo supreme-padding">
+                                <div class="factory-logo">
                                     <img class="bi-image" src="images/avnew/Brand Names/Vince.webp" alt="First slide">
                                 </div>
                             </div>
                             <div class="slide">
                                 <div class="factory-logo">
-                                    <img class="bi-image" src="images/avnew/Brand Names/James Perse.webp" alt="First slide">
+                                    <img class="bi-image" src="images/avnew/Brand Names/James Perse.webp"
+                                        alt="First slide">
                                 </div>
                             </div>
                             <div class="slide">
-                                <div class="factory-logo supreme-padding">
+                                <div class="factory-logo">
                                     <img class="bi-image" src="images/avnew/Brand Names/AV.webp" alt="First slide">
                                 </div>
                             </div>
@@ -234,11 +237,12 @@
 
         <section class="brand-luxury">
             <div class="luxury-image hide-tablet">
-                <img class="luxury-model" class="brands-section-2 max-w500" src="images/avnew/Luxury for brands.webp">
+                <img class="luxury-model" id="luximage" class="brands-section-2 max-w500"
+                    src="images/avnew/Luxury for brands.webp">
                 <div class="model-details">
-                    <span>Modal Tri-blend</span>
+                    <span id="luxtype">Modal Tri-blend</span>
                     <span class="sq">SAME QUALITY AS</span>
-                    <span class="an">Aviator Nation</span>
+                    <span id="luxqual" class="an">Aviator Nation</span>
                 </div>
             </div>
             <div class="luxury-details">
@@ -275,9 +279,9 @@
                                 chain to make sure of it.
                             </span>
                             <span class="hide-desktop">
-                                We bring you the best craftsmanship<br /> and the highest 
+                                We bring you the best craftsmanship<br /> and the highest
                                 quality products. We control every step of the supply chain <br />
-                                 to make sure of it.
+                                to make sure of it.
                             </span>
                         </div>
                     </div>
@@ -296,7 +300,7 @@
 
                             <span class="hide-desktop"> We make all our products using Grade-A<br /> (highest-grade)
                                 yarn used by the most prestigious brands. Quality is not up<br />
-                                 for debate.</span>
+                                for debate.</span>
                         </div>
                     </div>
                     <div class="card-pb">
@@ -313,7 +317,7 @@
                                 low MoQ, free woven
                                 labels, hangtags, and more.</span>
                             <span class="hide-desktop">Customize any colors, fabrics, graphics,<br /> packaging,
-                                and more. Plus perks like a 20% discount on orders, 
+                                and more. Plus perks like a 20% discount on orders,
                                 low MoQ, free <br /> woven
                                 labels, hangtags, and more.</span>
 
@@ -382,12 +386,13 @@
                     We make the most complex part super easy for <br />
                     emerging brands to thrive.
                 </div>
-                <button class="qsb">Step Inside <img src="images/avnew/right arrow.svg" /></button>
+                <button class="qsb animated-button" onclick="return signupPage()">Step Inside <img
+                        src="images/avnew/right arrow.svg" /></button>
             </div>
 
         </section>
         <section class="quality-section2 hide-desktop">
-            <img  class="bg-qual-img" src="images/avnew/bg-quality-mob.webp" />
+            <img class="bg-qual-img" src="images/avnew/bg-quality-mob.webp" />
         </section>
 
         <section class="marketplace2 sp-cont">
@@ -397,14 +402,14 @@
                 </div>
                 <div class="cat-arrows">
                     <img id="slideLeftci" class="cat-left" src="images/avnew/right arrow.svg" />
-                    <img id="slideRightci" src="images/avnew/right arrow.svg" />
+                    <img id="slideRightci" class="" src="images/avnew/right arrow.svg" />
                 </div>
             </div>
 
             <div class="container marketplace-container">
                 <section id="ciCarouel" class="marketplace-slick-carousel2 slider">
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/Lounge.webp" />
                             <div class="collection-info">
                                 <span class="tb">Tri-Blend <span class="width-5"></span> 450/Gsm</span>
@@ -414,7 +419,8 @@
                                     <span class="price">$34+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -422,7 +428,7 @@
                         </div>
                     </div>
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/High Street.webp" />
                             <div class="collection-info">
                                 <span class="tb">Organic Cotton <span class="width-5"></span>650/Gsm</span>
@@ -432,7 +438,8 @@
                                     <span class="price">$48+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -440,7 +447,7 @@
                         </div>
                     </div>
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/Athlesure.webp" />
                             <div class="collection-info">
                                 <span class="tb">Poly Tech <span class="width-5"></span> 170/Gsm</span>
@@ -450,7 +457,8 @@
                                     <span class="price">$8+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -458,7 +466,7 @@
                         </div>
                     </div>
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/Sustainable.webp" />
                             <div class="collection-info">
                                 <span class="tb">Organic Cotton <span class="width-5"></span> 180/Gsm</span>
@@ -468,7 +476,8 @@
                                     <span class="price">$12+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -476,7 +485,7 @@
                         </div>
                     </div>
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/Organic.webp" />
                             <div class="collection-info">
                                 <span class="tb">Organic Cotton <span class="width-5"></span> 400/Gsm</span>
@@ -486,7 +495,8 @@
                                     <span class="price">$36+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -494,7 +504,7 @@
                         </div>
                     </div>
                     <div class="slide text-center">
-                        <div class="collection-item">
+                        <div class="collection-item" onclick="return signupPage()">
                             <img src="images/avnew/Sneakpeak/Recycled.webp" />
                             <div class="collection-info">
                                 <span class="tb">Recycled Cotton <span class="width-5"></span> 170/Gsm</span>
@@ -504,7 +514,8 @@
                                     <span class="price">$8+</span>
                                     <span class="ac">ANY COLOR</span>
                                 </div>
-                                <button><img src="images/avnew/customize-product-collections.svg" /></button>
+                                <button class="animated-button"><img
+                                        src="images/avnew/customize-product-collections.svg" /></button>
                             </div>
                         </div>
                         <div class="ci-heading">
@@ -526,9 +537,12 @@
 
         <section class="quality">
             <div class="quality-heading">
-                Quality brands <br>
-                should expect quality<br>
+                Upscale brands<br>
+                should expect quality <br>
                 products
+                <!-- Quality brands <br>
+                should expect quality<br>
+                products -->
             </div>
 
             <div class="quality-sub-heading">
@@ -560,10 +574,9 @@
 
         <section class="raving margintopraving">
             <div class="raving-heading">
-                Why brands are
-raving about AVmade
-                Why brands are<br>
+                Why brands are <br>
                 raving about AVmade
+
             </div>
 
 
@@ -582,7 +595,9 @@ raving about AVmade
                             </div>
                             <div class="raving-card__info raving-card__info-color1">
                                 <div class="raving-card__info--desc">
-                                    I’m your biggest fan and love AVmade.com, but I'm looking to create products that are not available on your marketplace. Can you guys please help us? It will mean the world to us. Thanks.
+                                    I’m your biggest fan and love AVmade.com, but I'm looking to create products that
+                                    are not available on your marketplace. Can you guys please help us? It will mean the
+                                    world to us. Thanks.
                                 </div>
                                 <div class="raving-card__info--name">
                                     Becca G.
@@ -1383,7 +1398,7 @@ raving about AVmade
                 var card2 = document.getElementById('card2-cc')
                 var card3 = document.getElementById('card3-cc')
                 var width = 1;
-                var id = setInterval(frame, 30);
+                var id = setInterval(frame, 60);
                 card1.onclick = function () {
                     clearInterval(id);
                     elem.style.width = 0 + "%";
@@ -1456,6 +1471,29 @@ raving about AVmade
         buttonLeft.onclick = function () {
             document.getElementById('cats-images').scrollLeft -= 80;
         };
+
+        function checkScroll3(every_seconds) {
+
+            var leftScroll2 = $('#cats-images').scrollLeft();
+            var width2 = $('#cats-images').width();
+            var scrollWidth = $('#cats-images').get(0).scrollWidth;
+
+            // console.log(leftScroll2 , width2, scrollwidth2)
+
+            if (leftScroll2 === 0) {
+                $('#slideLeftCat').addClass('overlay50')
+            } else {
+                $('#slideLeftCat').removeClass('overlay50')
+            }
+            if (scrollWidth - leftScroll2 - width2 === 0) {
+                $('#slideRightCat').addClass('overlay50')
+            } else {
+                $('#slideRightCat').removeClass('overlay50')
+            }
+
+            setTimeout("checkScroll3(" + every_seconds + ")", ((every_seconds) * 1000));
+        }
+        checkScroll3(0.2)
     </script>
     <!-- Category Scroll -->
 
@@ -1470,8 +1508,361 @@ raving about AVmade
         buttonLeft2.onclick = function () {
             document.getElementById('ciCarouel').scrollLeft -= 80;
         };
+        function checkScroll2(every_seconds) {
+
+            var leftScroll2 = $('#ciCarouel').scrollLeft();
+            var width2 = $('#ciCarouel').width();
+            var scrollWidth = $('#ciCarouel').get(0).scrollWidth;
+
+            // console.log(leftScroll2 , width2, scrollwidth2)
+
+            if (leftScroll2 === 0) {
+                $('#slideLeftci').addClass('overlay50')
+            } else {
+                $('#slideLeftci').removeClass('overlay50')
+            }
+            if (scrollWidth - leftScroll2 - width2 === 0) {
+                $('#slideRightci').addClass('overlay50')
+            } else {
+                $('#slideRightci').removeClass('overlay50')
+            }
+
+            setTimeout("checkScroll2(" + every_seconds + ")", ((every_seconds) * 1000));
+        }
+        checkScroll2(0.2)
+
     </script>
     <!-- sneakpeak Scroll -->
+
+    <!-- TOP image change -->
+    <script type='text/javascript'>
+        var imageID = 0;
+        function changeimage(every_seconds) {
+            //change the image
+
+            // $("#topimage").fadeOut(200);
+            if (!imageID) {
+                document.getElementById("topimage").src = "images/avnew/top1.webp";
+                imageID++;
+                $("#topimage").fadeIn(200);
+            }
+            else {
+                if (imageID == 1) {
+
+                    document.getElementById("topimage").src = "images/avnew/top3.webp";
+                    imageID++;
+                    $("#topimage").fadeIn(200);
+                } else {
+                    if (imageID == 2) {
+                        document.getElementById("topimage").src = "images/avnew/top4.webp";
+                        imageID = 0;
+                        $("#topimage").fadeIn(200);
+                    }
+                }
+            }
+            //call same function again for x of seconds
+            setTimeout("changeimage(" + every_seconds + ")", ((every_seconds) * 1000));
+        }
+        changeimage(3);
+    </script>
+    <!-- TOP image change -->
+
+    <!-- Luxury image change -->
+    <script type='text/javascript'>
+        var imageID2 = 0;
+        function changeimage2(every_seconds) {
+            //change the image
+            // $("#luximage").fadeOut(200);
+            if (!imageID2) {
+                document.getElementById("luximage").src = "images/avnew/Luxury for brands.webp";
+                imageID2++;
+                $("#luxtype").text("Modal Tri-blend");
+                $("#luxqual").text("Aviator Nation");
+                $("#luximage").fadeIn(200);
+            }
+            else if (imageID2 == 1) {
+                document.getElementById("luximage").src = "images/avnew/Luxury for brands2.webp";
+                imageID2++;
+                $("#luxtype").text("French Terry Fleeced");
+                $("#luxqual").text("Fear of God");
+                $("#luximage").fadeIn(200);
+            }
+            else if (imageID2 == 2) {
+                document.getElementById("luximage").src = "images/avnew/Luxury for brands3.webp";
+                imageID2++;
+                $("#luxtype").text("Organic Cotton");
+                $("#luxqual").text("Reformation");
+                $("#luximage").fadeIn(200);
+            }
+            else if (imageID2 == 3) {
+                document.getElementById("luximage").src = "images/avnew/Luxury for brands4.webp";
+                imageID2 = 0;
+                $("#luxtype").text("Pima Cotton");
+                $("#luxqual").text("Vince");
+                $("#luximage").fadeIn(200);
+            }
+
+            //call same function again for x of seconds
+            setTimeout("changeimage2(" + every_seconds + ")", ((every_seconds) * 1000));
+        }
+        changeimage2(3);
+    </script>
+    <!-- Luxury image change -->
+
+
+    <!-- FAQ -->
+    <script>
+
+        $('#collapsegone-button').click(function () {
+            $('#collapsegone').collapse('toggle')
+            if ($('#collapsegone-button-up').hasClass('hide')) {
+                $('#collapsegone-button-up').removeClass('hide')
+                $('#collapsegone-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone-button-up').addClass('hide')
+                $('#collapsegone-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button1').click(function () {
+            $('#collapsegone1').collapse('toggle')
+
+        });
+        $('#collapsegone-button2').click(function () {
+            $('#collapsegone2').collapse('toggle')
+            if ($('#collapsegone2-button-up').hasClass('hide')) {
+                $('#collapsegone2-button-up').removeClass('hide')
+                $('#collapsegone2-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone2-button-up').addClass('hide')
+                $('#collapsegone2-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button3').click(function () {
+            $('#collapsegone3').collapse('toggle');
+            if ($('#collapsegone3-button-up').hasClass('hide')) {
+                $('#collapsegone3-button-up').removeClass('hide')
+                $('#collapsegone3-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone3-button-up').addClass('hide')
+                $('#collapsegone3-button-down').removeClass('hide')
+            }
+        });
+
+        $('#collapsegone-button4').click(function () {
+            $('#collapsegone4').collapse('toggle')
+            if ($('#collapsegone4-button-up').hasClass('hide')) {
+                $('#collapsegone4-button-up').removeClass('hide')
+                $('#collapsegone4-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone4-button-up').addClass('hide')
+                $('#collapsegone4-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button5').click(function () {
+            $('#collapsegone5').collapse('toggle')
+            if ($('#collapsegone5-button-up').hasClass('hide')) {
+                $('#collapsegone5-button-up').removeClass('hide')
+                $('#collapsegone5-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone5-button-up').addClass('hide')
+                $('#collapsegone5-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button6').click(function () {
+            $('#collapsegone6').collapse('toggle')
+            if ($('#collapsegone6-button-up').hasClass('hide')) {
+                $('#collapsegone6-button-up').removeClass('hide')
+                $('#collapsegone6-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone6-button-up').addClass('hide')
+                $('#collapsegone6-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button7').click(function () {
+            $('#collapsegone7').collapse('toggle')
+            if ($('#collapsegone7-button-up').hasClass('hide')) {
+                $('#collapsegone7-button-up').removeClass('hide')
+                $('#collapsegone7-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone7-button-up').addClass('hide')
+                $('#collapsegone7-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button8').click(function () {
+            $('#collapsegone8').collapse('toggle')
+            if ($('#collapsegone8-button-up').hasClass('hide')) {
+                $('#collapsegone8-button-up').removeClass('hide')
+                $('#collapsegone8-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone8-button-up').addClass('hide')
+                $('#collapsegone8-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button9').click(function () {
+            $('#collapsegone9').collapse('toggle')
+            if ($('#collapsegone9-button-up').hasClass('hide')) {
+                $('#collapsegone9-button-up').removeClass('hide')
+                $('#collapsegone9-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone9-button-up').addClass('hide')
+                $('#collapsegone9-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button10').click(function () {
+            $('#collapsegone10').collapse('toggle')
+            if ($('#collapsegone10-button-up').hasClass('hide')) {
+                $('#collapsegone10-button-up').removeClass('hide')
+                $('#collapsegone10-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone10-button-up').addClass('hide')
+                $('#collapsegone10-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button11').click(function () {
+            $('#collapsegone11').collapse('toggle')
+            if ($('#collapsegone11-button-up').hasClass('hide')) {
+                $('#collapsegone11-button-up').removeClass('hide')
+                $('#collapsegone11-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone11-button-up').addClass('hide')
+                $('#collapsegone11-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button12').click(function () {
+            $('#collapsegone12').collapse('toggle')
+            if ($('#collapsegone12-button-up').hasClass('hide')) {
+                $('#collapsegone12-button-up').removeClass('hide')
+                $('#collapsegone12-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone12-button-up').addClass('hide')
+                $('#collapsegone12-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button13').click(function () {
+            $('#collapsegone13').collapse('toggle')
+            if ($('#collapsegone13-button-up').hasClass('hide')) {
+                $('#collapsegone13-button-up').removeClass('hide')
+                $('#collapsegone13-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone13-button-up').addClass('hide')
+                $('#collapsegone13-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button14').click(function () {
+            $('#collapsegone14').collapse('toggle')
+            if ($('#collapsegone14-button-up').hasClass('hide')) {
+                $('#collapsegone14-button-up').removeClass('hide')
+                $('#collapsegone14-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone14-button-up').addClass('hide')
+                $('#collapsegone14-button-down').removeClass('hide')
+            }
+        });
+        $('#collapsegone-button15').click(function () {
+            $('#collapsegone15').collapse('toggle')
+            if ($('#collapsegone15-button-up').hasClass('hide')) {
+                $('#collapsegone15-button-up').removeClass('hide')
+                $('#collapsegone15-button-down').addClass('hide')
+            }
+            else {
+                $('#collapsegone15-button-up').addClass('hide')
+                $('#collapsegone15-button-down').removeClass('hide')
+            }
+        });
+
+    </script>
+    <!-- FAQ -->
+
+
+    <!-- STEP INSIDE -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const validateEmail = (email) => {
+            return email.match(
+                /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            );
+        };
+
+        async function validateForm() {
+
+            var url = window.location.href
+            var split_1_Url = url.split('&utm_campaign')[0]
+            var split_2_Url = split_1_Url.split('?')[1]
+
+            console.log(split_2_Url)
+
+            let email = document.getElementById('enter-email').value;
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            else if (validateEmail(email)) {
+                var obj = {
+                    html: ` You have a Client form.<br><br> 
+            <h3>Details are</h3>
+            <ul style="list-style-type:none;">
+            <li>Email: ${email}<br></li>
+            </ul>`,
+                    subject: 'Client form (Only email)'
+                }
+
+
+                //   let res = await axios.post('http://httpbin.org/post', payload);
+
+                //   console.log(res);
+
+
+                axios({
+                    method: 'post',
+                    url: 'https://backend.avendors.com/api/v1/products/addHubSpotMainMarketingPage',
+                    data: {
+                        email: email,
+                        url: window.location.href
+                    }
+                })
+                    .then(function (response) {
+                        axios({
+                            method: 'post',
+                            url: 'https://backend.avendors.com/api/v1/products/rfq',
+                            data: obj
+                        })
+                            .then(function (response) {
+                                // window.location.href = `https://app.avendors.com/onboarding/step-one`;
+                                window.location.href = `https://app.avendors.com`;
+                                // document.getElementById('collection-choices').scrollIntoView({
+                                // behavior: 'smooth'
+                                // });
+                            });
+
+                    });
+
+
+
+            }
+            else {
+                alert("Email must be valid");
+            }
+        }
+
+        async function signupPage() {
+            window.location.href = `https://app.avendors.com/onboarding/step-one`;
+        }
+    </script>
+    <!-- STEP INSIDE -->
 
 </body>
 

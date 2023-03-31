@@ -39,6 +39,7 @@
 
 .av-new .bi-carousel-title {
     margin: auto 0 auto 50px;
+    font-size: 16px;
 }
 
 .brand-luxury {
@@ -71,21 +72,21 @@
     display: flex;
     flex-direction: column;
     padding: 25px 91px 25px 29px;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
 }
 
 
 .model-details .sq {
     color: rgba(0, 78, 147, 0.6);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
     margin-top: 5px;
 }
 
 .model-details .an {
     color: #004E93;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     margin-top: 5px;
 }
@@ -109,7 +110,7 @@
 
 .luxury-details .details {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .brands-section-info.new {
@@ -117,7 +118,7 @@
 }
 
 .collapse-details {
-    margin-top: 30px;
+    margin-top: 75px;
 }
 
 .collapse-details .collapse-card {
@@ -139,19 +140,20 @@
 }
 
 .collapse-details .collapse-card .card-title {
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     align-items: center;
 }
 
 .collapse-details .collapse-card .card-title span {
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 18px;
     display: inline-block;
 }
 
 .collapse-details .collapse-card .card-info {
     padding-left: 42px;
+    font-size: 15px;
 }
 
 .explore-cats {
@@ -239,7 +241,7 @@
 }
 
 .quality-section {
-    background: url(images/avnew/bg-quality.webp) center/cover no-repeat border-box, #FFF9F7;
+    background: url(images/avnew/bg-quality.webp) center/cover no-repeat border-box, #FFFDE7;
     /* background: url(images/yellow-blue-desktop.svg) center/cover no-repeat border-box; */
     background-position: bottom 0% right 0%;
     height: 50vw;
@@ -254,7 +256,7 @@
 .qs-info {}
 
 .qs-title {
-    font-size: 30px;
+    font-size: 32px;
     font-style: italic;
     font-weight: 500;
 }
@@ -262,11 +264,11 @@
 .qs-title .qual {
     font-weight: 700;
     font-style: normal;
-    font-size: 35px;
+    font-size: 38px;
 }
 
 .qsp {
-    font-size: 21px;
+    font-size: 23px;
     margin-top: 20px;
     line-height: 25px;
 }
@@ -302,7 +304,7 @@
 }
 
 .sp-cont {
-    background: #FFF3EE;
+    background: #F2FFFA;
 }
 
 .sp-cont {
@@ -330,8 +332,9 @@
     background: #fff;
     border-radius: 10px;
     /* width: 100%; */
-    width: 24vw;
+    width: 22vw;
     box-shadow: 0px 2px 2px 0px rgba(211, 211, 211, 0.25);
+    cursor: pointer;
 }
 
 .marketplace-container .collection-item img {
@@ -340,9 +343,9 @@
 
 .marketplace-container .slide {
     /* width: 30%; */
-    max-width: 500px;
-    width: 24vw;
-    margin-right: 50px;
+    max-width: 425px;
+    width: 22vw;
+    margin-right: 40px;
 }
 
 .marketplace-slick-carousel2 {
@@ -355,7 +358,7 @@
     flex-direction: column;
     padding: 25px 20px;
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .collection-info img {
@@ -370,13 +373,13 @@
 .collection-info .sq {
     color: rgba(255, 109, 58, 0.8);
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .collection-info .an {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .collection-info .p-cont {
@@ -450,11 +453,15 @@
 .bi-image{
     border: none;
     padding: 0;
-    height: 60px;
+    height: auto;
 }
 
 .quality-video {
     border-color: #E7F7FF;
+}
+
+.overlay50{
+    opacity: 0.7;
 }
 
 @media (max-width:786px) {
@@ -469,7 +476,7 @@
     .main-image-mobile {
         width: 100%;
         margin: -20px 0 40px 0;
-        padding-left: 35px;
+        padding-left: 0px;
     }
 
     .brands-section__use .brands-section__col {
@@ -478,13 +485,13 @@
     }
 
     .brands-section-1 {
-        height: 245px;
+        height: 260px;
         width: auto;
 
     }
 
     .brands-section-2 {
-        height: 175px;
+        height: 205px;
         width: auto;
         margin-left: -20px;
         /* width: auto; */
@@ -500,11 +507,11 @@
     }
 
     .luxury-details .l-title {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .luxury-details .details {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .luxury-image {
@@ -513,13 +520,14 @@
     }
 
     .model-details {
-        padding: 16px 50px 16px 20px;
+        padding: 12px 45px 12px 18px;
         border-radius: 6px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .model-details .sq,
     .model-details .an {
+        font-size: 10px;
         margin-top: 5px;
     }
 
@@ -528,19 +536,21 @@
     }
 
     .collapse-details .collapse-card .card-title {
-        font-size: 21px;
+        font-size: 19px;
         margin-bottom: 0;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .collapse-details .collapse-card .card-title span {
         font-size: 14px;
+        margin-top: 2px;
     }
 
     .collapse-details .collapse-card .card-info {
         padding-left: 38px;
         margin-top: 12px;
+        font-size: 14px;
     }
 
     .explore-cats {
@@ -564,21 +574,21 @@
     .quality-section {
         /* background: url(images/avnew/bg-quality-mob.webp) center/cover no-repeat border-box, #FFF9F7; */
         height: auto;
-        padding: 35px 25px 0px;
+        padding: 50px 25px 0px;
         margin-top: 48px;
         background-position: top 50px;
         background: none;
-        background-color: #FFF9F7;
+        background-color: #FFFDE7;
     }
 
     .quality-section2 {
-        background: #FFF9F7;
+        background: #FFFDE7;
         height: auto;
     }
 
     .bg-qual-img {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 40px;
     }
 
     .qs-title {
@@ -603,26 +613,31 @@
     }
 
     .marketplace-container .collection-item {
-        width: 55vw;
+        width: 48vw;
+        min-width: 180px;
         /* border-radius: 6px; */
     }
 
     .marketplace-container .slide {
-        width: 55vw;
-        margin-right: 35px;
+        width: 48vw;
+        margin-right: 30px;
+        min-width: 180px;
     }
 
     .collection-info {
         padding: 15px 15px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .width-5{
+        width: 3px;
     }
 
     .collection-info .sq {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .collection-info .an {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .collection-info button {
@@ -663,6 +678,7 @@
 
     .av-new .bi-carousel-title {
         margin: auto 0 auto 35px;
+        
     }
 
     .brands-section__use .brands-section__col {
@@ -670,7 +686,7 @@
     }
 
     .luxury-details .l-title .bold-l {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .cats-image span {
@@ -699,10 +715,14 @@
     }
 
     .raving-heading {
+        font-size: 28px;
         line-height: 2rem;
     }
     .bi-image{
       
-        height: 45px;
+        height: auto;
+    }
+    .av-new .col-sm-11 {
+     margin-left: 15px;
     }
 }
