@@ -39,7 +39,7 @@
 
 .av-new .bi-carousel-title {
     margin: auto 0 auto 50px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .brand-luxury {
@@ -47,7 +47,7 @@
     width: 100%;
     min-height: 100px;
     display: flex;
-    padding: 80px 50px 30px;
+    padding: 80px 50px 80px;
     justify-content: space-between;
     margin-top: 50px;
 }
@@ -65,13 +65,13 @@
 
 .model-details {
     position: absolute;
-    bottom: 18px;
+    bottom: 50px;
     right: 20px;
     background: #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 25px 91px 25px 29px;
+    padding: 16px 70px 16px 25px;
     font-size: 19px;
     font-weight: 400;
 }
@@ -161,8 +161,8 @@
     width: 100%;
     min-height: 100px;
     display: flex;
-    padding: 50px 50px;
-    margin-top: 50px;
+    padding: 50px 50px 70px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -240,6 +240,12 @@
     cursor: pointer;
 }
 
+.qs1{
+    background: #FFFDE7;
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+}
 .quality-section {
     background: url(images/avnew/bg-quality.webp) center/cover no-repeat border-box, #FFFDE7;
     /* background: url(images/yellow-blue-desktop.svg) center/cover no-repeat border-box; */
@@ -250,10 +256,12 @@
     display: flex;
     align-items: center;
     padding: 80px;
-    margin-top: 115px;
+   
 }
 
-.qs-info {}
+.qs-info {
+    margin-top: -90px;
+}
 
 .qs-title {
     font-size: 32px;
@@ -270,7 +278,7 @@
 .qsp {
     font-size: 23px;
     margin-top: 20px;
-    line-height: 25px;
+    line-height: 28px;
 }
 
 .qsb {
@@ -463,8 +471,20 @@
 .overlay50{
     opacity: 0.7;
 }
+.marketplace2 {
+    margin-top: 70px;
+}
+.join-com{
+    margin-top: 70px;
+}
+.see-more-faqs{
+    cursor: pointer;
+}
 
 @media (max-width:786px) {
+    .av-new{
+        overflow-x: hidden;
+    }
     .header-section1 {
         background-position: bottom;
     }
@@ -498,7 +518,7 @@
     }
 
     .brand-luxury {
-        padding: 30px 25px 50px;
+        padding: 30px 25px 70px;
     }
 
     .luxury-details {
@@ -523,6 +543,7 @@
         padding: 12px 45px 12px 18px;
         border-radius: 6px;
         font-size: 14px;
+        bottom: 20px;
     }
 
     .model-details .sq,
@@ -531,6 +552,9 @@
         margin-top: 5px;
     }
 
+    .collapse-details {
+        margin-top: 25px;
+    }
     .collapse-details .collapse-card {
         padding: 30px 0 30px;
     }
@@ -678,7 +702,7 @@
 
     .av-new .bi-carousel-title {
         margin: auto 0 auto 35px;
-        
+        font-size: 12px;
     }
 
     .brands-section__use .brands-section__col {
@@ -724,5 +748,8 @@
     }
     .av-new .col-sm-11 {
      margin-left: 15px;
+    }
+    .qs-info {
+        margin-top: 0px;
     }
 }
