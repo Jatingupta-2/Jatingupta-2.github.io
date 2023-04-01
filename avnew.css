@@ -22,7 +22,7 @@
 }
 
 .header-section1 .margin-top-fixed {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .header-section1 .main-header__logo img {
@@ -55,6 +55,7 @@
 .luxury-image {
     width: 45%;
     position: relative;
+    height: fit-content;
 }
 
 .luxury-model {
@@ -65,7 +66,7 @@
 
 .model-details {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     right: 20px;
     background: #fff;
     border-radius: 10px;
@@ -97,7 +98,7 @@
 }
 
 .luxury-details .l-title {
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
 
 }
@@ -105,7 +106,7 @@
 .luxury-details .l-title .bold-l {
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .luxury-details .details {
@@ -152,7 +153,7 @@
 }
 
 .collapse-details .collapse-card .card-info {
-    padding-left: 42px;
+    padding-left: 39px;
     font-size: 15px;
 }
 
@@ -240,14 +241,15 @@
     cursor: pointer;
 }
 
-.qs1{
-    background: #FFFDE7;
+.qs1 {
+    background: #F6F3F1;
     width: 100%;
     height: 40px;
     margin-top: 70px;
 }
+
 .quality-section {
-    background: url(images/avnew/bg-quality.webp) center/cover no-repeat border-box, #FFFDE7;
+    background: url(images/avnew/bg-quality.webp) center/cover no-repeat border-box, #F6F3F1;
     /* background: url(images/yellow-blue-desktop.svg) center/cover no-repeat border-box; */
     background-position: bottom 0% right 0%;
     height: 50vw;
@@ -256,7 +258,7 @@
     display: flex;
     align-items: center;
     padding: 80px;
-   
+
 }
 
 .qs-info {
@@ -278,7 +280,7 @@
 .qsp {
     font-size: 23px;
     margin-top: 20px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .qsb {
@@ -286,15 +288,16 @@
     background: #fff;
     border-radius: 5px;
     margin-top: 35px;
-    padding: 10px 15px 10px 20px;
+    padding: 8px 12px 8px 17px;
     color: #004E93;
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 
 .qsb img {
     height: 32px;
-    margin-left: 10px;
+    margin-left: 8px;
     font-weight: 500;
 }
 
@@ -312,7 +315,7 @@
 }
 
 .sp-cont {
-    background: #F2FFFA;
+    background: #F1FAFF;
 }
 
 .sp-cont {
@@ -366,7 +369,7 @@
     flex-direction: column;
     padding: 25px 20px;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .collection-info img {
@@ -375,7 +378,7 @@
 
 .collection-info .tb {
     color: rgb(0 78 147);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .collection-info .sq {
@@ -412,7 +415,7 @@
     background: #fff;
     border: none;
     border-radius: 100px;
-    max-width: 100px;
+    max-width: 80px;
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -422,7 +425,7 @@
     font-size: 14px;
     margin-top: 35px;
     font-weight: 500;
-
+    display: none;
 }
 
 .brands-section__nothing {
@@ -458,7 +461,8 @@
     width: 10px;
     display: inline-block;
 }
-.bi-image{
+
+.bi-image {
     border: none;
     padding: 0;
     height: auto;
@@ -468,23 +472,47 @@
     border-color: #E7F7FF;
 }
 
-.overlay50{
-    opacity: 0.7;
+.overlay50 {
+    opacity: 0.5;
 }
+
 .marketplace2 {
     margin-top: 70px;
 }
-.join-com{
+
+.join-com {
     margin-top: 70px;
 }
-.see-more-faqs{
+
+.see-more-faqs {
     cursor: pointer;
 }
 
+.main-header__item.item1,
+.main-header__item.item2 button{
+    font-weight: 500;
+}
+.card-body-2{
+    line-height: 23px;
+}
+
+@media (max-width:1250px) {
+    .luxury-details .details{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1150px) {
+    .luxury-details .details{
+        font-size: 20px;
+    }
+}
+
 @media (max-width:786px) {
-    .av-new{
+    .av-new {
         overflow-x: hidden;
     }
+
     .header-section1 {
         background-position: bottom;
     }
@@ -518,7 +546,7 @@
     }
 
     .brand-luxury {
-        padding: 30px 25px 70px;
+        padding: 30px 25px 55px;
     }
 
     .luxury-details {
@@ -532,6 +560,7 @@
 
     .luxury-details .details {
         font-size: 15px;
+        margin-top: 10px;
     }
 
     .luxury-image {
@@ -555,6 +584,7 @@
     .collapse-details {
         margin-top: 25px;
     }
+
     .collapse-details .collapse-card {
         padding: 30px 0 30px;
     }
@@ -582,7 +612,7 @@
     }
 
     .explore-cats .title-e {
-        font-size: 23px;
+        font-size: 21px;
         display: flex;
         align-items: center;
     }
@@ -598,15 +628,15 @@
     .quality-section {
         /* background: url(images/avnew/bg-quality-mob.webp) center/cover no-repeat border-box, #FFF9F7; */
         height: auto;
-        padding: 50px 25px 0px;
+        padding: 60px 25px 0px;
         margin-top: 48px;
         background-position: top 50px;
         background: none;
-        background-color: #FFFDE7;
+        background-color: #F6F3F1;
     }
 
     .quality-section2 {
-        background: #FFFDE7;
+        background: #F6F3F1;
         height: auto;
     }
 
@@ -616,7 +646,7 @@
     }
 
     .qs-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .qs-title .qual {
@@ -652,7 +682,8 @@
         padding: 15px 15px;
         font-size: 12px;
     }
-    .width-5{
+
+    .width-5 {
         width: 3px;
     }
 
@@ -665,7 +696,7 @@
     }
 
     .collection-info button {
-        max-width: 80px;
+        max-width: 75px;
     }
 
     .collection-info img {
@@ -742,14 +773,34 @@
         font-size: 28px;
         line-height: 2rem;
     }
-    .bi-image{
-      
+
+    .bi-image {
+
         height: auto;
     }
+
     .av-new .col-sm-11 {
-     margin-left: 15px;
+        margin-left: 15px;
     }
+
     .qs-info {
         margin-top: 0px;
+    }
+
+    .qsb {
+        padding: 8px 8px 8px 15px;
+        margin-top: 35px;
+        font-size: 14px;
+    }
+
+    .qsb img {
+        height: 25px;
+        margin-left: 5px;
+    }
+    .sneak-peak{
+        font-size: 22px;
+    }
+    .header-section1 .margin-top-fixed {
+        margin-top: 35px;
     }
 }
