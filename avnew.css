@@ -25,7 +25,7 @@
     margin-top: 50px;
 }
 
-.header-section1 .main-header__logo img {
+.main-header__logo img {
     width: 3.2rem;
 }
 
@@ -214,6 +214,7 @@
     align-items: center;
     margin-right: 35px;
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .cats-image:hover {
@@ -513,6 +514,7 @@
     justify-content:flex-end ;
     align-items: flex-start;
     padding: 30px 70px 30px 40px;
+    min-width: 425px;
 }
 .main-img.upscale{
     background: url(images/avnew/Upscalestreet/hoodie1.webp) center/cover no-repeat border-box;
@@ -607,12 +609,25 @@
 }
 .imghalf .half-info{
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .imghalf .half-title{
     margin-top: 20px;
     font-size: 24px;
     font-weight: 700;
+}
+.slick-slide img:hover{
+    width: 180%;
+    cursor: pointer;
+}
+
+.fixed-avnew{
+    position: fixed;
+    top: 0;
+    
+}
+.fixed-avnew.orange-bg{
+    background: #fcf4f0;
 }
 
 
@@ -626,6 +641,10 @@
     .luxury-details .details{
         font-size: 20px;
     }
+    .main-img{
+  
+    min-width: 400px;
+}
 }
 
 @media (max-width:786px) {
@@ -637,7 +656,7 @@
         background-position: bottom;
     }
 
-    .header-section1 .main-header__logo img {
+    .main-header__logo img {
         width: 2.5rem;
     }
 
@@ -941,6 +960,7 @@
     }
     .lounge-and-athleisure{
         flex-direction: column;
+        margin-top: 50px;
     }
     .la-cards{
         width: 100%;
@@ -950,6 +970,7 @@
         justify-content: space-between;
         padding: 0;
         padding-right: 15px;
+        align-items: center;
     }
     .twoimgs{
         flex-direction: column;

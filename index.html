@@ -77,6 +77,40 @@
             </div>
     </nav>
 
+    <header class="header fixed-header header-scroll-mp transparent fixed-avnew ">
+        <div class="main-header mh3 mh3-mob">
+            <div onclick="location.href='https://app.avendors.com'" class="main-header__logo">
+                <img src="images/plus_new_logo.svg">
+            </div>
+            <div class="main-header__items ">
+                <div class="main-header__item item1 extra-margin-header-1 hide-tablet"
+                    onclick="location.href='https://app.avendors.com/login'">
+                    Login
+                </div>
+                <div class="main-header__item item2 item3 hide-tablet">
+                    <button class="animated-button"
+                        onclick="location.href='https://app.avendors.com/onboarding/step-one'" type="button">
+
+                        Sign up
+                    </button>
+                </div>
+                <div class="main-header__item item2 item3 hide-desktop">
+                    <button class="animated-button" onclick="location.href='https://app.avendors.com/login'"
+                        type="button">
+
+                        Sign in
+                    </button>
+                </div>
+
+            </div>
+            <div class="main-header__items hide-desktop hide">
+                <div class="main-header__item item2">
+                    <img id="toggle-mobile-nav" src="images/Group 91.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="header-section1">
 
         <header class="header fixed-header header-scroll-mp transparent">
@@ -389,31 +423,31 @@
                 </div>
             </div>
             <div id="cats-images" class="cats-images">
-                <div class="cat1 cats-image">
+                <div class="cat1 cats-image"  onclick="return signupPage()">
                     <img src="images/avnew/Lounge.webp" />
                     <span>Lounge</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"   onclick="return signupPage()">
                     <img src="images/avnew/Sustainable.webp" />
                     <span>Sustainable</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"   onclick="return signupPage()">
                     <img src="images/avnew/Athleisure.webp" />
                     <span>Athleisure</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"  onclick="return signupPage()">
                     <img src="images/avnew/High Street.webp" />
                     <span>Upscale Street</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"  onclick="return signupPage()">
                     <img src="images/avnew/Hats.webp" />
                     <span>Hats</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"  onclick="return signupPage()">
                     <img src="images/avnew/Sunglasses.webp" />
                     <span>Sunglasses</span>
                 </div>
-                <div class="cats-image">
+                <div class="cats-image"  onclick="return signupPage()">
                     <img src="images/avnew/Bags.webp" />
                     <span>Bags</span>
                 </div>
@@ -680,7 +714,7 @@
                 </div>
                 <div class="half-info hide-desktop">
                     Customize high-quality hats crafted from sustainable <br />
-                    materials like organic cotton, eco-friendly nylon,<br /> recycled 
+                    materials like organic cotton, eco-friendly nylon,<br /> recycled
                     polyester, and beyond.
 
                 </div>
@@ -832,7 +866,7 @@
                 Upscale brands<br>
                 needs quality products<br>
                 to scale.
-               
+
                 <!-- Quality brands <br>
                 should expect quality<br>
                 products -->
@@ -1569,7 +1603,7 @@
                 <img src="images/footer-av.svg">
             </div>
             <div class="footer-bottom-contact">
-                <span>How AVendors Work</span>
+                <span>How We Work</span>
                 <span><a href="./contact-us.html">Contact us</a></span>
                 <span><a href="./terms-of-service.html">Terms of service</a></span>
                 <!-- <span>Careers</span> -->
@@ -2262,6 +2296,20 @@
         }
     </script>
     <!-- STEP INSIDE -->
+
+    <!-- Make header backgroung orange on scroll -->
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 5) {
+                $(".fixed-avnew").addClass("orange-bg");
+            } else {
+                $(".fixed-avnew").removeClass("orange-bg");
+            }
+        });
+    </script>
+    <!-- Make header backgroung orange on scroll -->
 
 </body>
 
