@@ -323,7 +323,7 @@
 }
 
 .sp-cont .marketplace-container {
-    padding: 50px;
+    padding: 25px 50px;
 
 }
 
@@ -384,7 +384,7 @@
 .collection-info .sq {
     color: rgba(255, 109, 58, 0.8);
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .collection-info .an {
@@ -425,7 +425,7 @@
     font-size: 14px;
     margin-top: 35px;
     font-weight: 500;
-    display: none;
+    /* display: none; */
 }
 
 .brands-section__nothing {
@@ -495,6 +495,126 @@
 .card-body-2{
     line-height: 23px;
 }
+.lounge-and-athleisure{
+    width: 100%;
+    /* height: 55vh; */
+    background: #f5f3f1;
+    min-height: 450px;
+    display: flex;
+    margin-top: 70px;
+}
+.main-img{
+    background: url(images/avnew/Lounge\ &\ athleisure/legging.webp) center/cover no-repeat border-box;
+    /* height: 100%; */
+    width: 30%;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    align-items: flex-start;
+    padding: 30px 70px 30px 40px;
+}
+.main-img.upscale{
+    background: url(images/avnew/Upscalestreet/hoodie1.webp) center/cover no-repeat border-box;
+}
+.main-img.main-img-mob{
+    display: none;
+}
+.la-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.la-info{
+    font-size: 15px;
+}
+.la-cards{
+    width: 70%;
+    padding: 50px 0 50px 50px;
+}
+.la-cards .marketplace-container{
+    padding: 0;
+}
+.la-cards .sp-top{
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.la-cards .sp-top .sneak-peak-button{
+    border: none;
+    margin-right: 30px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #004E93;
+    font-weight: 500;
+}
+.la-cards .collection-info button{
+    max-width: 110px;
+    padding: 8px;
+    color: rgba(0, 78, 147, 0.85);
+    font-weight: 500;
+    margin: auto;
+    width: 24vw;
+    box-shadow: 1px 1px 1px 1px #E2E2E240;
+}
+.la-cards .collection-info{
+    background: #F2FDFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 40px 20px;
+    
+}
+.boss-section{
+    text-align: center;
+    margin-top: 70px;
+}
+.avboss{
+    font-size: 18px;
+}
+.bforb{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.boss-info{
+    margin-top: 15px;
+}
+.boss-info span{
+    color: #53AAFF;
+    text-decoration: underline;
+}
+.boss-section button{
+    margin-top: 30px;
+    border: none;
+    background: #0A4C8D;
+    color: #fff;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.twoimgs{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 0 80px;
+}
+.imghalf{
+    width: 45%;
+}
+.imghalf img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.imghalf .half-info{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.imghalf .half-title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
 @media (max-width:1250px) {
     .luxury-details .details{
@@ -609,6 +729,7 @@
 
     .explore-cats {
         padding: 50px 25px;
+        margin-top: 50px;
     }
 
     .explore-cats .title-e {
@@ -663,7 +784,7 @@
     }
 
     .sp-cont .marketplace-container {
-        padding: 20px 5px 20px 25px;
+        padding: 8px 5px 20px 25px;
     }
 
     .marketplace-container .collection-item {
@@ -684,15 +805,15 @@
     }
 
     .width-5 {
-        width: 3px;
+        width: 1px;
     }
 
     .collection-info .sq {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .collection-info .an {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .collection-info button {
@@ -802,5 +923,50 @@
     }
     .header-section1 .margin-top-fixed {
         margin-top: 35px;
+    }
+    .main-img{
+        display: none;
+    }
+    .main-img.main-img-mob{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        padding: 30px 50px 25px 25px;
+    }
+    .la-title{
+        font-size: 25px;
+    }
+    .la-info{
+        font-size: 13px;
+    }
+    .lounge-and-athleisure{
+        flex-direction: column;
+    }
+    .la-cards{
+        width: 100%;
+        padding: 40px 0 20px 20px;
+    }
+    .la-cards .sp-top{
+        justify-content: space-between;
+        padding: 0;
+        padding-right: 15px;
+    }
+    .twoimgs{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 60px 25px 0 25px;
+    }
+    .imghalf{
+        width: 100%;
+    }
+    
+    .imghalf2{
+        margin-top: 30px;
+    }
+    .imghalf .half-title{
+        font-size: 22px;
+    }
+    .imghalf .half-info{
+        font-size: 13px;
     }
 }
