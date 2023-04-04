@@ -490,13 +490,15 @@
 }
 
 .main-header__item.item1,
-.main-header__item.item2 button{
+.main-header__item.item2 button {
     font-weight: 500;
 }
-.card-body-2{
+
+.card-body-2 {
     line-height: 23px;
 }
-.lounge-and-athleisure{
+
+.lounge-and-athleisure {
     width: 100%;
     /* height: 55vh; */
     background: #f5f3f1;
@@ -504,43 +506,52 @@
     display: flex;
     margin-top: 70px;
 }
-.main-img{
+
+.main-img {
     background: url(images/avnew/Lounge\ &\ athleisure/legging.webp) center/cover no-repeat border-box;
     /* height: 100%; */
     width: 30%;
     color: #ffff;
     display: flex;
     flex-direction: column;
-    justify-content:flex-end ;
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 30px 70px 30px 40px;
     min-width: 425px;
 }
-.main-img.upscale{
+
+.main-img.upscale {
     background: url(images/avnew/Upscalestreet/hoodie1.webp) center/cover no-repeat border-box;
 }
-.main-img.main-img-mob{
+
+.main-img.main-img-mob {
     display: none;
 }
-.la-title{
+
+.la-title {
     font-size: 30px;
     font-weight: 700;
 }
-.la-info{
+
+.la-info {
     font-size: 15px;
 }
-.la-cards{
+
+.la-cards {
     width: 70%;
     padding: 50px 0 50px 50px;
 }
-.la-cards .marketplace-container{
+
+.la-cards .marketplace-container {
     padding: 0;
 }
-.la-cards .sp-top{
+
+.la-cards .sp-top {
     justify-content: flex-end;
     margin-bottom: 30px;
 }
-.la-cards .sp-top .sneak-peak-button{
+
+.la-cards .sp-top .sneak-peak-button {
     border: none;
     margin-right: 30px;
     background: #fff;
@@ -550,7 +561,8 @@
     color: #004E93;
     font-weight: 500;
 }
-.la-cards .collection-info button{
+
+.la-cards .collection-info button {
     max-width: 110px;
     padding: 8px;
     color: rgba(0, 78, 147, 0.85);
@@ -559,33 +571,41 @@
     width: 24vw;
     box-shadow: 1px 1px 1px 1px #E2E2E240;
 }
-.la-cards .collection-info{
+
+.la-cards .collection-info {
     background: #F2FDFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 40px 20px;
-    
+
 }
-.boss-section{
+
+.boss-section {
     text-align: center;
     margin-top: 70px;
 }
-.avboss{
+
+.avboss {
     font-size: 18px;
 }
-.bforb{
+
+.bforb {
     font-size: 30px;
     font-weight: 700;
     margin-top: 15px;
 }
-.boss-info{
+
+.boss-info {
     margin-top: 15px;
 }
-.boss-info span{
+
+.boss-info span {
     color: #53AAFF;
     text-decoration: underline;
+    cursor: pointer;
 }
-.boss-section button{
+
+.boss-section button {
     margin-top: 30px;
     border: none;
     background: #0A4C8D;
@@ -595,56 +615,79 @@
     border-radius: 5px;
     font-size: 15px;
 }
-.twoimgs{
+
+.twoimgs {
     display: flex;
     justify-content: space-between;
     padding: 80px 80px 0 80px;
 }
-.imghalf{
+
+.imghalf {
     width: 45%;
 }
-.imghalf img{
+
+.imghalf img {
     max-width: 100%;
     border-radius: 10px;
 }
-.imghalf .half-info{
+
+.imghalf .half-info {
     font-size: 15px;
     margin-top: 10px;
 }
-.imghalf .half-title{
+
+.imghalf .half-title {
     margin-top: 20px;
     font-size: 24px;
     font-weight: 700;
 }
-.slick-slide img:hover{
+
+.slick-slide img:hover {
     width: 180%;
     cursor: pointer;
 }
 
-.fixed-avnew{
+.fixed-avnew {
     position: fixed;
     top: 0;
-    
+
 }
-.fixed-avnew.orange-bg{
+
+.fixed-avnew.orange-bg {
     background: #fcf4f0;
 }
 
+.modal-header {
+    border-bottom: none !important;
+}
+
+.half-info button {
+    border: 1px solid #004E93;
+    margin-right: 30px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #004E93;
+    font-weight: 500;
+    margin-top: 10px;
+}
 
 @media (max-width:1250px) {
-    .luxury-details .details{
+    .luxury-details .details {
         font-size: 22px;
     }
 }
 
 @media (max-width:1150px) {
-    .luxury-details .details{
+    .luxury-details .details {
         font-size: 20px;
     }
-    .main-img{
-  
-    min-width: 400px;
-}
+
+    .main-img {
+
+        min-width: 400px;
+    }
 }
 
 @media (max-width:786px) {
@@ -937,57 +980,85 @@
         height: 25px;
         margin-left: 5px;
     }
-    .sneak-peak{
+
+    .sneak-peak {
         font-size: 22px;
     }
+
     .header-section1 .margin-top-fixed {
         margin-top: 35px;
     }
-    .main-img{
+
+    .main-img {
         display: none;
     }
-    .main-img.main-img-mob{
+
+    .main-img.main-img-mob {
         display: flex;
         width: 100%;
         height: 450px;
         padding: 30px 50px 25px 25px;
     }
-    .la-title{
+
+    .la-title {
         font-size: 25px;
     }
-    .la-info{
+
+    .la-info {
         font-size: 13px;
     }
-    .lounge-and-athleisure{
+
+    .lounge-and-athleisure {
         flex-direction: column;
         margin-top: 50px;
     }
-    .la-cards{
+
+    .lounge-and-athleisure.up2 {
+        margin-top: 80px;
+    }
+
+    .la-cards {
         width: 100%;
         padding: 40px 0 20px 20px;
     }
-    .la-cards .sp-top{
+
+    .la-cards .sp-top {
         justify-content: space-between;
         padding: 0;
         padding-right: 15px;
         align-items: center;
     }
-    .twoimgs{
+
+    .twoimgs {
         flex-direction: column;
         max-width: 100%;
         padding: 60px 25px 0 25px;
     }
-    .imghalf{
+
+    .imghalf {
         width: 100%;
     }
-    
-    .imghalf2{
+
+    .imghalf2 {
         margin-top: 30px;
     }
-    .imghalf .half-title{
+
+    .imghalf .half-title {
         font-size: 22px;
     }
-    .imghalf .half-info{
+
+    .imghalf .half-info {
         font-size: 13px;
+    }
+
+    .half-info button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .boss-section button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
     }
 }

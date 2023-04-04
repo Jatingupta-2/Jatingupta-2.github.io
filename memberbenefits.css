@@ -1,0 +1,180 @@
+.modal-dialog{
+    max-width: 800px !important;
+}
+.waitlist{
+    text-align: center;
+    color: #004e93;
+    font-size: 24px;
+    line-height: 35px;
+}
+.modal-backdrop-close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+}
+.waitlist-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.waitlist-desc{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.waitlist-subtext{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.waitlist-email{
+    display: flex;
+    flex-direction: column;
+}
+.waitlist-email input{
+    border: 1px solid #002240;
+    border-radius: 5px;
+    height: 75px;
+    background: transparent;
+    padding: 20px;
+    margin-top: 30px;
+    width: 32vw;
+}
+.waitlist-email input:focus-visible{
+    border: 1px solid #002240;
+    outline: none;
+}
+.waitlist-email textarea{
+    border: none;
+    outline: none;
+    border: 1px solid #002240;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.waitlist-email textarea:focus-visible{
+    border: 1px solid #002240 ab;
+    outline: none;
+}
+.waitlist-email input::placeholder, .waitlist-email textarea::placeholder{
+    color: rgba(0, 78, 147, 0.5);
+    font-weight: 500;
+}
+.waitlist-email button{
+    border: none;
+    background: #002240;
+    color: #fff;
+    border-radius: 5px;
+    height: 75px;
+    margin-top: 16px;
+}
+.waitlist-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 25px;
+    width: 25px;
+}
+.mem-title{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.members-perks .built-brands{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.members-perks .mem-subtitle{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.members-perks .perks-box{
+    background: #eaf7fd;
+    padding: 70px 50px 30px;
+    margin: 50px -15px 0 -15px;
+}
+.members-perks .perks-box .center-box{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.members-perks .perks-title{
+    font-weight: 700;
+}
+.members-perks .perks-line.em{
+    padding-top: 20px;
+}
+.members-perks .perks-line.li{
+    padding-left: 45px;
+}
+.members-perks .perks-line{
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.members-perks .perks-line li{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: -7px;
+}
+.members-perks .perks-line img{
+    height: 25px;
+    margin-right: 20px;
+}
+.members-perks .mr-cc{
+    margin-right: 3px;
+}
+@media (max-width: 768px){
+    .waitlist{
+        font-size: 14px;
+        line-height: 22px;
+   }
+    .waitlist-title{
+        font-size: 25px;
+        font-weight: 500;
+   }
+    .waitlist-email{
+        display: flex;
+        align-items: center;
+   }
+    .waitlist-email input{
+        height: 50px;
+        margin-top: 25px;
+        width: 300px;
+   }
+    .waitlist-email textarea{
+        width: 90%;
+        padding: 10px;
+   }
+    .waitlist-email button{
+        height: 50px;
+        margin-top: 10px;
+        width: 300px;
+   }
+    .waitlist-subtext{
+        font-size: 12px;
+   }
+    .waitlist-close.small{
+        height: 18px;
+   }
+    .members-perks .perks-box{
+        padding: 35px 33px 30px;
+   }
+    .members-perks .perks-title{
+        font-size: 16px;
+   }
+    .members-perks .mem-subtitle{
+        font-size: 14px;
+        line-height: 20px;
+   }
+    .members-perks .perks-line{
+        padding-left: 0;
+   }
+    .members-perks .perks-line.li{
+        padding-left: 45px;
+   }
+}

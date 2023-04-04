@@ -286,7 +286,8 @@
 }
 
 .main-header__logo.avmade-logo img,
-.custom-body .main-header__logo.avmade-logo img{
+.custom-body .main-header__logo.avmade-logo img,
+.custom-body .main-header__logo.avmade-logo.cu img{
   width: 3.2rem;
 }
 
@@ -335,6 +336,11 @@
     /* width: 10.6rem; */
     width: 95px;
   }
+  .main-header__logo.avmade-logo img,
+.custom-body .main-header__logo.avmade-logo img,
+.custom-body .main-header__logo.avmade-logo.cu img{
+  width: 2.2rem;
+}
 }
 
 @media (max-width:678px) {
