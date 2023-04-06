@@ -2350,7 +2350,7 @@
             var split_1_Url = url.split('&utm_campaign')[0]
             var split_2_Url = split_1_Url.split('?')[1]
 
-            console.log(split_2_Url)
+            // console.log(split_2_Url)
 
             let email = document.getElementById('enter-email').value;
             if (email == "") {
@@ -2388,8 +2388,8 @@
                             data: obj
                         })
                             .then(function (response) {
-                                // window.location.href = `https://app.avendors.com/onboarding/step-one`;
-                                window.location.href = `https://app.avendors.com`;
+                                window.location.href = `https://app.avendors.com/onboarding/step-one?usr_email=${email}`;
+                                // window.location.href = `https://app.avendors.com`;
                                 // document.getElementById('collection-choices').scrollIntoView({
                                 // behavior: 'smooth'
                                 // });
