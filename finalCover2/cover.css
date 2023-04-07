@@ -1453,6 +1453,15 @@
     max-width: 500px;
 }
 
+.custom-body .bi-container.new-bi{
+    padding: 0 1rem;
+}
+
+.new-bi .bi-image{
+    padding: 0;
+    border: 0;
+}
+
 @media (max-width:1550px) {
     .unlock-card {
         padding: 20px;
@@ -1670,6 +1679,11 @@
     .custom-body .bi-carousel-title {
         font-size: 0.75rem;
         height: 30px;
+    }
+
+    .custom-body .bi-carousel-title.new-bi-title{
+        display: flex;
+        align-items: center;
     }
 
     .bi-carousel-col2 {

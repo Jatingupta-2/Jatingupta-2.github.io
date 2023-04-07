@@ -287,8 +287,29 @@
 
 .main-header__logo.avmade-logo img,
 .custom-body .main-header__logo.avmade-logo img,
-.custom-body .main-header__logo.avmade-logo.cu img{
+.custom-body .main-header__logo.avmade-logo.cu img {
   width: 3.2rem;
+}
+
+.footer-new {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid rgba(3, 72, 139, 1);
+  padding: 30px 60px 50px 60px;
+  color: #03488B;
+  margin-top: 150px;
+}
+
+.footer-new .dot {
+  margin-top: -28px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer-new .blue-underline{
+  color: #399DFF;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (min-width:993px) {
@@ -336,11 +357,21 @@
     /* width: 10.6rem; */
     width: 95px;
   }
+
   .main-header__logo.avmade-logo img,
-.custom-body .main-header__logo.avmade-logo img,
-.custom-body .main-header__logo.avmade-logo.cu img{
-  width: 2.2rem;
-}
+  .custom-body .main-header__logo.avmade-logo img,
+  .custom-body .main-header__logo.avmade-logo.cu img {
+    width: 2.2rem;
+  }
+  .footer-new {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-new .dot{
+    margin-top: -18px;
+  }
 }
 
 @media (max-width:678px) {
