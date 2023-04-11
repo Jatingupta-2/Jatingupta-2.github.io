@@ -348,9 +348,48 @@
     box-shadow: 0px 2px 2px 0px rgba(211, 211, 211, 0.25);
     cursor: pointer;
 }
+.marketplace-container .collection-item.join-us{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40%;
+}
+.marketplace-container .collection-item.join-us.stock-sp{
+    height: 91%;
+}
+.join-us .ju-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.join-us .ju-info{
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.join-us .jb{
+    margin-top: 50px;
+    border: none;
+    background: #FFD600;
+    width: 60%;
+    height: 46px;
+    border-radius: 5px;
+}
+.join-us .am-li{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.join-us .am-li .blue-am{
+    text-decoration: underline;
+    color: #58B9FF;
+    padding-left: 5px;
+    cursor: pointer;
+}
 
 .marketplace-container .collection-item img {
     width: 100%;
+    max-height: 380px;
+    border-radius: 10px;
 }
 
 .marketplace-container .slide {
@@ -1061,4 +1100,23 @@
         height: 40px;
         font-size: 14px;
     }
+    .marketplace-container .collection-item img {
+        max-height: 220px;
+    }
+    .join-us .ju-title{
+        font-size: 24px;
+    }
+    .join-us .ju-info{
+        font-size: 14px;
+    }
+    .join-us .jb{
+        margin-top: 30px;
+        width: 80%;
+        height: 40px;
+    }
+    .join-us .am-li{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
 }

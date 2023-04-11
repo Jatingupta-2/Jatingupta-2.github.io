@@ -73,7 +73,7 @@
             </div>
             <div class="main-header__item item2 contact-us">
                 <button type="button" onclick="location.href='https://app.avendors.com/onboarding/step-one/'">
-                    Sign up
+                    Apply to Join
                 </button>
             </div>
     </nav>
@@ -92,7 +92,7 @@
                     <button class="animated-button"
                         onclick="location.href='https://app.avendors.com/onboarding/step-one'" type="button">
 
-                        Sign up
+                        Apply to Join
                     </button>
                 </div>
                 <div class="main-header__item item2 item3 hide-desktop">
@@ -128,7 +128,7 @@
                         <button class="animated-button"
                             onclick="location.href='https://app.avendors.com/onboarding/step-one'" type="button">
 
-                            Sign up
+                            Apply to Join
                         </button>
                     </div>
                     <div class="main-header__item item2 item3 hide-desktop">
@@ -551,6 +551,25 @@
                             </div>
 
                         </div>
+                        <div class="slide text-center">
+                            <div class="collection-item join-us">
+                                <div class="ju-title">Join us</div>
+                                <div class="ju-info hide-tablet">
+                                    Only members are given access <br />
+                                    to AVmade platform.
+                                </div>
+                                <div class="ju-info hide-desktop">
+                                    Only members are given <br />
+                                    access to AVmade <br />
+                                    platform.
+                                </div>
+                                <button class="jb" onclick="return signupPage()">Sign up</button>
+
+                                <div class="am-li">Already a member?<span class="blue-am"
+                                        onclick="location.href='https://app.avendors.com/login'">Log In</span></div>
+                            </div>
+
+                        </div>
 
                     </section>
                 </div>
@@ -589,78 +608,99 @@
                             </button>
                         </div> -->
                         <div class="modal-body waitlist">
-                            <img
-                            class="waitlist-close small"
-                            data-dismiss="modal" aria-label="Close"
-                            src="images/avnew/custom-color-cross.svg"
-                          />
+                            <img class="waitlist-close small" data-dismiss="modal" aria-label="Close"
+                                src="images/avnew/custom-color-cross.svg" />
                             <div class="members-perks roboto-text">
                                 <div class="mem-title">
-                                  AV <b>BOSS</b> MEMBERS
+                                    AV <b>BOSS</b> MEMBERS
                                 </div>
                                 <div class="built-brands">Built for brands</div>
                                 <div class="mem-subtitle">
-                                  <b>FREE</b> membership. <br />
-                                  Brands we accept will enjoy AV’s <br />
-                                  perks and save thousands.
-                                
+                                    <b>FREE</b> membership. <br />
+                                    Brands we accept will enjoy AV’s <br />
+                                    perks and save thousands.
+
                                 </div>
                                 <div class="perks-box">
-                                  <div class="perks-title">Perks</div>
-                                  <div class="center-box">
-                                  <div class="perks-line em">
-                                    <img src="./images/avnew/sample-perks1.svg" />
-                                    <span class="mr-cc">
-                                      <b>-20%</b>
-                                    </span>
-                                    : Sample orders
-                                  </div>
-                                  <div class="perks-line">
-                                    <img src="./images/avnew/sample-perks1.svg" />
-                                    <span class="mr-cc">
-                                      <b>-10%</b>
-                                    </span>
-                                    : Production orders
-                                  </div>
-                                  <div class="perks-line">
-                                    <img src="./images/avnew/sample-perks2.svg" />
-                                    <b><span class="mr-cc">FREE</span></b> Customization Perks
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Custom Color
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Silicone Wash
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Antimicrobial
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Woven Label & Labor
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Print Label & Labor
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Hangtag & Labor
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Care-label
-                                  </div>
-                                  <div class="perks-line li">
-                                    <li></li>
-                                    Graphic Print Setup
-                                  </div>
-                                  </div>
+                                    <div class="perks-title">Perks</div>
+                                    <div class="center-box">
+                                        <div class="perks-line em pos-rel">
+                                            <img src="./images/avnew/sample-perks4.svg" />
+                                            Dedicated <span class="blue-underline" data-toggle="modal"
+                                                data-target="#AModal">Account Manager</span>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="AModal" tabindex="-1" role="dialog"
+                                                aria-labelledby="AModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog md-hp" role="document">
+                                                    <div class="modal-content">
+                                                      
+                                                        We help our brand partners navigate the complex landscape of
+                                                        procurement decisions, branding strategies, and marketing tactics.
+                                                        Look no further than our team of account managers, who are true
+                                                        industry experts. We don't just provide basic assistance - we'll work
+                                                        with you to mold your ideas and develop a comprehensive plan that fits
+                                                        your unique needs. From pricing exercises to fulfillment, we'll handle
+                                                        every aspect of your business, so you can focus on what you do best.
+                                                        Don't settle for mediocre results - partner with us and take your
+                                                        business to the next level!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="perks-line ">
+                                            <img src="./images/avnew/sample-perks1.svg" />
+                                            <span class="mr-cc">
+                                                <b>-20%</b>
+                                            </span>
+                                            Sample Orders
+                                        </div>
+                                        <div class="perks-line">
+                                            <img src="./images/avnew/sample-perks1.svg" />
+                                            <span class="mr-cc">
+                                                <b>-10%</b>
+                                            </span>
+                                            Production Orders
+                                        </div>
+                                        <div class="perks-line">
+                                            <img src="./images/avnew/sample-perks2.svg" />
+                                            <b><span class="mr-cc">FREE</span></b> Customization
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Custom Color
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Silicone Wash
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Antimicrobial
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Woven Label & Labor
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Print Label & Labor
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Hangtag & Labor
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Care-label
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Graphic Print Setup
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -765,6 +805,25 @@
                             </div>
 
                         </div>
+                        <div class="slide text-center">
+                            <div class="collection-item join-us">
+                                <div class="ju-title">Join us</div>
+                                <div class="ju-info hide-tablet">
+                                    Only members are given access <br />
+                                    to AVmade platform.
+                                </div>
+                                <div class="ju-info hide-desktop">
+                                    Only members are given <br />
+                                    access to AVmade <br />
+                                    platform.
+                                </div>
+                                <button class="jb" onclick="return signupPage()">Sign up</button>
+
+                                <div class="am-li">Already a member?<span class="blue-am"
+                                        onclick="location.href='https://app.avendors.com/login'">Log In</span></div>
+                            </div>
+
+                        </div>
 
                     </section>
                 </div>
@@ -828,7 +887,7 @@
         <section class="marketplace2 sp-cont">
             <div class="sp-top">
                 <div class="sneak-peak">
-                    SneakPeak
+                    Stock sneak peak
                 </div>
                 <div class="cat-arrows">
                     <img id="slideLeftci" class="cat-left" src="images/avnew/right arrow.svg" />
@@ -951,6 +1010,25 @@
                         <div class="ci-heading">
                             RECYCLED
                         </div>
+                    </div>
+                    <div class="slide text-center">
+                        <div class="collection-item join-us stock-sp">
+                            <div class="ju-title">Join us</div>
+                            <div class="ju-info hide-tablet">
+                                Only members are given access <br />
+                                to AVmade platform.
+                            </div>
+                            <div class="ju-info hide-desktop">
+                                Only members are given <br />
+                                access to AVmade <br />
+                                platform.
+                            </div>
+                            <button class="jb" onclick="return signupPage()">Sign up</button>
+
+                            <div class="am-li">Already a member?<span class="blue-am"
+                                    onclick="location.href='https://app.avendors.com/login'">Log In</span></div>
+                        </div>
+
                     </div>
 
                 </section>
