@@ -694,6 +694,7 @@
 
 .fixed-avnew.orange-bg {
     background: #fcf4f0;
+    z-index: 999;
 }
 
 .modal-header {

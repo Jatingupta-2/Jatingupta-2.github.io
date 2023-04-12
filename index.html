@@ -78,7 +78,7 @@
             </div>
     </nav>
 
-    <header class="header fixed-header header-scroll-mp transparent fixed-avnew ">
+    <header class="header fixed-header header-scroll-mp transparent fixed-avnew orange-bg hide">
         <div class="main-header mh3 mh3-mob">
             <div onclick="location.href='https://app.avendors.com'" class="main-header__logo">
                 <img src="images/plus_new_logo.svg">
@@ -2494,10 +2494,12 @@
         $(window).scroll(function () {
             var scroll = $(window).scrollTop();
 
-            if (scroll >= 5) {
-                $(".fixed-avnew").addClass("orange-bg");
+            if (scroll >= 1) {
+                // $(".fixed-avnew").addClass("orange-bg");
+                $(".fixed-avnew").removeClass("hide");
             } else {
-                $(".fixed-avnew").removeClass("orange-bg");
+                // $(".fixed-avnew").removeClass("orange-bg");
+                $(".fixed-avnew").addClass("hide");
             }
         });
     </script>
