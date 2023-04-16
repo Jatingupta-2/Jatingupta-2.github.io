@@ -374,9 +374,10 @@
     width: 60%;
     height: 46px;
     border-radius: 5px;
+    color: #004E93;
 }
 .join-us .am-li{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
 }
 .join-us .am-li .blue-am{
@@ -579,6 +580,7 @@
 .la-cards {
     width: 70%;
     padding: 50px 0 50px 50px;
+    overflow-x: scroll;
 }
 
 .la-cards .marketplace-container {
@@ -717,9 +719,18 @@
     .luxury-details .details {
         font-size: 22px;
     }
+    .la-cards {
+        width: 67%;
+    }
+    /* .la-cards .marketplace-container {
+       width: 92%;
+    } */
 }
 
 @media (max-width:1150px) {
+    /* .la-cards .marketplace-container {
+        width: 88%;
+     } */
     .luxury-details .details {
         font-size: 20px;
     }
@@ -1116,8 +1127,11 @@
         height: 40px;
     }
     .join-us .am-li{
-        font-size: 13px;
-        margin-top: 10px;
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .la-cards .marketplace-container {
+        padding-right: 15px;
     }
     
 }
