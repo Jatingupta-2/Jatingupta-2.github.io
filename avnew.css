@@ -715,6 +715,11 @@
     margin-top: 10px;
 }
 
+.luxury-details .details span{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 @media (max-width:1250px) {
     .luxury-details .details {
         font-size: 22px;
