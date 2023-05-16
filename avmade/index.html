@@ -166,7 +166,7 @@
                         <div class="brands-section-email">
 
                             <!-- Commenting buttons -->
-                            <!-- <button class="mr-2 contact-us" onclick="location.href='https://app.avendors.com/customer/form/custom'">
+                            <!-- <button class="mr-2 contact-us" onclick="location.href='https://app.avmade.com/customer/form/custom'">
                                 Contact us
                             </button> -->
                             <button class="bam custom-talk animated-button"
@@ -178,7 +178,7 @@
 
                             <!-- OLD CODE -->
                             <!-- <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email"> -->
-                            <!-- onclick="location.href='https://app.avendors.com/customer/form'" -->
+                            <!-- onclick="location.href='https://app.avmade.com/customer/form'" -->
                             <!-- <button onclick="return validateForm()">
                                 Contact us
                             </button> -->
@@ -2829,7 +2829,7 @@
 
                 axios({
                     method: 'post',
-                    url: 'https://app.avendors.com/api/user/addHubSpotStep1Custom',
+                    url: 'https://app.avmade.com/api/user/addHubSpotStep1Custom',
                     data: {
                         email: email,
                         url: window.location.href
@@ -2838,12 +2838,12 @@
                     .then(function (response) {
                         axios({
                             method: 'post',
-                            url: 'https://app.avendors.com/api/user/contactusmailCustomBody',
+                            url: 'https://app.avmade.com/api/user/contactusmailCustomBody',
                             data: obj
                         })
                             .then(function (response) {
                                 $('#email-pop-up')[0].click();
-                                // window.location.href = "https://app.avendors.com/customer/form";
+                                // window.location.href = "https://app.avmade.com/customer/form";
                             });
 
                     });
@@ -2864,7 +2864,7 @@
             var split_2_Url = split_1_Url.split('?')[1]
 
             //Commenting the old flow
-            // window.location.href = `https://app.avendors.com/customer/form/custom?${split_2_Url}`; 
+            // window.location.href = `https://app.avmade.com/customer/form/custom?${split_2_Url}`; 
             //Redirecting to let's talk
             window.location.href = `https://avmade.com/avmade/meeting/`;
         })
