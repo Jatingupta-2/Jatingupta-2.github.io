@@ -155,7 +155,41 @@
 
             <section class="brands-section blue-bg-new">
 
-                <div class="row">
+                <div class="before-choice">
+                    <div class="before-choice-title">
+                        CHOOSE TO START
+                    </div>
+                    <div class="before-choice-subtitle">
+                        Welcome to where upscale brands produce.
+                    </div>
+                    <div class="choose-items">
+                        <div class="choose-item" onclick="return showDetails('upscale')">
+                            <img src="images/avnew/choose1.webp" />
+                            <div class="choose-item-info">
+                                <span class="choose-item-info-title">Upscale <br/>
+                                Essentials</span>
+                                <div>
+                                    Ex : Tee, sweat,<br/>
+                                    hoodie & more. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="choose-item em" onclick="return showDetails('beyond')">
+                            <img src="images/avnew/choose2.webp" />
+                            <div class="choose-item-info">
+                                <span class="choose-item-info-title">Beyond <br/>
+                                Essentials</span>
+                                <div>
+                                    Ex : Dress, denim,<br/>
+                                    Jacket and more.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="after-choice hide row">
                     <div class="col-lg-6 col-md-12 brands-section__col1">
                         <div class="brands-section__col brands-section-margin-left">
                             <div class="brands-section__nothing">
@@ -197,7 +231,7 @@
         </div>
     </div>
 
-    <main class="av-new">
+    <main class="after-choice hide av-new">
         <section class="brands-illustration no-b">
             <div class="row">
                 <div class="col-12 col-sm-1 bi-carousel-col1">
@@ -688,6 +722,10 @@
                                         <div class="perks-line li">
                                             <li></li>
                                             Custom Color
+                                        </div>
+                                        <div class="perks-line li">
+                                            <li></li>
+                                            Custom drawstring
                                         </div>
                                         <div class="perks-line li">
                                             <li></li>
@@ -2504,6 +2542,16 @@
 
         async function signupPage() {
             window.location.href = `https://app.avmade.com/onboarding/step-one`;
+        }
+
+        async function showDetails(detail) {
+            if(detail==='beyond'){
+                window.open('https://avmade.com/custom', '_blank');
+            }
+            else{
+                $(".after-choice").removeClass("hide");
+                $(".before-choice").addClass("hide");
+            }
         }
     </script>
     <!-- STEP INSIDE -->

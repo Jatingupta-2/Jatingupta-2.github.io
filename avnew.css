@@ -719,6 +719,50 @@
     font-weight: 500;
     text-decoration: underline;
 }
+.before-choice{
+    margin-bottom: 120px;
+}
+.before-choice-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.before-choice-subtitle{
+    text-align: center;
+    font-size: 16px;
+}
+.choose-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+.choose-item{
+    width: 40%;
+    display: flex;
+    border: 1px solid #31FFEA;
+    box-shadow: 3px 3px 3px 3px #DEDEDE40;
+    border-radius: 20px;
+}
+.choose-item img{
+    width: 50%;
+}
+.choose-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    color: rgba(0, 78, 147, 0.7);
+    font-size: 14px;
+    
+}
+.choose-item-info-title{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    color: rgba(0, 78, 147, 1);
+    margin-bottom: 10px;
+}
 
 @media (max-width:1250px) {
     .luxury-details .details {
@@ -1137,6 +1181,30 @@
     }
     .la-cards .marketplace-container {
         padding-right: 15px;
+    }
+    .before-choice-title{    
+        font-size: 22px;
+    }
+    .before-choice-subtitle{
+        font-size: 14px;
+    }
+    .choose-items{
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .choose-item{
+        width: 100%;
+    }
+    .choose-item.em{
+        margin-top: 25px;
+    }
+    .choose-item-info{
+        font-size: 12px;
+    }
+    .choose-item-info-title{
+        font-size: 20px;
+        margin-bottom: 7px;
     }
     
 }
