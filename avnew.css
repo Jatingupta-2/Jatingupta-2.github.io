@@ -1291,6 +1291,7 @@
         width: 100%;
         flex-wrap: wrap;
         margin-top: 70px;
+        padding: 0 15px;
     }
 
     .choose-option .choose-option-info {
