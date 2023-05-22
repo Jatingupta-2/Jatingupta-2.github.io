@@ -113,6 +113,7 @@
         </div>
     </header>
 
+    <div class="before-choice-header">
     <div class="header-section1">
 
         <header class="header fixed-header header-scroll-mp transparent">
@@ -165,6 +166,9 @@
                         customers doesn’t have to forget about your brand. Use <br/>
                         AVmade instead—build a once in a generation brand.
                     </div>
+                    <div class="hide-tablet qaul-icons">
+                        <img src="images/avnew/qual-fake-desktop.webp" />
+                    </div>
                     <div class="hide-tablet">
                         <div class="choose-option">
                             <div class="choose-option-info">
@@ -196,17 +200,17 @@
                                     Essentials
                                 </div>
                                 <div class="option-1-sub">
-                                    Learn about our process, where the pursuit <br/>
-                                    of excellence and the art of craftsmanship <br/>
-                                    seamlessly merge to bring your concepts <br/>
-                                    to life.
+                                    Book a call us to learn about our process, <br/>
+                                    where the pursuit of excellence and the art <br/>
+                                    of craftsmanship seamlessly merge to <br/>
+                                    bring your concepts to life.
                                 </div>
                                 <button class="option-button" onclick="return showDetails('beyond')">Learn more</button>
                             </div>
                             
                         </div>
                     </div>
-
+                   
                     <div class="hide-desktop img-choose-1">
                         <!-- <img src="images/avnew/bg-quality.webp" /> -->
                     </div>
@@ -282,6 +286,8 @@
 
         </div>
     </div>
+    </div>
+
 
     <div class="before-choice">
         <div class="hide-desktop">
@@ -299,7 +305,7 @@
                     </div>
                     
                 </div>
-                <img src="images/avnew/option1.webp" />
+                <img src="images/avnew/option1-mobile.webp" />
 
                 <button class="option-button" onclick="return showDetails('upscale')">Learn more</button>
             </div>
@@ -314,17 +320,20 @@
                         Beyond
                         Essentials
                     </div>
-                    <div>
-                        Learn about our process, where the pursuit <br/>
-                        of excellence and the art of craftsmanship <br/>
-                        seamlessly merge to bring your concepts to<br/>
-                        life.
+                    <div class="option-1-sub">
+                        Book a call us to learn about our process, <br/>
+                                    where the pursuit of excellence and the art <br/>
+                                    of craftsmanship seamlessly merge to <br/>
+                                    bring your concepts to life.
                     </div>
-                    <img src="images/avnew/option2.webp" />
+                    <img src="images/avnew/option2-mobile.webp" />
                     <button class="option-button" onclick="return showDetails('beyond')">Learn more</button>
                 </div>
                 
             </div>
+        </div>
+        <div class="hide-desktop">
+            <div class="empty-ht"></div>
         </div>
     </div>
 
@@ -2648,6 +2657,8 @@
             else{
                 $(".after-choice").removeClass("hide");
                 $(".before-choice").addClass("hide");
+                $(".before-choice-header").addClass("hh");
+                window.scrollTo(0,0);
             }
         }
     </script>
