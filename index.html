@@ -2168,28 +2168,28 @@
             document.getElementById('cats-images').scrollLeft -= 80;
         };
 
-        function checkScroll3(every_seconds) {
+        function checkScroll1(every_seconds) {
 
-            var leftScroll2 = $('#cats-images').scrollLeft();
-            var width2 = $('#cats-images').width();
-            var scrollWidth = $('#cats-images').get(0).scrollWidth;
+            var leftScroll1 = $('#cats-images').scrollLeft();
+            var width1 = $('#cats-images').width();
+            var scrollWidth1 = $('#cats-images').get(0).scrollWidth;
 
-            // console.log(leftScroll2 , width2, scrollwidth2)
+            // console.log(leftScroll1 , width2, scrollwidth2)
 
-            if (leftScroll2 === 0) {
+            if (leftScroll1 === 0) {
                 $('#slideLeftCat').addClass('overlay50')
             } else {
                 $('#slideLeftCat').removeClass('overlay50')
             }
-            if (scrollWidth - leftScroll2 - width2 === 0) {
+            if (scrollWidth1 - leftScroll1 - width1 === 0) {
                 $('#slideRightCat').addClass('overlay50')
             } else {
                 $('#slideRightCat').removeClass('overlay50')
             }
 
-            setTimeout("checkScroll3(" + every_seconds + ")", ((every_seconds) * 1000));
+            setTimeout("checkScroll1(" + every_seconds + ")", ((every_seconds) * 1000));
         }
-        checkScroll3(0.2)
+        checkScroll1(0.2)
     </script>
     <!-- Category Scroll -->
 
@@ -2208,7 +2208,7 @@
 
             var leftScroll2 = $('#ciCarouel').scrollLeft();
             var width2 = $('#ciCarouel').width();
-            var scrollWidth = $('#ciCarouel').get(0).scrollWidth;
+            var scrollWidth2 = $('#ciCarouel').get(0).scrollWidth;
 
             // console.log(leftScroll2 , width2, scrollwidth2)
 
@@ -2217,7 +2217,7 @@
             } else {
                 $('#slideLeftci').removeClass('overlay50')
             }
-            if (scrollWidth - leftScroll2 - width2 === 0) {
+            if (scrollWidth2 - leftScroll2 - width2 === 0) {
                 $('#slideRightci').addClass('overlay50')
             } else {
                 $('#slideRightci').removeClass('overlay50')
@@ -2241,28 +2241,28 @@
         buttonLeft3.onclick = function () {
             document.getElementById('ciCarouel2').scrollLeft -= 80;
         };
-        function checkScroll2(every_seconds) {
+        function checkScroll3(every_seconds) {
 
-            var leftScroll2 = $('#ciCarouel2').scrollLeft();
-            var width2 = $('#ciCarouel2').width();
-            var scrollWidth = $('#ciCarouel2').get(0).scrollWidth;
+            var leftScroll3 = $('#ciCarouel2').scrollLeft();
+            var width3 = $('#ciCarouel2').width();
+            var scrollWidth3 = $('#ciCarouel2').get(0).scrollWidth;
 
-            // console.log(leftScroll2 , width2, scrollwidth2)
+            // console.log(leftScroll2 , width3, scrollwidth2)
 
-            if (leftScroll2 === 0) {
+            if (leftScroll3 === 0) {
                 $('#slideLeftci2').addClass('overlay50')
             } else {
                 $('#slideLeftci2').removeClass('overlay50')
             }
-            if (scrollWidth - leftScroll2 - width2 === 0) {
+            if (scrollWidth3 - leftScroll3 - width3 === 0) {
                 $('#slideRightci2').addClass('overlay50')
             } else {
                 $('#slideRightci2').removeClass('overlay50')
             }
 
-            setTimeout("checkScroll2(" + every_seconds + ")", ((every_seconds) * 1000));
+            setTimeout("checkScroll3(" + every_seconds + ")", ((every_seconds) * 1000));
         }
-        checkScroll2(0.2)
+        checkScroll3(0.2)
 
     </script>
     <!-- Lounge & athleisure Scroll -->
@@ -2278,28 +2278,28 @@
         buttonLeft4.onclick = function () {
             document.getElementById('ciCarouel3').scrollLeft -= 80;
         };
-        function checkScroll2(every_seconds) {
+        function checkScroll4(every_seconds) {
 
-            var leftScroll2 = $('#ciCarouel3').scrollLeft();
-            var width2 = $('#ciCarouel3').width();
-            var scrollWidth = $('#ciCarouel3').get(0).scrollWidth;
+            var leftScroll4 = $('#ciCarouel3').scrollLeft();
+            var width4 = $('#ciCarouel3').width();
+            var scrollWidth4 = $('#ciCarouel3').get(0).scrollWidth;
 
             // console.log(leftScroll2 , width2, scrollwidth2)
 
-            if (leftScroll2 === 0) {
+            if (leftScroll4 === 0) {
                 $('#slideLeftci3').addClass('overlay50')
             } else {
                 $('#slideLeftci3').removeClass('overlay50')
             }
-            if (scrollWidth - leftScroll2 - width2 === 0) {
+            if (scrollWidth4 - leftScroll4 - width4 === 0) {
                 $('#slideRightci3').addClass('overlay50')
             } else {
                 $('#slideRightci3').removeClass('overlay50')
             }
 
-            setTimeout("checkScroll2(" + every_seconds + ")", ((every_seconds) * 1000));
+            setTimeout("checkScroll4(" + every_seconds + ")", ((every_seconds) * 1000));
         }
-        checkScroll2(0.2)
+        checkScroll4(0.2)
 
     </script>
 
@@ -2668,6 +2668,11 @@
                 $(".before-choice").addClass("hide");
                 $(".before-choice-header").addClass("hh");
                 window.scrollTo(0, 0);
+                            //Destroy
+                            var $carousel = $('.js-flickity').flickity();
+$carousel.flickity('destroy');
+//Re-init
+$carousel.flickity({ "wrapAround": true, "contain": true,  "pageDots": false});
             }
         }
 
@@ -2677,6 +2682,7 @@
             $(".before-choice").addClass("hide");
             $(".before-choice-header").addClass("hh");
             window.scrollTo(0, 0);
+
         }
     </script>
     <!-- STEP INSIDE -->
