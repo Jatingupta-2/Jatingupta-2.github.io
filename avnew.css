@@ -118,6 +118,7 @@
 .luxury-details .details {
     margin-top: 20px;
     font-size: 24px;
+    max-width: 600px;
 }
 
 .brands-section-info.new {
@@ -838,6 +839,9 @@
 }
 .qaul-icons img{
     width: 110%;
+}
+.platform-access{
+    max-width: 335px;
 }
 
 
