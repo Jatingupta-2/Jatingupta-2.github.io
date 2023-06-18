@@ -845,6 +845,25 @@
 }
 
 
+@media (max-width:1300px) {
+    .luxury-details {
+        padding-top: 15px;
+    }
+    .luxury-details .l-title{
+        font-size: 30px;
+    }
+    .luxury-details .l-title .bold-l{
+        font-size: 35px;
+    }
+    .collapse-details{
+        margin-top: 30px;
+    }
+    .luxury-details .details {
+        font-size: 20px;
+        line-height: 27px;
+        margin-top: 15px;
+    }
+}
 @media (max-width:1250px) {
     .luxury-details .details {
         font-size: 22px;
