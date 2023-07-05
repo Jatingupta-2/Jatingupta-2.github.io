@@ -311,6 +311,12 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.footer-copyright{
+  background: #03488B;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
 
 @media (min-width:993px) {
   .hide-desktop {
@@ -402,6 +408,9 @@
   .footer-col-button button {
     font-size: 11px;
     width: 105px;
+  }
+  .footer-copyright{
+    font-size: 10px;
   }
 }
 
