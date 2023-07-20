@@ -20,7 +20,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AVmade</title>
-    <link rel="shortcut icon" href="images/a2.png" />
+    <link rel="shortcut icon" href="images/Blue-_-Red.ico" />
 
     <!-- Importing Styles -->
     <link rel="stylesheet" href="./finalCover2/cover.css" />
@@ -51,25 +51,25 @@
     <!-- Bing search console code -->
     <meta name="msvalidate.01" content="513E2BD36064B012B4F4C772D470792D" />
     <!-- Bing search console code -->
-        <!-- Meta Pixel Code -->
-        <script>
-            !function (f, b, e, v, n, t, s) {
-                if (f.fbq) return; n = f.fbq = function () {
-                    n.callMethod ?
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-                n.queue = []; t = b.createElement(e); t.async = !0;
-                t.src = v; s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '301066392320391');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-                src="https://www.facebook.com/tr?id=301066392320391&ev=PageView&noscript=1" /></noscript>
-        <!-- End Meta Pixel Code -->
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '301066392320391');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=301066392320391&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="body">
@@ -210,7 +210,8 @@
                                         and state-of-the-art digital customization
                                         tools.
                                     </div>
-                                    <button class="option-button" onclick="return showDetails('upscale')">Get Started</button>
+                                    <button class="option-button" onclick="return showDetails('upscale')">Get
+                                        Started</button>
                                 </div>
                                 <img src="images/avnew/option1.webp" />
                             </div>
@@ -232,7 +233,8 @@
                                         of craftsmanship seamlessly merge to
                                         bring your concepts to life.
                                     </div>
-                                    <button class="option-button" onclick="return showDetails('beyond')">Get Started</button>
+                                    <button class="option-button" onclick="return showDetails('beyond')">Get
+                                        Started</button>
                                 </div>
 
                             </div>
@@ -286,6 +288,7 @@
                                         manufacturer located in the USA.
                                     </p>
                                 </div>
+                                <div id="same-qual"></div>
                                 <div class="brands-section-email">
                                     <input type="text" placeholder="Enter your email address" class="mr-2"
                                         id="enter-email">
@@ -360,6 +363,7 @@
 
             </div>
         </div>
+
         <div class="hide-desktop">
             <div class="empty-ht"></div>
         </div>
@@ -2660,11 +2664,22 @@
                             data: obj
                         })
                             .then(function (response) {
-                                window.location.href = `https://app.avmade.com/onboarding/step-one?usr_email=${email}`;
+                                // window.location.href = `https://app.avmade.com/onboarding/step-one?usr_email=${email}`;
                                 // window.location.href = `https://app.avmade.com`;
-                                // document.getElementById('collection-choices').scrollIntoView({
-                                // behavior: 'smooth'
+                                // document.getElementById('same-qual').scrollIntoView({
+                                //     behavior: 'smooth'
                                 // });
+
+
+                                var element = document.getElementById('same-qual');
+                                var headerOffset = 55;
+                                var elementPosition = element.getBoundingClientRect().top;
+                                var offsetPosition = elementPosition + window.pageYOffset + headerOffset;
+
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: "smooth"
+                                });
                             });
 
                     });
