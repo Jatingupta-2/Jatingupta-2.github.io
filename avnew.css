@@ -47,6 +47,9 @@
     margin: auto 0 auto 50px;
     font-size: 14px;
 }
+.av-new .bi-carousel-title.bi-avmade{
+    margin-bottom: 15px;
+}
 
 .brand-luxury {
     background: #FFF9F7;
@@ -1120,6 +1123,9 @@
     .av-new .bi-carousel-title {
         margin: auto 0 auto 35px;
         font-size: 12px;
+    }
+    .av-new .bi-carousel-title.bi-avmade{
+        margin-bottom: 0;
     }
 
     .brands-section__use .brands-section__col {
