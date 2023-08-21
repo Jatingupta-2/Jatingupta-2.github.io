@@ -2726,12 +2726,16 @@
             window.scrollTo(0, 0);
             document.title = 'Explore Upscale Essentials | Customized Stock'
 
-            document.getElementsByTagName('meta')["description"].content = "Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.";
+            // document.getElementsByTagName('meta')["description"].content = "Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.";
+
+            var meta = document.createElement('meta');
+            meta.setAttribute('name', 'description');
+            meta.setAttribute('content', "Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.");
 
         }else{
             document.title = 'AVmade Upscale Brands of all Sizes—from Startups'
 
-            document.getElementsByTagName('meta')["description"].content = "Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.";
+            // document.getElementsByTagName('meta')["description"].content = "Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.";
 
             // $('meta[name="description"]').attr('content', 'Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.');
         }
