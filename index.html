@@ -53,7 +53,8 @@
     <!-- Bing search console code -->
 
     <!-- META PIXEL -->
-    <meta id="mtdesc" name="description" content="Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.">
+    <meta id="mtdesc" name="description"
+        content="Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.">
     <!-- META PIXEL -->
 
     <!-- Meta Pixel Code -->
@@ -2727,10 +2728,12 @@
             document.title = 'Explore Upscale Essentials | Customized Stock'
             const metaValEssentials = 'Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.'
 
-            $("#mtdesc").attr("content",metaValEssentials);
+            $('meta[name=description]').remove();
+            $('head').append('<meta name="description" content="Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.">');
+            // $("#mtdesc").attr("content",metaValEssentials);
             // $('meta[name=description]').attr('content', metaValEssentials);
 
-        }else{
+        } else {
             document.title = 'AVmade Upscale Brands of all Sizes—from Startups'
 
             // document.getElementsByTagName('meta')["description"].content = "Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.";
