@@ -328,6 +328,9 @@
   .hide-tablet {
     display: none;
   }
+  .show-only-desktop.qaul-icons{
+    display: none;
+  }
 }
 
 @media (max-width:790px) {
