@@ -15,10 +15,12 @@
     /* background: url(images/yellow-blue-desktop.svg) center/cover no-repeat border-box; */
     background-position: left 0% bottom 0%;
 }
-.before-choice-header .header-section1{
+
+.before-choice-header .header-section1 {
     background: url(images/avnew/desktop-background-choice.svg) center/cover no-repeat border-box;
 }
-.before-choice-header.hh .header-section1{
+
+.before-choice-header.hh .header-section1 {
     background: url(images/avnew/desktop-background.svg) center/cover no-repeat border-box;
 }
 
@@ -47,7 +49,8 @@
     margin: auto 0 auto 50px;
     font-size: 14px;
 }
-.av-new .bi-carousel-title.bi-avmade{
+
+.av-new .bi-carousel-title.bi-avmade {
     margin-bottom: 15px;
 }
 
@@ -832,41 +835,138 @@
     border-radius: 15px;
     margin-top: 25px;
 }
-.qaul-icons{
+
+.qaul-icons {
     margin: 100px -2rem 0;
     display: flex;
     justify-content: flex-end;
 }
-.qaul-icons.hide-tablet{
+
+.qaul-icons.hide-tablet {
     display: none;
 }
-.qaul-icons img{
+
+.qaul-icons img {
     width: 110%;
 }
-.platform-access{
+
+.platform-access {
     max-width: 335px;
 }
 
+.main-header__item.item2.free-sg button {
+    background: #FFE700;
+    width: 170px;
+    font-size: 14px;
+}
+
+.modal-content.download-modal {
+    background: #FFF9F9;
+    border: none;
+    border-radius: 15px;
+    min-height: 650px;
+}
+
+.download-modal .modal-header {
+    background: #FFF9F9;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.download-modal .modal-body {
+    background: #FFF9F9;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.modal-dialog.download-dialog {
+    max-width: 650px !important;
+}
+
+.download-modal input {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 1px solid #004E93;
+    background: transparent;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 50px;
+    padding: 15px;
+    outline: none;
+}
+
+.download-modal input::placeholder {
+    color: #03478ba9;
+}
+
+.download-modal .sub-text {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.download-modal .modal-body button {
+    display: block;
+    margin: auto;
+    width: 80%;
+    background: #002240;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.download-modal .modal-body .go-back {
+    margin-top: 80px;
+}
+
+.download-modal .small-span {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#download-email-entered {
+    font-weight: 500;
+}
+.boss-section .download-free-sg-boss{
+    background: #FFE700;
+    width: fit-content;
+    padding: 0 30px;
+    color: #03488B;
+    font-weight: 500;
+}
 
 @media (max-width:1300px) {
     .luxury-details {
         padding-top: 15px;
     }
-    .luxury-details .l-title{
+
+    .luxury-details .l-title {
         font-size: 30px;
     }
-    .luxury-details .l-title .bold-l{
+
+    .luxury-details .l-title .bold-l {
         font-size: 35px;
     }
-    .collapse-details{
+
+    .collapse-details {
         margin-top: 30px;
     }
+
     .luxury-details .details {
         font-size: 20px;
         line-height: 27px;
         margin-top: 15px;
     }
 }
+
 @media (max-width:1250px) {
     .luxury-details .details {
         font-size: 22px;
@@ -1120,11 +1220,22 @@
         border-radius: 3px;
     }
 
+    .main-header__item.item3 .yellow-free-sg-mob {
+        background: #FFE700;
+        margin-right: 20px;
+        width: fit-content;
+        font-size: 10px;
+    }
+    .free-sg-main{
+        display: flex;
+    }
+
     .av-new .bi-carousel-title {
         margin: auto 0 auto 35px;
         font-size: 12px;
     }
-    .av-new .bi-carousel-title.bi-avmade{
+
+    .av-new .bi-carousel-title.bi-avmade {
         margin-bottom: 0;
     }
 
@@ -1297,9 +1408,11 @@
     .la-cards .marketplace-container {
         padding-right: 15px;
     }
+
     .before-choice {
         margin-bottom: 0px;
     }
+
     .before-choice-title {
         font-size: 30px;
         line-height: 33px;
@@ -1365,25 +1478,30 @@
         height: 44px;
         width: 105px;
     }
-    .img-choose-1{
+
+    .img-choose-1 {
         width: 108vw;
-  height: 300px;
-  margin-left: -60px;
-  background: url(http://placehold.it/400x400/fa0);
-  background-size: 300%;
-  background-position: -100%, -100%;
-margin-top: 50px;
-  background: url(images/avnew/qual-fake.webp) center/cover no-repeat border-box;
-    /* background-position: bottom 0% right 0%;
+        height: 300px;
+        margin-left: -60px;
+        background: url(http://placehold.it/400x400/fa0);
+        background-size: 300%;
+        background-position: -100%, -100%;
+        margin-top: 50px;
+        background: url(images/avnew/qual-fake.webp) center/cover no-repeat border-box;
+        /* background-position: bottom 0% right 0%;
     height: 50vw;
     background-size: contain;
     display: flex;
     align-items: center;
     padding: 80px; */
     }
-    .empty-ht{
+
+    .empty-ht {
         height: 150px;
         width: 100%;
     }
 
+    .download-modal .sub-text {
+        width: 100%;
+    }
 }

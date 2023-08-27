@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://avmade.com/sitemap.xml
