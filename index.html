@@ -105,7 +105,7 @@
                 </button>
             </div>
             <div class="main-header__item item2 contact-us">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                <button class="after-choice hide" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
                     FREE STARTUP GUIDE
                 </button>
             </div>
@@ -118,7 +118,7 @@
 
     <header class="header fixed-header header-scroll-mp transparent fixed-avnew orange-bg hide">
         <div class="main-header mh3 mh3-mob">
-            <div onclick="location.href='https://app.avmade.com'" class="main-header__logo">
+            <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                 <img src="images/plus_new_logo.svg">
             </div>
             <div class="main-header__items ">
@@ -127,7 +127,7 @@
                     Login
                 </div>
                 <div class="main-header__item item2 item3 hide-tablet free-sg">
-                    <button class="animated-button" type="button" data-bs-toggle="modal"
+                    <button class="animated-button after-choice hide" type="button" data-bs-toggle="modal"
                         data-bs-target="#downloadModal">
                         FREE STARTUP GUIDE
                     </button>
@@ -139,7 +139,7 @@
                     </button>
                 </div>
                 <div class="main-header__item item2 item3 hide-desktop free-sg-main">
-                    <button class="animated-button yellow-free-sg-mob" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                    <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
                         FREE STARTUP GUIDE
                     </button>
                     <button class="animated-button" onclick="location.href='https://app.avmade.com/login'"
@@ -164,7 +164,7 @@
 
             <header class="header fixed-header header-scroll-mp transparent">
                 <div class="main-header mh3 mh3-mob">
-                    <div onclick="location.href='https://app.avmade.com'" class="main-header__logo">
+                    <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                         <img src="images/plus_new_logo.svg">
                     </div>
                     <div class="main-header__items ">
@@ -173,7 +173,7 @@
                             Login
                         </div>
                         <div class="main-header__item item2 item3 hide-tablet free-sg">
-                            <button class="animated-button" type="button" data-bs-toggle="modal"
+                            <button class="animated-button after-choice hide" type="button" data-bs-toggle="modal"
                                 data-bs-target="#downloadModal">
                                 FREE STARTUP GUIDE
                             </button>
@@ -186,7 +186,7 @@
                             </button>
                         </div>
                         <div class="main-header__item item2 item3 hide-desktop free-sg-main">
-                            <button class="animated-button yellow-free-sg-mob" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                            <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
                                 FREE STARTUP GUIDE
                             </button>
                             <button class="animated-button" onclick="location.href='https://app.avmade.com/login'"
@@ -2851,6 +2851,8 @@
                 $carousel.flickity('destroy');
                 //Re-init
                 $carousel.flickity({ "wrapAround": true, "contain": true, "pageDots": false });
+                $(".yellow-free-sg-mob").removeClass("hide");
+                
             }
         }
 
@@ -2868,6 +2870,7 @@
             // $('head').append('<meta name="description" content="Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.">');
             // $("#mtdesc").attr("content",metaValEssentials);
             // $('meta[name=description]').attr('content', metaValEssentials);
+            $(".yellow-free-sg-mob").removeClass("hide");
 
         } else {
             document.title = 'AVmade Upscale Brands of all Sizes—from Startups'
