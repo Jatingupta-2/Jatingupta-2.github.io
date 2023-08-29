@@ -116,14 +116,18 @@
             </div>
     </nav>
 
-    <header class="header fixed-header header-scroll-mp transparent fixed-avnew orange-bg hide">
+    <header class="header fixed-header header-scroll-mp transparent fixed-avnew orange-before-choice hide">
         <div class="main-header mh3 mh3-mob">
             <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                 <img src="images/plus_new_logo.svg">
             </div>
             <div class="main-header__items ">
-                <div class="main-header__item item1 extra-margin-header-1 hide-tablet"
+                <div class="main-header__item item1 extra-margin-header-1 hide-tablet before-choice"
                     onclick="location.href='https://app.avmade.com/login'">
+                    Login
+                </div>
+                <div class="main-header__item item1 extra-margin-header-1 hide-tablet after-choice hide"
+                    onclick="location.href='https://app.avmade.com/onboarding/step-one/'">
                     Login
                 </div>
                 <div class="main-header__item item2 item3 hide-tablet free-sg">
@@ -132,22 +136,31 @@
                         FREE STARTUP GUIDE
                     </button>
                 </div>
-                <div class="main-header__item item2 item3 hide-tablet">
+                <div class="main-header__item item2 item3 hide-tablet before-choice2">
                     <button class="animated-button" onclick="location.href='https://app.avmade.com/onboarding/step-one'"
                         type="button">
                         Apply to Join
                     </button>
                 </div>
+                <div class="main-header__item item2 item3 hide-tablet after-choice hide ttan">
+                    <button class="animated-button" onclick="location.href='https://calendly.com/a-team-c11/onboarding'"
+                        type="button">
+                        TALK TO AN EXPERT
+                    </button>
+                </div>
                 <div class="main-header__item item2 item3 hide-desktop free-sg-main">
-                    <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                    <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button"
+                        data-bs-toggle="modal" data-bs-target="#downloadModal">
                         FREE STARTUP GUIDE
                     </button>
-                    <button class="animated-button" onclick="location.href='https://app.avmade.com/login'"
+                    <button class="animated-button before-choice2" onclick="location.href='https://app.avmade.com/login'"
                         type="button">
-
-                        <!-- Sign in -->
                         Join us
                     </button>
+                    <button class="animated-button after-choice hide gs-small" onclick="location.href='https://calendly.com/a-team-c11/onboarding'"
+                    type="button">
+                    TALK TO AN EXPERT
+                </button>
                 </div>
 
             </div>
@@ -168,8 +181,12 @@
                         <img src="images/plus_new_logo.svg">
                     </div>
                     <div class="main-header__items ">
-                        <div class="main-header__item item1 extra-margin-header-1 hide-tablet"
+                        <div class="main-header__item item1 extra-margin-header-1 hide-tablet before-choice"
                             onclick="location.href='https://app.avmade.com/login'">
+                            Login
+                        </div>
+                        <div class="main-header__item item1 extra-margin-header-1 hide-tablet after-choice hide"
+                            onclick="location.href='https://app.avmade.com/onboarding/step-one'">
                             Login
                         </div>
                         <div class="main-header__item item2 item3 hide-tablet free-sg">
@@ -178,23 +195,33 @@
                                 FREE STARTUP GUIDE
                             </button>
                         </div>
-                        <div class="main-header__item item2 item3 hide-tablet">
+                        <div class="main-header__item item2 item3 hide-tablet before-choice2">
                             <button class="animated-button"
                                 onclick="location.href='https://app.avmade.com/onboarding/step-one'" type="button">
 
                                 Apply to Join
                             </button>
                         </div>
+                        <div class="main-header__item item2 item3 hide-tablet after-choice hide ttan">
+                            <button class="animated-button"
+                                onclick="location.href='https://calendly.com/a-team-c11/onboarding'" type="button">
+
+                                TALK TO AN EXPERT
+                            </button>
+                        </div>
                         <div class="main-header__item item2 item3 hide-desktop free-sg-main">
-                            <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                            <button class="animated-button yellow-free-sg-mob hide after-choice hide" type="button"
+                                data-bs-toggle="modal" data-bs-target="#downloadModal">
                                 FREE STARTUP GUIDE
                             </button>
-                            <button class="animated-button" onclick="location.href='https://app.avmade.com/login'"
+                            <button class="animated-button before-choice2" onclick="location.href='https://app.avmade.com/login'"
                                 type="button">
-
-                                <!-- Sign in -->
                                 Join us
                             </button>
+                            <button class="animated-button after-choice hide gs-small " onclick="location.href='https://calendly.com/a-team-c11/onboarding'"
+                            type="button">
+                            TALK TO AN EXPERT
+                        </button>
                         </div>
 
                     </div>
@@ -222,7 +249,7 @@
                             AVmade instead—build a once in a generation brand.
                         </div>
                         <div class="show-only-desktop qaul-icons">
-                            <img src="images/avnew/bg-quality.webp" />
+                            <img src="images/avnew/bg-quality-desktop-new.webp" />
                         </div>
                         <div class="hide-tablet qaul-icons">
                             <img src="images/avnew/qual-fake-desktop.webp" />
@@ -2048,17 +2075,18 @@
                             Get your free guide to learn how to build <br>
                             a successful clothing brand. The way to <br>
                             success starts with the fundamentals.</div>
-                        <input type="text" placeholder="Enter Email address" class="" id="download-enter-email">
+                            <input type="text" placeholder="Full name" class="" id="download-enter-name">
+                            <input type="text" placeholder="Email" class="i-lm" id="download-enter-email">
                         <button onclick="validateDownloadForm()">Enter</button>
-                        <span class="small-span">Factory reached max capacity.</span>
+                        <span class="small-span">Startups handbook.</span>
                     </div>
                     <div id="dowload-page-2" class="hide">
                         <h2>Got it!</h2>
                         <div class="sub-text">Sent to <span id="download-email-entered"></span>. If the email <br>
                             is incorrect, please verify.</div>
                         <button class="go-back" onclick="goBackDownloadForm()">Go back</button>
-                        <button data-bs-dismiss="modal" aria-label="Close">Continue</button>
-                        <span class="small-span">Factory reached max capacity.</span>
+                        <button onclick="continueDownloadForm()">Continue</button>
+                        <span class="small-span">Startups handbook.</span>
                     </div>
                 </div>
                 <!-- <div class="modal-footer">
@@ -2683,12 +2711,18 @@
     <script>
         async function validateDownloadForm() {
             let email = document.getElementById('download-enter-email').value;
-            if (email == "") {
+            let enterdName = document.getElementById('download-enter-name').value;
+            
+            if(enterdName == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            else if (email == "") {
                 alert("Email must be filled out");
                 return false;
             }
             else if (validateEmail(email)) {
-                
+
                 $("#download-email-entered").text(`"${email}"`);
                 $("#dowload-page-1").addClass("hide");
                 $("#dowload-page-2").removeClass("hide");
@@ -2703,52 +2737,61 @@
             $("#dowload-page-1").removeClass("hide");
         }
 
-        async function submitDownloadForm(){
-            
-            let email = document.getElementById('download-enter-email').value;
+        async function continueDownloadForm(){
+            $('#downloadModal').modal('hide');
+            goBackDownloadForm()
+        }
 
-            if (email == "") {
+        async function submitDownloadForm() {
+
+            let email = document.getElementById('download-enter-email').value;
+            let enterdName = document.getElementById('download-enter-name').value;
+
+            if (email == "" || enterdName === '') {
                 goBackDownloadForm()
                 return;
             }
 
-            let obj={
-                to:email,
-                template:'d-4fd93f5e541b486c870824497be20245',
-                html:"abc",
-                subject:"Free startup Guide"
+            let obj = {
+                to: email,
+                template: 'd-4fd93f5e541b486c870824497be20245',
+                html: "abc",
+                subject: "Free startup Guide",
+                others:{name:enterdName}
             }
 
             axios({
-                            method: 'post',
-                            url: 'http://localhost:5000/api/v1/products/rfq/template',
-                            // url: 'https://backend.avendors.com/api/v1/products/rfq/template',
-                            data: obj
-                        })
-                            .then(function (response) {
+                method: 'post',
+                // url: 'http://localhost:5000/api/v1/products/rfq/template',
+                url: 'https://backend.avendors.com/api/v1/products/rfq/template',
+                data: obj
+            })
+                .then(function (response) {
 
-                                // window.location.href = `https://app.avmade.com/onboarding/step-one?usr_email=${email}`;
-                                // window.location.href = `https://app.avmade.com`;
-                                // document.getElementById('same-qual').scrollIntoView({
-                                //     behavior: 'smooth'
-                                // });
+                    // window.location.href = `https://app.avmade.com/onboarding/step-one?usr_email=${email}`;
+                    // window.location.href = `https://app.avmade.com`;
+                    // document.getElementById('same-qual').scrollIntoView({
+                    //     behavior: 'smooth'
+                    // });
 
-                                // goBackDownloadForm()
-                                // $('#downloadModal').modal('hide');
-                                // var element = document.getElementById('same-qual');
-                                // var headerOffset = 55;
-                                // var elementPosition = element.getBoundingClientRect().top;
-                                // var offsetPosition = elementPosition + window.pageYOffset + headerOffset;
+                    // goBackDownloadForm()
+                    // $('#downloadModal').modal('hide');
+                    // var element = document.getElementById('same-qual');
+                    // var headerOffset = 55;
+                    // var elementPosition = element.getBoundingClientRect().top;
+                    // var offsetPosition = elementPosition + window.pageYOffset + headerOffset;
 
-                                // window.scrollTo({
-                                //     top: offsetPosition,
-                                //     behavior: "smooth"
-                                // });
-                            });
+                    // window.scrollTo({
+                    //     top: offsetPosition,
+                    //     behavior: "smooth"
+                    // });
+                });
 
 
 
             $('#download-enter-email').val('')
+            $('#download-enter-name').val('')
+            
         }
     </script>
 
@@ -2852,7 +2895,9 @@
                 //Re-init
                 $carousel.flickity({ "wrapAround": true, "contain": true, "pageDots": false });
                 $(".yellow-free-sg-mob").removeClass("hide");
-                
+                $(".orange-before-choice").addClass("orange-bg");
+                $(".before-choice2").addClass("hide");
+
             }
         }
 
@@ -2861,6 +2906,7 @@
             $(".after-choice").removeClass("hide");
             $(".before-choice").addClass("hide");
             $(".before-choice-header").addClass("hh");
+
             window.scrollTo(0, 0);
             document.title = 'Explore Upscale Essentials | Customized Stock'
             const metaValEssentials = 'Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.'
@@ -2872,6 +2918,8 @@
             // $('meta[name=description]').attr('content', metaValEssentials);
             $(".yellow-free-sg-mob").removeClass("hide");
 
+            $(".orange-before-choice").addClass("orange-bg");
+            $(".before-choice2").addClass("hide");
         } else {
             document.title = 'AVmade Upscale Brands of all Sizes—from Startups'
 

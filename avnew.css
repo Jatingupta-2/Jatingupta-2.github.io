@@ -17,7 +17,10 @@
 }
 
 .before-choice-header .header-section1 {
-    background: url(images/avnew/desktop-background-choice.svg) center/cover no-repeat border-box;
+    /* background: url(images/avnew/desktop-background-choice.svg) center/cover no-repeat border-box; */
+    background: url(images/only-blue-desktop-before-choice.svg) center/cover no-repeat border-box;
+    background-position: right;
+    background-position-y: -500px;
 }
 
 .before-choice-header.hh .header-section1 {
@@ -713,11 +716,14 @@
     top: 0;
 
 }
-
+.fixed-avnew.orange-before-choice{
+    background: #D8F1FF;
+}
 .fixed-avnew.orange-bg {
     background: #fcf4f0;
     z-index: 999;
 }
+
 
 .modal-header {
     border-bottom: none !important;
@@ -860,6 +866,14 @@
     font-size: 14px;
 }
 
+.main-header__item.item2.ttan button {
+    /* background: #FFE700; */
+    width: fit-content;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+
 .modal-content.download-modal {
     background: #FFF9F9;
     border: none;
@@ -896,6 +910,9 @@
     margin-top: 50px;
     padding: 15px;
     outline: none;
+}
+.download-modal .i-lm{
+    margin-top: 20px;
 }
 
 .download-modal input::placeholder {
@@ -1503,5 +1520,11 @@
 
     .download-modal .sub-text {
         width: 100%;
+    }
+    .before-choice-header .header-section1{
+        background-position-y: 0;
+    }
+    .main-header__item.item3 .gs-small{
+        font-size: 12px;
     }
 }
