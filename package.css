@@ -201,4 +201,12 @@
     .main-packages .section-2.nf{
         font-size: 17px;
     }
+    .main-header__item.item2.white-package{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .main-header__item.item2.white-package.yellow-mob button{
+        background: #FFE700;
+    }
+
 }
