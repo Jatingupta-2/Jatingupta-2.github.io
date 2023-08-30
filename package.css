@@ -29,6 +29,10 @@
     background: #EEEBFF;
 }
 
+.main-packages .package-box.orange{
+    background: #FFECEC;
+}
+
 .main-packages .package-box.yellow {
     background: #FEFFCB;
 }
@@ -141,6 +145,14 @@
 
 .let-talk-button.yellow {
     background: #FFE700;
+}
+
+.main-header__item.item2.contact-us.white-package button{
+    background: #fff;
+}
+.custom-body .main-header__item{
+    
+    display: flex;
 }
 
 @media (max-width:786px) {
