@@ -2389,6 +2389,9 @@
         margin-top: 0;
         margin-bottom: 30px;
     }
+    .custom-body .main-header__item.item2.white-package.yellow-mob button{
+        background: #FFE700;
+    }
     .custom-body .brands-section.only-blue-mobile {
         background: url(../images/only-blue-mobile.svg) center/cover no-repeat border-box;
     }
