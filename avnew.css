@@ -11,7 +11,7 @@
 }
 
 .header-section1 {
-    background: url(images/avnew/desktop-background.svg) center/cover no-repeat border-box;
+    background: url(images/avnew/homepage-newbg.png) center/cover no-repeat border-box;
     /* background: url(images/yellow-blue-desktop.svg) center/cover no-repeat border-box; */
     background-position: left 0% bottom 0%;
 }
@@ -24,7 +24,7 @@
 }
 
 .before-choice-header.hh .header-section1 {
-    background: url(images/avnew/desktop-background.svg) center/cover no-repeat border-box;
+    background: url(images/avnew/homepage-newbg.png) center/cover no-repeat border-box;
 }
 
 .header-section1 .fixed-header {
@@ -959,6 +959,17 @@
     color: #03488B;
     font-weight: 500;
 }
+.white-color-login{
+    color: #fff;
+}
+.white-box-apply,
+.main-header__item.item2 .white-box-apply{
+    background: #fff;
+    color: #004E93;
+}
+.main-header__item.item2 .extra-width-caps{
+    width: 150px;
+}
 
 @media (max-width:1300px) {
     .luxury-details {
@@ -1526,5 +1537,11 @@
     }
     .main-header__item.item3 .gs-small{
         font-size: 10px;
+    }
+    .before-choice-header.hh .header-section1 {
+        background-position-x: 0;
+    }
+    .main-header__item.item2 .extra-width-caps{
+        width: 100px;
     }
 }
