@@ -985,7 +985,8 @@
 }
 
 .main-header__item.item2 .extra-width-caps {
-    width: 150px;
+    width: 125px;
+    font-size: 14px;
 }
 
 @media (max-width:1300px) {

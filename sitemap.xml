@@ -6,32 +6,37 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://avmade.com/</loc>
-  <lastmod>2023-08-22</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://avmade.com/customs</loc>
+  <lastmod>2023-09-17</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://avmade.com/our-mission.html</loc>
-  <lastmod>2023-07-27</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://avmade.com/contact-us.html</loc>
-  <lastmod>2023-07-27</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://avmade.com/terms-of-service.html</loc>
-  <lastmod>2023-07-27</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://avmade.com/return-policy.html</loc>
-  <lastmod>2023-07-27</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://avmade.com/privacy.html</loc>
-  <lastmod>2023-07-27</lastmod>
+  <lastmod>2023-09-17</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
