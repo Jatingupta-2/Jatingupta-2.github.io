@@ -356,7 +356,7 @@
 }
 
 .accordian_0 {
-    background: #FCF296;
+    background: #EEEDE2;
 }
 
 .accordian_1 {
@@ -1238,7 +1238,7 @@
 }
 
 .partners .dl {
-    border-top: 1px solid #03488B;
+    /* border-top: 1px solid #03488B; */
     margin: 80px 0 100px;
     width: 100%;
 }
@@ -1494,6 +1494,14 @@
 .new-bi .bi-image {
     padding: 0;
     border: 0;
+}
+
+.dg-purple{
+    color: #CC02FF;
+}
+.vertical-align{
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width:1550px) {
