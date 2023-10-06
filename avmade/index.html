@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="../carousel.css">
     <link rel="stylesheet" href="../slick-carousel.css">
     <link rel="stylesheet" href="../avnew.css" />
+    <link rel="stylesheet" href="./cards.css" />
 
     <!--Importing FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
@@ -105,7 +106,8 @@
                 <a href="#our-services">Our Service</a>
             </div>
             <div class="main-header__item item1 margin-bottom close-modal">
-                <a href="javascript:void()" onclick="location.href='https://avmade.com/designer-guide.html'">Designers Guide</a>
+                <a href="javascript:void()" onclick="location.href='https://avmade.com/designer-guide.html'">Designers
+                    Guide</a>
             </div>
             <div class="main-header__item item2 contact-us avmade-gs-mob-tm white-package yellow-mob">
                 <button type="button" class="close-modal " onclick="location.href='https://avmade.com/packages.html'">
@@ -117,13 +119,13 @@
                     Let’s Talk
                 </button>
             </div>
-           
+
     </nav>
 
     <header class="header sticky-header">
         <div class="main-header">
             <div class="main-header__logo">
-                <img src="../images/plus_new_logo.svg"  alt="AVmade">
+                <img src="../images/plus_new_logo.svg" alt="AVmade">
             </div>
             <div class="main-header__items hide-tablet">
                 <div class="main-header__item item1">
@@ -136,12 +138,12 @@
                     <a href="#our-services">Our Service</a>
                 </div>
                 <div class="main-header__item item1 dg-purple">
-                    <a href="javascript:void()" onclick="location.href='https://avmade.com/designer-guide.html'">Designers Guide</a>
+                    <a href="javascript:void()"
+                        onclick="location.href='https://avmade.com/designer-guide.html'">Designers Guide</a>
                 </div>
                 <div class="main-header__item item2 contact-us white-package">
                     <button type="button" class="animated-button"
-                    onclick="location.href='https://avmade.com/packages.html'"    
-                    >
+                        onclick="location.href='https://avmade.com/packages.html'">
                         Packages
                     </button>
                 </div>
@@ -555,6 +557,53 @@
             <!-- <div class="brands-illustration__how">
                 How it works?
             </div> -->
+            <section class="risk-cards">
+                <div class="card-section1">
+                    <h2>MISS THIS & RISK <br />
+                        EVERYTHING!</h2>
+                    <div class="info">
+                        Over a Decade of Insights: Steering <br />
+                        Our Brands Towards Success with <br />
+                        Best Practices.
+                    </div>
+                    <div class="arrows">
+                        <div id="left-arrow-risk" class="outline left disabled" onclick="moveImg(-1)"><img
+                                src="../images/right.png" /></div>
+                        <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
+                                src="../images/right.png" /></div>
+                    </div>
+                </div>
+                <div class="card-section2">
+                    <div id="display-card1" class="risk-card risk-card1">
+                        <div class="card-heading">
+                            UNDERSTANDING FACTORY TYPES
+                        </div>
+                        <img src="../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp" />
+                        <button onclick="openPopup(0)">Unlock Secrets Now!</button>
+                    </div>
+                </div>
+                <div class="card-section3 position-relative">
+                    <div id="display-card3" class="risk-card risk-card3">
+                    </div>
+                    <div id="display-card2" class="risk-card risk-card2 rotate10">
+                        <div class="card-heading">
+                            GRASPING BRAND POSITIONING
+                        </div>
+                        <img src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" />
+                        <button onclick="openPopup(1)">Unlock Secrets Now!</button>
+                    </div>
+                </div>
+                <div class="card-section3 position-relative hide-tablet">
+                    <div id="display-card4" class="risk-card risk-card4 rotate20">
+                        <div class="card-heading-empty">
+
+                        </div>
+                        <!-- <img class="empty-img" src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" /> -->
+                        <div class="empty-img"></div>
+                        <button>Unlock Secrets Now!</button>
+                    </div>
+                </div>
+            </section>
 
             <div class="brands-illustration__container hide-tablet">
                 <div class="brands-illustration__accordian">
@@ -1892,7 +1941,8 @@
                                 Radical Transparency
                             </div>
                             <div class="unlock-card__info">
-                                We believe in transparency and fairness. We offer low MoQ, best quality and fair pricing.
+                                We believe in transparency and fairness. We offer low MoQ, best quality and fair
+                                pricing.
                             </div>
                         </div>
                     </div>
@@ -3089,6 +3139,363 @@
         }
     </script>
 
+
+
+    <div class="modal fade" id="understandingModal" tabindex="-1" role="dialog" aria-labelledby="understandingModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div id="mb0" class="modal-content um risk-card1 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>UNDERSTANDING <br>FACTORY TYPES</h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            “The success rate of startups is <b>less than 1%.</b> The primary reason for their failure
+                            is not choosing the right clothing manufacturer.”
+                        </div>
+                        <button class="yellow-button">COUTOURE</button>
+                        <div class="mt-10px">
+                            Startup budget from $250K-2M. Brands retail price usually from $2K-25K.
+                        </div>
+                        <button class="yellow-button">CONTEMPORARY</button>
+                        <div class="mt-10px">
+                            Startup budget from $10K-250K. Brands retail price usually from $100-1.5K.
+                        </div>
+                        <button class="yellow-button">BUDGET</button>
+                        <div class="mt-10px">
+                            Affordable that don't prioritize quality. Think along the lines of Bella Canvas, LA apparel,
+                            and the like, or concepts such as dropshipping or merchandising.
+                        </div>
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            If the factory is set-up for couture brands and you're launching a contemporary or
+                            athleisure line, anticipate costs to be 3-5 times higher. Their operational expenses,
+                            including staff wages and overheads, account for this gap. Similarly, if you're aiming for a
+                            budget brand but choose a factory designed for contemporary brands, expect the same type of
+                            mismatch.<br><br>
+
+                            Remember, you’re now on a mission to building a brand. Don’t get emotional.
+                            Think like a boss not like a customer.
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb1" class="modal-content um risk-card2 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>GRASPING <br>BRAND POSITIONING</h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            "Unlocking the essence of effective branding."
+
+                        </div>
+                        <button class="yellow-button">NICHE</button>
+                        <div class="mt-10px">
+                            Deeply understand your audience and avoid trying to appeal to everyone.
+                        </div>
+                        <button class="yellow-button">Everyone</button>
+                        <div class="mt-10px">
+                            Trying to please everyone at this stage will lead to failure.
+                        </div>
+
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            Stay focused on your current state. Don’t get caught up on what other brands are achieving,
+                            or daydream about when you hit the $10M mark. Instead, hone in on your core customers,
+                            ensuring they have a stellar experience with every aspect of your brand. This encompasses
+                            everything from design, quality, and packaging to customer service, website design, and
+                            brand messaging. The path to success lies in this focused approach. Simply dreaming about
+                            growth won't propel you there; consistent, quality engagement will.
+
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb2" class="modal-content um risk-card3 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>REASONABLE
+                        <br>PHOTOSHOOT BUDGET
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            "In today's digital era, impactful content reigns supreme. Yet, there's a fine line between
+                            investing wisely and overpaying."
+
+                        </div>
+                        <button class="yellow-button">Direct</button>
+                        <div class="mt-10px">
+                            This is the optimal approach to dodging an excessive cost.
+
+                        </div>
+                        <button class="yellow-button">Agency</button>
+                        <div class="mt-10px">
+                            While agencies have their place, startups should typically steer clear.
+
+                        </div>
+
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            As factory types differ in specialization and cost, photographers vary, be it runway,
+                            lifestyle, or in-studio.<br><br>
+
+                            For startups venturing into fashion photography can be complex. How about using agencies?
+                            No, they're best suited for the more established brands. So, if you're seeking quality
+                            without overspending, consider a direct approach. With a modest budget of $1K-2K, you can do
+                            up to 12 styles of in-studio shoots, complete with a professional photographer, model,
+                            equipment, and hair & makeup services. We collaborate with leading photography studios to
+                            offer our brand partners unmatched rates. Importantly, we operate with transparency, placing
+                            trust in these studios without accepting commissions. Our objective? It's all about
+                            fostering long-term, win-win partnerships.
+
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb3" class="modal-content um risk-card4 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>FULFILLMENT AND <br>LOGISTICS PLANS
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            Exploring the nuances of shipping and fulfillment.
+                        </div>
+                        <button class="yellow-button">Self</button>
+                        <div class="mt-10px">
+                            It’s great to do if possible.
+                        </div>
+                        <button class="yellow-button">3PL Fulfillments</button>
+                        <div class="mt-10px">
+                            Best for brands consistently processing 300 plus orders monthly.
+                        </div>
+                        <button class="yellow-button">Drop Ship</button>
+                        <div class="mt-10px">
+                            Must avoid. It risks diluting your brand's reputation.
+                        </div>
+                        <button class="yellow-button">Third Party</button>
+                        <div class="mt-10px">
+                            Unnecessary fees associated with an API integration.
+                        </div>
+
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            For clarity, let's unpack this a bit more: In the early stages, hands-on experience with
+                            packaging and shipping processes is invaluable. This immersive approach ensures you solidify
+                            a streamlined process and the way you want fulfillment handled. Once established a system,
+                            you can then effectively communicate your requirements to a fulfillment center. If hands-on
+                            management becomes unsustainable, a close collaboration with a reliable fulfillment center
+                            is the next best step. We have established a solid network of fulfillment centers over the
+                            years which we can recommend if needed free of charge.
+
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb4" class="modal-content um risk-card5 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>MARKETING YOUR STARTUPS
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            Exploring the marketing.
+                        </div>
+                        <button class="yellow-button">Direct</button>
+                        <div class="mt-10px">
+                            Ideal for those tech-savvy enough to initiate momentum. Seek help once underway.
+                        </div>
+                        <button class="yellow-button">Agency</button>
+                        <div class="mt-10px">
+                            Consider only if it's a boutique or individual seeking freelance.
+                        </div>
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            Marketing, especially for creative individuals, can often seem overwhelming due to its
+                            data-driven nature. Yet, platforms like Facebook have made it more accessible for those just
+                            starting out. Begin with the basics and allocate a modest budget, perhaps $10-20 daily, to
+                            experiment with different content and ad copy. As you become more familiar and gather
+                            insights, you can adjust your budget accordingly. Initially, aim to determine your product's
+                            market fit—understand who your buyers are, where they're from, their age range, and their
+                            income bracket. Armed with this knowledge, scaling becomes a more linear process. And don't
+                            overlook the power of word-of-mouth; leveraging free promotion is invaluable. Our guidance
+                            here is designed to help you strategize effectively when you're ready to invest in paid
+                            promotion.
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb5" class="modal-content um risk-card6 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>WEBSITE DEVELOPMENT PLAN
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            A clear outline of expenses for building and maintaining your site.
+                        </div>
+                        <button class="yellow-button">Direct</button>
+                        <div class="mt-10px">
+                            Use platforms like Shopify or Square-space
+                        </div>
+                        <button class="yellow-button">Agency</button>
+                        <div class="mt-10px">
+                            Not needed until you reach scale.
+                        </div>
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            Using templates on platforms like Shopify or Square-space should be your first step. If you
+                            struggle, there's always the option of hiring a Shopify expert from Fiverr – it isn't rocket
+                            science. If you can't manage either, you might want to rethink entrepreneurship, it’s not
+                            for everyone. Sorry for the bluntness, but it's the truth. Again, when considering hiring an
+                            agency, recall our discussion on "content creation" and the implications of choosing
+                            agencies. Getting your site started shouldn't exceed $1K. Focus on simplicity and
+                            presentability, an MVP approach. Don't get sidetracked trying to match big brands. Start
+                            with what you have and refine as you grow. Honesty is a virtue, not a weakness.
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb6" class="modal-content um risk-card1 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>CHOOSING SALES CHANNEL
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            Picking the right model for optimal brand growth and longevity.
+                        </div>
+                        <button class="yellow-button">D2C</button>
+                        <div class="mt-10px">
+                            You are selling to your customer directly.
+                        </div>
+                        <button class="yellow-button">B2B</button>
+                        <div class="mt-10px">
+                            Knowing as wholesale.
+                        </div>
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            When launching a brand, your initial focus should be crafting your mission and forging a
+                            deep bond with customers. This foundation is crucial for two reasons:<br><br>
+
+                            <b>1. Feedback: </b>Direct customer relationships offer invaluable insights to refine your
+                            product. Wholesalers, despite their best intentions, are not capable of delivering the
+                            candid feedback you need.<br>
+                            <b>2. Brand Ambassadors:</b> Loyal customers will champion your brand, fostering organic
+                            growth and network effect.<br><br>
+
+                            It might seem ideal to dive into wholesale for what seems like a good sales channel, but
+                            it's not for startups. Wholesale as an emerging brand can erode your margins by minus
+                            60-70%. Remember, established brands resort to wholesale once they've maximized their
+                            direct-to-consumer potential. Plus, established brands can do large volumes and therefore
+                            they get greater manufacturing cost reductions to compensate for their margin. As a startup,
+                            prioritize building your foundation. Jumping ahead to wholesale prematurely risks both
+                            financial and emotional burnout, jeopardizing your brand's longevity."
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+            <div id="mb7" class="modal-content um risk-card1 hide">
+                <div class="modal-body">
+
+                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+
+                    <h3>THE ART OF FRUGALITY
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
+                        <button class="white-button">FACTORY TYPES</button>
+                        <div class="mt-10px">
+                            The #1 reason why startups die, is not treating every dollar as if it's their last.
+                        </div>
+                        <button class="yellow-button">Transparency</button>
+                        <div class="mt-10px">
+                            Are they straightforward or evasive?
+                        </div>
+                        <button class="yellow-button">Incentives</button>
+                        <div class="mt-10px">
+                            Does the factory offer any?
+                        </div>
+                        <button class="yellow-button">Fees</button>
+                        <div class="mt-10px">
+                            Understand and compare their charges.
+                        </div>
+                        <button class="yellow-button">Feedback</button>
+                        <div class="mt-10px">
+                            Are they knowledgeable?
+                        </div>
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            In today's competitive market, the saying “survival of the fittest” has evolved to “Survival
+                            of the Smartest.” When assessing potential factory partners, it's crucial to compare their
+                            offerings and fees meticulously. While professionalism and cleanliness are essential, don't
+                            be swayed by extravagant facilities. An excessively lavish office space is a red flag for
+                            high overheads and inflated charges. The real value isn't in the glitz and glamour but in
+                            the efficiency and quality of production. A misstep in choosing the right factory type, or
+                            allocating too much capital based on emotional decisions can severely hinder your growth.
+                            Prioritize substance over the show, and always make informed decisions.
+                        </div>
+                        <button class="orange-button">INCENTIVES</button>
+                        <div>
+
+                            Brands we partner with benefit from a host of incentives including:<br><br>
+                            <ul class="tl">
+                                <li>No Sourcing Fee</li>
+                                <li>No Consultation Fee</li>
+                                <li>No Set-up Charges or Surcharges</li>
+                                <li>Credit Up To 100% Of Development Fee</li>
+                                <li>& more!</li>
+                            </ul>
+
+                        </div>
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <script>
         $('.redirect-customer-form').click(function () {
             var url = window.location.href
@@ -3141,6 +3548,127 @@
         }
         changeimage(3);
     </script>
+
+    <script>
+        var currentSlide = 0;
+        function moveImg(incDecVar) {
+            if ((incDecVar === -1 && currentSlide > 0) || (incDecVar === 1 && currentSlide < 6)) {
+                currentSlide = currentSlide + incDecVar;
+                if (currentSlide === 0) {
+                    $("#display-card1 .card-heading").text("UNDERSTANDING FACTORY TYPES")
+                    $("#display-card2 .card-heading").text("GRASPING BRAND POSITIONING")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/GRASPING BRAND POSITIONING.webp")
+                    $("#display-card1").addClass('risk-card1').removeClass('risk-card2')
+                    $("#display-card2").addClass('risk-card2').removeClass('risk-card3')
+                    $("#display-card3").addClass('risk-card3').removeClass('risk-card4')
+                    $("#display-card4").addClass('risk-card4').removeClass('risk-card5')
+                }
+                if (currentSlide === 1) {
+                    $("#display-card1 .card-heading").text("GRASPING BRAND POSITIONING")
+                    $("#display-card2 .card-heading").text("REASONABLE PHOTOSHOOT BUDGET")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/GRASPING BRAND POSITIONING.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp")
+
+                    $("#display-card1").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
+                    $("#display-card2").addClass('risk-card3').removeClass('risk-card4').removeClass('risk-card2')
+                    $("#display-card3").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
+                    $("#display-card4").addClass('risk-card5').removeClass('risk-card6').removeClass('risk-card4')
+                }
+                if (currentSlide === 2) {
+                    $("#display-card1 .card-heading").text("REASONABLE PHOTOSHOOT BUDGET")
+                    $("#display-card2 .card-heading").text("FULFILLMENT STRATEGIES")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/FULFILLMENT STRATEGIES.webp")
+
+                    $("#display-card1").addClass('risk-card3').removeClass('risk-card4').removeClass('risk-card2')
+                    $("#display-card2").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
+                    $("#display-card3").addClass('risk-card5').removeClass('risk-card6').removeClass('risk-card4')
+                    $("#display-card4").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
+                }
+                if (currentSlide === 3) {
+                    $("#display-card1 .card-heading").text("FULFILLMENT STRATEGIES")
+                    $("#display-card2 .card-heading").text("MARKETING YOUR STARTUPS")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/FULFILLMENT STRATEGIES.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/MARKETING YOUR STARTUPS.webp")
+
+                    $("#display-card1").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
+                    $("#display-card2").addClass('risk-card5').removeClass('risk-card6').removeClass('risk-card4')
+                    $("#display-card3").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
+                    $("#display-card4").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
+                }
+                if (currentSlide === 4) {
+                    $("#display-card1 .card-heading").text("MARKETING YOUR STARTUPS")
+                    $("#display-card2 .card-heading").text("WEBSITE DEVELOPMENT PLAN")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/MARKETING YOUR STARTUPS.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/WEBSITE DEVELOPMENT PLAN.webp")
+
+                    $("#display-card1").addClass('risk-card5').removeClass('risk-card6').removeClass('risk-card4')
+                    $("#display-card2").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
+                    $("#display-card3").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
+                    $("#display-card4").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
+                }
+                if (currentSlide === 5) {
+                    $("#display-card1 .card-heading").text("WEBSITE DEVELOPMENT PLAN")
+                    $("#display-card2 .card-heading").text("CHOOSING SALES CHANNEL")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/WEBSITE DEVELOPMENT PLAN.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/CHOOSING SALES CHANNEL.webp")
+
+                    $("#display-card1").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
+                    $("#display-card2").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
+                    $("#display-card3").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
+                    $("#display-card4").addClass('risk-card3').removeClass('risk-card4').removeClass('risk-card2')
+                }
+                if (currentSlide === 6) {
+                    $("#display-card1 .card-heading").text("CHOOSING SALES CHANNEL")
+                    $("#display-card2 .card-heading").text("THE ART OF FRUGALITY")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/CHOOSING SALES CHANNEL.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
+
+                    $("#display-card1").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
+                    $("#display-card2").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
+                    $("#display-card3").addClass('risk-card3').removeClass('risk-card4').removeClass('risk-card2')
+                    $("#display-card4").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
+                }
+                // if (currentSlide === 7) {
+                //     $("#display-card1 .card-heading").text("THE ART OF FRUGALITY")
+                //     $("#display-card2 .card-heading").text("UNDERSTANDING FACTORY TYPES")
+                //     $("#display-card1 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
+                //     $("#display-card2 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
+
+                //     $("#display-card1").addClass('risk-card2').removeClass('risk-card1')
+                //     $("#display-card2").addClass('risk-card3').removeClass('risk-card2')
+                //     $("#display-card3").addClass('risk-card4').removeClass('risk-card3')
+                //     $("#display-card4").addClass('risk-card5').removeClass('risk-card4')
+                // }
+
+            }
+
+            if (currentSlide === 0) {
+                $('#left-arrow-risk').addClass('disabled')
+            } else {
+                $('#left-arrow-risk').removeClass('disabled')
+            }
+            if (currentSlide === 6) {
+                $('#right-arrow-risk').addClass('disabled')
+            } else {
+                $('#right-arrow-risk').removeClass('disabled')
+            }
+        }
+
+        function openPopup(slide) {
+            $('#understandingModal').modal('toggle');
+            $(`#mb${currentSlide + slide}`).removeClass('hide')
+
+
+        }
+        function closeModal() {
+            $('#understandingModal').modal('toggle');
+            $('.modal-content').addClass('hide')
+
+        }
+    </script>
+
 </body>
 
 </html>
