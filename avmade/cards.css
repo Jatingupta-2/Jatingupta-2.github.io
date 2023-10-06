@@ -217,7 +217,6 @@
 .tl{
     text-align: left;
 }
-
 @media (max-width:786px) {
     .risk-cards {
         flex-wrap: wrap;
