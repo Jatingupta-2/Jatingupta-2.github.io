@@ -11,8 +11,9 @@ toggleButton.addEventListener("click", function () {
 })
 
 backdrop.addEventListener("click", function () {
-
-  closeModal();
+  
+  mobileNav.classList.remove("open");
+  backdrop.classList.remove("open");
 
 });
 
@@ -26,6 +27,7 @@ closeMoal.forEach(e => {
 
 
 function closeModal() {
+  console.log("closing")
 
   mobileNav.classList.remove("open");
   backdrop.classList.remove("open");

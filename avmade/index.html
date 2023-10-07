@@ -96,26 +96,26 @@
 
     <nav class="mobile-nav">
         <div class="mob-nav">
-            <div class="main-header__item item1 margin-bottom close-modal">
+            <div class="main-header__item item1 margin-bottom ">
                 <a href="#faq-section">FAQ</a>
             </div>
-            <div class="main-header__item item1 margin-bottom close-modal">
+            <div class="main-header__item item1 margin-bottom ">
                 <a href="#testimonial-section">Testimonials</a>
             </div>
-            <div class="main-header__item item1 margin-bottom close-modal">
+            <div class="main-header__item item1 margin-bottom ">
                 <a href="#our-services">Our Service</a>
             </div>
-            <div class="main-header__item item1 margin-bottom close-modal">
+            <div class="main-header__item item1 margin-bottom ">
                 <a href="javascript:void()" onclick="location.href='https://avmade.com/designer-guide.html'">Designers
                     Guide</a>
             </div>
             <div class="main-header__item item2 contact-us avmade-gs-mob-tm white-package yellow-mob">
-                <button type="button" class="close-modal " onclick="location.href='https://avmade.com/packages.html'">
+                <button type="button" class=" " onclick="location.href='https://avmade.com/packages.html'">
                     Packages
                 </button>
             </div>
             <div class="main-header__item item2 white-package2">
-                <button type="button" class="close-modal" onclick="location.href='https://avmade.com/avmade/meeting/'">
+                <button type="button" class="" onclick="location.href='https://avmade.com/avmade/meeting/'">
                     Let’s Talk
                 </button>
             </div>
@@ -568,16 +568,16 @@
                     </div>
                     <div class="arrows hide-mobile-design">
                         <div id="left-arrow-risk" class="outline left disabled" onclick="moveImg(-1)"><img
-                                src="../images/right.png" /></div>
+                                src="../images/arrow-sm-right.svg" /></div>
                         <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
-                                src="../images/right.png" /></div>
+                                src="../images/arrow-sm-right.svg" /></div>
                     </div>
                 </div>
                 <div class="mobile-non-wrap">
                     <div class="card-section2">
                         <div onclick="openPopup(0)" id="display-card1" class="risk-card risk-card1">
                             <div class="card-heading">
-                                UNDERSTANDING FACTORY TYPES
+                                UNDERSTANDING <br>FACTORY TYPES
                             </div>
                             <img src="../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp" />
                             <button>Unlock Secrets Now!</button>
@@ -603,9 +603,9 @@
                 <div class="card-section1">
                     <div class="arrows hide-desktop-design">
                         <div id="left-arrow-risk" class="outline left disabled" onclick="moveImg(-1)"><img
-                                src="../images/right.png" /></div>
+                                src="../images/arrow-sm-right.svg" /></div>
                         <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
-                                src="../images/right.png" /></div>
+                                src="../images/arrow-sm-right.svg" /></div>
                     </div>
                 </div>
 
@@ -3453,7 +3453,7 @@
                     </div>
                 </div>
             </div>
-            <div id="mb7" class="modal-content um risk-card1 hide">
+            <div id="mb7" class="modal-content um risk-card2 hide">
                 <div class="modal-body">
 
                     <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
@@ -3573,6 +3573,7 @@
             if ((incDecVar === -1 && currentSlide > 0) || (incDecVar === 1 && currentSlide < 6)) {
                 currentSlide = currentSlide + incDecVar;
                 if (currentSlide === 0) {
+                    console.log($("#display-card1 .card-heading").html())
                     $("#display-card1 .card-heading").text("UNDERSTANDING FACTORY TYPES")
                     $("#display-card2 .card-heading").text("GRASPING BRAND POSITIONING")
                     $("#display-card1 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
@@ -3690,8 +3691,9 @@
         }
 
         function openPopup(slide) {
-            if (slide === 1) {
+            if (currentSlide < 6 && slide === 1) {
                 moveImg(1);
+                return;
             }
             setTimeout(() => {
                 $('#understandingModal').modal('toggle');

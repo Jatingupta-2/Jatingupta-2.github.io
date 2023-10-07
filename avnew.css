@@ -989,6 +989,24 @@
     font-size: 14px;
 }
 
+.yellow-why-us{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    border: 12px solid #FFE700;
+    border-radius: 30px;
+    padding: 50px 40px;
+    text-align: left;
+    margin: 80px auto 40px;
+}
+.yellow-why-us h2{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
 @media (max-width:1300px) {
     .luxury-details {
         padding-top: 15px;
@@ -1593,6 +1611,11 @@
         font-size: 13px;
         color: #004E93;
     }
+    .yellow-why-us{
+        padding: 40px 20px;
+        margin: 60px 15px 40px ;
+        border: 8px solid #FFE700;
+    }
 }
 
 
@@ -1721,7 +1744,7 @@
 .card-section3 {
     /* width: 35%; */
     /* max-width: 400px; */
-    width: 400px;
+    width: 365px;
 }
 
 .relative-right {
@@ -1742,6 +1765,7 @@
 
 .card-section1 .arrows img {
     height: 35px;
+    padding: 5px;
 }
 
 .card-section1 .arrows .disabled {
@@ -1945,5 +1969,6 @@
     }
     .card-section1 .arrows img{
         height: 28px;
+        padding: 3px;
     }
 }
