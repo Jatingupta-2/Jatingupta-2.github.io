@@ -589,7 +589,7 @@
                                 REASONABLE PHOTOSHOOT BUDGET
                             </div>
                             <img src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
-                            <!-- <button onclick="openPopup(1)">Unlock Secrets Now!</button> -->
+                            <button>Unlock Secrets Now!</button>
                         </div>
                         <div onclick="openPopup(1)" id="display-card2" class="risk-card risk-card2 rotate10">
                             <div class="card-heading">
@@ -601,7 +601,7 @@
                     </div>
                 </div>
                 <div class="card-section1">
-                    <div class="arrows hide-desktop">
+                    <div class="arrows hide-desktop-design">
                         <div id="left-arrow-risk" class="outline left disabled" onclick="moveImg(-1)"><img
                                 src="../images/right.png" /></div>
                         <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
@@ -918,7 +918,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header accordian_1 rounded-accordian" id="headingOne">
                             <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  onclick="scrollToFunc('collapseOne')">
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                onclick="scrollToFunc('collapseOne')">
                                 <span>How we work?</span> <span>02</span>
                             </button>
                         </h2>
@@ -947,7 +948,7 @@
                         <h2 class="accordion-header rounded-accordian accordian_2" id="headingTwo">
                             <button id="collapseTwoButton" class="accordian-button-mobile collapsed" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                aria-controls="collapseTwo"  onclick="scrollToFunc('collapseTwo')">
+                                aria-controls="collapseTwo" onclick="scrollToFunc('collapseTwo')">
                                 <span>Get a quote</span> <span>03</span>
                             </button>
                         </h2>
@@ -1012,7 +1013,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header rounded-accordian accordian_3" id="headingThree">
                             <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  onclick="scrollToFunc('collapseThree')">
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                onclick="scrollToFunc('collapseThree')">
                                 <span>Get a prototype</span> <span>04</span>
                             </button>
                         </h2>
@@ -1041,7 +1043,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header rounded-accordian accordian_4" id="headingFour">
                             <button class="accordian-button-mobile collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"  onclick="scrollToFunc('collapseFour')">
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                                onclick="scrollToFunc('collapseFour')">
                                 <span>Begin production</span> <span>05</span>
                             </button>
                         </h2>
@@ -3174,11 +3177,11 @@
                         </div>
                         <button class="yellow-button">COUTOURE</button>
                         <div class="mt-10px">
-                            Startup budget from $250K-2M. Brands retail price usually from $2K-25K.
+                            Startup budget from $250K-2M.
                         </div>
                         <button class="yellow-button">CONTEMPORARY</button>
                         <div class="mt-10px">
-                            Startup budget from $10K-250K. Brands retail price usually from $100-1.5K.
+                            Startup budget from $10K-250K.
                         </div>
                         <button class="yellow-button">BUDGET</button>
                         <div class="mt-10px">
@@ -3193,7 +3196,7 @@
                             budget brand but choose a factory designed for contemporary brands, expect the same type of
                             mismatch.<br><br>
 
-                            Remember, you’re now on a mission to building a brand. Don’t get emotional.
+                            Remember, you’re now on a mission to building a brand. Don’t get emotional.Don't choose based on shop aesthetics.
                             Think like a boss not like a customer.
 
                         </div>
@@ -3690,12 +3693,14 @@
             if (slide === 1) {
                 moveImg(1);
             }
-            $('#understandingModal').modal('toggle');
-            if (currentSlide === 6 && slide === 1) {
-                $(`#mb${currentSlide + slide}`).removeClass('hide')
-            } else {
-                $(`#mb${currentSlide}`).removeClass('hide')
-            }
+            setTimeout(() => {
+                $('#understandingModal').modal('toggle');
+                if (currentSlide === 6 && slide === 1) {
+                    $(`#mb${currentSlide + slide}`).removeClass('hide')
+                } else {
+                    $(`#mb${currentSlide}`).removeClass('hide')
+                }
+            }, 400);
 
 
 
@@ -3714,17 +3719,17 @@
 
             setTimeout(() => {
                 var element = document.getElementById(val);
-            var headerOffset = 200;
-            var elementPosition = element.getBoundingClientRect().top;
-            var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                var headerOffset = 200;
+                var elementPosition = element.getBoundingClientRect().top;
+                var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: "smooth"
-            });
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                });
             }, 500);
 
-           
+
 
         }
     </script>
