@@ -1885,6 +1885,9 @@
     .card-section1 .hide-mobile-design{
         display: none;
     }
+    .card-section1 .hide-desktop-design{
+        display: flex;
+    }
     .arrows-top-margin-mobile{
         margin-top: 30px;
     }
