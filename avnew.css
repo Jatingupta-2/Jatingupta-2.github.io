@@ -716,7 +716,7 @@
 }
 
 .slick-slide img:hover {
-    width: 180%;
+    /* width: 180%; */
     cursor: pointer;
 }
 
@@ -1621,15 +1621,17 @@
 
 .risk-cards {
     display: flex;
+    margin: 60px 0px 150px;
 }
 
 .card-section1 {
-    width: 35%;
+    /* width: 35%; */
     display: flex;
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
     padding-left: 50px;
+    width: 450px;
 }
 
 .card-section1 .info {
@@ -1639,16 +1641,17 @@
 }
 
 .risk-card {
-    width: 250px;
-    height: 450px;
+    /* width: 250px; */
+    min-height: 450px;
     border-radius: 10px;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .risk-card .card-heading {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     width: 80%;
 }
@@ -1667,7 +1670,7 @@
     font-weight: 500;
     padding: 5px 21px;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 14px;
     margin: 30px auto 0;
 }
 
@@ -1715,13 +1718,20 @@
 
 .card-section2,
 .card-section3 {
-    width: 25%;
+    /* width: 35%; */
+    /* max-width: 400px; */
+    width: 400px;
+}
+
+.relative-right {
+    left: 100px;
 }
 
 .card-section1 h2 {
     text-align: left;
     padding: 0;
     margin: 0;
+    font-weight: 900;
 }
 
 .card-section1 .arrows {
@@ -1732,7 +1742,8 @@
 .card-section1 .arrows img {
     height: 35px;
 }
-.card-section1 .arrows .disabled{
+
+.card-section1 .arrows .disabled {
     opacity: 0.5;
 }
 
@@ -1750,45 +1761,61 @@
     border-radius: 20px;
     cursor: pointer;
 }
-.card-heading-empty{
+
+.card-heading-empty {
     height: 30px;
 }
-.empty-img{
+
+.empty-img {
     height: 263px;
 }
-.modal-content.um{
+
+.modal-content.um {
     max-width: 800px;
     position: relative;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
 }
-.close-modal{
+
+.close-modal {
     position: absolute;
     top: 20px;
     right: 20px;
 }
-.modal-dialog{
+
+.modal-dialog {
     max-width: 800px !important;
 }
-.modal-content.um h3{
+
+.modal-content.um h3 {
     margin-top: 30px;
+    text-align: center;
 }
-.modal-content.um .main-img-modal{
+
+.modal-content.um .modal-body {
+    max-width: 600px;
+    margin: auto;
+}
+
+.modal-content.um .main-img-modal {
     display: flex;
     margin: auto;
     border-radius: 10px;
     max-height: 500px;
     max-width: 100%;
+    margin-top: 25px;
 }
-.modal-center{
+
+.modal-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.white-button{
+
+.white-button {
     border: none;
     color: #03488B;
     font-weight: 500;
@@ -1797,8 +1824,10 @@
     border-radius: 25px;
     margin-top: 45px;
     font-size: 18px;
+    background: #ffff;
 }
-.yellow-button{
+
+.yellow-button {
     border: none;
     color: #03488B;
     background: #FFE700;
@@ -1810,9 +1839,10 @@
     margin-top: 35px;
     text-transform: uppercase;
 }
-.orange-button{
+
+.orange-button {
     border: none;
-    color: #03488B;
+    color: #ffff;
     background: #FF6D3A;
     font-weight: 500;
     width: 145px;
@@ -1821,7 +1851,8 @@
     border-radius: 25px;
     margin-top: 45px;
 }
-.green-button{
+
+.green-button {
     border: none;
     color: #03488B;
     background: #00FFD1;
@@ -1832,34 +1863,59 @@
     border-radius: 25px;
     margin-top: 70px;
 }
-.mt-10px{
+
+.mt-10px {
     margin-top: 10px;
 }
-.tl{
+
+.tl {
     text-align: left;
 }
+.mobile-non-wrap{
+    
+    display: flex;
+}
+
 @media (max-width:786px) {
+    .card-section1 .hide-mobile-design{
+        display: none;
+    }
+    .arrows-top-margin-mobile{
+        margin-top: 30px;
+    }
     .risk-cards {
         flex-wrap: wrap;
-        margin-bottom: 70px;
+        /* margin-bottom: 70px; */
+        margin: 60px 0px 100px;
     }
+
     .card-section1 {
         width: 100%;
         align-items: center;
         padding-left: 0;
     }
 
-    .risk-card {}
-
     .card-section2,
     .card-section3 {
-        width: 50%;
+        /* width: 50%; */
         margin-top: 50px;
+        width: 230px;
+    }
+    .card-section2{
+        margin-left: 20px;
+    }
+    .mobile-non-wrap{
+        flex-wrap: nowrap;
+        display: flex;
     }
 
     .risk-card {
-        width: 200px;
-        height: 370px;
+        /* width: 200px;
+        height: 370px; */
+    }
+
+    .relative-right {
+        left: 30px;
     }
 
     .risk-card .card-heading {
@@ -1869,5 +1925,17 @@
     .risk-card button {
         font-size: 12px;
         padding: 9px 21px;
+    }
+    .card-section1 h2 {
+        text-align: center;
+    }
+    .card-section1 .info {
+        text-align: center;
+    }
+    .card-section1 .arrows {
+        margin-top: 75px;
+    }
+    .card-section1 .arrows img{
+        height: 28px;
     }
 }

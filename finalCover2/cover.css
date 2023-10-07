@@ -1239,7 +1239,7 @@
 
 .partners .dl {
     /* border-top: 1px solid #03488B; */
-    margin: 80px 0 100px;
+    margin: 40px 0 20px;
     width: 100%;
 }
 
@@ -2164,8 +2164,8 @@
     }
 
     .partners .dl {
-        border-top: 1px solid #03488B;
-        margin: 60px 0 20px;
+        /* border-top: 1px solid #03488B; */
+        /* margin: 60px 0 20px; */
         width: 100%;
     }
 
