@@ -3162,10 +3162,11 @@
     <div class="modal fade" id="understandingModal" tabindex="-1" role="dialog" aria-labelledby="understandingModal"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div id="mb0" class="modal-content um risk-card1 hide">
+            <div id="mb0" class="mbhide modal-content um risk-card1 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
 
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+                    
 
                     <h3>UNDERSTANDING <br>FACTORY TYPES</h3>
                     <div class="modal-center">
@@ -3204,11 +3205,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb1" class="modal-content um risk-card2 hide">
+            <div id="mb1" class="mbhide modal-content um risk-card2 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
-
                     <h3>GRASPING <br>BRAND POSITIONING</h3>
                     <div class="modal-center">
                         <img class="main-img-modal" src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" />
@@ -3241,10 +3240,11 @@
                     </div>
                 </div>
             </div>
-            <div id="mb2" class="modal-content um risk-card3 hide">
+            <div id="mb2" class="mbhide modal-content um risk-card3 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
 
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+                   
 
                     <h3>REASONABLE
                         <br>PHOTOSHOOT BUDGET
@@ -3288,10 +3288,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb3" class="modal-content um risk-card4 hide">
+            <div id="mb3" class="mbhide modal-content um risk-card4 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
 
                     <h3>FULFILLMENT AND <br>LOGISTICS PLANS
                     </h3>
@@ -3334,11 +3333,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb4" class="modal-content um risk-card5 hide">
+            <div id="mb4" class="mbhide modal-content um risk-card5 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
-
                     <h3>MARKETING YOUR STARTUPS
                     </h3>
                     <div class="modal-center">
@@ -3372,11 +3369,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb5" class="modal-content um risk-card6 hide">
+            <div id="mb5" class="mbhide modal-content um risk-card6 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
-
                     <h3>WEBSITE DEVELOPMENT PLAN
                     </h3>
                     <div class="modal-center">
@@ -3408,11 +3403,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb6" class="modal-content um risk-card1 hide">
+            <div id="mb6" class="mbhide modal-content um risk-card1 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
-
                     <h3>CHOOSING SALES CHANNEL
                     </h3>
                     <div class="modal-center">
@@ -3453,11 +3446,9 @@
                     </div>
                 </div>
             </div>
-            <div id="mb7" class="modal-content um risk-card2 hide">
+            <div id="mb7" class="mbhide modal-content um risk-card2 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
                 <div class="modal-body">
-
-                    <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
-
                     <h3>THE ART OF FRUGALITY
                     </h3>
                     <div class="modal-center">
@@ -3573,7 +3564,7 @@
             if ((incDecVar === -1 && currentSlide > 0) || (incDecVar === 1 && currentSlide < 6)) {
                 currentSlide = currentSlide + incDecVar;
                 if (currentSlide === 0) {
-                    console.log($("#display-card1 .card-heading").html())
+                    
                     $("#display-card1 .card-heading").text("UNDERSTANDING FACTORY TYPES")
                     $("#display-card2 .card-heading").text("GRASPING BRAND POSITIONING")
                     $("#display-card1 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
@@ -3691,6 +3682,8 @@
         }
 
         function openPopup(slide) {
+            
+            $(`.mbhide`).addClass('hide')
             if (currentSlide < 6 && slide === 1) {
                 moveImg(1);
                 return;
