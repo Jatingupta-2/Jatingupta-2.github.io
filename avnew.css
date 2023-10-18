@@ -1050,13 +1050,13 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    right: 20px;
-    bottom: -60px;
+    right: 45px;
+    bottom: -80px;
     background: #fff;
 }
 
 .outline-arrow.left {
-    right: 140px;
+    right: 165px;
 }
 
 .outline-arrow.left img {
@@ -1068,7 +1068,12 @@
     padding: 5px;
 
 }
-
+.padding-mobile-container{
+ padding-top: 70px;
+}
+.text-left{
+    text-align: left;
+}
 @media (max-width:1300px) {
     .luxury-details {
         padding-top: 15px;

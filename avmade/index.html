@@ -1115,7 +1115,7 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Knitwear.webp">
-                                <div class="product-info">FORMAL WEAR</div>
+                                <div class="product-info">FULL FASHION KNIT</div>
                             </div>
                         </div>
                     </div>
@@ -3542,7 +3542,47 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
                     </div>
                 </div>
             </div>
+            <div id="mb8" class="mbhide modal-content um risk-card3 hide">
+                <img class="close-modal" onclick="closeModal()" src="../images/custom-color-cross.svg" alt="">
+                <div class="modal-body">
+                    <h3>DO’s & DON’Ts
+                    </h3>
+                    <div class="modal-center">
+                        <img class="main-img-modal" src="../images/miss the risk/do n dont.gif" />
+                        <button class="white-button">DO’s & DON’Ts</button>
+                        <div class="mt-10px">
+                            Due diligence is critical, don’t rush it.
+                        </div>
+                        <button class="yellow-button">DO’s</button>
+                        <div class="mt-10px text-left">
+                            <ul>
+                                <li>Choose a factory specializing in your niche.</li>
+                                <li>Research and compare factories.</li>
+                                <li>Look for available incentives.</li>
+                            </ul>
+                        </div>
+                        <button class="yellow-button">DON’Ts:</button>
+                        <div class="mt-10px text-left">
+                            <ul>
+                                <li>Stay away from factories claiming expertise in both couture and contemporary manufacturing.</li>
+                                <li>Manufacturing is a very complex business. Stay away from factories offering services beyond manufacturing, such as marketing, fulfillment, etc.</li>
+                                <li>Avoid factories that won't provide a full-package cost breakdown from development to production before signing a contract.</li>
+                                <li>Startups must avoid overseas factories.</li>
+                            </ul>
+                        </div>
+                       
+                        <button class="orange-button">NOTES!</button>
+                        <div class="mt-10px">
+                            Building a brand is a journey filled with challenges and growth. Beware of anyone charging you for guidance - genuine partners uplift and guide without breaking the bank. If you need expertise in areas like marketing, content creation, or fulfillment, we've curated a valuable resource list over the years, drawn from our community. We'll share it with you at no cost. If needed we will connect you with companies who excel in their domain. In return, you'll gain the tools and insights needed to establish a successful company, ensuring our collaboration thrives for the next decade and beyond. <br><br>
 
+But remember, if you lack the determination and resilience to navigate and learn from the entrepreneurial voyage, consider saving your investment. Entrepreneurship is a demanding path that requires all your dedication and then some. Wishing you luck and a fulfilling journey ahead. God Speed!
+
+                        </div>
+                       
+                        <button class="green-button" onclick="closeModal()">GOOD WORK.DONE.</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -3601,8 +3641,9 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
 
     <script>
         var currentSlide = 0;
+        var maxSlide = 7;
         function moveImg(incDecVar) {
-            if ((incDecVar === -1 && currentSlide > 0) || (incDecVar === 1 && currentSlide < 6)) {
+            if ((incDecVar === -1 && currentSlide > 0) || (incDecVar === 1 && currentSlide < maxSlide)) {
                 currentSlide = currentSlide + incDecVar;
                 if (currentSlide === 0) {
                     
@@ -3696,17 +3737,17 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
                     $("#display-card3").addClass('risk-card3').removeClass('risk-card4').removeClass('risk-card2')
                     $("#display-card4").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
                 }
-                // if (currentSlide === 7) {
-                //     $("#display-card1 .card-heading").text("THE ART OF FRUGALITY")
-                //     $("#display-card2 .card-heading").text("UNDERSTANDING FACTORY TYPES")
-                //     $("#display-card1 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
-                //     $("#display-card2 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
+                if (currentSlide === 7) {
+                    $("#display-card1 .card-heading").text("THE ART OF FRUGALITY")
+                    $("#display-card2 .card-heading").text("DO’s & DON’Ts")
+                    $("#display-card1 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
+                    $("#display-card2 img").attr("src", "../images/miss the risk/do n dont.gif")
 
-                //     $("#display-card1").addClass('risk-card2').removeClass('risk-card1')
-                //     $("#display-card2").addClass('risk-card3').removeClass('risk-card2')
-                //     $("#display-card3").addClass('risk-card4').removeClass('risk-card3')
-                //     $("#display-card4").addClass('risk-card5').removeClass('risk-card4')
-                // }
+                    $("#display-card1").addClass('risk-card2').removeClass('risk-card1')
+                    $("#display-card2").addClass('risk-card3').removeClass('risk-card2')
+                    $("#display-card3").addClass('risk-card4').removeClass('risk-card3')
+                    $("#display-card4").addClass('risk-card5').removeClass('risk-card4')
+                }
 
             }
 
@@ -3715,7 +3756,7 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
             } else {
                 $('#left-arrow-risk').removeClass('disabled')
             }
-            if (currentSlide === 6) {
+            if (currentSlide === maxSlide) {
                 $('#right-arrow-risk').addClass('disabled')
             } else {
                 $('#right-arrow-risk').removeClass('disabled')
@@ -3725,13 +3766,13 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
         function openPopup(slide) {
             
             $(`.mbhide`).addClass('hide')
-            if (currentSlide < 6 && slide === 1) {
+            if (currentSlide < maxSlide && slide === 1) {
                 moveImg(1);
                 return;
             }
             setTimeout(() => {
                 $('#understandingModal').modal('toggle');
-                if (currentSlide === 6 && slide === 1) {
+                if (currentSlide === maxSlide && slide === 1) {
                     $(`#mb${currentSlide + slide}`).removeClass('hide')
                 } else {
                     $(`#mb${currentSlide}`).removeClass('hide')
