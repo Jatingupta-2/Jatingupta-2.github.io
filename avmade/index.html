@@ -605,7 +605,7 @@
                         </div>
                         <div onclick="openPopup(1)" id="display-card2" class="risk-card risk-card2 rotate10">
                             <div class="card-heading">
-                                GRASPING BRAND POSITIONING
+                                GRASPING <br> BRAND POSITIONING
                             </div>
                             <img src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" />
                             <button>Unlock Secrets Now!</button>
@@ -1167,14 +1167,14 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
                             </div>
                         </div>
                     </div>
-                    <div class="slide text-center">
+                    <!-- <div class="slide text-center">
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Leather.webp">
                                 <div class="product-info">FORMAL WEAR</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="slide text-center">
                         <div class="product">
                             <div class="product-top">
@@ -1710,7 +1710,7 @@ Bring us your vision! Our expert designers are ready to polish your idea and cra
             </div>
 
             <div class="quality-sub-heading">
-                See how it made!
+                See how it's made!
             </div>
 
             <div class="quality-video">
@@ -3647,8 +3647,8 @@ But remember, if you lack the determination and resilience to navigate and learn
                 currentSlide = currentSlide + incDecVar;
                 if (currentSlide === 0) {
                     
-                    $("#display-card1 .card-heading").text("UNDERSTANDING FACTORY TYPES")
-                    $("#display-card2 .card-heading").text("GRASPING BRAND POSITIONING")
+                    $("#display-card1 .card-heading").html("UNDERSTANDING <br /> FACTORY TYPES")
+                    $("#display-card2 .card-heading").html("GRASPING<br>  BRAND POSITIONING")
                     $("#display-card1 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/GRASPING BRAND POSITIONING.webp")
                     $("#display-card3 .card-heading").text("REASONABLE PHOTOSHOOT BUDGET")
@@ -3659,11 +3659,11 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card4").addClass('risk-card4').removeClass('risk-card5')
                 }
                 if (currentSlide === 1) {
-                    $("#display-card1 .card-heading").text("GRASPING BRAND POSITIONING")
+                    $("#display-card1 .card-heading").html("GRASPING <br> BRAND POSITIONING")
                     $("#display-card2 .card-heading").text("REASONABLE PHOTOSHOOT BUDGET")
                     $("#display-card1 img").attr("src", "../images/miss the risk/GRASPING BRAND POSITIONING.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp")
-                    $("#display-card3 .card-heading").text("FULFILLMENT STRATEGIES")
+                    $("#display-card3 .card-heading").html("FULFILLMENT <br> STRATEGIES")
                     $("#display-card3 img").attr("src", "../images/miss the risk/FULFILLMENT STRATEGIES.webp")
 
                     $("#display-card1").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
@@ -3673,10 +3673,10 @@ But remember, if you lack the determination and resilience to navigate and learn
                 }
                 if (currentSlide === 2) {
                     $("#display-card1 .card-heading").text("REASONABLE PHOTOSHOOT BUDGET")
-                    $("#display-card2 .card-heading").text("FULFILLMENT STRATEGIES")
+                    $("#display-card2 .card-heading").html("FULFILLMENT <br> STRATEGIES")
                     $("#display-card1 img").attr("src", "../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/FULFILLMENT STRATEGIES.webp")
-                    $("#display-card3 .card-heading").text("MARKETING YOUR STARTUPS")
+                    $("#display-card3 .card-heading").html("MARKETING <br> YOUR STARTUPS")
                     $("#display-card3 img").attr("src", "../images/miss the risk/MARKETING YOUR STARTUPS.webp")
 
 
@@ -3686,11 +3686,11 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card4").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
                 }
                 if (currentSlide === 3) {
-                    $("#display-card1 .card-heading").text("FULFILLMENT STRATEGIES")
-                    $("#display-card2 .card-heading").text("MARKETING YOUR STARTUPS")
+                    $("#display-card1 .card-heading").html("FULFILLMENT <br> STRATEGIES")
+                    $("#display-card2 .card-heading").html("MARKETING <br> YOUR STARTUPS")
                     $("#display-card1 img").attr("src", "../images/miss the risk/FULFILLMENT STRATEGIES.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/MARKETING YOUR STARTUPS.webp")
-                    $("#display-card3 .card-heading").text("WEBSITE DEVELOPMENT PLAN")
+                    $("#display-card3 .card-heading").html("WEBSITE <br> DEVELOPMENT PLAN")
                     $("#display-card3 img").attr("src", "../images/miss the risk/WEBSITE DEVELOPMENT PLAN.webp")
 
                     $("#display-card1").addClass('risk-card4').removeClass('risk-card5').removeClass('risk-card3')
@@ -3699,8 +3699,8 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card4").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
                 }
                 if (currentSlide === 4) {
-                    $("#display-card1 .card-heading").text("MARKETING YOUR STARTUPS")
-                    $("#display-card2 .card-heading").text("WEBSITE DEVELOPMENT PLAN")
+                    $("#display-card1 .card-heading").html("MARKETING <br> YOUR STARTUPS")
+                    $("#display-card2 .card-heading").html("WEBSITE <br> DEVELOPMENT PLAN")
                     $("#display-card1 img").attr("src", "../images/miss the risk/MARKETING YOUR STARTUPS.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/WEBSITE DEVELOPMENT PLAN.webp")
                     $("#display-card3 .card-heading").text("CHOOSING SALES CHANNEL")
@@ -3712,12 +3712,13 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card4").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
                 }
                 if (currentSlide === 5) {
-                    $("#display-card1 .card-heading").text("WEBSITE DEVELOPMENT PLAN")
+                    $("#display-card1 .card-heading").html("WEBSITE <br> DEVELOPMENT PLAN")
                     $("#display-card2 .card-heading").text("CHOOSING SALES CHANNEL")
                     $("#display-card1 img").attr("src", "../images/miss the risk/WEBSITE DEVELOPMENT PLAN.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/CHOOSING SALES CHANNEL.webp")
                     $("#display-card3 .card-heading").text("THE ART OF FRUGALITY")
                     $("#display-card3 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
+                    $("#display-card2 img").removeClass("extra-padding-frugal")
 
                     $("#display-card1").addClass('risk-card6').removeClass('risk-card1').removeClass('risk-card5')
                     $("#display-card2").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
@@ -3731,6 +3732,8 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card2 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
                     $("#display-card3 .card-heading").text("UNDERSTANDING FACTORY TYPES")
                     $("#display-card3 img").attr("src", "../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp")
+                    $("#display-card2 img").removeClass("extra-padding-gif")
+                    $("#display-card2 img").addClass("extra-padding-frugal")
 
                     $("#display-card1").addClass('risk-card1').removeClass('risk-card2').removeClass('risk-card6')
                     $("#display-card2").addClass('risk-card2').removeClass('risk-card3').removeClass('risk-card1')
@@ -3742,6 +3745,8 @@ But remember, if you lack the determination and resilience to navigate and learn
                     $("#display-card2 .card-heading").text("DO’s & DON’Ts")
                     $("#display-card1 img").attr("src", "../images/miss the risk/THE ART OF FRUGALITY.webp")
                     $("#display-card2 img").attr("src", "../images/miss the risk/do n dont.gif")
+                    $("#display-card2 img").addClass("extra-padding-gif")
+                    $("#display-card2 img").removeClass("extra-padding-frugal")
 
                     $("#display-card1").addClass('risk-card2').removeClass('risk-card1')
                     $("#display-card2").addClass('risk-card3').removeClass('risk-card2')
