@@ -1461,7 +1461,6 @@
     </script>
     <script>
         var url = window.location.toString();
-        console.log(window.location.toString())
         if (url.includes('tshirts')) {
             document.getElementById("category-selection").innerHTML = "tshirts";
             document.getElementById("main-desc-cat").innerHTML = "tshirts";
@@ -1477,7 +1476,7 @@
             $('meta[name=description]').attr('content', metaValEssentials1);
 
             $('meta[name=keywords]').remove();
-            $('meta[name=keywords]').attr('keywords', `AVmade, Custom T-Shirts`);
+            $('meta[name=keywords]').attr('content', `AVmade, Custom T-Shirts`);
             $('link[rel="canonical"]').attr('href', 'https://avmade.com/tshirts');
         }
         if (url.includes('hoodies')) {
@@ -1491,7 +1490,7 @@
             $('meta[name=description]').attr('content', metaValEssentials2);
 
             $('meta[name=keywords]').remove();
-            $('meta[name=keywords]').attr('keywords', `AVmade, Custom Luxury Hoodies`);
+            $('meta[name=keywords]').attr('content', `AVmade, Custom Luxury Hoodies`);
             $('link[rel="canonical"]').attr('href', 'https://avmade.com/hoodies');
         }
         if (url.includes('sweats')) {
@@ -1505,7 +1504,7 @@
             $('meta[name=description]').attr('content', metaValEssentials3);
 
             $('meta[name=keywords]').remove();
-            $('meta[name=keywords]').attr('keywords', `AVmade, Custom Luxury Sweats`);
+            $('meta[name=keywords]').attr('content', `AVmade, Custom Luxury Sweats`);
             $('link[rel="canonical"]').attr('href', 'https://avmade.com/sweats');
         }
         if (url.includes('clothing-basics')) {
@@ -1522,7 +1521,7 @@
             $('meta[name=description]').attr('content', metaValEssentials4);
 
             $('meta[name=keywords]').remove();
-            $('meta[name=keywords]').attr('keywords', `AVmade, Customizable Luxury Basics`);
+            $('meta[name=keywords]').attr('content', `AVmade, Customizable Luxury Basics`);
             $('link[rel="canonical"]').attr('href', 'https://avmade.com/clothing-basics');
 
 
