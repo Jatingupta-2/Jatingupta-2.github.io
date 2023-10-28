@@ -1086,6 +1086,20 @@
 .extra-padding-frugal{
     padding-top: 30px;
 }
+.scroll-a{
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+.css-rotation{
+    background: #03488B;
+    padding: 10px;
+    color: #fff;
+}
+.ft-weight-400{
+    font-weight: 400;
+}
 @media (max-width:1300px) {
     .luxury-details {
         padding-top: 15px;

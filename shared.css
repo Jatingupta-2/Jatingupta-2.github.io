@@ -93,6 +93,11 @@
   width: 120px;
 }
 
+.main-header__item.item2.yellow-button-lt button,
+.yellow-button-lt {
+  background: #FFE700 !important;
+}
+
 .main-header__item.item2.contact-us button {
   background: #FFE700;
   /* width: 8.6rem; */
@@ -317,7 +322,9 @@
   color: #fff;
   text-align: center;
 }
-
+.width3rem img{
+  width: 3rem;
+}
 @media (min-width:993px) {
   .hide-desktop {
     display: none;
@@ -564,5 +571,7 @@
   .custom-body .main-header__item.avmade-gs-mob-tm {
     margin-top: 30px;
   }
-
+  .width3rem img{
+    width: 3rem;
+  }
 }

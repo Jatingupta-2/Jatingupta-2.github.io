@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AVmade</title>
+    <title>Custom Luxury T-shirts | AVmade Quality Products</title>
     <link rel="shortcut icon" href="images/Blue-_-Red.ico">
 
     <!-- Importing Styles -->
@@ -37,6 +37,14 @@
     <!-- Importing Carousel -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="canonical" href="https://avmade.com/specificProduct.html" />
+
+    <meta name="description" content="Custom luxury t-shirts can be embroidered, screen printed, or digitally printed with a variety of designs, including logos, text, and images.">
+
+    <meta name="keywords" content="Custom Luxury T-shirts, AVmade Quality Products">
+
+
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -56,6 +64,17 @@
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=301066392320391&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
+
+    <script defer type="application/ld+json">
+        {
+         "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "AVmade",
+            "url": "https://avmade.com/",
+            "logo": "https://avmade.com/images/plus_new_logo.svg"
+        }
+    </script>
+
 </head>
 <body class="body" onload="bodyOnLoad()">
 
@@ -89,8 +108,8 @@
 
     <header class="header fixed-header header-scroll header-yellow">
         <div class="main-header mh2">
-            <div onclick="location.href='https://app.avmade.com'" class="main-header__logo">
-                <img src="images/Avendors1 1.svg">
+            <div onclick="location.href='https://app.avmade.com'" class="main-header__logo width3rem">
+                <img src="images/plus_new_logo.svg">
             </div>
             <div class="main-header__items">
                 <div class="main-header__item item2">
@@ -1397,6 +1416,14 @@ contact us anytime.
         //         Balenciaga, & many more to customize ${<br />}
         //         for your brands. We are an end-to-end ${<br />}
         //         manufacturers for high-end brands.`;
+
+        document.title = 'Custom T-Shirts | Start with 2K+ Custom Colors'
+        const metaValEssentials = `Custom t-shirts are t-shirts that have been personalized with a design of the wearer's choice. This can include text, images, logos, or any combination of the three.`
+        $('meta[name=description]').remove();
+            $('meta[name=description]').attr('content', metaValEssentials);
+
+            $('meta[name=keywords]').remove();
+            $('meta[name=keywords]').attr('content', `AVmade, Custom T-Shirts`);
     }
     if(url.includes('hoodies')){
         document.getElementById("category-selection").innerHTML = "hoodies";
