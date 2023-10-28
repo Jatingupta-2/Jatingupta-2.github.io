@@ -44,7 +44,7 @@
 
     <link rel="canonical" href="" />
 
-    <meta name="description"
+    <meta id="metaelementdesc" name="description"
         content="Custom luxury t-shirts can be embroidered, screen printed, or digitally printed with a variety of designs, including logos, text, and images.">
 
     <meta name="keywords" content="Custom Luxury T-shirts, AVmade Quality Products">
@@ -1500,8 +1500,9 @@
 
             document.title = 'Custom Luxury Sweats | Improve Cloth Brands'
             const metaValEssentials3 = `Custom luxury sweats are high-quality sweatpants that have been personalized to the wearer's specifications. They are made from premium materials`
-            $('meta[name=description]').remove();
-            $('meta[name=description]').attr('content', metaValEssentials3);
+            // $('meta[name=description]').remove();
+            // $('meta[name=description]').attr('content', metaValEssentials3);
+            $('#metaelementdesc').attr('content', metaValEssentials3);
 
             $('meta[name=keywords]').remove();
             $('meta[name=keywords]').attr('content', `AVmade, Custom Luxury Sweats`);
