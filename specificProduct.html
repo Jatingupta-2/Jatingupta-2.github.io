@@ -42,12 +42,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- <link rel="canonical" href="https://avmade.com/specificProduct.html" />
+    <link rel="canonical" href="https://avmade.com/specificProduct.html" />
 
     <meta name="description"
         content="Custom luxury t-shirts can be embroidered, screen printed, or digitally printed with a variety of designs, including logos, text, and images.">
 
-    <meta name="keywords" content="Custom Luxury T-shirts, AVmade Quality Products"> -->
+    <meta name="keywords" content="Custom Luxury T-shirts, AVmade Quality Products">
 
 
     <!-- Meta Pixel Code -->
@@ -227,7 +227,8 @@
                                 style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
                                 <img src="https://fast.wistia.com/embed/medias/795podb1n3/swatch"
                                     style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt=""
-                                    aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+                                    aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1500,12 +1501,23 @@
 
             document.title = 'Custom Luxury Sweats | Improve Cloth Brands'
             const metaValEssentials3 = `Custom luxury sweats are high-quality sweatpants that have been personalized to the wearer's specifications. They are made from premium materials`
-            $('meta[property="description"]').remove();
-            $('meta[property="description"]').attr('content', metaValEssentials3);
+            // $('meta[property="description"]').remove();
+            // $('meta[property="description"]').attr('content', metaValEssentials3);
 
-            $('meta[property="keywords"]').remove();
-            $('meta[property="keywords"]').attr('content', `AVmade, Custom Luxury Sweats`);
+            // $('meta[property="keywords"]').remove();
+            // $('meta[property="keywords"]').attr('content', `AVmade, Custom Luxury Sweats`);
             $('link[rel="canonical"]').attr('href', 'https://avmade.com/sweats');
+
+
+            // Change Meta Description  
+            var $meta = $('meta[name=description]').attr('content', metaValEssentials3);
+
+            // Change Meta Keywords  
+            $('meta[name=keywords]').attr('content', 'AVmade, Custom Luxury Sweats');
+
+            // Show Updated Meta Content  
+            $('body').text($meta.attr('content'));
+
         }
         if (url.includes('clothing-basics')) {
             document.getElementById("custom-made-title-1").innerHTML = "Customizable ";
