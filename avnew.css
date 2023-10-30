@@ -1738,6 +1738,10 @@
     .outline-arrow.left{
         right: 145px;
     }
+    .css-rotation{
+       margin-top: 30px;
+       font-size: 13px;
+    }
 }
 
 
