@@ -42,7 +42,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="canonical" href="" />
+    <link rel="canonical" href="https://avmade.com/specificProduct.html" />
 
     <meta id="metaelementdesc" name="description"
         content="Custom luxury t-shirts can be embroidered, screen printed, or digitally printed with a variety of designs, including logos, text, and images.">
@@ -157,7 +157,7 @@
                 </div>
                 <div class="brands-section-email email2">
                     <input type="text" placeholder="Enter your email address" class="mr-2" id="enter-email">
-                    <!-- onclick="location.href='https://avendors.com/customer/form'" -->
+                    <!-- onclick="location.href='https://avmade.com/customer/form'" -->
                     <button onclick="return validateForm()" class="animated-button">
                         Step Inside
                     </button>
@@ -1137,7 +1137,7 @@
 
                 axios({
                     method: 'post',
-                    url: 'https://backend.avendors.com/api/v1/products/addHubSpotMainMarketingPage',
+                    url: 'https://backend.avmade.com/api/v1/products/addHubSpotMainMarketingPage',
                     data: {
                         email: email,
                         url: window.location.href
@@ -1146,7 +1146,7 @@
                     .then(function (response) {
                         axios({
                             method: 'post',
-                            url: 'https://backend.avendors.com/api/v1/products/rfq',
+                            url: 'https://backend.avmade.com/api/v1/products/rfq',
                             data: obj
                         })
                             .then(function (response) {
@@ -1485,8 +1485,7 @@
         if (url.includes('hoodies')) {
             document.getElementById("category-selection").innerHTML = "hoodies";
             document.getElementById("main-desc-cat").innerHTML = "hoodies";
-            // document.getElementById("main-desc").innerHTML = `AVendors is for brands looking for designer Hoodies like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.`;
-
+           
             document.title = 'Custom Luxury Hoodies | Get Additional Customizations'
             const metaValEssentials2 = `Custom luxury hoodies are high-quality hoodies that have been personalized to the wearer's specifications.`
             $('meta[name=description]').remove();
@@ -1499,7 +1498,6 @@
         if (url.includes('sweats')) {
             document.getElementById("category-selection").innerHTML = "sweats";
             document.getElementById("main-desc-cat").innerHTML = "sweats";
-            // document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Sweats like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
 
             document.title = 'Custom Luxury Sweats | Improve Cloth Brands'
             const metaValEssentials3 = `Custom luxury sweats are high-quality sweatpants that have been personalized to the wearer's specifications. They are made from premium materials`
@@ -1516,7 +1514,6 @@
             document.getElementById("custom-made-title-2").innerHTML = "Luxury ";
             document.getElementById("category-selection").innerHTML = "basics";
             document.getElementById("main-desc-cat").innerHTML = "basics";
-            // document.getElementById("main-desc").innerHTML = "AVendors is for brands looking for designer Basics like Aviator Nation, Essentials, John Elliott, Alo Yoga, Helmut Lang, etc. direct from U.S. factories.";
 
 
             document.title = 'Customizable Luxury Basics | Custom Clothing Colors'
@@ -1530,13 +1527,6 @@
 
 
         }
-        // console.log("Here",url)
-        // $('link[rel="canonical"]').attr('href', url);
-
-        var link = !!document.querySelector("link[rel='canonical']") ? document.querySelector("link[rel='canonical']") : document.createElement('link');
-  link.setAttribute('rel', 'canonical');
-  link.setAttribute('href', location.protocol + '//' + location.host + location.pathname);
-  document.head.appendChild(link);
     </script>
     <script>
         $(function () {

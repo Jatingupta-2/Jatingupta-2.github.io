@@ -1100,6 +1100,10 @@
 .ft-weight-400{
     font-weight: 400;
 }
+.custom-main-title{
+    font-size: 60px;
+    font-weight: 900;
+}
 @media (max-width:1300px) {
     .luxury-details {
         padding-top: 15px;
@@ -1710,6 +1714,7 @@
         padding: 40px 20px;
         margin: 60px 15px 40px;
         border: 8px solid #FFE700;
+        font-size: 14px;
     }
 
     .simple-steps-heading {
@@ -2109,5 +2114,8 @@
     }
     .extra-padding-gif{
         padding-top: 50px;
+    }
+    .custom-main-title{
+        font-size: 45px;
     }
 }
