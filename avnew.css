@@ -1029,15 +1029,15 @@
 }
 
 .simple-steps-heading {
-    font-weight: 700;
+    font-weight: 900;
     padding-bottom: 0;
     margin-bottom: -30px;
-    font-size: 36px;
+    font-size: 2rem;
 }
 
 .our-specialties {
     margin-top: 120px;
-    font-weight: 700;
+    font-weight: 900;
     padding-bottom: 5px;
 }
 
@@ -1106,6 +1106,13 @@
 .ft-weight-400{
     font-weight: 400;
 }
+.ft-weight-700,
+.white-button.ft-weight-700{
+    font-weight: 700;
+}
+.ft-weight-900{
+    font-weight: 900;
+}
 .custom-main-title{
     font-size: 60px;
     font-weight: 900;
@@ -1118,6 +1125,29 @@
     font-weight: 400;
     margin-top: 5px;
     font-size: 20px;
+}
+.fixed-header-bar{
+    background: #D8F1FF;
+   
+    padding: 10px 50px;
+    
+}
+.fh-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+    font-weight: 500;
+}
+.fh-container a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #03488B;
+}
+.fh-container .fh-ul{
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 @media (max-width:1300px) {
     .luxury-details {
@@ -1760,6 +1790,16 @@
     .end-t-end{
         margin-top: 0;
         font-size: 12px;
+    }
+    .fixed-header-bar{
+        padding: 10px 20px;
+    }
+    .fh-container{
+        text-align: center;
+        overflow: scroll;
+    }
+    .fh-container a{
+        margin-right: 50px;
     }
 }
 
