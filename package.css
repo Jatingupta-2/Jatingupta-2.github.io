@@ -198,6 +198,9 @@
         padding-left: 10%;
         margin-top: 20px;
     }
+    .main-packages .section-2 .option.no-left-mob{
+        padding-left: 0;
+    }
     .main-packages .section-2.nf{
         font-size: 17px;
     }
