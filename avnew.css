@@ -1129,7 +1129,7 @@
 .fixed-header-bar{
     background: #D8F1FF;
    
-    padding: 10px 50px;
+    padding: 10px 50px 40px;
     
 }
 .fh-container{
@@ -1144,10 +1144,19 @@
     cursor: pointer;
     text-decoration: none;
     color: #03488B;
+    font-size: 14px;
+    min-width: fit-content;
 }
 .fh-container .fh-ul{
     text-decoration: underline;
     text-underline-offset: 8px;
+}
+.mt-simple-steps,
+.mt-faq{
+    height: 100px;
+}
+.mr-0{
+    margin-right: 0 !important;
 }
 @media (max-width:1300px) {
     .luxury-details {
@@ -1792,7 +1801,7 @@
         font-size: 12px;
     }
     .fixed-header-bar{
-        padding: 10px 20px;
+        padding: 10px 20px 25px;
     }
     .fh-container{
         text-align: center;
@@ -1800,6 +1809,7 @@
     }
     .fh-container a{
         margin-right: 50px;
+        font-size: 11px;
     }
 }
 
