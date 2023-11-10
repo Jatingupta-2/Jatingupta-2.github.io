@@ -1129,7 +1129,7 @@
 .fixed-header-bar{
     background: #D8F1FF;
    
-    padding: 10px 50px 40px;
+    padding: 10px 50px;
     
 }
 .fh-container{
@@ -1801,7 +1801,7 @@
         font-size: 12px;
     }
     .fixed-header-bar{
-        padding: 10px 20px 25px;
+        padding: 10px 20px;
     }
     .fh-container{
         text-align: center;
