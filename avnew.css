@@ -2340,5 +2340,6 @@
     .before-choice-header .newbg-lady{
         background: none;
         height: auto;
+        width: auto;
     }
 }
