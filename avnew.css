@@ -2337,4 +2337,8 @@
         font-size: 45px;
         line-height: 50px;
     }
+    .before-choice-header .newbg-lady{
+        background: none;
+        height: auto;
+    }
 }
