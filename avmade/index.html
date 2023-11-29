@@ -213,12 +213,13 @@
                 <a href="../avmade-custom/must-know.html" target="_blank">MUST-KNOW</a>
                 <a href="../avmade-custom/testimonials.html" target="_blank">TESTIMONY</a>
                 <a href="../avmade-custom/faq.html" target="_blank">FAQ</a>
-                <a onclick="location.href='https://avmade.com/designer-guide.html'" target="_blank" class="dg-purple">BEGINNERS GUIDE</a>
+                <a onclick="location.href='https://avmade.com/designer-guide.html'" target="_blank"
+                    class="dg-purple">BEGINNERS GUIDE</a>
             </div>
         </section>
     </header>
 
-   
+
 
     <main class="main">
 
@@ -1191,7 +1192,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Activewear.webp">
-                                <div class="product-info">ATHLEISURE WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Athletic')">ATHLEISURE WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1199,7 +1200,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Dresses.webp">
-                                <div class="product-info">FORMAL WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Formal')">FORMAL WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1207,23 +1208,23 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Knitwear.webp">
-                                <div class="product-info">FULL FASHION KNIT</div>
+                                <div class="product-info" onclick="openModalImage('Full fashion')">FULL FASHION KNIT</div>
                             </div>
                         </div>
                     </div>
-                    <div class="slide text-center">
+                    <!-- <div class="slide text-center">
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Activewear 1.webp">
                                 <div class="product-info">YOGA WEAR</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="slide text-center">
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Lounge.webp">
-                                <div class="product-info">LOUNGE WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Lounge')">LOUNGE WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1231,7 +1232,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Dresshirt.webp">
-                                <div class="product-info">CASUAL FORMAL</div>
+                                <div class="product-info" onclick="openModalImage('Casual')">CASUAL FORMAL</div>
                             </div>
                         </div>
                     </div>
@@ -1239,7 +1240,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Activewear 2.webp">
-                                <div class="product-info">ATHLEISURE WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Athletic')">ATHLEISURE WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1247,7 +1248,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Swimsuit.webp">
-                                <div class="product-info">SWIM WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Swim')">SWIM WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1255,7 +1256,7 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Outerwear.webp">
-                                <div class="product-info">OUTDOORS WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Outdoors')">OUTDOORS WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1271,18 +1272,18 @@
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Denim.webp">
-                                <div class="product-info">DENIM WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Denim')">DENIM WEAR</div>
                             </div>
                         </div>
                     </div>
-                    <div class="slide text-center">
+                    <!-- <div class="slide text-center">
                         <div class="product">
                             <div class="product-top">
                                 <img src="../images/OUR SPECIALTIES/Kids.webp">
-                                <div class="product-info">KIDS WEAR</div>
+                                <div class="product-info" onclick="openModalImage('Denim')">KIDS WEAR</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                 </section>
@@ -3719,6 +3720,37 @@
         </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal" id="specialityPopup">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <!-- <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+
+                <!-- Modal body -->
+                <div class="modal-body specialityPopup-body">
+                    <div class="outline left outline-modal-arrow" onclick="moveSpImg(-1)"><img
+                            src="../images/arrow-sm-right.svg" /></div>
+
+                    <img id="specialityPopupImage" class="spImg" src="" />
+
+                    <div class="outline outline-modal-arrow" onclick="moveSpImg(1)"><img
+                            src="../images/arrow-sm-right.svg" /></div>
+                </div>
+
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div> -->
+
+            </div>
+        </div>
+    </div>
+
     <script>
         $('.redirect-customer-form').click(function () {
             var url = window.location.href
@@ -3946,6 +3978,78 @@
 
 
 
+        }
+    </script>
+
+    <script>
+        var specialtyImages = []
+        var selectedImage = 0;
+        function openModalImage(type) {
+
+            var folder = `../images/specialityPopup/${type}/`;
+
+
+            if (type === 'Athletic') {
+                for (let i = 2; i <= 23; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            }else if(type === 'Formal') {
+                for (let i = 1; i <= 25; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Full fashion') {
+                for (let i = 2; i <= 17; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Lounge') {
+                for (let i = 1; i <= 31; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Casual') {
+                for (let i = 2; i <= 26; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Casual') {
+                for (let i = 2; i <= 26; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Swim') {
+                for (let i = 1; i <= 13; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Outdoors') {
+                for (let i = 1; i <= 21; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            } else if(type === 'Denim') {
+                for (let i = 2; i <= 15; i++) {
+                    specialtyImages.push(`${folder}${i}.webp`)
+                }
+            }
+            
+
+            // console.log(specialtyImages)
+            $('#specialityPopupImage').attr('src', specialtyImages[selectedImage])
+            $('#specialityPopup').modal('toggle');
+
+        }
+
+        function moveSpImg(arrType) {
+            if (arrType === 1) {
+                if (selectedImage < specialtyImages.length - 1) {
+                    selectedImage += 1;
+                } else {
+                    selectedImage = 0
+                }
+            }
+            else if (arrType === -1) {
+                if (selectedImage > 0) {
+                    selectedImage -= 1;
+                } else {
+                    selectedImage = specialtyImages.length - 1;
+                }
+            }
+            $('#specialityPopupImage').attr('src', specialtyImages[selectedImage])
         }
     </script>
 

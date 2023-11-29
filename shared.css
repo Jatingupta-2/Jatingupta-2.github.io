@@ -575,3 +575,7 @@
     width: 3rem;
   }
 }
+
+.main-header__item.item2.header-margin-bottom-0{
+  margin-bottom: 0;
+}

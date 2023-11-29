@@ -2285,6 +2285,7 @@
         /* background: url(../images/Vector3.svg) center/cover no-repeat border-box; */
         background: url(../images/blue-yellow-bg.svg) center/cover no-repeat border-box;
         background-position: left 0% bottom 0%;
+        padding: 2rem 2rem 1rem;
     }
 
     .flex-col-reverse {
