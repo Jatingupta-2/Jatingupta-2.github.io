@@ -20,8 +20,16 @@
     /* background: url(images/only-blue-desktop-before-choice.png) center/cover no-repeat border-box; */
     background: url(images/avnew/bg-quality-desktop-new.png) center/cover no-repeat border-box;
     /* background-position: right; */
+    background: none;
     background-position-y: 100px;
     background-size: contain;
+}
+.before-choice-header .newbg-lady{
+    background: url(images/avnew/bg-quality-desktop-new.png) center/cover no-repeat border-box;
+    width: 106vw;
+    height: 440px;
+    margin: 0 -2rem;
+    background-position-y: -80px
 }
 
 .before-choice-header .white-logo {
@@ -835,7 +843,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 140px auto 0;
+    margin: 100px auto 0;
     flex-direction: column;
 }
 
