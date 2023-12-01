@@ -1,17 +1,24 @@
 var backdrop = document.querySelector(".backdrop");
 var mobileNav = document.querySelector(".mobile-nav");
-var toggleButton = document.querySelectorAll("#toggle-mobile-nav, #toggle-mobile-nav1, #toggle-mobile-nav2, #toggle-mobile-nav3");
+var toggleButton = document.querySelector("#toggle-mobile-nav");
+var toggleButton1 = document.querySelector("#toggle-mobile-nav1");
+var toggleButton2 = document.querySelector("#toggle-mobile-nav2");
+var toggleButton3 = document.querySelector("#toggle-mobile-nav3");
+
+// var toggleButton = document.querySelectorAll("#toggle-mobile-nav, #toggle-mobile-nav1, #toggle-mobile-nav2, #toggle-mobile-nav3");
 
 var closeMoal = document.querySelectorAll(".close-modal");
 
-for(i=0;i<toggleButton.length;i++){
   
-  toggleButton[i].addEventListener("click", function () {
+toggleButton.addEventListener("click", openMobileNev)
+toggleButton1.addEventListener("click", openMobileNev)
+toggleButton2.addEventListener("click", openMobileNev)
+toggleButton3.addEventListener("click", openMobileNev)
 
-    mobileNav.classList.add("open");
+
+function openMobileNev() {
+  mobileNav.classList.add("open");
     backdrop.classList.add("open");
-  
-  })
 }
 
 

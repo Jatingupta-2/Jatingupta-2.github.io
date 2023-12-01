@@ -1541,46 +1541,54 @@
         function openModalImage(type) {
 
             var folder = `../images/specialityPopup/${type}/`;
-
+            $('#specialityPopupImage').attr('src', '')
 
             if (type === 'Athletic') {
+                specialtyImages = []
                 for (let i = 2; i <= 23; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Formal') {
+                specialtyImages = []
                 for (let i = 1; i <= 25; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Full fashion') {
+                specialtyImages = []
                 for (let i = 2; i <= 17; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Lounge') {
+                specialtyImages = []
                 for (let i = 1; i <= 31; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Casual') {
+                specialtyImages = []
                 for (let i = 2; i <= 26; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Casual') {
+                specialtyImages = []
                 for (let i = 2; i <= 26; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Swim') {
+                specialtyImages = []
                 for (let i = 1; i <= 13; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Outdoors') {
+                specialtyImages = []
                 for (let i = 1; i <= 21; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Denim') {
+                specialtyImages = []
                 for (let i = 2; i <= 15; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             }
-
 
             // console.log(specialtyImages)
             $('#specialityPopupImage').attr('src', specialtyImages[selectedImage])

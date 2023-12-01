@@ -25,13 +25,22 @@
     background-size: contain;
 }
 .before-choice-header .newbg-lady{
-    background: url(images/avnew/bg-quality-desktop-new.png) center/cover no-repeat border-box;
-    width: 106vw;
+    /* background: url(images/avnew/bg-quality-desktop-new.png) center/cover no-repeat border-box; */
+    /* width: 106vw; */
     height: 440px;
     margin: 0 -2rem;
-    background-position-y: 100%;
+    /* background-position-y: 100%;
     background-position-x: 100%;
-    max-width: 1400px;
+    max-width: 1400px; */
+    position: relative;
+}
+.before-choice-header .newbg-lady img{
+    position: relative;
+    top: -400px;
+    width: 110%;
+}
+.width-48{
+    width: 48%;
 }
 
 .before-choice-header .white-logo {
@@ -844,7 +853,7 @@
 .choose-option {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 100px auto 0;
     flex-direction: column;
 }
@@ -1327,6 +1336,7 @@
 }
 
 @media (max-width:786px) {
+    
     .av-new {
         overflow-x: hidden;
     }
@@ -1953,6 +1963,9 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+    .before-choice-header .newbg-lady img{
+        display: none;
     }
 }
 
