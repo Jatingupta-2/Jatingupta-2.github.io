@@ -38,6 +38,9 @@
     position: relative;
     top: -400px;
     width: 110%;
+    min-width: 1080px;
+    max-height: 700px;
+    right: 10%;
 }
 .width-48{
     width: 48%;
@@ -866,8 +869,11 @@
     margin-top: 20px;
 }
 
-.ml-25 {
-    margin-left: 25px;
+.ml-46 {
+    margin-left: 45px;
+}
+.ml-5 {
+    margin-left: 5px;
 }
 
 .option-1-st {
