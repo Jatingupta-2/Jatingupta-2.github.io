@@ -574,6 +574,11 @@
   .width3rem img{
     width: 3rem;
   }
+
+  .mob-nav.left-nav{
+    align-items: flex-start;
+    padding-left: 20px;
+  }
 }
 
 .main-header__item.item2.header-margin-bottom-0{

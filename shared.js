@@ -1,4 +1,5 @@
 var backdrop = document.querySelector(".backdrop");
+var backdropClose = document.querySelector("#backdropClose");
 var mobileNav = document.querySelector(".mobile-nav");
 var toggleButton = document.querySelector("#toggle-mobile-nav");
 var toggleButton1 = document.querySelector("#toggle-mobile-nav1");
@@ -11,9 +12,9 @@ var closeMoal = document.querySelectorAll(".close-modal");
 
   
 toggleButton.addEventListener("click", openMobileNev)
-toggleButton1.addEventListener("click", openMobileNev)
-toggleButton2.addEventListener("click", openMobileNev)
-toggleButton3.addEventListener("click", openMobileNev)
+toggleButton1?.toggleButton1.addEventListener("click", openMobileNev)
+toggleButton1?.toggleButton2.addEventListener("click", openMobileNev)
+toggleButton1?.toggleButton3.addEventListener("click", openMobileNev)
 
 
 function openMobileNev() {
@@ -22,12 +23,13 @@ function openMobileNev() {
 }
 
 
-backdrop.addEventListener("click", function () {
-  
+backdrop.addEventListener("click", closeMobileNav);
+
+
+function closeMobileNav() {
   mobileNav.classList.remove("open");
   backdrop.classList.remove("open");
-
-});
+}
 
 closeMoal.forEach(e => {
   e.addEventListener("click", function () {

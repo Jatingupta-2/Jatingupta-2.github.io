@@ -1,0 +1,66 @@
+.how-we-work-container {
+    padding: 80px 3.1rem 120px;
+    max-width: 1000px;
+    color: #004E93;
+}
+
+.how-we-work-container .multi-color-border {
+    width: fit-content;
+    margin: 0;
+}
+
+.how-we-work-container .white-bg-border {
+    padding: 8px 15px;
+}
+.how-we-work-container h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.how-we-work-container .sub-heading{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.how-we-work-container li{
+    line-height: 30px;
+}
+
+.how-we-work-container button{
+    border: none;
+    background: #FFE700;
+    color: #001D37;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 120px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 1px #A8A8A840;
+    margin-top: 30px;
+}
+
+.how-we-work-container .green-button-hww{
+    background: #31FFEA;
+}
+.how-we-work-container .container2{
+    margin-top: 120px;
+}
+
+@media (max-width:786px) {
+    .how-we-work-container{
+        padding: 40px 1.8rem 80px;
+    }
+    .how-we-work-container .multi-color-border {
+        font-size: 14px;
+    }
+    .how-we-work-container h1{
+        font-size: 28px;
+    }
+    .how-we-work-container .sub-heading{
+        font-size: 14px;
+    }
+    .how-we-work-container button{
+        font-size: 15px;
+        padding: 12px 40px;
+        width: 100%;
+    }
+}

@@ -124,28 +124,40 @@
     </script>
     <!-- Clixtell Tracking Code -->
 
-    <div class="backdrop"></div>
+    <div id="backdropClose" class="backdrop"></div>
 
     <nav class="mobile-nav">
-        <div class="mob-nav">
+        <div class="mob-nav  left-nav">
             <div class="main-header__item item1 margin-bottom ">
-                <a href="#faq-section">FAQ</a>
+                <a href="../avmade-custom/design-services.html" target="_blank">SERVICES </a>
             </div>
             <div class="main-header__item item1 margin-bottom ">
-                <a href="#testimonial-section">Testimonials</a>
+                <a href="../avmade-custom/factory-specialities.html" target="_blank">SPECIALITY </a>
             </div>
             <div class="main-header__item item1 margin-bottom ">
-                <a href="#our-services">Our Service</a>
+                <a href="../avmade-custom/av-advantages.html" target="_blank">WHY AV? </a>
             </div>
             <div class="main-header__item item1 margin-bottom ">
-                <a href="javascript:void()" onclick="location.href='https://avmade.com/designer-guide.html'">Designers
-                    Guide</a>
+                <a href="../avmade-custom/how-we-work.html" target="_blank">HOW WE WORK</a>
             </div>
-            <div class="main-header__item item2 contact-us avmade-gs-mob-tm white-package yellow-mob">
+            <div class="main-header__item item1 margin-bottom ">
+                <a href="../avmade-custom/must-know.html" target="_blank">MUST-KNOW</a>
+            </div>
+            <div class="main-header__item item1 margin-bottom ">
+                <a href="../avmade-custom/testimonials.html" target="_blank">TESTIMONY</a>
+            </div>
+            <div class="main-header__item item1 margin-bottom ">
+                <a href="../avmade-custom/faq.html" target="_blank">FAQ</a>
+            </div>
+            <div class="main-header__item item1 margin-bottom ">
+                <a onclick="location.href='https://avmade.com/designer-guide.html'" target="_blank"
+                    class="dg-purple">BEGINNERS GUIDE</a>
+            </div>
+            <!-- <div class="main-header__item item2 contact-us avmade-gs-mob-tm white-package yellow-mob">
                 <button type="button" class=" " onclick="location.href='https://avmade.com/packages.html'">
                     Packages
                 </button>
-            </div>
+            </div> -->
             <div class="main-header__item item2 white-package2">
                 <button type="button" class="" onclick="location.href='https://avmade.com/avmade/meeting/'">
                     Let’s Talk
@@ -204,20 +216,21 @@
                 </div>
             </div>
         </div>
-        <section id="fixed-header-bar" class="fixed-header-bar">
-            <div class="fh-container">
-                <a href="../avmade-custom/design-services.html" target="_blank">SERVICES </a>
-                <a href="../avmade-custom/factory-specialities.html" target="_blank">SPECIALITY </a>
-                <a href="../avmade-custom/av-advantages.html" target="_blank">WHY AV? </a>
-                <a href="../avmade-custom/how-we-work.html" target="_blank">HOW WE WORK</a>
-                <a href="../avmade-custom/must-know.html" target="_blank">MUST-KNOW</a>
-                <a href="../avmade-custom/testimonials.html" target="_blank">TESTIMONY</a>
-                <a href="../avmade-custom/faq.html" target="_blank">FAQ</a>
-                <a onclick="location.href='https://avmade.com/designer-guide.html'" target="_blank"
-                    class="dg-purple">BEGINNERS GUIDE</a>
-            </div>
-        </section>
+       
     </header>
+    <section id="fixed-header-bar" class="fixed-header-bar">
+        <div class="fh-container">
+            <a href="../avmade-custom/design-services.html" target="_blank">SERVICES </a>
+            <a href="../avmade-custom/factory-specialities.html" target="_blank">SPECIALITY </a>
+            <a href="../avmade-custom/av-advantages.html" target="_blank">WHY AV? </a>
+            <a href="../avmade-custom/how-we-work.html" target="_blank">HOW WE WORK</a>
+            <a href="../avmade-custom/must-know.html" target="_blank">MUST-KNOW</a>
+            <a href="../avmade-custom/testimonials.html" target="_blank">TESTIMONY</a>
+            <a href="../avmade-custom/faq.html" target="_blank">FAQ</a>
+            <a onclick="location.href='https://avmade.com/designer-guide.html'" target="_blank"
+                class="dg-purple">BEGINNERS GUIDE</a>
+        </div>
+    </section>
 
 
 
@@ -1223,41 +1236,41 @@
                     </div> -->
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Lounge')">
                                 <img src="../images/OUR SPECIALTIES/Lounge.webp">
-                                <div class="product-info" onclick="openModalImage('Lounge')">LOUNGE WEAR</div>
+                                <div class="product-info">LOUNGE WEAR</div>
                             </div>
                         </div>
                     </div>
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Casual')">
                                 <img src="../images/OUR SPECIALTIES/Dresshirt.webp">
-                                <div class="product-info" onclick="openModalImage('Casual')">CASUAL FORMAL</div>
+                                <div class="product-info">CASUAL FORMAL</div>
                             </div>
                         </div>
                     </div>
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Athletic')">
                                 <img src="../images/OUR SPECIALTIES/Activewear 2.webp">
-                                <div class="product-info" onclick="openModalImage('Athletic')">ATHLEISURE WEAR</div>
+                                <div class="product-info">ATHLEISURE WEAR</div>
                             </div>
                         </div>
                     </div>
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Swim')">
                                 <img src="../images/OUR SPECIALTIES/Swimsuit.webp">
-                                <div class="product-info" onclick="openModalImage('Swim')">SWIM WEAR</div>
+                                <div class="product-info">SWIM WEAR</div>
                             </div>
                         </div>
                     </div>
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Outdoors')">
                                 <img src="../images/OUR SPECIALTIES/Outerwear.webp">
-                                <div class="product-info" onclick="openModalImage('Outdoors')">OUTDOORS WEAR</div>
+                                <div class="product-info">OUTDOORS WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1271,9 +1284,9 @@
                     </div> -->
                     <div class="slide text-center">
                         <div class="product">
-                            <div class="product-top">
+                            <div class="product-top" onclick="openModalImage('Denim')">
                                 <img src="../images/OUR SPECIALTIES/Denim.webp">
-                                <div class="product-info" onclick="openModalImage('Denim')">DENIM WEAR</div>
+                                <div class="product-info">DENIM WEAR</div>
                             </div>
                         </div>
                     </div>
@@ -1911,10 +1924,10 @@
         </section>
 
         <section class="whyAV">
-            <div class="whyAV-heading">
+            <!-- <div class="whyAV-heading">
                 Why choose <br>
                 AV?
-            </div>
+            </div> -->
             <div class="whyAv-table">
                 <div class="row whyAv-table--bbb why-table-heading">
                     <div class="col-3">
@@ -4022,53 +4035,52 @@
 
             var folder = `../images/specialityPopup/${type}/`;
             $('#specialityPopupImage').attr('src', '')
+            selectedImage = 0;
 
             if (type === 'Athletic') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Activewear.webp"]
                 for (let i = 2; i <= 23; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Formal') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Dresses.webp"]
                 for (let i = 1; i <= 25; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Full fashion') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Knitwear.webp"]
                 for (let i = 2; i <= 17; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Lounge') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Lounge.webp"]
                 for (let i = 1; i <= 31; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Casual') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Dresshirt.webp"]
                 for (let i = 2; i <= 26; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
-            } else if (type === 'Casual') {
-                specialtyImages = []
-                for (let i = 2; i <= 26; i++) {
-                    specialtyImages.push(`${folder}${i}.webp`)
-                }
-            } else if (type === 'Swim') {
-                specialtyImages = []
+            }
+            else if (type === 'Swim') {
+                specialtyImages = ["../images/OUR SPECIALTIES/Swimsuit.webp"]
                 for (let i = 1; i <= 13; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Outdoors') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Outerwear.webp"]
                 for (let i = 1; i <= 21; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Denim') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Denim.webp"]
                 for (let i = 2; i <= 15; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             }
+
+            console.log(specialtyImages)
 
             // console.log(specialtyImages)
             $('#specialityPopupImage').attr('src', specialtyImages[selectedImage])
@@ -4091,6 +4103,7 @@
                     selectedImage = specialtyImages.length - 1;
                 }
             }
+            console.log(specialtyImages[selectedImage])
             $('#specialityPopupImage').attr('src', specialtyImages[selectedImage])
         }
     </script>

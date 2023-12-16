@@ -1538,53 +1538,51 @@
     <script>
         var specialtyImages = []
         var selectedImage = 0;
+
         function openModalImage(type) {
 
             var folder = `../images/specialityPopup/${type}/`;
             $('#specialityPopupImage').attr('src', '')
+            selectedImage = 0;
 
             if (type === 'Athletic') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Activewear.webp"]
                 for (let i = 2; i <= 23; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Formal') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Dresses.webp"]
                 for (let i = 1; i <= 25; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Full fashion') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Knitwear.webp"]
                 for (let i = 2; i <= 17; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Lounge') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Lounge.webp"]
                 for (let i = 1; i <= 31; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Casual') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Dresshirt.webp"]
                 for (let i = 2; i <= 26; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
-            } else if (type === 'Casual') {
-                specialtyImages = []
-                for (let i = 2; i <= 26; i++) {
-                    specialtyImages.push(`${folder}${i}.webp`)
-                }
-            } else if (type === 'Swim') {
-                specialtyImages = []
+            }
+            else if (type === 'Swim') {
+                specialtyImages = ["../images/OUR SPECIALTIES/Swimsuit.webp"]
                 for (let i = 1; i <= 13; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Outdoors') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Outerwear.webp"]
                 for (let i = 1; i <= 21; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }
             } else if (type === 'Denim') {
-                specialtyImages = []
+                specialtyImages = ["../images/OUR SPECIALTIES/Denim.webp"]
                 for (let i = 2; i <= 15; i++) {
                     specialtyImages.push(`${folder}${i}.webp`)
                 }

@@ -1278,7 +1278,7 @@
     /* border: 1px solid ; */
     /* border-image-source: linear-gradient(180deg, #FF7C7C 0%, #843ACD 25%, #B35FE7 50%, #EA80FC 75%, #74FFE6 100%); */
     background: linear-gradient(180deg, #FF7C7C 0%, #843ACD 25%, #B35FE7 50%, #EA80FC 75%, #74FFE6 100%);
-    margin: 0 10px 0 0;
+    margin: 0 10px 0 10px;
     padding: 2px;
 
 }
@@ -1286,6 +1286,10 @@
 .white-bg-border {
     background: #fff;
     padding: 8px;
+    font-weight: 600;
+}
+.white-bg-border.blue-bg {
+    background: #D8F1FF;
 }
 
 @media (max-width:1300px) {
