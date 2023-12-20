@@ -35,11 +35,12 @@
     padding: 12px 120px;
     border-radius: 5px;
     box-shadow: 2px 3px 2px 1px #A8A8A840;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .how-we-work-container .green-button-hww{
     background: #31FFEA;
+    margin-top: 30px;
 }
 .how-we-work-container .container2{
     margin-top: 120px;

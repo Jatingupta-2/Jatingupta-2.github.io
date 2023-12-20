@@ -325,6 +325,16 @@
 .width3rem img{
   width: 3rem;
 }
+.show-on-scroll-up-header{
+  transition: top 0.3s ease-in-out;
+}
+.sticky-header.nav-up,
+.show-on-scroll-up-header.nav-up.extra-mt {
+  top: -195px;
+}
+.show-on-scroll-up-header.nav-up {
+  top: -95px;
+}
 @media (min-width:993px) {
   .hide-desktop {
     display: none;
@@ -388,6 +398,10 @@
   .footer-new .dot{
     margin-top: -18px;
   }
+  .sticky-header.nav-up,
+.show-on-scroll-up-header.nav-up.extra-mt {
+  top: -205px;
+}
 }
 
 @media (max-width:678px) {
