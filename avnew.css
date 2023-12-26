@@ -892,6 +892,9 @@
     width: 96%;
     max-width: 600px;
 }
+.choose-option.width100-co img {
+    width: 100%;
+}
 .option-button {
     background: #FFE700;
     color: #001D37;
