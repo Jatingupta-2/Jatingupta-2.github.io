@@ -867,6 +867,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
 .ml-46 {
@@ -1815,6 +1816,7 @@
 
     .choose-option .choose-option-info {
         width: 100%;
+        padding-left: 0;
     }
 
     .choose-option img {
