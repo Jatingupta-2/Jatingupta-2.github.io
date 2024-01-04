@@ -1286,6 +1286,9 @@
     padding: 2px;
 
 }
+.main-header__item.item1.multi-color-border.multi-color-border-white{
+    background: #fff;
+}
 
 .white-bg-border {
     background: #fff;
