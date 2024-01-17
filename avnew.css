@@ -144,7 +144,7 @@
 }
 
 .luxury-details .l-title {
-    font-size: 35px;
+    font-size: 32px;
     font-style: italic;
 
 }
@@ -152,12 +152,12 @@
 .luxury-details .l-title .bold-l {
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .luxury-details .details {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     max-width: 600px;
 }
 
@@ -1400,7 +1400,7 @@
     }
 
     .luxury-details .l-title {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .luxury-details .details {
@@ -1602,7 +1602,7 @@
     }
 
     .luxury-details .l-title .bold-l {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .cats-image span {
