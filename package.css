@@ -212,4 +212,11 @@
         background: #FFE700;
     }
 
+    .main-packages .sub-text {
+        text-align: justify;
+    }
+    .hide-tablet {
+        display: none !important;
+    }
+
 }
