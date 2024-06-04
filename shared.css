@@ -311,30 +311,37 @@
   font-size: 40px;
   font-weight: 700;
 }
-.footer-new .blue-underline{
+
+.footer-new .blue-underline {
   color: #399DFF;
   text-decoration: underline;
   cursor: pointer;
 }
-.footer-copyright{
+
+.footer-copyright {
   background: #03488B;
   font-size: 12px;
   color: #fff;
   text-align: center;
 }
-.width3rem img{
+
+.width3rem img {
   width: 3rem;
 }
-.show-on-scroll-up-header{
+
+.show-on-scroll-up-header {
   transition: top 0.3s ease-in-out;
 }
+
 .sticky-header.nav-up,
 .show-on-scroll-up-header.nav-up.extra-mt {
   top: -195px;
 }
+
 .show-on-scroll-up-header.nav-up {
   top: -95px;
 }
+
 @media (min-width:993px) {
   .hide-desktop {
     display: none;
@@ -345,7 +352,8 @@
   .hide-tablet {
     display: none;
   }
-  .show-only-desktop.qaul-icons{
+
+  .show-only-desktop.qaul-icons {
     display: none;
   }
 }
@@ -389,19 +397,22 @@
   .custom-body .main-header__logo.avmade-logo.cu img {
     width: 2.2rem;
   }
+
   .footer-new {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .footer-new .dot{
+
+  .footer-new .dot {
     margin-top: -18px;
   }
+
   .sticky-header.nav-up,
-.show-on-scroll-up-header.nav-up.extra-mt {
-  top: -205px;
-}
+  .show-on-scroll-up-header.nav-up.extra-mt {
+    top: -205px;
+  }
 }
 
 @media (max-width:678px) {
@@ -433,7 +444,8 @@
     font-size: 11px;
     width: 105px;
   }
-  .footer-copyright{
+
+  .footer-copyright {
     font-size: 10px;
   }
 }
@@ -585,16 +597,29 @@
   .custom-body .main-header__item.avmade-gs-mob-tm {
     margin-top: 30px;
   }
-  .width3rem img{
+
+  .width3rem img {
     width: 3rem;
   }
 
-  .mob-nav.left-nav{
+  .mob-nav.left-nav {
     align-items: flex-start;
     padding-left: 20px;
   }
 }
 
-.main-header__item.item2.header-margin-bottom-0{
+.main-header__item.item2.header-margin-bottom-0 {
   margin-bottom: 0;
+}
+
+.header-menu {
+  background: #f1f1f1;
+  height: auto;
+  width: auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 35px;
+  border-radius: 25px;
+  border: none;
+  color: #001B35;
 }

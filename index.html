@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="canonical" href="https://avmade.com/" />
     <title>Get Started | Explore services we provide and see if we are right for you</title>
-    <link rel="shortcut icon" href="images/Blue-_-Red.ico" />
+    <link rel="shortcut icon" href="images/av-favicon_64x64.png" />
 
     <!-- Importing Styles -->
     <link rel="stylesheet" href="./finalCover2/cover.css" />
@@ -213,7 +213,7 @@
             <!-- <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                 <img src="images/plus_new_logo.svg" alt="AVmade">
             </div> -->
-            <div class="choice-page justify-space-between">
+            <div class="choice-page justify-space-between hide">
                 <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                     <img src="images/plus_new_logo.svg" alt="AVmade">
                 </div>
@@ -254,12 +254,13 @@
                 </div>
             </div>
             <div class="after-choice-page hide justify-space-between">
+                <button class="header-menu">Menu</button>
                 <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                     <img src="images/plus_new_logo.svg" alt="AVmade">
                 </div>
                 <div class="main-header__items ">
 
-                    <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                    <!-- <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
                         onclick="window.open('https://app.avmade.com/misc/member-details')">
                         Members benefit
                     </div>
@@ -274,11 +275,11 @@
                     <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
                         onclick="window.open('https://app.avmade.com/login')">
                         Log in
-                    </div>
+                    </div> -->
                     <div class="main-header__item item2 item3 ">
-                        <button class="animated-button white-box-apply extra-width-caps"
-                            onclick="window.open('https://app.avmade.com/onboarding/step-one')" type="button">
-                            APPLY TO JOIN
+                        <button class="animated-button white-box-apply extra-width-caps blue-button"
+                            onclick="window.open('https://app.avmade.com/')" type="button">
+                            STEP INSIDE
                         </button>
                     </div>
                     <div class="main-header__items hide-desktop">
@@ -295,13 +296,17 @@
 
 
     <div class="before-choice-header">
-        <div class="header-section1">
+        <div id="change-section1-bg" class="header-section1 ">
+            <video id="background-video" autoplay loop muted>
+                <!-- poster="https://assets.codepen.io/6093409/river.jpg" -->
+                <source src="images/avnew/av-new-bg.MP4" type="video/mp4">
+            </video>
 
             <!-- Header that comes at the top -->
-            <header class="header fixed-header header-scroll-mp transparent">
+            <header class="header fixed-header header-scroll-mp transparent ">
                 <div class="main-header mh3 mh3-mob">
 
-                    <div class="choice-page justify-space-between">
+                    <div class="choice-page justify-space-between hide">
                         <div onclick="location.href='https://avmade.com'" class="main-header__logo">
                             <img src="images/plus_new_logo.svg" alt="AVmade">
                         </div>
@@ -342,12 +347,13 @@
                         </div>
                     </div>
                     <div class="after-choice-page hide justify-space-between">
+                        <button class="header-menu">Menu</button>
                         <div onclick="location.href='https://avmade.com'" class="main-header__logo">
-                            <img src="images/plus_new_logo.svg" alt="AVmade">
+                            <img src="images/footer-av.svg" alt="AVmade">
                         </div>
                         <div class="main-header__items ">
 
-                            <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                            <!-- <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
                                 onclick="window.open('https://app.avmade.com/misc/member-details')">
                                 Members benefit
                             </div>
@@ -362,11 +368,11 @@
                             <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
                                 onclick="window.open('https://app.avmade.com/login')">
                                 Log in
-                            </div>
+                            </div> -->
                             <div class="main-header__item item2 item3 ">
-                                <button class="animated-button white-box-apply extra-width-caps"
+                                <button class="animated-button white-box-apply extra-width-caps blue-button"
                                     onclick="window.open('https://app.avmade.com/onboarding/step-one')" type="button">
-                                    APPLY TO JOIN
+                                    STEP INSIDE
                                 </button>
                             </div>
                             <div class="main-header__items hide-desktop">
@@ -384,7 +390,7 @@
 
                 <section class="brands-section blue-bg-new">
 
-                    <div class="before-choice">
+                    <div class="before-choice hide">
                         <div class="newbg-lady">
 
                             <div class="before-choice-title">
@@ -495,7 +501,36 @@
                     </div>
 
                     <div class="after-choice hide row">
-                        <div class="col-lg-6 col-md-12 brands-section__col1">
+                        <div class="blue-container">
+                            <div class="blue-container__1">
+                                <button id="tees-hover">Tees</button>
+                                <button>Hoodies</button>
+                                <button>Sweatshirts</button>
+                                <button>Sweatpants</button>
+                                <button>& More</button>
+                            </div>
+                            <div id="original_blue-container" class="rest-containers blue-container__2">
+                                <span class="span-1">
+                                    Since 2006, we’ve been manufacturing for the most innovative designers and brands,
+                                    in creating, building, and delivering apparel worth talking about.
+                                </span>
+                                <span class="span-2">
+                                    <span>We make</span> <br />
+                                    <span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; luxury cloth</span>
+                                </span>
+                            </div>
+                            <div id="tees_blue-container" class="blue-container__2 tees hide">
+                                <span class="span-1">
+                                    Tees
+                                </span>
+                                <span class="span-2">
+                                    <img src="./images/avnew/avnew-tees.png" />
+                                    <span>Build a quality brand <br />
+                                        worth your effort</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 brands-section__col1 hide">
                             <div class="brands-section__col brands-section-margin-left">
                                 <div class="brands-section__nothing">
                                     Essentials,<br />
@@ -523,7 +558,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-6 col-md-12 brands-section__col2 hide-tablet">
+                        <div class="col-lg-6 col-md-12 brands-section__col2 hide-tablet hide">
                             <div class="brands-section__use">
                                 <div class="brands-section__col">
                                     <img id='topimage' class="brands-section-1" src="images/avnew/top1.webp">
@@ -533,6 +568,8 @@
                             </div>
                         </div>
                     </div>
+
+
                 </section>
 
 
@@ -599,22 +636,22 @@
     </div>
 
     <main class="after-choice hide av-new">
-        <section class="brands-illustration no-b">
+        <section class="brands-illustration no-b hide">
             <div class="row">
-                <div class="col-12 col-sm-1 bi-carousel-col1">
+                <!-- <div class="col-12 col-sm-1 bi-carousel-col1">
                     <div class="bi-carousel-title">
                         QUALITY SAME AS
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12 col-sm-11 bi-carousel-col2">
 
                     <div class="container bi-container">
 
                         <section class="bi-slick-carousel slider">
-                            <div class="slide">
-                                <div class="factory-logo">
+                            <div class="slide" style="border: 0px !important;outline: none !important;">
+                                <div class="factory-logo" style="border: 0px !important;outline: none !important;">
                                     <img class="bi-image" src="images/avnew/Brand Names/Fear of God.webp"
-                                        alt="First slide">
+                                        alt="First slide" style="border: 0px !important;outline: none !important;">
                                 </div>
                             </div>
                             <div class="slide">
@@ -775,7 +812,7 @@
                                 We have pre-developed hundreds of premium <br />
                                 essentials, leveraging data-driven insights<br />
                                 to ensure proven high sell-through rates.<br />
-                                 <br />
+                                <br />
                                 <!-- We bring you the best craftsmanship<br />
                                 and the highest quality products. We <br />
                                 control every step of the supply chain <br />
@@ -802,9 +839,9 @@
                                 not up for debate.</span> -->
                             </span>
                             <span class="hide-desktop">
-                                Select your style and customize. Everything is  <br />
-                                made to order (cut & sewn), no stock. We also  <br />
-                                provide an option to sample first to ensure  <br />
+                                Select your style and customize. Everything is <br />
+                                made to order (cut & sewn), no stock. We also <br />
+                                provide an option to sample first to ensure <br />
                                 your complete satisfaction.
                                 <!-- We make all our products using Grade-A<br /> (highest-grade)
                                 yarn used by the most prestigious brands. Quality is not up<br />
@@ -2393,6 +2430,8 @@
                 arrows: false,
                 dots: false,
                 pauseOnHover: true,
+                border: false,
+                outline: false,
                 responsive: [{
                     breakpoint: 1350,
                     settings: {
@@ -3125,38 +3164,39 @@
         }
 
         var url = window.location.toString();
-        if (url.includes('/essentials')) {
-            $(".after-choice").removeClass("hide");
-            $(".before-choice").addClass("hide");
-            $(".before-choice-header").addClass("hh");
+        // if (url.includes('/essentials')) {
+        $(".after-choice").removeClass("hide");
+        $(".before-choice").addClass("hide");
+        $(".before-choice-header").addClass("hh");
 
-            window.scrollTo(0, 0);
-            document.title = 'Explore Upscale Essentials | Customized Stock'
-            const metaValEssentials = 'Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.'
+        window.scrollTo(0, 0);
+        document.title = 'Explore Upscale Essentials | Customized Stock'
+        const metaValEssentials = 'Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.'
 
-            $('meta[name=description]').remove();
-            $('meta[name=description]').attr('content', metaValEssentials);
-            // $('head').append('<meta name="description" content="Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.">');
-            // $("#mtdesc").attr("content",metaValEssentials);
-            // $('meta[name=description]').attr('content', metaValEssentials);
-            $(".yellow-free-sg-mob").removeClass("hide");
+        $('meta[name=description]').remove();
+        $('meta[name=description]').attr('content', metaValEssentials);
+        // $('head').append('<meta name="description" content="Design Online >> Explore our data-meets-creative pre-developed upscale essentials, ready to customized.Stock >> We provide a ready-to-customize stock goods for fast order fulfillment.">');
+        // $("#mtdesc").attr("content",metaValEssentials);
+        // $('meta[name=description]').attr('content', metaValEssentials);
+        $(".yellow-free-sg-mob").removeClass("hide");
 
-            $(".orange-before-choice").addClass("orange-bg");
-            $(".before-choice2").addClass("hide");
+        $(".orange-before-choice").addClass("orange-bg");
+        $(".before-choice2").addClass("hide");
 
-            //for essentails only
-            $(".after-choice-only-essentials").removeClass("hide");
-            $(".before-choice-only-essentials").addClass("hide");
+        //for essentails only
+        $(".after-choice-only-essentials").removeClass("hide");
+        $(".before-choice-only-essentials").addClass("hide");
 
-            $(".after-choice-page").removeClass("hide");
-            $(".choice-page").addClass("hide");
-        } else {
-            document.title = 'Get Started | Explore services we provide and see if we are right for you'
+        $(".after-choice-page").removeClass("hide");
+        $(".choice-page").addClass("hide");
+        // } 
+        // else {
+        //     document.title = 'Get Started | Explore services we provide and see if we are right for you'
 
-            // document.getElementsByTagName('meta')["description"].content = "Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.";
+        // document.getElementsByTagName('meta')["description"].content = "Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.";
 
-            // $('meta[name="description"]').attr('content', 'Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.');
-        }
+        // $('meta[name="description"]').attr('content', 'Upscale brands of all sizes—from startups to established—use AVmade to create high quality essentials. We are an end-to-end manufacturer located in the USA.');
+        // }
     </script>
     <!-- STEP INSIDE -->
 

@@ -7,7 +7,85 @@
     /* background: url(../images/avnew/desktop-background.svg) center/cover no-repeat border-box; */
     /* background-position: left 0% bottom 0%; */
     background: transparent;
-    padding: 4rem 2rem 1rem;
+    padding: 0rem 1.5rem 0rem;
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+
+.brands-section.blue-bg-new .blue-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__1 button {
+    border: none;
+    background: #EDEDED;
+    padding: 8px 20px;
+    color: #00274C;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 6px 0;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__1 button.selected-button{
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #fff;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2 .span-1 {
+    padding-top: 70px;
+    max-width: 275px;
+    text-align: justify;
+    margin-left: 120px;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2 .span-2 {
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2.tees {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2.tees .span-2 img {
+    max-height: 400px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2.tees .span-1 {
+    padding-top: 120px;
+    font-size: 65px;
+}
+
+.brands-section.blue-bg-new .blue-container .blue-container__2.tees .span-2 {
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
 }
 
 .header-section1 {
@@ -24,7 +102,8 @@
     background-position-y: 100px;
     background-size: contain;
 }
-.before-choice-header .newbg-lady{
+
+.before-choice-header .newbg-lady {
     /* background: url(images/avnew/bg-quality-desktop-new.png) center/cover no-repeat border-box; */
     /* width: 106vw; */
     height: 440px;
@@ -34,7 +113,8 @@
     max-width: 1400px; */
     position: relative;
 }
-.before-choice-header .newbg-lady img{
+
+.before-choice-header .newbg-lady img {
     position: relative;
     top: -400px;
     width: 110%;
@@ -42,7 +122,8 @@
     max-height: 700px;
     right: 10%;
 }
-.width-48{
+
+.width-48 {
     width: 48%;
 }
 
@@ -55,7 +136,18 @@
 }
 
 .before-choice-header.hh .header-section1 {
-    background: url(images/avnew/homepage-newbg.png) center/cover no-repeat border-box;
+    /* background: #2647DC; */
+    /* background: url(images/avnew/av-new-bg.MP4) center/cover no-repeat border-box; */
+    position: relative;
+}
+.before-choice-header.hh .header-section1 #background-video{
+    position: absolute;
+    z-index: -1;
+    width: -webkit-fill-available;
+}
+
+.before-choice-header.hh .header-section1.tees{
+    background: url(images/avnew/avnew-tees-bg.png) center/cover no-repeat border-box;
 }
 
 .header-section1 .fixed-header {
@@ -596,6 +688,11 @@
     font-weight: 500;
 }
 
+.main-header__item.item2 .white-box-apply.blue-button {
+    background: #00254A;
+    color: #fff;
+}
+
 .card-body-2 {
     line-height: 23px;
 }
@@ -761,7 +858,7 @@
 }
 
 .fixed-avnew.orange-bg {
-    background: #fcf4f0;
+    background: #fff;
     z-index: 999;
 }
 
@@ -873,6 +970,7 @@
 .ml-46 {
     margin-left: 45px;
 }
+
 .ml-5 {
     margin-left: 5px;
 }
@@ -893,9 +991,11 @@
     width: 96%;
     max-width: 600px;
 }
+
 .choose-option.width100-co img {
     width: 100%;
 }
+
 .option-button {
     background: #FFE700;
     color: #001D37;
@@ -1164,44 +1264,56 @@
     padding: 10px;
     color: #fff;
 }
+
 .marquee {
     background: #03488B;
     /* width: 500px; */
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
-  }
-  .marquee span {
+}
+
+.marquee span {
     display: inline-block;
     /* font-size: 20px; */
     position: relative;
     left: 100%;
     animation: marquee 30s linear infinite;
-  }
-  .marquee:hover span {
+}
+
+.marquee:hover span {
     /* animation-play-state: paused; */
-  }
-  
-  .marquee span:nth-child(1) {
+}
+
+.marquee span:nth-child(1) {
     animation-delay: 0s;
-  }
-  .marquee span:nth-child(2) {
+}
+
+.marquee span:nth-child(2) {
     animation-delay: 0.8s;
-  }
-  .marquee span:nth-child(3) {
+}
+
+.marquee span:nth-child(3) {
     animation-delay: 1.6s;
-  }
-  .marquee span:nth-child(4) {
+}
+
+.marquee span:nth-child(4) {
     animation-delay: 2.4s;
-  }
-  .marquee span:nth-child(5) {
+}
+
+.marquee span:nth-child(5) {
     animation-delay: 3.2s;
-  }
-  
-  @keyframes marquee {
-    0%   { left: 100%; }
-    100% { left: -100%; }
-  }
+}
+
+@keyframes marquee {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
 
 .ft-weight-400 {
     font-weight: 400;
@@ -1324,7 +1436,8 @@
     padding: 2px;
 
 }
-.main-header__item.item1.multi-color-border.multi-color-border-white{
+
+.main-header__item.item1.multi-color-border.multi-color-border-white {
     background: #fff;
 }
 
@@ -1333,6 +1446,7 @@
     padding: 8px;
     font-weight: 600;
 }
+
 .white-bg-border.blue-bg {
     background: #D8F1FF;
 }
@@ -1391,7 +1505,7 @@
 }
 
 @media (max-width:786px) {
-    
+
     .av-new {
         overflow-x: hidden;
     }
@@ -1988,10 +2102,11 @@
         /* margin-top: 30px; */
         font-size: 13px;
     }
+
     .marquee span {
-     
+
         animation: marquee 20s linear infinite;
-      }
+    }
 
     .end-t-end {
         margin-top: 0;
@@ -2024,7 +2139,8 @@
         justify-content: center;
         width: 100%;
     }
-    .before-choice-header .newbg-lady img{
+
+    .before-choice-header .newbg-lady img {
         display: none;
     }
 }
@@ -2410,7 +2526,8 @@
         font-size: 45px;
         line-height: 50px;
     }
-    .before-choice-header .newbg-lady{
+
+    .before-choice-header .newbg-lady {
         background: none;
         height: auto;
         width: auto;

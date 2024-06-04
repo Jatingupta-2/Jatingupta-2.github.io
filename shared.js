@@ -79,3 +79,18 @@ function hasScrolled() {
 
   lastScrollTop = st;
 }
+
+$("#tees-hover").hover(
+  function () {
+    $(".rest-containers").addClass("hide");
+    $("#tees_blue-container").removeClass("hide");
+    $("#change-section1-bg").addClass("tees");
+    $("#tees-hover").addClass("selected-button");
+  },
+  function () {
+    $(".rest-containers").removeClass("hide");
+    $("#tees_blue-container").addClass("hide");
+    $("#change-section1-bg").removeClass("tees");
+    $("#tees-hover").removeClass("selected-button");
+  }
+);
