@@ -55,7 +55,7 @@
 }
 
 .before-choice-header.hh .header-section1 {
-    background: url(images/avnew/homepage-newbg.png) center/cover no-repeat border-box;
+    /* background: url(images/avnew/homepage-newbg.png) center/cover no-repeat border-box; */
 }
 
 .header-section1 .fixed-header {
@@ -1040,8 +1040,10 @@
 
 .white-box-apply,
 .main-header__item.item2 .white-box-apply {
-    background: #fff;
-    color: #004E93;
+    /* background: #fff;
+    color: #004E93; */
+    background: #001B35;
+    color: #fff;
 }
 
 .main-header__item.item2 .extra-width-caps {
@@ -1932,9 +1934,11 @@
 
     .white-box-apply,
     .main-header__item.item2 .white-box-apply {
-        background: #31FFEA;
-        color: #004E93;
-        font-size: 11px;
+        /* background: #31FFEA; */
+        /* color: #004E93;
+        font-size: 11px; */
+        background: #001B35;
+        color: #fff;
     }
 
     .main-header__item.item3.fs-11 button,
