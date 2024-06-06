@@ -1431,7 +1431,7 @@
     }
 
     .brand-luxury {
-        padding: 30px 25px 55px;
+        padding: 30px 25px 95px;
     }
 
     .luxury-details {
@@ -1515,7 +1515,7 @@
         /* background: url(images/avnew/bg-quality-mob.webp) center/cover no-repeat border-box, #FFF9F7; */
         height: auto;
         padding: 60px 25px 0px;
-        margin-top: 48px;
+        /* margin-top: 48px; */
         background-position: top 50px;
         background: none;
         background-color: #F6F3F1;
@@ -1934,11 +1934,11 @@
 
     .white-box-apply,
     .main-header__item.item2 .white-box-apply {
-        /* background: #31FFEA; */
-        /* color: #004E93;
-        font-size: 11px; */
-        background: #001B35;
-        color: #fff;
+        background: #31FFEA;
+         color: #004E93;
+        font-size: 11px;
+        /* background: #001B35; */
+        /* color: #fff; */
     }
 
     .main-header__item.item3.fs-11 button,
