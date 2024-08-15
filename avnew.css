@@ -162,6 +162,7 @@
     margin-top: 20px;
     font-size: 20px;
     max-width: 600px;
+    text-align: justify;
 }
 
 .brands-section-info.new {
@@ -205,6 +206,7 @@
 .collapse-details .collapse-card .card-info {
     padding-left: 39px;
     font-size: 15px;
+    max-width: 400px;
 }
 
 .explore-cats {
@@ -332,6 +334,7 @@
     font-size: 23px;
     margin-top: 20px;
     line-height: 30px;
+    max-width: 400px;
 }
 
 .qsb {
@@ -527,7 +530,7 @@
 }
 
 .brands-section__nothing {
-    font-size: 60px;
+    font-size: 57px;
     font-weight: 900;
     line-height: 65px;
 }
@@ -1621,7 +1624,7 @@
     }
 
     .brands-section__nothing {
-        font-size: 44px;
+        font-size: 43px;
         line-height: 48px;
     }
 

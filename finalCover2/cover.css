@@ -1481,6 +1481,7 @@
 
 .brands-section-info.big p {
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 .max-w500 {
@@ -1496,10 +1497,11 @@
     border: 0;
 }
 
-.dg-purple{
+.dg-purple {
     color: #CC02FF;
 }
-.vertical-align{
+
+.vertical-align {
     display: flex;
     align-items: center;
 }
@@ -2388,18 +2390,20 @@
     margin-left: 12px;
 }
 
-.custom-body .main-header__item.item2.contact-us.white-package button{
+.custom-body .main-header__item.item2.contact-us.white-package button {
     background: #fff;
 }
 
 @media (max-width:786px) {
-    .custom-body .main-header__item.item2.white-package{
+    .custom-body .main-header__item.item2.white-package {
         margin-top: 0;
         margin-bottom: 30px;
     }
-    .custom-body .main-header__item.item2.white-package.yellow-mob button{
+
+    .custom-body .main-header__item.item2.white-package.yellow-mob button {
         background: #FFE700;
     }
+
     .custom-body .brands-section.only-blue-mobile {
         background: url(../images/only-blue-mobile.svg) center/cover no-repeat border-box;
     }
@@ -2407,5 +2411,74 @@
     .custom-body .avmade-is {
         font-size: 14px;
         height: 35px;
+    }
+}
+
+.second-page-content .div-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 50px 50px;
+}
+
+.second-page-content .div-blocks .div-block {
+    width: 47%;
+    border: 1px solid #03488B;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.second-page-content .div-blocks .div-block h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.second-page-content .div-blocks .div-block p {
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.second-page-content .div-blocks .div-block img {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.second-page-content .div-blocks .div-block button {
+    width: 100%;
+    background: #FFE700;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #001D37;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.second-page-content .div-blocks .div-block.bespoke button {
+    width: 92%;
+    margin-left: 25px;
+}
+
+.second-page-content .div-blocks .div-block.blanks button {
+    width: 95%;
+    margin-right: 25px;
+}
+
+@media (max-width:786px) {
+    .second-page-content .div-blocks {
+        flex-direction: column;
+        padding: 50px 25px 10px;
+    }
+    .second-page-content .div-blocks .div-block {
+        width: 100%;
+        padding: 45px 30px;
+    }
+    .second-page-content .div-blocks .div-block.blanks {
+        margin-top: 50px;
+    }
+    .second-page-content .div-blocks .div-block.bespoke button{
+        margin-left: 19px;
     }
 }

@@ -569,7 +569,9 @@
   color: #769EC1;
   margin-top: 15px;
 }
-
+.justify-text{
+  text-align: justify;
+}
 
 @media (max-width: 786px) {
 
