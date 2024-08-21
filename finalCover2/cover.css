@@ -1900,6 +1900,10 @@
     .bi-container {
         padding: 1rem;
     }
+    .bi-container.move-up-mob{
+        padding: 0 1rem 30px;
+        margin-top: -25px;
+    }
 
     .marketplace-container {
         padding: 3rem;
@@ -2436,6 +2440,7 @@
     text-align: justify;
     font-size: 14px;
     padding-top: 15px;
+    width: 90%;
 }
 
 .second-page-content .div-blocks .div-block img {
@@ -2469,16 +2474,22 @@
 @media (max-width:786px) {
     .second-page-content .div-blocks {
         flex-direction: column;
-        padding: 50px 25px 10px;
+        padding: 20px 25px 10px;
     }
     .second-page-content .div-blocks .div-block {
         width: 100%;
-        padding: 45px 30px;
+        padding: 30px 30px;
     }
     .second-page-content .div-blocks .div-block.blanks {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .second-page-content .div-blocks .div-block.bespoke button{
         margin-left: 19px;
+    }
+    .second-page-content .div-blocks .div-block p{
+        width: 100%;
+    }
+    .second-page-content .div-blocks .div-block img{
+        padding-top: 10px;
     }
 }

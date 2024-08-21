@@ -607,7 +607,7 @@
                 </div>
                 <div class="col-12 col-sm-11 bi-carousel-col2">
 
-                    <div class="container bi-container">
+                    <div class="container bi-container move-up-mob">
 
                         <section class="bi-slick-carousel slider">
                             <div class="slide">
@@ -2662,25 +2662,35 @@
 
             // $("#topimage").fadeOut(200);
             if (!imageID) {
-                document.getElementById("topimage").src = "images/avnew/top1.webp";
-                document.getElementById("topimagemob").src = "images/avnew/top1.webp";
+                document.getElementById("topimage").src = "images/mp-11.webp";
+                document.getElementById("topimagemob").src = "images/mp-11.webp";
                 imageID++;
                 // $("#topimage").fadeIn(200);
             }
             else {
                 if (imageID == 1) {
 
-                    document.getElementById("topimage").src = "images/avnew/top3.webp";
-                    document.getElementById("topimagemob").src = "images/avnew/top3.webp";
+                    document.getElementById("topimage").src = "images/avnew/av-custom-top-1.webp";
+                    document.getElementById("topimagemob").src = "images/avnew/av-custom-top-1.webp";
                     imageID++;
                     // $("#topimage").fadeIn(200);
-                } else {
-                    if (imageID == 2) {
-                        document.getElementById("topimage").src = "images/avnew/top4.webp";
-                        document.getElementById("topimagemob").src = "images/avnew/top4.webp";
+                } else if (imageID == 2) {
+                        document.getElementById("topimage").src = "images/avnew/av-custom-top-2.png";
+                        document.getElementById("topimagemob").src = "images/avnew/av-custom-top-2.png";
+                        imageID++;
+                } else if (imageID == 3) {
+                        document.getElementById("topimage").src = "images/avnew/av-custom-top-6.webp";
+                        document.getElementById("topimagemob").src = "images/avnew/av-custom-top-6.webp";
+                        imageID++;
+                } else if (imageID == 4) {
+                        document.getElementById("topimage").src = "images/avnew/av-custom-top-3.png";
+                        document.getElementById("topimagemob").src = "images/avnew/av-custom-top-3.png";
+                        imageID++;
+                }
+                else if (imageID == 5) {
+                        document.getElementById("topimage").src = "images/avnew/av-custom-top-4.webp";
+                        document.getElementById("topimagemob").src = "images/avnew/av-custom-top-4.webp";
                         imageID = 0;
-                        // $("#topimage").fadeIn(200);
-                    }
                 }
             }
             //call same function again for x of seconds

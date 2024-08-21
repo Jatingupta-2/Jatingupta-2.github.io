@@ -155,7 +155,20 @@
     display: flex;
 }
 
+.main-packages .section-2 .option .option-info.hide-tablet {
+    display: none;
+}
+.main-packages .section-2 .option .option-info.hide-desktop{
+    display: flex;
+}
+
 @media (max-width:786px) {
+    .main-packages .section-2 .option .option-info.hide-tablet {
+        display: flex !important;
+    }
+    .main-packages .section-2 .option .option-info.hide-desktop{
+        display: none;
+    }
     .main-packages .main-heading {
         font-size: 27px;
     }
