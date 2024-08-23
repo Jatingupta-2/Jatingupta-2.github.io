@@ -2086,7 +2086,7 @@
 
 .risk-cards {
     display: flex;
-    margin: 120px 0px 150px;
+    margin: 80px 0px 60px;
 }
 
 .card-section1 {
@@ -2205,16 +2205,19 @@
     margin-top: 15px;
 }
 
-.card-section1 .arrows img {
+.card-section1 .arrows img,
+.risk-cards-container .arrows img {
     height: 35px;
     padding: 5px;
 }
 
-.card-section1 .arrows .disabled {
+.card-section1 .arrows .disabled,
+.risk-cards-container .arrows .disabled {
     opacity: 0.5;
 }
 
-.card-section1 .arrows .left img {
+.card-section1 .arrows .left img,
+.risk-cards-container .arrows .left img {
     transform: rotate(180deg);
 }
 
@@ -2222,11 +2225,14 @@
     margin-right: 20px;
 }
 
-.card-section1 .arrows .outline {
+.card-section1 .arrows .outline,
+.risk-cards-container .arrows .outline {
     border: 1px solid #03488B;
     padding: 2px 25px;
     border-radius: 20px;
     cursor: pointer;
+    width: fit-content;
+    background: #fff;
 }
 
 .card-heading-empty {
@@ -2365,7 +2371,7 @@
     .risk-cards {
         flex-wrap: wrap;
         /* margin-bottom: 70px; */
-        margin: 60px 0px 100px;
+        margin: 0 0px 50px;
     }
 
     .card-section1 {
@@ -2382,7 +2388,7 @@
     }
 
     .card-section2 {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .mobile-non-wrap {
@@ -2420,7 +2426,8 @@
         margin-top: 75px;
     }
 
-    .card-section1 .arrows img {
+    .card-section1 .arrows img,
+    .risk-cards-container .arrows img {
         height: 28px;
         padding: 3px;
     }
@@ -2446,5 +2453,142 @@
         background: none;
         height: auto;
         width: auto;
+    }
+}
+
+
+
+
+.risk-cards-container {
+    background: #FAFAFA;
+    padding: 100px 0 100px 60px;
+}
+
+.risk-cards-container h2,
+#how-we-work-container h2,
+.marketplace2 h2,
+.why-us-services h2 {
+    font-weight: 900;
+    text-align: left;
+    padding-left: 0;
+    color: #00305F;
+}
+
+.risk-cards-container .must-know-p {
+    font-size: 14px;
+}
+
+.risk-cards-container .arrows {
+    display: flex;
+    padding-left: 50px;
+}
+
+.risk-cards-container #right-arrow-risk {
+    margin-left: 30px;
+}
+
+#how-we-work-container {
+    background: #FBFD5D;
+    padding: 70px 0;
+}
+
+#how-we-work-container .info-hwwc,
+.marketplace2 .info-hwwc {
+    padding-left: 2rem;
+}
+
+.why-us-services .info-hwwc{
+    padding-left: 44px;
+}
+
+.marketplace2 .info-hwwc {
+    padding-top: 50px;
+}
+
+#how-we-work-container .how-we-work-p,
+.marketplace2 .how-we-work-p,
+.why-us-services .how-we-work-p {
+    text-align: justify;
+    max-width: 310px;
+    color: #00305F;
+}
+
+.marketplace2 .how-we-work-p {
+    margin-bottom: 80px;
+}
+
+.marketplace2.no-m-top {
+    margin-top: 0;
+}
+
+.why-us-services{
+    background: #FFC470;
+}
+.why-us.why-us-services,
+.why-us.why-us-carousel{
+    margin-top: 0;
+    padding: 126px 0;
+}
+
+.why-us-carousel{
+    background: #E8FCFF;
+}
+.why-us-carousel .why-us-title{
+    text-align: left;
+    padding-left: 44px;
+    color: #00305F;
+}
+
+.raving-clients.testimonial-grey{
+    background: #F7FBFF;
+    margin-top: 0;
+    padding-top: 5rem;
+}
+
+.whyAV.whyAV-table{
+    margin-top: 0;
+    padding-top: 8rem;
+}
+
+.whyAV-table .why-av-p{
+    padding-left: 30%;
+    color: #00305F;
+}
+
+.whyAV-table .why-av-h{
+    text-align: left;
+    padding-left: 30%;
+    padding-top: 0;
+    color: #00305F;
+}
+
+.testimonial-grey .raving-heading{
+    text-align: left;
+    padding-left: 30%;
+    color: #00305F;
+}
+
+@media (max-width:786px) {
+    .risk-cards-container {
+        padding: 50px 0 50px 30px;
+    }
+
+    .risk-cards-container .arrows {
+        padding-left: 25px;
+    }
+
+    .why-us.why-us-services, .why-us.why-us-carousel{
+        padding: 56px 0;
+    }
+    .testimonial-grey .raving-heading{
+        padding-left: 15%;
+    }
+
+    .whyAV.whyAV-table{
+        padding-top: 5rem;
+    }
+    .whyAV-table .why-av-p,
+    .whyAV-table .why-av-h{
+        padding-left: 15%;
     }
 }

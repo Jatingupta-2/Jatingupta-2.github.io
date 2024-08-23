@@ -244,17 +244,19 @@
 }
 
 .brands-illustration__container {
-    background: url('../images/how-it-works-bg.webp');
+    /* background: url('../images/how-it-works-bg.webp'); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .brands-illustration__container_mobile {
-    margin-top: 35px;
+    /* margin-top: 35px; */
+    padding-top: 40px;
+    background: #FBFD5D;
     /* width: 80%;
     display: flex; */
 }

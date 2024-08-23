@@ -661,8 +661,18 @@
             <!-- <div class="brands-illustration__how">
                 How it works?
             </div> -->
+            <div class="risk-cards-container">
+                
+            
+            <div>
+                <h2>Must know’s</h2>
+                <p class="must-know-p">
+                    Over a decade of insights guiding brands <br />
+                    to success with best practices.
+                </p>
+            </div>
             <section class="risk-cards">
-                <div class="card-section1">
+                <div class="card-section1 hide">
                     <h2>MISS THIS & RISK <br />
                         EVERYTHING!</h2>
                     <div class="info">
@@ -670,12 +680,7 @@
                         Our Brands Towards Success with <br />
                         Best Practices.
                     </div>
-                    <div class="arrows hide-mobile-design">
-                        <div id="left-arrow-risk" class="outline left" onclick="moveImg(-1)"><img
-                                src="../images/arrow-sm-right.svg" /></div>
-                        <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
-                                src="../images/arrow-sm-right.svg" /></div>
-                    </div>
+                   
                 </div>
                 <div class="mobile-non-wrap">
                     <div class="card-section2">
@@ -704,7 +709,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-section1">
+                <div class="card-section1 hide">
                     <div class="arrows hide-desktop-design">
                         <div id="left-arrow-risk" class="outline left disabled" onclick="moveImg(-1)"><img
                                 src="../images/arrow-sm-right.svg" /></div>
@@ -723,7 +728,28 @@
                 </div> -->
             </section>
 
-            <h2 class="simple-steps-heading">SIMPLE STEPS ON <br />HOW TO BEGIN</h2>
+            <div class="arrows">
+                <div id="left-arrow-risk" class="outline left" onclick="moveImg(-1)"><img
+                        src="../images/arrow-sm-right.svg" /></div>
+                <div id="right-arrow-risk" class="outline" onclick="moveImg(1)"><img
+                        src="../images/arrow-sm-right.svg" /></div>
+            </div>
+
+
+        </div>
+
+            <section id="how-we-work-container">
+
+            <!-- <h2 class="simple-steps-heading">SIMPLE STEPS ON <br />HOW TO BEGIN</h2> -->
+
+            <div class="info-hwwc">
+                <h2>How we work?</h2>
+                <p class="how-we-work-p">
+                    Here are some simple steps to help you understand how our process works. Book a Free consultation to dive deep into the details and receive an elaborate kit to advance your knowledge.
+
+
+                </p>
+            </div>
             <div class="brands-illustration__container hide-tablet">
 
                 <div class="brands-illustration__accordian">
@@ -949,6 +975,8 @@
                 </div>
 
             </div>
+
+            </section>
 
             <div class="brands-illustration__container_mobile hide-desktop ">
                 <div class="accordion" id="accordionExample">
@@ -1193,16 +1221,23 @@
             </div>
         </section>
 
-        <h2 class="our-specialties">
+        <!-- <h2 class="our-specialties">
             OUR SPECIALTIES
         </h2>
-        <h5 class="our-specialties-info">Guided by Local, Ethical, & Sustainable Values.</h5>
+        <h5 class="our-specialties-info">Guided by Local, Ethical, & Sustainable Values.</h5> -->
 
-        <section class="marketplace2">
+        <section class="marketplace2 no-m-top">
 
 
 
             <div class="container marketplace-container padding-mobile-container">
+
+                <div class="info-hwwc">
+                    <h2>Expertise</h2>
+                    <p class="how-we-work-p">
+                        Here are the categories we excel in. Click the buttons below the images to view a few references. If you can dream it, we’ll create it.
+                    </p>
+                </div>
 
                 <section class="marketplace-slick-carousel slider marketplace-buttons">
                     <div class="slide text-center">
@@ -1319,7 +1354,7 @@
 
 
 
-        <section class="partners">
+        <section class="partners hide">
             <div class="title-1 hide-desktop">
                 <!-- AV provides full package development<br> and 
                 production to emerging and <br> 
@@ -1364,11 +1399,17 @@
         </section>
 
         <div id="our-services"></div>
-        <section class="why-us">
-            <div class="why-us-title">
+        <section class="why-us why-us-services">
+            <div class="info-hwwc">
+                <h2>Services</h2>
+                <p class="how-we-work-p">
+                    We are an end-to-end factory, meaning we manage every aspect from prototyping to manufacturing. This includes fabric sourcing, trims, dyeing, and much more. If you can envision it, we can bring it to life.    
+                </p>
+            </div>
+            <!-- <div class="why-us-title">
                 Design services
                 <h4 class="end-t-end">End-to-end clothing manufacturer</h4>
-            </div>
+            </div> -->
             <div class="watch-process hide">
                 <script src="https://fast.wistia.com/embed/medias/1rmv8v6efv.jsonp" async></script>
                 <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span
@@ -1496,7 +1537,7 @@
             </div>
         </section>
 
-        <section class="why-us">
+        <section class="why-us why-us-carousel">
             <div class="why-us-title">
                 Why us?
             </div>
@@ -1632,7 +1673,7 @@
             </div>
         </section>
 
-        <section id="testimonial-section" class="raving raving-clients">
+        <section id="testimonial-section" class="raving raving-clients testimonial-grey">
             <div class="raving-heading">
                 <!-- Why brands are<br>
                 raving about AVmade -->
@@ -1807,12 +1848,12 @@
 
             </div>
 
-            <div class="raving-button">
+            <!-- <div class="raving-button">
                 <button class="get-started bam animated-button"
                     onclick="location.href='https://avmade.com/avmade/meeting/'">Let’s Talk</button>
                 <button class="get-started redirect-customer-form animated-button">Get Started</button>
 
-            </div>
+            </div> -->
         </section>
 
         <section class="quality hide">
@@ -1928,11 +1969,16 @@
             </div>
         </section>
 
-        <section class="whyAV">
+        <section class="whyAV whyAV-table">
             <!-- <div class="whyAV-heading">
                 Why choose <br>
                 AV?
             </div> -->
+            <p class="why-av-p">How do we compare?</p>
+            <h2 class="why-av-h">
+                We measure our value <br />
+                in customers feedback
+            </h2>
             <div class="whyAv-table">
                 <div class="row whyAv-table--bbb why-table-heading">
                     <div class="col-3">
@@ -2080,7 +2126,7 @@
             </div>
         </section>
 
-        <section class="unlock">
+        <section class="unlock hide">
             <div class="unlock__title">
                 <img src="../images/creativity-text.svg">
             </div>
@@ -2143,6 +2189,11 @@
             </div> -->
 
         </section>
+        <div id="faq-section" class="join-com">
+            FAQ
+            <!-- Join our<br>
+            community -->
+        </div>
         <section class="join-us">
             <div class="learn-more">
                 Learn more!
