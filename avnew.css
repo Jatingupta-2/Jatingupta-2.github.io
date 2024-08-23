@@ -2497,7 +2497,7 @@
     padding-left: 2rem;
 }
 
-.why-us-services .info-hwwc{
+.why-us-services .info-hwwc {
     padding-left: 44px;
 }
 
@@ -2521,48 +2521,50 @@
     margin-top: 0;
 }
 
-.why-us-services{
+.why-us-services {
     background: #FFC470;
 }
+
 .why-us.why-us-services,
-.why-us.why-us-carousel{
+.why-us.why-us-carousel {
     margin-top: 0;
     padding: 126px 0;
 }
 
-.why-us-carousel{
+.why-us-carousel {
     background: #E8FCFF;
 }
-.why-us-carousel .why-us-title{
+
+.why-us-carousel .why-us-title {
     text-align: left;
     padding-left: 44px;
     color: #00305F;
 }
 
-.raving-clients.testimonial-grey{
+.raving-clients.testimonial-grey {
     background: #F7FBFF;
     margin-top: 0;
     padding-top: 5rem;
 }
 
-.whyAV.whyAV-table{
+.whyAV.whyAV-table {
     margin-top: 0;
     padding-top: 8rem;
 }
 
-.whyAV-table .why-av-p{
+.whyAV-table .why-av-p {
     padding-left: 30%;
     color: #00305F;
 }
 
-.whyAV-table .why-av-h{
+.whyAV-table .why-av-h {
     text-align: left;
     padding-left: 30%;
     padding-top: 0;
     color: #00305F;
 }
 
-.testimonial-grey .raving-heading{
+.testimonial-grey .raving-heading {
     text-align: left;
     padding-left: 30%;
     color: #00305F;
@@ -2577,18 +2579,21 @@
         padding-left: 25px;
     }
 
-    .why-us.why-us-services, .why-us.why-us-carousel{
+    .why-us.why-us-services,
+    .why-us.why-us-carousel {
         padding: 56px 0;
     }
-    .testimonial-grey .raving-heading{
+
+    .testimonial-grey .raving-heading {
         padding-left: 15%;
     }
 
-    .whyAV.whyAV-table{
+    .whyAV.whyAV-table {
         padding-top: 5rem;
     }
+
     .whyAV-table .why-av-p,
-    .whyAV-table .why-av-h{
+    .whyAV-table .why-av-h {
         padding-left: 15%;
     }
 }
