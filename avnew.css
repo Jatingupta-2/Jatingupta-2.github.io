@@ -2477,7 +2477,7 @@
 
 .risk-cards-container .must-know-p {
     font-size: 14px;
-    max-width: 250px;
+    max-width: 240px;
     text-align: justify;
 }
 
@@ -2606,6 +2606,11 @@
     margin-right: 25px;
 }
 
+.brands-section-info .text-justify{
+    text-align: justify;
+    max-width: 400px;
+}
+
 @media (max-width:786px) {
     #how-we-work-container {
         padding: 70px 0 35px;
@@ -2681,6 +2686,11 @@
 
     .padding-mobile-container {
         padding-bottom: 180px;
+    }
+
+    .arrows-cards-below{
+        justify-content: center;
+        margin-right: 0;
     }
 
     .arrows-cards-below.more-margin {
