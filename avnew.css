@@ -2678,19 +2678,21 @@
     .outline-arrow.left {
         right: 56%;
     }
+
     .padding-mobile-container {
         padding-bottom: 180px;
     }
 
-    .arrows-cards-below.more-margin{
+    .arrows-cards-below.more-margin {
         margin-top: 50px;
     }
 
-    .arrows-cards-below .outline{
+    .arrows-cards-below .outline {
         width: 70px;
         padding: 2px 25px;
     }
-    .arrows-cards-below img{
+
+    .arrows-cards-below img {
         width: 22px;
     }
 }
