@@ -287,6 +287,11 @@
     margin: 0 auto;
 }
 
+.brands-illustration__accordian.accordian-no-margin {
+    margin: 0;
+    padding: 44px;
+}
+
 .brands-illustration__accordian--heading {
     border: none;
     height: 700px;
@@ -533,7 +538,7 @@
     padding-top: 4rem;
     font-size: 2.5rem;
     line-height: 2.9rem;
-    font-weight: 900;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -1902,7 +1907,8 @@
     .bi-container {
         padding: 1rem;
     }
-    .bi-container.move-up-mob{
+
+    .bi-container.move-up-mob {
         padding: 0 1rem 30px;
         margin-top: -25px;
     }
@@ -2478,20 +2484,25 @@
         flex-direction: column;
         padding: 20px 25px 10px;
     }
+
     .second-page-content .div-blocks .div-block {
         width: 100%;
         padding: 30px 30px;
     }
+
     .second-page-content .div-blocks .div-block.blanks {
         margin-top: 30px;
     }
-    .second-page-content .div-blocks .div-block.bespoke button{
+
+    .second-page-content .div-blocks .div-block.bespoke button {
         margin-left: 19px;
     }
-    .second-page-content .div-blocks .div-block p{
+
+    .second-page-content .div-blocks .div-block p {
         width: 100%;
     }
-    .second-page-content .div-blocks .div-block img{
+
+    .second-page-content .div-blocks .div-block img {
         padding-top: 10px;
     }
 }

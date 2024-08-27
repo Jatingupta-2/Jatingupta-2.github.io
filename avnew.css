@@ -1130,13 +1130,13 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    right: 45px;
-    bottom: -80px;
+    right: 40%;
+    bottom: -128px;
     background: #fff;
 }
 
 .outline-arrow.left {
-    right: 165px;
+    right: 50%;
 }
 
 .outline-arrow.left img {
@@ -2461,7 +2461,8 @@
 
 .risk-cards-container {
     background: #FAFAFA;
-    padding: 100px 0 100px 60px;
+    padding: 100px 0 150px 60px;
+    margin-top: 50px;
 }
 
 .risk-cards-container h2,
@@ -2476,6 +2477,8 @@
 
 .risk-cards-container .must-know-p {
     font-size: 14px;
+    max-width: 250px;
+    text-align: justify;
 }
 
 .risk-cards-container .arrows {
@@ -2489,12 +2492,12 @@
 
 #how-we-work-container {
     background: #FBFD5D;
-    padding: 70px 0;
+    padding: 70px 0 120px;
 }
 
 #how-we-work-container .info-hwwc,
 .marketplace2 .info-hwwc {
-    padding-left: 2rem;
+    padding-left: 44px;
 }
 
 .why-us-services .info-hwwc {
@@ -2509,7 +2512,7 @@
 .marketplace2 .how-we-work-p,
 .why-us-services .how-we-work-p {
     text-align: justify;
-    max-width: 310px;
+    max-width: 330px;
     color: #00305F;
 }
 
@@ -2545,6 +2548,7 @@
     background: #F7FBFF;
     margin-top: 0;
     padding-top: 5rem;
+    padding-bottom: 70px;
 }
 
 .whyAV.whyAV-table {
@@ -2570,7 +2574,43 @@
     color: #00305F;
 }
 
+.arrows-cards-below {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.arrows-cards-below .outline {
+    border: 1px solid #03488B;
+    padding: 5px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    /* right: 45px; */
+    /* bottom: -80px; */
+    background: #fff;
+}
+
+.arrows-cards-below img {
+    height: 28px;
+}
+
+.arrows-cards-below .outline.left img {
+    transform: rotate(180deg);
+}
+
+.arrows-cards-below .outline.left {
+    margin-right: 25px;
+}
+
 @media (max-width:786px) {
+    #how-we-work-container {
+        padding: 70px 0 35px;
+    }
+
     .risk-cards-container {
         padding: 50px 0 50px 30px;
     }
@@ -2595,5 +2635,62 @@
     .whyAV-table .why-av-p,
     .whyAV-table .why-av-h {
         padding-left: 15%;
+    }
+
+    .accordion.accordian-border {
+        border: 3px solid #fff;
+        width: 88%;
+        margin: auto;
+        border-radius: 18px;
+        padding-top: 10px;
+    }
+
+    #how-we-work-container .info-hwwc,
+    .why-us-services .info-hwwc {
+        padding-left: 25px;
+    }
+
+    .marketplace2 .info-hwwc {
+        padding-left: 12px;
+    }
+
+    .border-bottom-accordian {
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+
+    .accordion-item:last-of-type.border-bottom-accordian {
+        border-radius: 18px;
+    }
+
+    .brands-illustration__container_mobile.less-p-top {
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+
+
+    .outline-arrow {
+        width: 70px;
+        right: 27%;
+        bottom: -95px;
+    }
+
+    .outline-arrow.left {
+        right: 56%;
+    }
+    .padding-mobile-container {
+        padding-bottom: 180px;
+    }
+
+    .arrows-cards-below.more-margin{
+        margin-top: 50px;
+    }
+
+    .arrows-cards-below .outline{
+        width: 70px;
+        padding: 2px 25px;
+    }
+    .arrows-cards-below img{
+        width: 22px;
     }
 }
