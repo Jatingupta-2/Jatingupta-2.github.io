@@ -2611,6 +2611,10 @@
     max-width: 400px;
 }
 
+.em-arrows{
+    padding-bottom: 20rem;
+}
+
 @media (max-width:786px) {
     #how-we-work-container {
         padding: 70px 0 35px;
@@ -2686,6 +2690,10 @@
 
     .padding-mobile-container {
         padding-bottom: 180px;
+    }
+
+    .padding-mobile-container.em-arrows{
+        padding-bottom: 245px;
     }
 
     .arrows-cards-below {
