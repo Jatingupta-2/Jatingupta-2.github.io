@@ -1449,6 +1449,10 @@
 
     }
 
+    .brands-section-1.square-corners {
+        border-radius: 0;
+    }
+
     .brands-section-2 {
         height: 205px;
         width: auto;
@@ -1699,6 +1703,12 @@
     .raving-heading {
         font-size: 28px;
         line-height: 2rem;
+    }
+
+    .raving-heading.padding-bold-mobile {
+        padding-top: 120px;
+        font-size: 24px;
+        font-weight: 700;
     }
 
     .bi-image {
@@ -2612,7 +2622,7 @@
     max-width: 400px;
 }
 
-.em-arrows{
+.em-arrows {
     padding-bottom: 20rem;
 }
 
@@ -2693,7 +2703,7 @@
         padding-bottom: 180px;
     }
 
-    .padding-mobile-container.em-arrows{
+    .padding-mobile-container.em-arrows {
         padding-bottom: 245px;
     }
 
