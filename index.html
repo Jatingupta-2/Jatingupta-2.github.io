@@ -183,11 +183,11 @@
                         onclick="window.open('https://app.avmade.com/misc/member-details')">
                         Members benefit
                     </div> -->
-                    <div class="main-header__item item1 fs14 "
+                    <div class="main-header__item item1 fs14  hide"
                         onclick="window.open('https://avmade.com/our-mission.html')">
                         Our mission
                     </div>
-                    <div class="main-header__item item1 fs14 "
+                    <div class="main-header__item item1 fs14  hide"
                         onclick="window.open('https://avmade.com/contact-us.html')">
                         Contact us
                     </div>
@@ -197,7 +197,7 @@
                     <div class="main-header__item item2 item3 ">
                         <button class="animated-button white-box-apply extra-width-caps" onclick="goToChoicePage()"
                             type="button">
-                            SIGN UP
+                            STEP INSIDE
                         </button>
                     </div>
 
@@ -263,11 +263,11 @@
                         onclick="window.open('https://app.avmade.com/misc/member-details')">
                         Members benefit
                     </div> -->
-                    <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                    <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet hide"
                         onclick="window.open('https://avmade.com/our-mission.html')">
                         Our mission
                     </div>
-                    <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                    <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet hide"
                         onclick="window.open('https://avmade.com/contact-us.html')">
                         Contact us
                     </div>
@@ -278,7 +278,7 @@
                     <div class="main-header__item item2 item3 ">
                         <button class="animated-button white-box-apply extra-width-caps" onclick="goToChoicePage()"
                             type="button">
-                            SIGN UP
+                            STEP INSIDE
                         </button>
                     </div>
                     <div class="main-header__items hide-desktop">
@@ -351,11 +351,11 @@
                                 onclick="window.open('https://app.avmade.com/misc/member-details')">
                                 Members benefit
                             </div> -->
-                            <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                            <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet hide"
                                 onclick="window.open('https://avmade.com/our-mission.html')">
                                 Our mission
                             </div>
-                            <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet"
+                            <div class="main-header__item item1 extra-margin-header-1 fs14 hide-tablet hide"
                                 onclick="window.open('https://avmade.com/contact-us.html')">
                                 Contact us
                             </div>
@@ -366,7 +366,7 @@
                             <div class="main-header__item item2 item3 ">
                                 <button class="animated-button white-box-apply extra-width-caps"
                                     onclick="goToChoicePage()" type="button">
-                                    SIGN UP
+                                    STEP INSIDE
                                 </button>
                             </div>
                             <div class="main-header__items hide-desktop">
@@ -519,7 +519,7 @@
                                         id="enter-email">
                                     <!-- onclick="location.href='https://avmade.com/customer/form'" -->
                                     <button onclick="return validateForm()" class="animated-button">
-                                        Step Inside
+                                        Learn more
                                     </button>
                                 </div>
 
@@ -715,7 +715,7 @@
         </section>
 
 
-        <section class="brand-luxury">
+        <section id="brand-luxury" class="brand-luxury">
             <div class="luxury-image hide-tablet">
                 <img id="luximage" class="luxury-model" class="brands-section-2 max-w500"
                     src="images/avnew/Luxury for brands.webp">
@@ -2197,20 +2197,20 @@
     <main class="second-page-content hide">
         <div class="div-blocks">
             <div class="div-block bespoke">
-                <h3>Bespoke</h3>
-                <p>For brands looking to create fully customized styles that meet exact specifications in materials,
+                <h3>Non-essentials</h3>
+                <p class="hide">For brands looking to create fully customized styles that meet exact specifications in
+                    materials,
                     design, quality, and decoration. Customization options are unlimited.</p>
                 <img src="./images/av-main-page-2/bespoke_page-2.png" />
                 <button class="animated-button"
-                    onclick="location.href='https://avmade.com/customs/usa-clothing-manufacturer'">Get Started</button>
+                    onclick="location.href='https://avmade.com/avmade/meeting/'">Book a Call</button>
             </div>
             <div class="div-block blanks">
-                <h3>Basics</h3>
-                <p>For brands looking to create basic styles like tees and hoodies using our pre-developed
+                <h3>Essentials</h3>
+                <p class="hide">For brands looking to create basic styles like tees and hoodies using our pre-developed
                     silhouettes.</p>
                 <img src="./images/av-main-page-2/blanks_page-2.png" />
-                <button class="animated-button" onclick="location.href='https://app.avmade.com/onboarding/step-one'">Get
-                    Started</button>
+                <button class="animated-button" onclick="location.href='https://app.avmade.com/onboarding/step-one'">Design Online</button>
             </div>
         </div>
     </main>
@@ -3149,22 +3149,22 @@
                             .then(function (response) {
                                 // window.location.href = `https://app.avmade.com/onboarding/step-one?usr_email=${email}`;
                                 // window.location.href = `https://app.avmade.com/onboarding/step-one`;
-                                goToChoicePage();
+                                // goToChoicePage();
                                 // document.getElementById('same-qual').scrollIntoView({
                                 //     behavior: 'smooth'
                                 // });
 
 
                                 // -------------SCROLLING--------------
-                                // var element = document.getElementById('same-qual');
-                                // var headerOffset = 55;
-                                // var elementPosition = element.getBoundingClientRect().top;
-                                // var offsetPosition = elementPosition + window.pageYOffset + headerOffset;
+                                var element = document.getElementById('brand-luxury');
+                                var headerOffset = 55;
+                                var elementPosition = element.getBoundingClientRect().top;
+                                var offsetPosition = elementPosition + window.pageYOffset + headerOffset;
 
-                                // window.scrollTo({
-                                //     top: offsetPosition,
-                                //     behavior: "smooth"
-                                // });
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: "smooth"
+                                });
                             });
 
                     });
