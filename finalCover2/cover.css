@@ -123,6 +123,10 @@
     font-weight: 500;
 
 }
+.brands-section-email button.green-yellow{
+    background: #05FFE6;
+    border: 0.5px solid #FFE700
+}
 
 .brands-section-email button.bam {
     background: #31FFEA;
@@ -2436,12 +2440,14 @@
     width: 47%;
     border: 1px solid #03488B;
     border-radius: 20px;
-    padding: 50px;
+    padding: 75px;
+    text-align: center;
 }
 
 .second-page-content .div-blocks .div-block h3 {
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: left;
 }
 
 .second-page-content .div-blocks .div-block p {
@@ -2453,20 +2459,24 @@
 
 .second-page-content .div-blocks .div-block img {
     width: 100%;
-    padding-top: 25px;
+    padding-top: 65px;
 }
 
 .second-page-content .div-blocks .div-block button {
     width: 100%;
     background: #FFE700;
     border: 0;
-    border-radius: 10px;
+    border-radius: 7px;
     font-weight: 500;
     color: #001D37;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
-    padding: 10px;
+    padding: 12px;
     margin-top: 15px;
     font-size: 15px;
+    max-width: 200px;
+}
+.second-page-content .div-blocks .div-block.bespoke button.green{
+    background: #05FFE6;
 }
 
 .second-page-content .div-blocks .div-block.bespoke button {
