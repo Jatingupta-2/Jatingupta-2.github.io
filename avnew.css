@@ -1056,6 +1056,7 @@
     background: #31FFEA;
     color: #004E93;
 }
+
 .white-box-apply,
 .main-header__item.item2 .white-box-apply.yellow {
     background: #FFE700;
@@ -1420,7 +1421,8 @@
 
         min-width: 400px;
     }
-    .brands-section__nothing{
+
+    .brands-section__nothing {
         font-size: 41px;
     }
 }
@@ -1636,7 +1638,7 @@
     }
 
     .brands-section__nothing {
-        font-size: 33px;
+        font-size: 43px;
         line-height: 48px;
     }
 
@@ -2631,6 +2633,16 @@
 
 .em-arrows {
     padding-bottom: 20rem;
+}
+
+.login-border {
+    border: 1px solid #004E93;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:786px) {

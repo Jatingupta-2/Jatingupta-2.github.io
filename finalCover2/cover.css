@@ -2439,13 +2439,13 @@
 .second-page-content .div-blocks .div-block {
     width: 47%;
     border: 1px solid #03488B;
-    border-radius: 20px;
+    border-radius: 12px;
     padding: 75px;
     text-align: center;
 }
 
 .second-page-content .div-blocks .div-block h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-align: left;
 }
@@ -2466,7 +2466,7 @@
     width: 100%;
     background: #FFE700;
     border: 0;
-    border-radius: 7px;
+    border-radius: 4px;
     font-weight: 500;
     color: #001D37;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
@@ -2497,7 +2497,7 @@
 
     .second-page-content .div-blocks .div-block {
         width: 100%;
-        padding: 30px 30px;
+        padding: 30px 14px;
     }
 
     .second-page-content .div-blocks .div-block.blanks {
@@ -2513,6 +2513,9 @@
     }
 
     .second-page-content .div-blocks .div-block img {
-        padding-top: 10px;
+        padding-top: 30px;
+    }
+    .second-page-content .div-blocks .div-block h3 {
+        font-size: 1.3rem;
     }
 }
