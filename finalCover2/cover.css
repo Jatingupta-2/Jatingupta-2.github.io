@@ -2498,6 +2498,7 @@
     .second-page-content .div-blocks .div-block {
         width: 100%;
         padding: 30px 14px;
+        margin-top: 30px;
     }
 
     .second-page-content .div-blocks .div-block.blanks {
