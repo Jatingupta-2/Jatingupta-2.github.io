@@ -929,8 +929,7 @@
     justify-content: flex-end;
 }
 
-.qaul-icons.hide-tablet,
-.login-border.hide-tablet {
+.qaul-icons.hide-tablet {
     display: none;
 }
 
@@ -2744,5 +2743,9 @@
 
     .arrows-cards-below img {
         width: 22px;
+    }
+
+    .login-border.hide-tablet {
+        display: none;
     }
 }
