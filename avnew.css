@@ -1284,6 +1284,9 @@
     color: #03488B;
     font-size: 14px;
     min-width: fit-content;
+    border: 1px solid;
+    padding: 7px 20px;
+    border-radius: 3px;
 }
 
 .fh-container .fh-ul {
