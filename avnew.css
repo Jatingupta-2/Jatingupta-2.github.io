@@ -1140,6 +1140,22 @@
     background: #fff;
 }
 
+@media (min-width:786px) {
+    .outline-arrow.left.middle-arrows{
+        right: 90%;
+        z-index: 2;
+    }
+    .outline-arrow.middle-arrows{
+        bottom: 270px;
+        right: 2%;
+        width: 65px;
+    }
+    
+    .outline-arrow.middle-arrows img{
+        height: 28px;
+    }
+}
+
 .outline-arrow.left {
     right: 50%;
 }
