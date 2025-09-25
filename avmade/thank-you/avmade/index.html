@@ -1,177 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Av Made</title>
-    <link rel="shortcut icon" href="../../../images/av-favicon_64x64.png" />
 
-     <!-- Importing Styles -->
-     <!-- <link rel="stylesheet" href="./customold.css" /> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Av Made</title>
+  <link rel="shortcut icon" href="../../../images/av-favicon_64x64.png" />
 
-   
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <!-- Importing Styles -->
+  <!-- <link rel="stylesheet" href="./customold.css" /> -->
+
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K8TB8D8');</script>
+  })(window,document,'script','dataLayer','GTM-K8TB8D8');</script> -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-357513262">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-357513262');
+  </script>
   <!-- End Google Tag Manager -->
-      <!-- Meta Pixel Code -->
-      <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '301066392320391');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=301066392320391&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-  </head>
-  <style>
-    .avmade-header {
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '301066392320391');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=301066392320391&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+<style>
+  .avmade-header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
     border-bottom: 1px solid rgba(11, 78, 144, 0.2);
     color: #004E93;
-}
+  }
 
-.custom-thank-you.avmade-body {
+  .custom-thank-you.avmade-body {
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+  }
 
-.custom-thank-you .lottie-main {
+  .custom-thank-you .lottie-main {
     font-size: 21px;
     font-weight: 700;
     text-align: center;
     color: #004E93;
     line-height: 23px;
     margin-top: 25px;
-}
+  }
 
-.custom-thank-you .lottie-subtext {
+  .custom-thank-you .lottie-subtext {
     font-size: 18px;
     text-align: center;
     color: #769EC1;
     margin-top: 15px;
-}
+  }
 
-.hide-tablet{
+  .hide-tablet {
     display: none;
-}
-.hide-desktop{
+  }
+
+  .hide-desktop {
     display: block;
-}
+  }
 
 
-@media (max-width: 786px) {
+  @media (max-width: 786px) {
 
     .custom-thank-you .lottie-main {
-        font-size: 16px;
-        line-height: 18px;
+      font-size: 16px;
+      line-height: 18px;
     }
 
     .custom-thank-you .lottie-subtext {
-        font-size: 12px;
-    }
-    .hide-tablet{
-        display: block;
-    }
-    .hide-desktop{
-        display: none;
+      font-size: 12px;
     }
 
-}
-  </style>
-  <body>
-   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-K8TB8D8”
-  height=“0" width=“0” style=“display:none;visibility:hidden”></iframe></noscript>
+    .hide-tablet {
+      display: block;
+    }
+
+    .hide-desktop {
+      display: none;
+    }
+
+  }
+</style>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-K8TB8D8” height=“0" width=“0”
+      style=“display:none;visibility:hidden”></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-    <div class="avmade-header" onclick="location.href='https://avmade.com'" >
-      <img src="../../../images/plus_new_logo.svg"   alt="AVmade"/>
+  <div class="avmade-header" onclick="location.href='https://avmade.com'">
+    <img src="../../../images/plus_new_logo.svg" alt="AVmade" />
+  </div>
+  <div class="avmade-body custom-thank-you">
+    <div class="lottie hide-tablet">
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json" background="transparent"
+        speed="1" style="width: 200px; height: 200px; margin: auto" loop autoplay></lottie-player>
     </div>
-    <div class="avmade-body custom-thank-you">
-      <div class="lottie hide-tablet">
-        <lottie-player
-          src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json"
-          background="transparent"
-          speed="1"
-          style="width: 200px; height: 200px; margin: auto"
-          loop
-          autoplay
-        ></lottie-player>
-      </div>
-      <div class="lottie hide-desktop">
-        <lottie-player
-          src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json"
-          background="transparent"
-          speed="1"
-          style="width: 300px; height: 300px; margin: auto"
-          loop
-          autoplay
-        ></lottie-player>
-      </div>
-      <div class="lottie-main">
-        Thanks for choosing <br />
-        AV.
-      </div>
-      <div class="lottie-subtext">
-        We'll get back to you shortly!
-        <!-- We can’t wait to see you. If this is urgent <br />
+    <div class="lottie hide-desktop">
+      <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_uy5nb1oy.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px; margin: auto" loop autoplay></lottie-player>
+    </div>
+    <div class="lottie-main">
+      Thanks for choosing <br />
+      AV.
+    </div>
+    <div class="lottie-subtext">
+      We'll get back to you shortly!
+      <!-- We can’t wait to see you. If this is urgent <br />
         email us at mike@avendros.com or call <br />
         us at 1 (510) 751-3039 -->
-      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
 
 
-        
-        let decodedText = decodeURIComponent(window.location.href)
 
-        let nameArr = decodedText.match("invitee_full_name=(.*)&invitee_email");
-        let name = nameArr ? nameArr[1] : 'Not found'
-        let emailArr = decodedText.match("invitee_email=(.*)&text_reminder_number");
-        let email = emailArr ? emailArr[1] : 'Not found'
-        let phoneArr = decodedText.match("text_reminder_number=(.*)&answer_1");
-        let phone = phoneArr ? phoneArr[1] : 'Not found'
+      let decodedText = decodeURIComponent(window.location.href)
+
+      let nameArr = decodedText.match("invitee_full_name=(.*)&invitee_email");
+      let name = nameArr ? nameArr[1] : 'Not found'
+      let emailArr = decodedText.match("invitee_email=(.*)&text_reminder_number");
+      let email = emailArr ? emailArr[1] : 'Not found'
+      let phoneArr = decodedText.match("text_reminder_number=(.*)&answer_1");
+      let phone = phoneArr ? phoneArr[1] : 'Not found'
 
 
-        axios({
+      axios({
         method: 'post',
         // url: 'http://localhost:5000/api/v1/products/addHubSpotCalendlyData',
         url: 'https://backend.avmade.com/api/v1/products/addHubSpotCalendlyData',
         data: {
-            email:email,
-            url:window.location.href,
-            name:name,
-            phone:phone
+          email: email,
+          url: window.location.href,
+          name: name,
+          phone: phone
         }
-        })
+      })
         .then(function (response) {
-            // window.location.href = `https://app.avmade.com`;
+          // window.location.href = `https://app.avmade.com`;
         });
 
-        });
+    });
 
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
