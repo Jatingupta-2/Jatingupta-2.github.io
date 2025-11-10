@@ -2459,7 +2459,7 @@
 
 .second-page-content .div-blocks .div-block img {
     width: 100%;
-    padding-top: 65px;
+    /* padding-top: 10px; */
 }
 
 .second-page-content .div-blocks .div-block button {
