@@ -94,9 +94,9 @@
 }
 
 .main-header__item.item2.yellow button {
-  font-size: 14px;
-  width: 220px;
-  background: #FFE700;
+  /* font-size: 14px; */
+  width: 120px;
+  /* background: #FFE700; */
 }
 
 .main-header__item.item2.yellow-button-lt button,
@@ -421,8 +421,8 @@
   }
 
   .main-header__item.item2.yellow button {
-    font-size: 11px;
-    width: 160px;
+    /* font-size: 11px; */
+    /* width: 160px; */
   }
 }
 

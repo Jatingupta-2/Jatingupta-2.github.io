@@ -1141,17 +1141,18 @@
 }
 
 @media (min-width:786px) {
-    .outline-arrow.left.middle-arrows{
+    .outline-arrow.left.middle-arrows {
         right: 93%;
         z-index: 2;
     }
-    .outline-arrow.middle-arrows{
+
+    .outline-arrow.middle-arrows {
         bottom: 270px;
         right: 2%;
         width: 65px;
     }
-    
-    .outline-arrow.middle-arrows img{
+
+    .outline-arrow.middle-arrows img {
         height: 28px;
     }
 }
@@ -1304,9 +1305,17 @@
     padding: 7px 20px;
     border-radius: 3px;
 }
-.fh-container .red{
-    color:#FF6D3A
+
+.fh-container a:hover {
+    color: #023f7c;
+    font-weight: 600;
+    border: 2px solid #03488B;
 }
+
+.fh-container .red,.fh-container a.red:hover {
+    color: #FF6D3A
+}
+
 
 .fh-container .fh-ul {
     text-decoration: underline;
@@ -2128,7 +2137,7 @@
 
 .risk-cards {
     display: flex;
-    margin: 80px 0px 60px;
+    margin: 70px 0px 60px;
 }
 
 .card-section1 {

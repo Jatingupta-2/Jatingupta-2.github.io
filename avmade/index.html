@@ -171,7 +171,7 @@
             </div> -->
             <div class="main-header__item item2 yellow white-package2">
                 <button type="button" class="" onclick="location.href='https://avmade.com/avmade/meeting/'">
-                    Request Development Quote
+                    Let’s Talk
                 </button>
             </div>
 
@@ -208,7 +208,7 @@
                 <div class="main-header__item item2 yellow mr-0">
                     <button type="button" class="animated-button"
                         onclick="location.href='https://avmade.com/avmade/meeting/'">
-                        Request Development Quote
+                        Let’s Talk
                     </button>
                 </div>
 
@@ -219,7 +219,7 @@
                 <div class="main-header__item item2 yellow">
                     <button type="button" class="animated-button"
                         onclick="location.href='https://avmade.com/avmade/meeting/'">
-                        Request Development Quote
+                        Let’s Talk
                     </button>
                 </div>
                 <div class="main-header__item item2">
@@ -263,14 +263,15 @@
                                 <p>
 
                                     Elevate your brand with a <b>premium USA clothing manufacturer</b> specializing <b>
-                                        in product development, sampling, and small-batch apparel manufacturing</b> 
-                                        for emerging and contemporary fashion brands. <br /><br />
+                                        in product development, sampling, and small-batch apparel manufacturing</b>
+                                    for emerging and contemporary fashion brands. <br /><br />
 
 
 
-                                    As an <b>end-to-end clothing manufacturer</b>, our framework supports startup 
-                                    designers with design development, fabric sourcing, sampling, and production—built 
-                                    on <b>transparency and long-term partnerships, with no hidden fees or consultation charges.</b>
+                                    As an <b>end-to-end clothing manufacturer</b>, our framework supports startup
+                                    designers with design development, fabric sourcing, sampling, and production—built
+                                    on <b>transparency and long-term partnerships, with no hidden fees or consultation
+                                        charges.</b>
 
                                     <!-- Elevate Your Brand with Excellence: Experience
                                     Top-Quality Apparel Design and Manufacturing
@@ -686,7 +687,7 @@
             <div class="risk-cards-container">
 
 
-                <div>
+                <div class="hide">
                     <h2>Must know’s</h2>
                     <p class="must-know-p">
                         Over a decade of insights guiding
@@ -711,7 +712,7 @@
                                     UNDERSTANDING <br>FACTORY TYPES
                                 </div>
                                 <img src="../images/miss the risk/UNDERSTANDING FACTORY TYPES.webp" />
-                                <button>Unlock Secrets Now!</button>
+                                <button>Click to read it!</button>
                             </div>
                         </div>
                         <div class="card-section3 position-relative relative-right">
@@ -720,14 +721,14 @@
                                     REASONABLE PHOTOSHOOT BUDGET
                                 </div>
                                 <img src="../images/miss the risk/REASONABLE PHOTOSHOOT BUDGET.webp" />
-                                <button>Unlock Secrets Now!</button>
+                                <button>Click to read it!</button>
                             </div>
                             <div onclick="openPopup(1)" id="display-card2" class="risk-card risk-card2 rotate10">
                                 <div class="card-heading">
                                     GRASPING <br> BRAND POSITIONING
                                 </div>
                                 <img src="../images/miss the risk/GRASPING BRAND POSITIONING.webp" />
-                                <button>Unlock Secrets Now!</button>
+                                <button>Click to read it!</button>
                             </div>
                         </div>
                     </div>
@@ -788,7 +789,7 @@
                                     Overview
                                 </div>
                             </button>
-                            <div id="item0" class="carouselItem accordian_0  ">
+                            <div id="item0" class="carouselItem accordian_0 in">
                                 <div class="item0__image">
                                     <img src="../images/biacc-0-custom.webp">
                                 </div>
@@ -982,7 +983,7 @@
                                     Begin production
                                 </div>
                             </button>
-                            <div id="item4" class="carouselItem accordian_4 in">
+                            <div id="item4" class="carouselItem accordian_4">
                                 <div class="item1__image">
                                     <img src="../images/bi-acc-4.webp">
                                 </div>
@@ -4159,10 +4160,12 @@
             $(`.mbhide`).addClass('hide')
             if (currentSlide < maxSlide && slide === 1) {
                 moveImg(1);
+                openPopup(0)
                 return;
             } else if (currentSlide === maxSlide && slide === 1) {
                 currentSlide = 1;
                 moveImg(-1);
+                openPopup(0)
                 return;
             }
             setTimeout(() => {
