@@ -1062,6 +1062,12 @@
     background: #FFE700;
 }
 
+.white-box-apply,
+.main-header__item.item2 .white-box-apply.blue {
+    background: #1A2B4A;
+    color: white;
+}
+
 .main-header__item.item2 .extra-width-caps {
     width: 125px;
     font-size: 14px;

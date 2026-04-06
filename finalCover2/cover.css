@@ -123,9 +123,10 @@
     font-weight: 500;
 
 }
-.brands-section-email button.green-yellow{
-    background: #05FFE6;
-    border: 0.5px solid #FFE700
+
+.brands-section-email button.green-yellow {
+    background: #1A2B4A;
+    color: white;
 }
 
 .brands-section-email button.bam {
@@ -2438,7 +2439,7 @@
 
 .second-page-content .div-blocks .div-block {
     width: 47%;
-    border: 1px solid #03488B;
+    border: 1px solid rgba(26, 43, 74, 0.10);
     border-radius: 12px;
     padding: 75px;
     text-align: center;
@@ -2448,6 +2449,7 @@
     font-size: 1.4rem;
     font-weight: 700;
     text-align: left;
+    padding-bottom: 30px;
 }
 
 .second-page-content .div-blocks .div-block p {
@@ -2475,8 +2477,15 @@
     font-size: 15px;
     max-width: 200px;
 }
-.second-page-content .div-blocks .div-block.bespoke button.green{
+
+.second-page-content .div-blocks .div-block.bespoke button.green {
     background: #05FFE6;
+}
+
+.second-page-content .div-blocks .div-block.bespoke button.blue,
+.second-page-content .div-blocks .div-block.blanks button.blue {
+    background: #1A2B4A;
+    color: white;
 }
 
 .second-page-content .div-blocks .div-block.bespoke button {
@@ -2487,6 +2496,14 @@
 .second-page-content .div-blocks .div-block.blanks button {
     width: 95%;
     margin-right: 25px;
+}
+
+.second-page-content .div-blocks .div-block.bespoke {
+    background: rgba(26, 43, 74, 0.04);
+}
+
+.second-page-content .div-blocks .div-block.blanks {
+    background: rgba(26, 43, 74, 0.04);
 }
 
 @media (max-width:786px) {
@@ -2516,6 +2533,7 @@
     .second-page-content .div-blocks .div-block img {
         padding-top: 30px;
     }
+
     .second-page-content .div-blocks .div-block h3 {
         font-size: 1.3rem;
     }
