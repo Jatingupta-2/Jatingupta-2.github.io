@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+    font-style: normal;
+}
+
+.page {
+  width: 100%;
+  padding: 0 40px 60px;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 16px;
+  border-bottom: 0.5px solid #d0d8e8;
+  margin-bottom: 56px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1A2B4A;
+  letter-spacing: -0.5px;
+}
+
+.logo span {
+  color: #b84c2e;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.portal-btn {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 0.5px solid #b0bdd0;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1A2B4A;
+  cursor: pointer;
+}
+
+.dots {
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Hero */
+.eyebrow {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: #b84c2e;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1A2B4A;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.hero-sub {
+  text-align: center;
+  font-size: 15px;
+  color: #5a6a80;
+  margin-bottom: 40px;
+}
+
+/* Trust bar */
+.trust-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
+  background: #f4f5f7;
+  border-radius: 8px;
+  margin-bottom: 56px;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #5a6a80;
+  padding: 0 32px;
+}
+
+.trust-item strong {
+  color: #1A2B4A;
+  font-weight: 500;
+}
+
+.trust-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #b84c2e;
+  flex-shrink: 0;
+}
+
+.divider {
+  width: 0.5px;
+  height: 20px;
+  background: #d0d8e8;
+}
+
+/* Cards */
+.cards {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px; */
+  display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.cards .card{
+    max-width: 400px;
+    border-radius: 16px;
+}
+.card {
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-light {
+  background: #eef1f8;
+  border: 0.5px solid #d0d8e8;
+}
+
+.card.card-dark {
+  background: #1a3355;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  color: inherit;
+}
+
+.badge.badge-light {
+  background: #dde3f0;
+  color: #1A2B4A;
+}
+
+.badge.badge-dark {
+  background: #243d66;
+  color: #a0b8d8;
+}
+
+/* Card content */
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.card-light .card-title {
+  color: #1A2B4A;
+}
+
+.card-dark .card-title {
+  color: #ffffff;
+}
+
+.card-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.card-light .card-desc {
+  color: #5a6a80;
+}
+
+.card-dark .card-desc {
+  color: #a0b8cc;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+  align-content: flex-start;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.tag-light {
+  border: 0.5px solid #b0bdd0;
+  color: #3a4f6a;
+  background: transparent;
+}
+
+.tag-dark {
+  border: 0.5px solid #3a5580;
+  color: #a0b8cc;
+  background: transparent;
+}
+
+/* CTA buttons */
+.cta-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 28px;
+}
+
+.cta-light {
+  background: transparent;
+  border: 1.5px solid #1A2B4A;
+  color: #1A2B4A;
+}
+
+.cta-dark {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+@media (min-width:1200px) {
+    .cards {
+    justify-content: space-around;
+}
+}
