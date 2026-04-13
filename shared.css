@@ -103,6 +103,11 @@
 .yellow-button-lt {
   background: #FFE700 !important;
 }
+.main-header__item.item2.blue-button-lt button,
+.blue-button-lt{
+  background: #03488B !important;
+  color: #fff !important;
+}
 
 .main-header__item.item2.contact-us button {
   background: #FFE700;

@@ -139,7 +139,7 @@
     margin-left: 0;
 }
 
-.brands-section-email input:focus-visible {
+.brands-section-email button.bam.custom-talk .brands-section-email input:focus-visible {
     /* border: none; */
     outline: initial;
 }
@@ -862,7 +862,7 @@
     border-radius: 5px;
     /* padding: 20px; */
     /* width: 240px; */
-    width: 270px;
+    width: 300px;
     height: 70px;
     font-size: 1.3rem;
     line-height: 1.88rem;
@@ -870,6 +870,13 @@
     color: #03488B;
     margin-top: 50px;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 10%);
+
+
+}
+
+.raving-button button.blue-button {
+    background: #03488B;
+    color: #fff;
 }
 
 .raving-button.margintopraving button {
@@ -2538,6 +2545,7 @@
         font-size: 1.3rem;
     }
 }
-.second-page-content .div-blocks .div-block button.mt-100{
+
+.second-page-content .div-blocks .div-block button.mt-100 {
     margin-top: 100px;
 }

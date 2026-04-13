@@ -1318,7 +1318,8 @@
     border: 2px solid #03488B;
 }
 
-.fh-container .red,.fh-container a.red:hover {
+.fh-container .red,
+.fh-container a.red:hover {
     color: #FF6D3A
 }
 
@@ -2188,13 +2189,15 @@
 .risk-card button {
     outline: none;
     border: none;
-    background: #FFE700;
-    color: #03488B;
+    /* background: #FFE700;
+    color: #03488B; */
     font-weight: 500;
     padding: 5px 21px;
     border-radius: 50px;
     font-size: 14px;
     margin: 30px auto 0;
+    background: #03488B;
+    color: #fff;
 }
 
 .risk-card1 {
