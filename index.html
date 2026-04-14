@@ -3362,7 +3362,11 @@
 
     <script>
         function goToChoicePage() {
+            
             window.scrollTo(0, 0);
+            if($(".animated-button.white-box-apply.extra-width-caps.blue").text().includes('Client Portal')){
+                signupPage()
+            }
             $(".main-content").addClass("hide");
             $(".second-page-content").removeClass("hide");
             $(".animated-button.white-box-apply.extra-width-caps.blue").text('Client Portal')
