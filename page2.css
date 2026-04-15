@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto';
-    font-style: normal;
+  font-style: normal;
 }
 
 .page {
@@ -127,13 +127,15 @@
   grid-template-columns: 1fr 1fr;
   gap: 28px; */
   display: flex;
-    justify-content: space-around;
-    padding: 0 40px;
+  justify-content: space-around;
+  padding: 0 40px;
 }
-.cards .card{
-    max-width: 420px;
-    border-radius: 16px;
+
+.cards .card {
+  max-width: 420px;
+  border-radius: 16px;
 }
+
 .card {
   border-radius: 16px;
   padding: 32px;
@@ -266,7 +268,17 @@
 }
 
 @media (min-width:1200px) {
-    .cards {
+  .cards {
     justify-content: space-around;
+  }
 }
+
+@media (max-width:800px) {
+  .mobile-p {
+    padding: 40px;
+    text-align: justify;
+    font-size: 16px;
+    min-height: 60vh;
+    padding-top: 20vh;
+  }
 }
