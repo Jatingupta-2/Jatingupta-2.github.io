@@ -134,6 +134,7 @@
 .cards .card {
   max-width: 420px;
   border-radius: 16px;
+  border: 1px solid rgb(0 0 0 / 36%);
 }
 
 .card {
@@ -270,6 +271,8 @@
 @media (min-width:1200px) {
   .cards {
     justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
   }
 }
 
