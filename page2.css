@@ -284,4 +284,36 @@
     min-height: 60vh;
     padding-top: 20vh;
   }
+  .page{
+    padding: 0 20px 55px;
+  }
+  .hero-title{
+    font-size: 22px;
+  }
+  .eyebrow{
+    font-size: 9px;
+  }
+  .hero-sub{
+    font-size: 11px;
+  }
+  .trust-item{
+    font-size: 11px;
+    padding: 0px 10px;
+  }
+  .cards{
+    padding: 0;
+    flex-direction: column;
+  }
+  .card.card-dark{
+    margin-bottom: 40px;
+  }
+  .badge{
+    font-size: .6em;
+  }
+  .card-title{
+
+  }
+  .card-desc{
+    font-size: 13px;
+  }
 }
