@@ -2098,6 +2098,7 @@
     .fh-container {
         text-align: center;
         overflow: scroll;
+        display: none;
     }
 
     .fh-container a {
@@ -2510,8 +2511,8 @@
     }
 
     .custom-main-title {
-        font-size: 45px;
-        line-height: 50px;
+        font-size: 38px;
+        line-height: 45px;
     }
 
     .before-choice-header .newbg-lady {
@@ -2581,7 +2582,7 @@
     color: #00305F;
 }
 
-#how-we-work-container .how-we-work-p{
+#how-we-work-container .how-we-work-p {
     max-width: 540px;
     margin: 0 auto;
     text-align: center;
@@ -2807,11 +2808,13 @@
     margin: 0 -50px;
     padding: 20px;
 }
-.main-header.white-narrow{
+
+.main-header.white-narrow {
     background: #fff;
-        padding: 20px 3.1rem;
+    padding: 20px 3.1rem;
 }
-.white-narrow .fh-container{
+
+.white-narrow .fh-container {
     padding: 5px 0 5px 25px;
 }
 
@@ -2838,8 +2841,14 @@
     color: #ffffffba;
 }
 
-.brands-section-email button.bam.custom-talk.start-project{
+.brands-section-email button.bam.custom-talk.start-project {
     background: #4ecca3;
     color: #1a2744;
     margin-bottom: 10px;
+}
+
+@media (max-width:786px) {
+    .main-header.white-narrow {
+        padding: 2rem 1.4rem;
+    }
 }

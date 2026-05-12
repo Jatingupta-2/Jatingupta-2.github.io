@@ -2442,7 +2442,7 @@
     }
 
     .custom-body .avmade-is {
-        font-size: 14px;
+        font-size: 12px;
         height: 35px;
     }
 }
@@ -2522,6 +2522,26 @@
     background: rgba(26, 43, 74, 0.04);
 }
 
+.second-page-content .div-blocks .div-block button.mt-100 {
+    margin-top: 100px;
+}
+
+.sub-button-text {
+    color: #4e575fbf;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+}
+
+.founder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #03488bc7;
+}
+
 @media (max-width:786px) {
     .second-page-content .div-blocks {
         flex-direction: column;
@@ -2553,23 +2573,14 @@
     .second-page-content .div-blocks .div-block h3 {
         font-size: 1.3rem;
     }
-}
 
-.second-page-content .div-blocks .div-block button.mt-100 {
-    margin-top: 100px;
-}
+    .sub-button-text {
+        width: auto;
+        font-size: 11px;
+    }
 
-.sub-button-text{
-    color: #4e575fbf;
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 13px;
-    display: flex;
-    justify-content: space-between;
-    width: 25rem;
-}
-.founder{
-    font-size: 12px;
-    font-weight: 400;
-    color: #03488bc7;
+    .custom-body .brands-section-info p.narrow {
+        font-size: 15px;
+        line-height: 20px
+    }
 }

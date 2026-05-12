@@ -626,6 +626,10 @@
     align-items: flex-start;
     padding-left: 20px;
   }
+  .main-header__item.item2.blue-button-lt button,
+.blue-button-lt{
+  width: 16rem !important;
+}
 }
 
 .main-header__item.item2.header-margin-bottom-0 {
