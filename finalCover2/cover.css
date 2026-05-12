@@ -80,6 +80,11 @@
     line-height: 1.7rem;
 }
 
+.custom-body .brands-section-info p.narrow {
+    font-size: 15px;
+    line-height: 22px
+}
+
 .custom-body .brands-section-info p {
     font-size: 17px
 }
@@ -89,7 +94,9 @@
     margin-top: 1.5rem;
     flex-wrap: wrap;
     font-size: 0.875rem;
+    flex-direction: column;
 }
+
 
 .brands-section-email input {
     /* height: 3.5rem; */
@@ -300,7 +307,7 @@
 .brands-illustration__accordian--heading {
     border: none;
     height: 700px;
-    width: 105px;
+    width: 120px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -395,10 +402,10 @@
 }
 
 .bi_button_text {
-    transform: rotateZ(270deg);
-    margin-top: 9rem;
-    width: 15rem;
-    font-size: 1.1rem;
+    /* transform: rotateZ(270deg); */
+    margin-top: 1rem;
+    /* width: 15rem; */
+    font-size: 15px;
     line-height: 1.4rem;
     font-weight: 500;
     text-align: right;
@@ -2560,4 +2567,9 @@
     display: flex;
     justify-content: space-between;
     width: 25rem;
+}
+.founder{
+    font-size: 12px;
+    font-weight: 400;
+    color: #03488bc7;
 }
