@@ -107,7 +107,7 @@
 .blue-button-lt{
   background: #03488B !important;
   color: #fff !important;
-  width: 20rem !important;
+  /* width: 20rem !important; */
 }
 
 .main-header__item.item2.contact-us button {
@@ -628,7 +628,7 @@
   }
   .main-header__item.item2.blue-button-lt button,
 .blue-button-lt{
-  width: 16rem !important;
+  /* width: 16rem !important; */
 }
 }
 

@@ -1012,7 +1012,9 @@
 
 .custom-body .bi-container {
     padding: 0 1rem 1rem;
+    margin-bottom: 50px;
 }
+
 
 .factory-logo {
     display: flex;
@@ -2444,6 +2446,9 @@
     .custom-body .avmade-is {
         font-size: 12px;
         height: 35px;
+    }
+    .custom-body .bi-container{
+        margin-bottom: 30px;
     }
 }
 
