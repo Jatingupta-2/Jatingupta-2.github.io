@@ -61,6 +61,8 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- Importing Carousel -->
 
+    <link rel="stylesheet" href="how-we-work-styles.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name=“facebook-domain-verification” content=“wny7uvwaksio4cmzmede0rj1ymeipx” />
 
@@ -805,7 +807,7 @@
 
             </div>
 
-            <section id="how-we-work-container">
+            <section id="how-we-work-container" class="hide">
 
                 <!-- <h2 class="simple-steps-heading">SIMPLE STEPS ON <br />HOW TO BEGIN</h2> -->
 
@@ -1054,6 +1056,282 @@ Note: <i>"~6 week turnaround"</i>
                 </div>
 
             </section>
+
+           <section class="hww" aria-labelledby="hww-heading">
+    <div class="hww__inner">
+
+      <!-- Eyebrow -->
+      <div class="hww__eyebrow">
+        <span class="hww__eyebrow-dot" aria-hidden="true"></span>
+        <span>How we work</span>
+        <span class="hww__eyebrow-rule" aria-hidden="true"></span>
+        <span class="hww__eyebrow-meta">5 steps · ~8 weeks to your first sample</span>
+      </div>
+
+      <!-- Headline -->
+      <div class="hww__head">
+        <h2 id="hww-heading" class="hww__h2">
+          From ideation board to <em>finished goods at your door.</em>
+        </h2>
+        <p class="hww__lede">
+          A small, opinionated process. Hover any step for a preview — click to dive in.
+        </p>
+      </div>
+
+      <!-- Stepper -->
+      <div class="hww-stepper" data-hww-stepper>
+        <div class="hww-stepper__rail" role="tablist" aria-label="Process steps">
+          <button class="hww-step-btn is-active" role="tab" aria-selected="true"
+                  aria-controls="hww-step-1" data-step="1"
+                  aria-label="Step 1 of 5: Tell us">
+            <span class="hww-step-btn__n">01</span>
+            <span class="hww-step-btn__label">Tell us</span>
+            <span class="hww-step-btn__dot" aria-hidden="true"></span>
+          </button>
+          <button class="hww-step-btn" role="tab" aria-selected="false"
+                  aria-controls="hww-step-2" data-step="2"
+                  aria-label="Step 2 of 5: Design">
+            <span class="hww-step-btn__n">02</span>
+            <span class="hww-step-btn__label">Design</span>
+            <span class="hww-step-btn__dot" aria-hidden="true"></span>
+          </button>
+          <button class="hww-step-btn" role="tab" aria-selected="false"
+                  aria-controls="hww-step-3" data-step="3"
+                  aria-label="Step 3 of 5: Quotes">
+            <span class="hww-step-btn__n">03</span>
+            <span class="hww-step-btn__label">Quotes</span>
+            <span class="hww-step-btn__dot" aria-hidden="true"></span>
+          </button>
+          <button class="hww-step-btn" role="tab" aria-selected="false"
+                  aria-controls="hww-step-4" data-step="4"
+                  aria-label="Step 4 of 5: Sample">
+            <span class="hww-step-btn__n">04</span>
+            <span class="hww-step-btn__label">Sample</span>
+            <span class="hww-step-btn__dot" aria-hidden="true"></span>
+          </button>
+          <button class="hww-step-btn" role="tab" aria-selected="false"
+                  aria-controls="hww-step-5" data-step="5"
+                  aria-label="Step 5 of 5: Production">
+            <span class="hww-step-btn__n">05</span>
+            <span class="hww-step-btn__label">Production</span>
+            <span class="hww-step-btn__dot" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="hww-stepper__progress" role="progressbar"
+             aria-valuenow="1" aria-valuemin="1" aria-valuemax="5">
+          <div class="hww-stepper__progress-fill" data-hww-progress></div>
+        </div>
+      </div>
+
+      <!-- Content panel — five steps, one is visible at a time -->
+      <div class="hww-panel">
+        <!-- 01 — Tell us -->
+        <article class="hww-step is-active" id="hww-step-1" data-step="1" role="tabpanel">
+          <div class="hww-step__left">
+            <div class="hww-step__n">01</div>
+            <figure class="hww-step__figure">
+              <img src="../images/how-we-work/step-01-tell-us.webp"
+                   alt="Two figures discussing fabric — the consultation"
+                   loading="lazy" decoding="async" />
+            </figure>
+          </div>
+          <div class="hww-step__body">
+            <h3 class="hww-step__title">Tell us what you need.</h3>
+            <p class="hww-step__copy">
+              Share your brand vision and what the right partnership looks like. Alignment is key.
+            </p>
+            <ul class="hww-step__bullets">
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>30-minute discovery call</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>NDA on request</li>
+            </ul>
+            <div class="hww-cta">
+              <a href="https://avmade.com/avmade/meeting/" target="_blank" rel="noopener noreferrer" class="hww-btn">
+                <span class="hww-btn__dot" aria-hidden="true"></span>
+                Book a free consultation
+                <span class="hww-btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 — Design -->
+        <article class="hww-step" id="hww-step-2" data-step="2" role="tabpanel" hidden>
+          <div class="hww-step__left">
+            <div class="hww-step__n">02</div>
+            <figure class="hww-step__figure">
+              <img src="../images/how-we-work/step-02-design.jpg"
+                   alt="Designer at a drafting table with dress form and fabric swatches"
+                   loading="lazy" decoding="async" />
+            </figure>
+          </div>
+          <div class="hww-step__body">
+            <h3 class="hww-step__title">We design with you.</h3>
+            <p class="hww-step__copy">
+              Our team works from your mood board or sketch and delivers tech drawings, measurements,
+              colorways, material callouts, and finishing details — manufacturing-ready.
+            </p>
+            <ul class="hww-step__bullets">
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>2D detailed flats</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Technical package</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Material identification</li>
+            </ul>
+            <div class="hww-cta">
+              <a href="https://avmade.com/avmade/meeting/" target="_blank" rel="noopener noreferrer" class="hww-btn">
+                <span class="hww-btn__dot" aria-hidden="true"></span>
+                Book a free consultation
+                <span class="hww-btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 — Quotes -->
+        <article class="hww-step" id="hww-step-3" data-step="3" role="tabpanel" hidden>
+          <div class="hww-step__left">
+            <div class="hww-step__n">03</div>
+            <figure class="hww-step__figure">
+              <img src="../images/how-we-work/step-03-quote.jpg"
+                   alt="Bookkeeper at a desk reviewing an itemized ledger with a receipt and brass register"
+                   loading="lazy" decoding="async" />
+            </figure>
+          </div>
+          <div class="hww-step__body">
+            <h3 class="hww-step__title">Transparent, line-item pricing.</h3>
+            <p class="hww-step__copy">
+              No hidden fees. You see development costs broken out hourly — materials, labor, finishing —
+              so you can adjust to your budget.
+            </p>
+            <ul class="hww-step__bullets">
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>MOQ: 100 units</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Hourly rate: $95</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>No agency markup</li>
+            </ul>
+            <div class="hww-cta">
+              <a href="https://avmade.com/avmade/meeting/" target="_blank" rel="noopener noreferrer" class="hww-btn">
+                <span class="hww-btn__dot" aria-hidden="true"></span>
+                Book a free consultation
+                <span class="hww-btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 — Sample -->
+        <article class="hww-step" id="hww-step-4" data-step="4" role="tabpanel" hidden>
+          <div class="hww-step__left">
+            <div class="hww-step__n">04</div>
+            <figure class="hww-step__figure">
+              <img src="../images/how-we-work/step-04-sample.jpg"
+                   alt="A finished embroidered sample presented on tissue paper, white-gloved hands inspecting it"
+                   loading="lazy" decoding="async" />
+            </figure>
+          </div>
+          <div class="hww-step__body">
+            <h3 class="hww-step__title">Hold it in your hands.</h3>
+            <p class="hww-step__copy">
+              A physical sample ships in 6–8 weeks. Approve it, request changes, or pull the plug —
+              no commitment until you sign off.
+            </p>
+            <ul class="hww-step__bullets">
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Dedicated account manager</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>All IP belongs to you</li>
+            </ul>
+            <div class="hww-cta">
+              <a href="https://avmade.com/avmade/meeting/" target="_blank" rel="noopener noreferrer" class="hww-btn">
+                <span class="hww-btn__dot" aria-hidden="true"></span>
+                Book a free consultation
+                <span class="hww-btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 — Production -->
+        <article class="hww-step" id="hww-step-5" data-step="5" role="tabpanel" hidden>
+          <div class="hww-step__left">
+            <div class="hww-step__n">05</div>
+            <figure class="hww-step__figure">
+              <img src="../images/how-we-work/step-05-production.jpg"
+                   alt="A workroom of seamstresses producing and bundling finished garments into a shipping crate"
+                   loading="lazy" decoding="async" />
+            </figure>
+          </div>
+          <div class="hww-step__body">
+            <h3 class="hww-step__title">Bulk order, on the calendar.</h3>
+            <p class="hww-step__copy">
+              Ready to proceed? Your account manager will contact you to create a production plan.
+            </p>
+            <ul class="hww-step__bullets">
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Dedicated account manager</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Real-time updates</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>Ships to your fulfillment location</li>
+              <li><span class="hww-step__check" aria-hidden="true">✓</span>All-inclusive pricing</li>
+            </ul>
+            <div class="hww-cta">
+              <a href="https://avmade.com/avmade/meeting/" target="_blank" rel="noopener noreferrer" class="hww-btn">
+                <span class="hww-btn__dot" aria-hidden="true"></span>
+                Book a free consultation
+                <span class="hww-btn__arrow" aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Trust marquee -->
+      <div class="hww-trust">
+        <span class="hww-trust__label">Trusted by</span>
+        <div class="hww-trust__mask">
+          <!--
+            Marquee track: list is duplicated for seamless loop.
+            To add/remove brands, edit BOTH copies (or use the JS helper in app.js
+            which auto-duplicates from the first set).
+          -->
+          <div class="hww-trust__track" data-hww-marquee>
+            <span class="hww-trust__item"><span class="hww-trust__name">JAMES PERSE</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">REFORMATION</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">ALO YOGA</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">VUORI</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">AVIATOR NATION</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">REVOLVE</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">A.L.C.</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">FEAR OF GOD</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">PAIGE</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">MOTHER DENIM</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">AMI</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">ALICE &amp; OLIVIA</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">RAG &amp; BONE</span><span class="hww-trust__bullet">•</span></span>
+            <span class="hww-trust__item"><span class="hww-trust__name">VINCE</span><span class="hww-trust__bullet">•</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="hww-divider" aria-hidden="true">
+        <span class="hww-divider__line"></span>
+        <span class="hww-divider__mark">§</span>
+        <span class="hww-divider__line"></span>
+      </div>
+
+      <!-- Is this for you -->
+      <div class="hww-fit">
+        <div class="hww-fit__left">
+          <div class="hww-fit__kicker">Is this for you?</div>
+          <div class="hww-fit__title">We're a specialized factory.</div>
+        </div>
+        <div class="hww-fit__chips">
+          <span class="hww-fit__chip is-yes"><span class="hww-fit__mark">✓</span>Contemporary</span>
+          <span class="hww-fit__chip is-yes"><span class="hww-fit__mark">✓</span>Athleisure</span>
+          <span class="hww-fit__chip is-yes"><span class="hww-fit__mark">✓</span>RTW</span>
+          <span class="hww-fit__chip is-yes"><span class="hww-fit__mark">✓</span>Streetwear</span>
+          <span class="hww-fit__chip is-no"><span class="hww-fit__mark">—</span>Couture</span>
+          <span class="hww-fit__chip is-no"><span class="hww-fit__mark">—</span>Fast fashion</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
             <div class="brands-illustration__container_mobile less-p-top hide-desktop ">
                 <div class="accordion accordian-border" id="accordionExample">
@@ -4358,6 +4636,8 @@ Note: <i>"~6 week turnaround"</i>
 
 
     </script>
+
+    <script src="../js/how-we-work.js" defer></script>
 
 </body>
 

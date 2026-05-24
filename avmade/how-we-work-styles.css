@@ -1,0 +1,579 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   How We Work — Exit Sign Co.
+   Self-contained section styles. All classes prefixed with `hww-` to avoid
+   collisions with your existing site styles.
+
+   Brand tokens are CSS custom properties on .hww so you can override them
+   for a different campaign/site without editing this file.
+   ───────────────────────────────────────────────────────────────────────── */
+
+.hww {
+  /* Brand tokens — override these to recolor the section */
+  --hww-yellow: #FCFD5D;       /* primary background */
+  --hww-navy: #1F2756;         /* primary text + accent */
+  --hww-cream: #FBF7EB;        /* card / illustration bg */
+  --hww-ink: #0A0A0A;          /* primary CTA bg */
+  --hww-white: #FFFFFF;
+
+  /* Step swatches (small pills + chip accent dots) */
+  --hww-swatch-1: #F2B8C6;
+  --hww-swatch-2: #FFFFFF;
+  --hww-swatch-3: #9FD9C7;
+  --hww-swatch-4: #C9B8DA;
+  --hww-swatch-5: #F4D24A;
+
+  background: var(--hww-yellow);
+  color: var(--hww-navy);
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 56px 0 48px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hww__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  box-sizing: border-box;
+}
+
+/* ──────────── Eyebrow ──────────── */
+.hww__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.hww__eyebrow-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--hww-navy);
+}
+.hww__eyebrow-rule {
+  flex: 1; height: 1px;
+  background: rgba(31, 39, 86, .18);
+}
+.hww__eyebrow-meta {
+  font-weight: 500; opacity: .75; letter-spacing: 1px;
+}
+
+/* ──────────── Headline ──────────── */
+.hww__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+}
+.hww__h2 {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 5vw, 4rem); /* 40–64px */
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin: 0;
+  max-width: 760px;
+}
+.hww__h2 em { font-style: italic; }
+.hww__lede {
+  font-size: 16px; line-height: 1.5; max-width: 340px; margin: 0; opacity: .85;
+}
+
+/* ──────────── Stepper ──────────── */
+.hww-stepper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hww-stepper__rail {
+  display: flex;
+  gap: 6px;
+  height: 64px;
+}
+.hww-step-btn {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  overflow: hidden;
+  position: relative;
+  min-width: 64px;
+  cursor: pointer;
+  background: var(--hww-swatch-1);
+  color: var(--hww-navy);
+  transition:
+    flex .35s cubic-bezier(.2, .7, .3, 1),
+    background .25s,
+    color .25s,
+    box-shadow .2s,
+    transform .2s;
+}
+.hww-step-btn[data-step="2"] { background: var(--hww-swatch-2); }
+.hww-step-btn[data-step="3"] { background: var(--hww-swatch-3); }
+.hww-step-btn[data-step="4"] { background: var(--hww-swatch-4); }
+.hww-step-btn[data-step="5"] { background: var(--hww-swatch-5); }
+
+.hww-step-btn:hover:not(.is-active) {
+  box-shadow: 0 4px 16px rgba(31, 39, 86, .18);
+  transform: translateY(-2px);
+}
+
+/* Hover preview: the hovered (non-active) step grows */
+.hww-stepper__rail:hover .hww-step-btn:not(.is-active):hover {
+  flex: 1.55 1 0;
+}
+
+.hww-step-btn.is-active {
+  flex: 3.4 1 0;
+  background: var(--hww-navy);
+  color: var(--hww-yellow);
+}
+.hww-step-btn__n {
+  font-family: "Instrument Serif", serif;
+  font-size: 30px;
+  font-style: italic;
+  opacity: .85;
+  flex: 0 0 auto;
+  line-height: 1;
+}
+.hww-step-btn__label {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.hww-step-btn.is-active .hww-step-btn__label { font-weight: 600; }
+.hww-step-btn__dot {
+  position: absolute; right: 14px;
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--hww-yellow);
+  opacity: 0;
+}
+.hww-step-btn.is-active .hww-step-btn__dot { opacity: 1; }
+
+.hww-stepper__progress {
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(31, 39, 86, .15);
+  overflow: hidden;
+}
+.hww-stepper__progress-fill {
+  height: 100%;
+  width: 20%;
+  background: var(--hww-navy);
+  border-radius: 999px;
+  transition: width .5s cubic-bezier(.2, .7, .3, 1);
+}
+/* When auto-advance is running, the progress bar fills linearly across
+   the dwell period (2.4s). app.js toggles this class. */
+.hww-stepper.is-auto .hww-stepper__progress-fill {
+  transition: width 2.4s linear;
+}
+
+/* ──────────── Content panel ──────────── */
+.hww-panel {
+  background: var(--hww-cream);
+  border-radius: 16px;
+  border: 1px solid rgba(31, 39, 86, .12);
+  overflow: hidden;
+  position: relative;
+  min-height: 620px;
+}
+.hww-step {
+  display: none;
+  grid-template-columns: 1fr 1.4fr;
+  min-height: 620px;
+}
+.hww-step.is-active {
+  display: grid;
+}
+.hww-step[hidden] { display: none; }
+
+.hww-step__left {
+  background: var(--hww-navy);
+  color: var(--hww-yellow);
+  padding: 36px 36px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hww-step__n {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 96px;
+  line-height: 1;
+  color: var(--hww-yellow);
+  flex: 0 0 auto;
+}
+.hww-step__figure {
+  background: var(--hww-cream);
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+}
+.hww-step__figure img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.hww-step__body {
+  padding: 36px 44px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.hww-step__title {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+.hww-step__copy {
+  font-size: 16px; line-height: 1.55;
+  margin: 0; opacity: .85; max-width: 540px;
+}
+.hww-step__bullets {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hww-step__bullets li {
+  display: flex; align-items: flex-start; gap: 12px;
+  font-size: 15px;
+}
+.hww-step__check {
+  flex: 0 0 auto;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--hww-navy);
+  color: var(--hww-yellow);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+/* ──────────── CTA ──────────── */
+.hww-cta {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 8px;
+  flex-wrap: wrap;
+}
+.hww-btn {
+  background: var(--hww-ink);
+  color: var(--hww-white);
+  border: none;
+  padding: 16px 26px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .08) inset,
+    0 0 0 1px var(--hww-ink),
+    0 8px 0 -3px var(--hww-yellow),
+    0 10px 24px rgba(10, 10, 10, .28);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.hww-btn:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .12) inset,
+    0 0 0 1px var(--hww-ink),
+    0 11px 0 -3px var(--hww-yellow),
+    0 14px 32px rgba(10, 10, 10, .32);
+}
+.hww-btn__dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--hww-yellow);
+  box-shadow: 0 0 0 3px rgba(252, 253, 93, .32), 0 0 12px rgba(252, 253, 93, .65);
+  margin-right: 10px;
+}
+.hww-btn__arrow { margin-left: 10px; }
+
+/* ──────────── Trust marquee ──────────── */
+.hww-trust {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 4px 0 0;
+}
+.hww-trust__label {
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: .6;
+  flex: 0 0 auto;
+}
+.hww-trust__mask {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  -webkit-mask-image:
+    linear-gradient(to right, transparent 0, #000 48px, #000 calc(100% - 48px), transparent 100%);
+  mask-image:
+    linear-gradient(to right, transparent 0, #000 48px, #000 calc(100% - 48px), transparent 100%);
+}
+.hww-trust__track {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: hww-marquee 60s linear infinite;
+  will-change: transform;
+}
+.hww-trust__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 44px;
+  padding-left: 44px;
+}
+.hww-trust__name {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: var(--hww-navy);
+  opacity: .78;
+}
+.hww-trust__bullet {
+  font-size: 12px;
+  color: var(--hww-navy);
+  opacity: .3;
+}
+
+@keyframes hww-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ──────────── Divider ──────────── */
+.hww-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 28px;
+  padding-bottom: 4px;
+}
+.hww-divider__line {
+  flex: 1; height: 1px; background: rgba(31, 39, 86, .22);
+}
+.hww-divider__mark {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 20px;
+  color: var(--hww-navy);
+  opacity: .55;
+  line-height: 1;
+}
+
+/* ──────────── Fit ──────────── */
+.hww-fit {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  padding: 8px 0 4px;
+}
+.hww-fit__left {
+  display: flex; flex-direction: column; gap: 6px;
+}
+.hww-fit__kicker {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: .7;
+}
+.hww-fit__title {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  max-width: 320px;
+}
+.hww-fit__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hww-fit__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.hww-fit__chip.is-yes {
+  background: var(--hww-navy);
+  color: var(--hww-yellow);
+  border: 1px solid var(--hww-navy);
+}
+.hww-fit__chip.is-no {
+  background: transparent;
+  color: var(--hww-navy);
+  border: 1px dashed rgba(31, 39, 86, .35);
+}
+.hww-fit__mark { font-size: 11px; opacity: .7; }
+
+/* ──────────── Reduced motion ──────────── */
+@media (prefers-reduced-motion: reduce) {
+  .hww-trust__track { animation: none; }
+  .hww-step-btn,
+  .hww-stepper__progress-fill { transition: none !important; }
+}
+
+/* ──────────── Mobile (≤ 880px) ──────────── */
+@media (max-width: 880px) {
+  .hww { padding: 24px 0 32px; }
+  .hww__inner {
+    padding: 0 20px;
+    gap: 18px;
+  }
+
+  .hww__eyebrow-rule,
+  .hww__eyebrow-meta { display: none; }
+
+  .hww__head { flex-direction: column; align-items: flex-start; gap: 12px; }
+  .hww__h2 { font-size: clamp(2rem, 8vw, 2.5rem); letter-spacing: -.8px; }
+  .hww__lede { font-size: 14px; max-width: none; }
+
+  /* Stepper becomes a horizontal scroll-snap rail */
+  .hww-stepper__rail {
+    height: auto;
+    gap: 6px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 0 -20px;
+    padding: 4px 20px 8px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .hww-stepper__rail::-webkit-scrollbar { display: none; }
+
+  .hww-step-btn {
+    flex: 0 0 auto;
+    height: 44px;
+    padding: 0 16px;
+    gap: 8px;
+    border-radius: 999px;
+    scroll-snap-align: center;
+    min-width: 0;
+  }
+  .hww-step-btn.is-active { flex: 0 0 auto; transform: scale(1.04); padding-right: 20px; }
+  .hww-step-btn__n { font-size: 18px; }
+  .hww-step-btn__label { font-size: 14px; }
+  /* Active state shown by background + scale; small chevron added by JS-side
+     not needed since the navy/yellow contrast does the work. */
+
+  /* Stack the panel: image band on top, body below */
+  .hww-panel { min-height: 0; border-radius: 14px; }
+  .hww-step,
+  .hww-step.is-active {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .hww-step__left {
+    background: #F0EAD6;
+    color: var(--hww-navy);
+    padding: 0;
+    gap: 0;
+  }
+  .hww-step__n { display: none; }
+  .hww-step__figure {
+    background: #F0EAD6;
+    border-radius: 0;
+    aspect-ratio: 4 / 5;
+    width: 100%;
+    flex: none;
+  }
+  .hww-step__figure img {
+    object-fit: contain;
+  }
+  .hww-step__body {
+    padding: 20px 22px 24px;
+    gap: 12px;
+    background: var(--hww-cream);
+  }
+  .hww-step__title { font-size: 26px; line-height: 1.15; }
+  .hww-step__copy { font-size: 14.5px; }
+  .hww-step__bullets li { font-size: 14px; gap: 10px; }
+  .hww-step__check { width: 20px; height: 20px; font-size: 11px; }
+
+  .hww-cta { padding-top: 4px; margin-top: 4px; }
+  .hww-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 15px 18px;
+    font-size: 14px;
+  }
+
+  /* Trust strip — single line still */
+  .hww-trust {
+    padding-top: 18px;
+    padding-bottom: 2px;
+    margin-top: 4px;
+    gap: 14px;
+  }
+  .hww-trust__label { font-size: 10px; }
+  .hww-trust__name { font-size: 14px; letter-spacing: 1px; }
+  .hww-trust__item { gap: 24px; padding-left: 24px; }
+  .hww-trust__mask {
+    -webkit-mask-image:
+      linear-gradient(to right, transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+    mask-image:
+      linear-gradient(to right, transparent 0, #000 18px, #000 calc(100% - 18px), transparent 100%);
+  }
+  .hww-trust__track { animation-duration: 50s; }
+
+  .hww-divider { padding-top: 14px; gap: 12px; }
+  .hww-divider__mark { font-size: 18px; }
+
+  .hww-fit {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-top: 4px;
+  }
+  .hww-fit__title { font-size: 20px; }
+  .hww-fit__chips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .hww-fit__chip {
+    justify-content: center;
+    padding: 10px 8px;
+    font-size: 12.5px;
+    white-space: nowrap;
+  }
+}
