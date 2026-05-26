@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .header.transparent {
     background: transparent;
 }
@@ -2811,7 +2814,7 @@
 .numbers-bar {
     background: #1a3355;
     color: #fff;
-    margin: 0 -50px;
+    /* margin: 0 -50px; */
     padding: 20px;
 }
 

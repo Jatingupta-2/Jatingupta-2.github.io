@@ -34,6 +34,7 @@
   var cycledOnce = false;
 
   function setActive(idx, opts) {
+    console.log("index ",idx)
     opts = opts || {};
     active = ((idx % total) + total) % total;
 
