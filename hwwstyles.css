@@ -807,4 +807,8 @@
   .how-we-work-steps::-webkit-scrollbar {
     display: none;
   }
+
+  .hww-step-btn.is-active .hww-step-btn__dot {
+    opacity: 0;
+  }
 }
